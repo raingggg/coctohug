@@ -2,6 +2,7 @@
 - Manage dozens of chia forks mining from a web browser!
 - Nice localization with support of dozens of languages
 - Runs on Linux, Windows, MacOS, and more...
+- Supports: cactus, covid, cryptodoge, ethgreen, flora, greendoge, lucky, pipscoin, shibgreen, silicoin, skynet, staicoin, stor, tranzact, venidium, and more...
 
 Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 
