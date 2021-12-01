@@ -1,7 +1,6 @@
-# the website for launch wizard
+# Coctohug
 - Manage dozens of chia forks mining from a web browser!
 - Nice localization with support of dozens of languages
-- From a webpage you can monitor and control all mining
 - Runs on Linux, Windows, MacOS, and more...
 
 Easy Setup using [Quick Start](https://www.coctohug.xyz/)
