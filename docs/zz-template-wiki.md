@@ -1,47 +1,47 @@
-# Quick Start
-  - [Linux Setup](#cch-linux)
-  - [Windows Setup](#cch-windows)
-  - [MacOS Setup](#cch-macOS)
+# <%= localeData['wiki.quick_start'] %>
+  - [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+  - [<%= localeData['wiki.windows_setup'] %>](#cch-windows)
+  - [<%= localeData['wiki.macos_setup'] %>](#cch-macOS)
   
 <%= localeData['readme.easy_setup'] %> [<%= localeData['readme.quick_start'] %>](https://www.coctohug.xyz/)
 
 *<%= localeData['readme.more_help'] %> [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
-# Common Settings
-  - [Password](#cch-password)
-  - [Keys](#cch-keys)
-  - [Farming](#cch-farming)
-  - [Monitoring](#cch-monitoring)
-  - [NFT Recovery](#cch-nft_recovery)
-  - [Blocks Found / Coins Received](#cch-blocks_found)
-  - [Farming Warnings](#cch-farming_warnings)
-  - [Daily Report](#cch-daily_report)
-  - [Weekly Report](#cch-weekly_report)
-  - [Node Sync](#cch-node_sync)
-  - [Connections Management](#cch-connections_management)
-  - [Wallets Management](#cch-wallets_management)
-  - [Hands Management](#cch-hands_management)
-  - [Transfer Coins](#cch-transfer_coins)
+# <%= localeData['wiki.common_settings'] %>
+  - [<%= localeData['wiki.password'] %>](#cch-password)
+  - [<%= localeData['wiki.keys'] %>](#cch-keys)
+  - [<%= localeData['wiki.farming'] %>](#cch-farming)
+  - [<%= localeData['wiki.monitoring'] %>](#cch-monitoring)
+  - [<%= localeData['wiki.nft_recovery'] %>](#cch-nft_recovery)
+  - [<%= localeData['wiki.blocks_found_n_coins'] %>](#cch-blocks_found)
+  - [<%= localeData['wiki.farming_warnings'] %>](#cch-farming_warnings)
+  - [<%= localeData['wiki.daily_report'] %>](#cch-daily_report)
+  - [<%= localeData['wiki.weekly_report'] %>](#cch-weekly_report)
+  - [<%= localeData['wiki.node_sync'] %>](#cch-node_sync)
+  - [<%= localeData['wiki.connections_management'] %>](#cch-connections_management)
+  - [<%= localeData['wiki.wallets_management'] %>](#cch-wallets_management)
+  - [<%= localeData['wiki.hands_management'] %>](#cch-hands_management)
+  - [<%= localeData['wiki.transfer_coins'] %>](#cch-transfer_coins)
 
 
-# Advanced Settings
-  - [Cold Wallet](#cch-cold_wallet)
-  - [Secure Passphrased 24 Mnemonic Words](#cch-secure_passphrase)
-  - [Forks](#cch-forks)
-  - [Harvester](#cch-harvester)
-  - [Upgrade](#cch-upgrade)
+# <%= localeData['wiki.advanced_settings'] %>
+  - [<%= localeData['wiki.cold_wallet'] %>](#cch-cold_wallet)
+  - [<%= localeData['wiki.secure_passphrased_24'] %>](#cch-secure_passphrase)
+  - [<%= localeData['wiki.forks'] %>](#cch-forks)
+  - [<%= localeData['wiki.harvester'] %>](#cch-harvester)
+  - [<%= localeData['wiki.upgrade'] %>](#cch-upgrade)
 
-# Best Practices
-  - [Local Language](#cch-local_language)
-  - [Hardware Requirements](#cch-hardware_requirements)
+# <%= localeData['wiki.best_practices'] %>
+  - [<%= localeData['wiki.local_language'] %>](#cch-local_language)
+  - [<%= localeData['wiki.hardware_requirements'] %>](#cch-hardware_requirements)
 
 <p id="cch-linux">&nbsp;</p>
 
-## Linux Setup
-- Setup <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
-- Go to site <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, then enter all the necessary form fields and download the generated zipped docker-compose files
-- Unzip the downloaded folders and copy them into your working directory
-- Run all the folders by order:
+## <%= localeData['wiki.linux_setup'] %>
+- <%= localeData['wiki.setup'] %> <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
+- <%= localeData['wiki.go_to_site'] %> <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, <%= localeData['wiki.enter_form_fields'] %>
+- <%= localeData['wiki.unzip_docker_compose'] %>
+- <%= localeData['wiki.rull_all_folders'] %>
   ```
   cd coctohug0 && docker-compose up -d
   cd ../coctohug1 && docker-compose up -d
@@ -49,123 +49,124 @@
   cd ../coctohug3 && docker-compose up -d
   ...
   ```
-- Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
-- Note 1: Do not start up more than 5 forks at the same time, since chia forks really eat CPU when node syncing for the first time.
-- Note 2: Around 1.8G RAM is required for each fork, so choose some forks based on you computer memory
+- <%= localeData['wiki.browser_access_url'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
+- <%= localeData['wiki.no_more_5_forks'] %>
+- <%= localeData['wiki.ram_required'] %>
 
 <p id="cch-windows">&nbsp;</p>
 
-## Windows Setup
-- Setup <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Install Ubuntu or other Linux system using WSL
-- Remaining steps are same with [Linux Setup](#cch-linux)
+## <%= localeData['wiki.windows_setup'] %>
+- <%= localeData['wiki.setup'] %> <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
+- <%= localeData['wiki.ubuntu_wsl'] %>
+- <%= localeData['wiki.remaining_same'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
-## MacOS Setup
-- Same with [Linux Setup](#cch-linux)
+## <%= localeData['wiki.macos_setup'] %>
+- <%= localeData['wiki.same_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
 
 <p id="cch-password">&nbsp;</p>
 
-## Password
-- You will be prompt to set a password for secure settings, when you first time access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
-- Secure settings include: Cold Wallet, Money Transfer, Restart Forks, Harvester...
+## <%= localeData['wiki.password'] %>
+- <%= localeData['wiki.prompt_password'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
+- <%= localeData['wiki.secure_include'] %>
 
 <p id="cch-keys">&nbsp;</p>
 
-## Keys
-- You will be prompt to enter the 24 mnemonic words, when you first time access WebUI with url - this is mainly for farming purpose
-- Or you can generate one totally new key - this is mainly for cold wallet purpose
+## <%= localeData['wiki.keys'] %>
+- <%= localeData['wiki.prompt_24_words'] %>
+- <%= localeData['wiki.or_generate_new_key'] %>
 
 <p id="cch-farming">&nbsp;</p>
 
-## Farming
-- Once node sync is done, farming should start automatically
-- Then you will be able to monitor the farming status with various ways
+## <%= localeData['wiki.farming'] %>
+- <%= localeData['wiki.node_sync_done'] %>
+- <%= localeData['wiki.monitor_farming'] %>
 
 <p id="cch-monitoring">&nbsp;</p>
 
-## Monitoring
-- Summary tab can show: Total Mined Coins, Account Balance, Plot Count, Plot Size, Netspace Size and Expected Time to Win.
-- Each fork-panel in Summary tab will have a light green background if it is working as expected, otherwise it will be light yellow background
-- You can also examine detail using other tabs
+## <%= localeData['wiki.monitoring'] %>
+- <%= localeData['wiki.summary_show'] %>
+- <%= localeData['wiki.fork_panel_background'] %>
+- <%= localeData['wiki.examine_other'] %>
 
 <p id="cch-nft_recovery">&nbsp;</p>
 
-## NFT Recovery
-- Received Coins has a link: <a class="nav-link" target="_blank" href="https://alltheblocks.net/nft-recovery">Claim your NFT 7/8 rewards</a>
+## <%= localeData['wiki.nft_recovery'] %>
+- <%= localeData['wiki.received_coins_link'] %> <a class="nav-link" target="_blank" href="https://alltheblocks.net/nft-recovery"><%= localeData['wiki.claim_nft'] %></a>
 
 <p id="cch-blocks_found">&nbsp;</p>
 
-## Blocks Found / Coins Received
-- List total blocks found
-- List total coins received
+## <%= localeData['wiki.blocks_found_n_coins'] %>
+- <%= localeData['wiki.list_total_blocks'] %>
+- <%= localeData['wiki.list_total_coins'] %>
 
 <p id="cch-farming_warnings">&nbsp;</p>
 
-## Farming Warnings
-- List possible network issue
-- List possible signapoint issue
-- List possible disk search issue
-- List possible plot count decreasing issue
+## <%= localeData['wiki.farming_warnings'] %>
+- <%= localeData['wiki.list_network'] %>
+- <%= localeData['wiki.list_sin_point'] %>
+- <%= localeData['wiki.list_disk_search'] %>
+- <%= localeData['wiki.list_plot_count'] %>
 
 <p id="cch-daily_report">&nbsp;</p>
 
-## Daily Report
-- Summarize Blocks Found / Coins Received by day
-- Summarize Farming Warnings by day
+## <%= localeData['wiki.daily_report'] %>
+- <%= localeData['wiki.summarize_block_day'] %>
+- <%= localeData['wiki.summarize_warning_day'] %>
 
 <p id="cch-weekly_report">&nbsp;</p>
 
-## Weekly Report
-- Summarize Blocks Found / Coins Received by week
-- Summarize Farming Warnings by week
+## <%= localeData['wiki.weekly_report'] %>
+- <%= localeData['wiki.summarize_block_week'] %>
+- <%= localeData['wiki.summarize_warning_week'] %>
 
 <p id="cch-node_sync">&nbsp;</p>
 
-## Node Sync
-- Node will sync automatically by default
-- You may go to Connections or Blockchains tab to examine the detailed status
+## <%= localeData['wiki.node_sync'] %>
+- <%= localeData['wiki.node_sync_default'] %>
+- <%= localeData['wiki.connect_blockchain'] %>
 
 <p id="cch-connections_management">&nbsp;</p>
 
-## Connections Management
-- List all node connections
-- You can add/remove connections here
-  
+## <%= localeData['wiki.connections_management'] %>
+- <%= localeData['wiki.list_all_nodes'] %>
+- <%= localeData['wiki.edit_connection'] %>
+
+
 <p id="cch-wallets_management">&nbsp;</p>
 
-## Wallets Management
-- List wallet status and account balance
-- You can also transfer coins in wallet tab
+## <%= localeData['wiki.wallets_management'] %>
+- <%= localeData['wiki.list_wallet'] %>
+- <%= localeData['wiki.transfer_coin'] %>
 
 <p id="cch-hands_management">&nbsp;</p>
 
-## Hands Management
-- This is actually each fork workers
-- You may remove one hand when you don't plan to farm it anymore
+## <%= localeData['wiki.hands_management'] %>
+- <%= localeData['wiki.fork_worker'] %>
+- <%= localeData['wiki.remove_hand'] %>
 
 
 <p id="cch-transfer_coins">&nbsp;</p>
 
-## Transfer Coins
-- Go to wallet tab and enter your secure password to transfer coins
+## <%= localeData['wiki.transfer_coins'] %>
+- <%= localeData['wiki.setting_password_transfer'] %>
 
 <p id="cch-cold_wallet">&nbsp;</p>
 
-## Cold Wallet
-- Go to settings tab with your secure password
-- Import cold wallet
+## <%= localeData['wiki.cold_wallet'] %>
+- <%= localeData['wiki.setting_password'] %>
+- <%= localeData['wiki.import_cold_wallet'] %>
   ```
-  1. Prepare a new machine(different with farming machine)
-  2. Visit <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a> and click 'Wallet Mode' to generate docker-compose folders
-  3. Setup the docker-compose folders by following [Linux Setup](#cch-linux)
-  4. On WebUI launch screen, generate a new key this time
-  5. Wait few minutes for forks restarting
-  6. Go to each folder 'docker-compose stop && docker-compose up -d'
-  7. Access <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>, and go to settings - cold wallet tab to import the cold wallet addresses
-  8. Confirm each address is correct manually by comparing the downloaded file with information shown on Keys tab
-  9. Get 24 mnemonic words by similar terminal script: 
+  1. <%= localeData['wiki.prepare_new_machine'] %>
+  2. <%= localeData['wiki.visit'] %> <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a> <%= localeData['wiki.wallet_mode_generate'] %>
+  3. <%= localeData['wiki.setup_compose_folders'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+  4. <%= localeData['wiki.generate_new_key'] %>
+  5. <%= localeData['wiki.wait_few_minutes'] %>
+  6. <%= localeData['wiki.go_each_folder'] %>
+  7. <%= localeData['wiki.access'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>, <%= localeData['wiki.settings_import_cold'] %>
+  8. <%= localeData['wiki.confirm_cold_address'] %>
+  9. <%= localeData['wiki.get_24_mnemonic_words'] %>
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -173,54 +174,54 @@
 
 <p id="cch-secure_passphrase">&nbsp;</p>
 
-## Secure Passphrased 24 Mnemonic Words
-- <a target='_blank' href='https://github.com/raingggg/coctohug-passphrase'>coctohug-passphrase</a> can be used to secure your 24 mnemonic words
-- It encrypt your keys with a password only you know
-- You can decrypt it with the password when applying new chia forks 
+## <%= localeData['wiki.secure_passphrased_24'] %>
+- <a target='_blank' href='https://github.com/raingggg/coctohug-passphrase'>coctohug-passphrase</a> <%= localeData['wiki.used_secure_24'] %>
+- <%= localeData['wiki.encrypt_your_keys'] %>
+- <%= localeData['wiki.decrypt_with_password'] %>
 
 <p id="cch-forks">&nbsp;</p>
 
-## Forks
-- Check coctohug github every fews days
-- New forks will be supported very soon
+## <%= localeData['wiki.forks'] %>
+- <%= localeData['wiki.check_fews_days'] %>
+- <%= localeData['wiki.new_forks_will_supported'] %>
   
 <p id="cch-harvester">&nbsp;</p>
 
-## Harvester
-- Visit <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a> and click 'Wallet Mode' to generate docker-compose folders
-- Visit <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a> and click 'Allow Harvester' to build the link between controller and harvester
-- Setup the docker-compose folders by following [Linux Setup](#cch-linux)
-- Few minutes later, you will be able to see harvester on WebUI hands tab
+## <%= localeData['wiki.harvester'] %>
+- <%= localeData['wiki.visit'] %> <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a> <%= localeData['wiki.harvester_generate_compose'] %>
+- <%= localeData['wiki.visit'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a> <%= localeData['wiki.click_allow_harvester'] %>
+- <%= localeData['wiki.setup_compose_folders'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+- <%= localeData['wiki.few_minutes_harvester'] %>
 
 <p id="cch-upgrade">&nbsp;</p>
 
-## Upgrade (execute in each foler)
-- One line script: 
+## <%= localeData['wiki.upgrade'] %>
+- <%= localeData['wiki.one_line_script'] %>
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
   ```
-- You can also execute above scripts step by step:
+- <%= localeData['wiki.execute_by_step'] %>
   ```
   docker-compose stop
   docker-compose rm -f
   docker-compose pull
   docker-compose up -d --force-recreate
   ```
-- In case of incompatible db issue, you can remove the existing file by: 
+- <%= localeData['wiki.incompatible_db_issue'] %>
   ```
   rm ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>
 
-## Local Language
-- On top right of WebUI, choose whatever language you like most
-- You can switch to any other languages later if you wish
+## <%= localeData['wiki.local_language'] %>
+- <%= localeData['wiki.choose_language'] %>
+- <%= localeData['wiki.switch_language_later'] %>
   
 <p id="cch-hardware_requirements">&nbsp;</p>
 
-## Hardware Requirements
-- Once synchronized, 10th Generation Intel® Core™ i7 Processors should be enough for farming 50+ forks
-- However for the intial node syncing stage, it really eats CPU. So we recommend setup 5 forks per group 
-- Memory needed equals to: nuber of farming forks * 1.8G RAM
-- Normal disk should be fine for 50+ forks
+## <%= localeData['wiki.hardware_requirements'] %>
+- <%= localeData['wiki.cpu_requirement'] %>
+- <%= localeData['wiki.cpu_requirement_note'] %>
+- <%= localeData['wiki.ram_requirement'] %>
+- <%= localeData['wiki.disk_requirement'] %>
