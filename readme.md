@@ -1,7 +1,7 @@
 # Coctohug - Manage dozens of chia forks mining from a web browser!
-- Nice localization with support of dozens of languages
+- Nice localization with support of dozens of languages: English, العربية, Bulgarian, Catalan, Deutsch, Español, زبان فارسی, Français, Galego, Indonesian, Italiano, 日本語, 한국어, Português do Brasil, limba română, Русский, Serbian, Thai, Tagalog (Filipino), Türkçe, Українська, Vietnamese, 简体中文, 繁體中文
+- Supports: [cactus](https://github.com/raingggg/coctohug-cactus) [covid](https://github.com/raingggg/coctohug-covid) [cryptodoge](https://github.com/raingggg/coctohug-cryptodoge) [ethgreen](https://github.com/raingggg/coctohug-ethgreen) [flora](https://github.com/raingggg/coctohug-flora) [greendoge](https://github.com/raingggg/coctohug-greendoge) [lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin) [shibgreen](https://github.com/raingggg/coctohug-shibgreen) [silicoin](https://github.com/raingggg/coctohug-silicoin) [skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin) [stor](https://github.com/raingggg/coctohug-stor) [tranzact](https://github.com/raingggg/coctohug-tranzact) [venidium](https://github.com/raingggg/coctohug-venidium) and more...
 - Runs on Linux, Windows, MacOS, and more...
-- Supports: cactus, covid, cryptodoge, ethgreen, flora, greendoge, lucky, pipscoin, shibgreen, silicoin, skynet, staicoin, stor, tranzact, venidium, and more...
 
 Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 
