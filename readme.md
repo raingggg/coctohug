@@ -8,16 +8,16 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 *Seek more help on our [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 ## English View
-![English](https://www.coctohug.xyz/images/coctohug-en-min.png)
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
 
 ## Chinese View
-![Chinese](https://www.coctohug.xyz/images/coctohug-cn-min.png)
+![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
 
 ## Russian View
-![Russian](https://www.coctohug.xyz/images/coctohug-russian-min.png)
+![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
 
 ## German View
-![German](https://www.coctohug.xyz/images/coctohug-german-min.png)
+![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
 
 
 ## Trademark Notice

@@ -1,0 +1,19 @@
+{
+  "name": "coctohug",
+  "version": "1.0.0",
+  "description": "- Nice localization with support of dozens of languages\r - Runs on Linux, Windows, MacOS, and more...\r - Supports: cactus, covid, cryptodoge, ethgreen, flora, greendoge, lucky, pipscoin, shibgreen, silicoin, skynet, staicoin, stor, tranzact, venidium, and more...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raingggg/coctohug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raingggg/coctohug/issues"
+  },
+  "homepage": "https://github.com/raingggg/coctohug#readme"
+}
