@@ -23,6 +23,7 @@ const generateAll = async (startLocale, templateName, destPath) => {
 
     console.log('locale: ', locale);
     const localeData = require(`../locales/${files[i]}`);
+    Object.assign(localeData, { locale });
     const localedContent = ejs.render(templateData, { localeData });
     await writeFile(`${destPath}_${locale}.md`, localedContent);
   }

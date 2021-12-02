@@ -126,6 +126,7 @@
 ## <%= localeData['wiki.node_sync'] %>
 - <%= localeData['wiki.node_sync_default'] %>
 - <%= localeData['wiki.connect_blockchain'] %>
+- <%= localeData['wiki.fast_sync'] %> [https://alltheblocks.net/](https://alltheblocks.net/) <%= localeData['wiki.fast_provide'] %>
 
 <p id="cch-connections_management">&nbsp;</p>
 
@@ -156,21 +157,29 @@
 
 ## <%= localeData['wiki.cold_wallet'] %>
 - <%= localeData['wiki.setting_password'] %>
-- <%= localeData['wiki.import_cold_wallet'] %>
+- <%= localeData['wiki.export_cold_wallet'] %>
   ```
   1. <%= localeData['wiki.prepare_new_machine'] %>
-  2. <%= localeData['wiki.visit'] %> <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a> <%= localeData['wiki.wallet_mode_generate'] %>
-  3. <%= localeData['wiki.setup_compose_folders'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+  2. <%= localeData['wiki.visit'] %> https://www.coctohug.xyz <%= localeData['wiki.wallet_mode_generate'] %>
+  3. <%= localeData['wiki.setup_compose_folders'] %> [<%= localeData['wiki.linux_setup'] %>]
   4. <%= localeData['wiki.generate_new_key'] %>
   5. <%= localeData['wiki.wait_few_minutes'] %>
-  6. <%= localeData['wiki.go_each_folder'] %>
-  7. <%= localeData['wiki.access'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>, <%= localeData['wiki.settings_import_cold'] %>
+  6. <%= localeData['wiki.go_each_folder'] %> docker-compose stop && docker-compose up -d
+  7. <%= localeData['wiki.visit'] %> http://localhost:12630/, <%= localeData['wiki.settings_export_cold'] %>
   8. <%= localeData['wiki.confirm_cold_address'] %>
   9. <%= localeData['wiki.get_24_mnemonic_words'] %>
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
   ```
+- <%= localeData['wiki.import_cold_wallet'] %>
+  ```
+  1. <%= localeData['wiki.import_machine'] %>
+  2. <%= localeData['wiki.import_json'] %>
+  3. <%= localeData['wiki.import_wait'] %>
+  4. <%= localeData['wiki.import_backup'] %>
+  ```
+
 
 <p id="cch-secure_passphrase">&nbsp;</p>
 
