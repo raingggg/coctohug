@@ -1,46 +1,39 @@
 # Quick Start
-  - [Linux Setup](#linux)
-  - [Windows Setup](#windows)
-  - [MacOS Setup](#macOS)
+  - [Linux Setup](#cch-linux)
+  - [Windows Setup](#cch-windows)
+  - [MacOS Setup](#cch-macOS)
   
 <%= localeData['readme.easy_setup'] %> [<%= localeData['readme.quick_start'] %>](https://www.coctohug.xyz/)
 
 *<%= localeData['readme.more_help'] %> [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Common Settings
-  - [Password](#password)
-  - [Keys](#keys)
-  - [Farming](#farming)
-  - [Monitoring](#monitoring)
-  - [NFT Recovery](#nft-recovery)
-  - [Blocks Found / Coins Received](#blocks-found--coins-received)
-  - [Farming Warnings](#farming-warnings)
-  - [Daily Report](#daily-report)
-  - [Weekly Report](#weekly-report)
-  - [Node Sync](#node-sync)
-  - [Connections Management](#connections-management)
-  - [Wallets Management](#wallets-management)
-  - [Hands Management](#hands-management)
-  - [Transfer Coins](#transfer-coins)
-  - [Cold Wallet](#cold-wallet)
-  - [Secure Passphrased 24 Mnemonic Words](#secure-passphrased-24-mnemonic-words)
-  - [Forks](#forks)
-  - [Harvester](#harvester)
-  - [Upgrade](#upgrade)
-  - [Local Language](#local-language)
-  - [Hardware Requirements](#hardware-requirements)
+  - [Password](#cch-password)
+  - [Keys](#cch-keys)
+  - [Farming](#cch-farming)
+  - [Monitoring](#cch-monitoring)
+  - [NFT Recovery](#cch-nft_recovery)
+  - [Blocks Found / Coins Received](#cch-blocks_found)
+  - [Farming Warnings](#cch-farming_warnings)
+  - [Daily Report](#cch-daily_report)
+  - [Weekly Report](#cch-weekly_report)
+  - [Node Sync](#cch-node_sync)
+  - [Connections Management](#cch-connections_management)
+  - [Wallets Management](#cch-wallets_management)
+  - [Hands Management](#cch-hands_management)
+  - [Transfer Coins](#cch-transfer_coins)
 
 
 # Advanced Settings
-  - [Cold Wallet](#cold_wallet)
-  - [Secure Passphrased 24 Mnemonic Words](#secure_passphrase)
-  - [Forks](#forks)
-  - [Harvester](#harvester)
-  - [Upgrade](#upgrade)
+  - [Cold Wallet](#cch-cold_wallet)
+  - [Secure Passphrased 24 Mnemonic Words](#cch-secure_passphrase)
+  - [Forks](#cch-forks)
+  - [Harvester](#cch-harvester)
+  - [Upgrade](#cch-upgrade)
 
 # Best Practices
-  - [Local Language](#local_language)
-  - [Hardware Requirements](#hardware_requirements)
+  - [Local Language](#cch-local_language)
+  - [Hardware Requirements](#cch-hardware_requirements)
 
 <p id="cch-linux">&nbsp;</p>
 
