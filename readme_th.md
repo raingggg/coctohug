@@ -11,16 +11,16 @@
 
 
 ## ภาพหน้าจอภาษาอังกฤษ
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](./images/coctohug-summary-en-min.png)
 
 ## สกรีนช็อตภาษาจีน
-![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
+![Chinese](./images/coctohug-summary-cn-min.png)
 
 ## ภาพหน้าจอของรัสเซีย
-![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
+![Russian](./images/coctohug-summary-russian-min.png)
 
 ## สกรีนช็อตภาษาเยอรมัน
-![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+![German](./images/coctohug-summary-german-min.png)
 
 
 # โครงการโอเพ่นซอร์สบน Github

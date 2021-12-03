@@ -87,7 +87,7 @@
 - 节点同步完成后，农业应自动开始
 - 然后你就可以通过各种方式监控挖矿状态
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@
 - 列出找到的总块
 - 列出收到的硬币总数
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@
 - 总结当天发现的区块/收到的硬币
 - 按天汇总采矿警告
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@
 - 列出所有节点连接
 - 您可以在连接选项卡中添加/删除连接
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@
 - 列出钱包状态和账户余额
 - 您还可以在钱包选项卡中转移硬币
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@
   3. 等几分钟，到钱包选项卡查看冷钱包地址是否更新
   4. 注意：我们建议在导入之前备份您的钱包配置
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

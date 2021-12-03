@@ -87,7 +87,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Sau khi đồng bộ hóa nút hoàn tất, quá trình canh tác sẽ tự động bắt đầu
 - Sau đó, bạn sẽ có thể theo dõi trạng thái khai thác bằng nhiều cách khác nhau
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Liệt kê tổng số khối được tìm thấy
 - Liệt kê tổng số tiền nhận được
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Tóm tắt khối tìm thấy / số tiền nhận được theo ngày
 - Tóm tắt cảnh báo khai thác theo ngày
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Liệt kê tất cả các kết nối nút
 - Bạn có thể thêm / xóa kết nối trong tab Kết nối
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Liệt kê trạng thái ví và số dư tài khoản
 - Bạn cũng có thể chuyển tiền trong tab ví
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   3. Chờ vài phút và chuyển đến tab ví để xem địa chỉ ví lạnh đã được cập nhật hay chưa
   4. Lưu ý: chúng tôi khuyên bạn nên sao lưu cấu hình ví của mình trước khi nhập
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

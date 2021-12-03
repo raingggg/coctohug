@@ -87,7 +87,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Setelah sinkronisasi simpul selesai, pertanian akan dimulai secara otomatis
 - Maka Anda akan dapat memantau status penambangan dengan berbagai cara
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Daftar total blok yang ditemukan
 - Daftar total koin yang diterima
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Ringkaskan Blok yang Ditemukan / Koin yang Diterima berdasarkan hari
 - Rangkum Peringatan Penambangan menurut hari
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Daftar semua koneksi simpul
 - Anda dapat menambah/menghapus koneksi di tab Koneksi
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Daftar status dompet dan saldo akun
 - Anda juga dapat mentransfer koin di tab dompet
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
   3. Tunggu beberapa menit, dan buka tab dompet untuk melihat apakah alamat dompet dingin diperbarui atau tidak
   4. Catatan: kami sarankan untuk membuat cadangan konfigurasi dompet Anda sebelum mengimpor
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

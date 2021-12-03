@@ -11,16 +11,16 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 
 
 ## Ảnh chụp màn hình tiếng Anh
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](./images/coctohug-summary-en-min.png)
 
 ## Ảnh chụp màn hình Trung Quốc
-![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
+![Chinese](./images/coctohug-summary-cn-min.png)
 
 ## Ảnh chụp màn hình của Nga
-![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
+![Russian](./images/coctohug-summary-russian-min.png)
 
 ## Ảnh chụp màn hình của Đức
-![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+![German](./images/coctohug-summary-german-min.png)
 
 
 # Dự án nguồn mở trên Github

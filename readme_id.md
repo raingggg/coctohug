@@ -11,16 +11,16 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 
 
 ## Tangkapan layar bahasa Inggris
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](./images/coctohug-summary-en-min.png)
 
 ## Tangkapan Layar Cina
-![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
+![Chinese](./images/coctohug-summary-cn-min.png)
 
 ## Tangkapan Layar Rusia
-![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
+![Russian](./images/coctohug-summary-russian-min.png)
 
 ## Tangkapan Layar Jerman
-![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+![German](./images/coctohug-summary-german-min.png)
 
 
 # Proyek Sumber Terbuka di Github

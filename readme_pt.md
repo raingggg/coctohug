@@ -11,16 +11,16 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 
 
 ## Captura de tela em inglês
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](./images/coctohug-summary-en-min.png)
 
 ## Captura de tela chinesa
-![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
+![Chinese](./images/coctohug-summary-cn-min.png)
 
 ## Captura de tela russa
-![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
+![Russian](./images/coctohug-summary-russian-min.png)
 
 ## Captura de tela alemã
-![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+![German](./images/coctohug-summary-german-min.png)
 
 
 # Projetos de código aberto no Github

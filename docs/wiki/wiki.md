@@ -87,7 +87,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Once node sync is done, farming should start automatically
 - Then you will be able to monitor the mining status with various ways
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - List total blocks found
 - List total coins received
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Summarize Blocks Found / Coins Received by day
 - Summarize Mining Warnings by day
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - List all node connections
 - You can add/remove connections in Connections tab
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - List wallet status and account balance
 - You can also transfer coins in wallet tab
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   3. Wait few minutes, and go to wallet tab to see whether the cold wallet address is updated or not
   4. Note: we recommend backup your wallet configurations before importing
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

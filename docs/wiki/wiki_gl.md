@@ -87,7 +87,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Unha vez realizada a sincronización dos nodos, a agricultura debería comezar automaticamente
 - Entón poderás controlar o estado da minería de varias maneiras
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Lista de bloques totais atopados
 - Lista de moedas totais recibidas
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Resume bloques atopados/moedas recibidas por día
 - Resume os avisos de minería por día
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Lista todas as conexións de nodos
 - Podes engadir/eliminar conexións na pestana Conexións
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Lista o estado da carteira e o saldo da conta
 - Tamén podes transferir moedas na pestana da carteira
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
   3. Agarde uns minutos e vai á pestana da carteira para ver se o enderezo da carteira fría está actualizado ou non
   4. Nota: recomendamos facer unha copia de seguridade das configuracións da carteira antes de importar
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

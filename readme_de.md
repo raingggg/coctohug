@@ -11,16 +11,16 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 
 
 ## Englischer Screenshot
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](./images/coctohug-summary-en-min.png)
 
 ## Chinesischer Screenshot
-![Chinese](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-cn-min.png)
+![Chinese](./images/coctohug-summary-cn-min.png)
 
 ## Russischer Screenshot
-![Russian](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-russian-min.png)
+![Russian](./images/coctohug-summary-russian-min.png)
 
 ## Deutscher Screenshot
-![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+![German](./images/coctohug-summary-german-min.png)
 
 
 # Open-Source-Projekte auf Github

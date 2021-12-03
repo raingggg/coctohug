@@ -87,7 +87,7 @@
 - След като синхронизирането на възлите бъде извършено, земеделието трябва да започне автоматично
 - След това ще можете да наблюдавате състоянието на копаене по различни начини
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@
 - Избройте общите намерени блокове
 - Избройте общо получените монети
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@
 - Обобщете намерените блокове / монети, получени по ден
 - Обобщете предупрежденията за копаене по ден
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@
 - Избройте всички връзки на възли
 - Можете да добавяте/премахвате връзки в раздела Връзки
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@
 - Избройте състоянието на портфейла и баланса на сметката
 - Можете също да прехвърляте монети в раздела на портфейла
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@
   3. Изчакайте няколко минути и отидете в раздела на портфейла, за да видите дали адресът на студения портфейл е актуализиран или не
   4. Забележка: препоръчваме да архивирате конфигурациите на портфейла си преди импортиране
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

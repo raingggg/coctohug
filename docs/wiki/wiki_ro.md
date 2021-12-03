@@ -87,7 +87,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Odată ce sincronizarea nodurilor este finalizată, agricultura ar trebui să înceapă automat
 - Apoi veți putea monitoriza starea mineritului în diferite moduri
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Listează blocurile totale găsite
 - Listați numărul total de monede primite
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Rezumați blocurile găsite/Monede primite pe zi
 - Rezumați avertismentele miniere pe zi
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Listați toate conexiunile nodurilor
 - Puteți adăuga/elimina conexiuni în fila Conexiuni
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Listați starea portofelului și soldul contului
 - De asemenea, puteți transfera monede în fila portofel
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
   3. Așteptați câteva minute și accesați fila Portofel pentru a vedea dacă adresa portofelului rece este actualizată sau nu
   4. Notă: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

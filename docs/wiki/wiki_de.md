@@ -87,7 +87,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Sobald die Knotensynchronisierung abgeschlossen ist, sollte die Landwirtschaft automatisch starten
 - Dann können Sie den Mining-Status auf verschiedene Weise überwachen
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Gesamtzahl gefundener Blöcke auflisten
 - Gesamtzahl der erhaltenen Münzen auflisten
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Gefundene Blöcke / erhaltene Münzen nach Tag zusammenfassen
 - Mining-Warnungen nach Tag zusammenfassen
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Alle Knotenverbindungen auflisten
 - Sie können Verbindungen auf der Registerkarte Verbindungen hinzufügen/entfernen
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Wallet-Status und Kontostand auflisten
 - Sie können Münzen auch im Wallet-Tab überweisen
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
   3. Warten Sie einige Minuten und gehen Sie zum Wallet-Tab, um zu sehen, ob die Cold Wallet-Adresse aktualisiert wurde oder nicht
   4. Hinweis: Wir empfehlen Ihnen, Ihre Wallet-Konfigurationen vor dem Importieren zu sichern
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

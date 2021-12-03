@@ -87,7 +87,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 - Una volta completata la sincronizzazione dei nodi, l&#39;agricoltura dovrebbe avviarsi automaticamente
 - Quindi sarai in grado di monitorare lo stato del mining in vari modi
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 - Elenca i blocchi totali trovati
 - Elenca le monete totali ricevute
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 - Riepiloga i blocchi trovati / le monete ricevute per giorno
 - Riepilogo avvisi minerari per giorno
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 - Elenca tutte le connessioni dei nodi
 - Puoi aggiungere/rimuovere connessioni nella scheda Connessioni
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 - Elenca lo stato del portafoglio e il saldo del conto
 - Puoi anche trasferire monete nella scheda del portafoglio
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
   3. Attendi qualche minuto e vai alla scheda del portafoglio per vedere se l&#39;indirizzo del portafoglio freddo è aggiornato o meno
   4. Nota: si consiglia di eseguire il backup delle configurazioni del portafoglio prima dell&#39;importazione
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

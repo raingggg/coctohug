@@ -87,7 +87,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Una vez que se realiza la sincronización de nodos, la agricultura debería comenzar automáticamente
 - Entonces podrá monitorear el estado de la minería de varias formas
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Lista de bloques totales encontrados
 - Lista de monedas totales recibidas
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Resumir bloques encontrados / monedas recibidas por día
 - Resumir las advertencias de minería por día
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Lista de todas las conexiones de nodo
 - Puede agregar / eliminar conexiones en la pestaña Conexiones
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Muestra el estado de la billetera y el saldo de la cuenta
 - También puede transferir monedas en la pestaña de billetera
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
   3. Espere unos minutos y vaya a la pestaña de billetera para ver si la dirección de la billetera fría está actualizada o no
   4. Nota: recomendamos hacer una copia de seguridad de las configuraciones de su billetera antes de importar
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

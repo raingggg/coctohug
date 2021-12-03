@@ -87,7 +87,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Un cop feta la sincronització de nodes, l&#39;agricultura hauria de començar automàticament
 - Aleshores podreu controlar l&#39;estat de la mineria de diverses maneres
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Llista els blocs totals trobats
 - Llista el total de monedes rebudes
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Resumeix blocs trobats / monedes rebudes per dia
 - Resumeix els avisos de mineria per dia
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Llista totes les connexions de nodes
 - Podeu afegir/eliminar connexions a la pestanya Connexions
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Llista l&#39;estat de la cartera i el saldo del compte
 - També podeu transferir monedes a la pestanya de cartera
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   3. Espereu uns minuts i aneu a la pestanya de la cartera per veure si l&#39;adreça de la cartera freda s&#39;actualitza o no
   4. Nota: recomanem una còpia de seguretat de les configuracions de la cartera abans d&#39;importar
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

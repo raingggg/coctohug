@@ -87,7 +87,7 @@
 - بمجرد الانتهاء من مزامنة العقدة ، يجب أن تبدأ الزراعة تلقائيًا
 - بعد ذلك ستتمكن من مراقبة حالة التعدين بطرق مختلفة
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@
 - قائمة الكتل الإجمالية التي تم العثور عليها
 - قائمة مجموع العملات المستلمة
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@
 - لخص الكتل التي تم العثور عليها / العملات المعدنية المستلمة في اليوم
 - تلخيص تحذيرات التعدين حسب اليوم
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@
 - قائمة بجميع اتصالات العقدة
 - يمكنك إضافة / إزالة الاتصالات في علامة التبويب اتصالات
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@
 - قائمة حالة المحفظة ورصيد الحساب
 - يمكنك أيضًا تحويل العملات المعدنية في علامة تبويب المحفظة
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@
   3. انتظر بضع دقائق ، وانتقل إلى علامة تبويب المحفظة لمعرفة ما إذا كان عنوان المحفظة البارد محدثًا أم لا
   4. ملاحظة: نوصي بعمل نسخة احتياطية من تكوينات محفظتك قبل الاستيراد
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

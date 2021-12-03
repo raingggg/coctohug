@@ -87,7 +87,7 @@
 - <%= localeData['wiki.node_sync_done'] %>
 - <%= localeData['wiki.monitor_farming'] %>
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@
 - <%= localeData['wiki.list_total_blocks'] %>
 - <%= localeData['wiki.list_total_coins'] %>
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@
 - <%= localeData['wiki.summarize_block_day'] %>
 - <%= localeData['wiki.summarize_warning_day'] %>
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@
 - <%= localeData['wiki.list_all_nodes'] %>
 - <%= localeData['wiki.edit_connection'] %>
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@
 - <%= localeData['wiki.list_wallet'] %>
 - <%= localeData['wiki.transfer_coin'] %>
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@
   3. <%= localeData['wiki.import_wait'] %>
   4. <%= localeData['wiki.import_backup'] %>
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 

@@ -87,7 +87,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Düğüm senkronizasyonu yapıldığında, çiftçilik otomatik olarak başlamalıdır
 - Ardından madencilik durumunu çeşitli yollarla izleyebileceksiniz.
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 <p id="cch-monitoring">&nbsp;</p>
 
@@ -107,7 +107,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Bulunan toplam blokları listele
 - Alınan toplam paraları listele
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+![English](../../images/received-coins-min.png)
 
 
 <p id="cch-farming_warnings">&nbsp;</p>
@@ -124,7 +124,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Bulunan Blokları / Güne Göre Alınan Paraları Özetle
 - Madencilik Uyarılarını güne göre özetleyin
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+![English](../../images/daily_report-min.png)
 
 
 <p id="cch-weekly_report">&nbsp;</p>
@@ -146,7 +146,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Tüm düğüm bağlantılarını listele
 - Bağlantılar sekmesinde bağlantı ekleyebilir/kaldırabilirsiniz
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+![English](../../images/connections-min.png)
 
 
 <p id="cch-wallets_management">&nbsp;</p>
@@ -155,7 +155,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Cüzdan durumunu ve hesap bakiyesini listeleyin
 - Paraları cüzdan sekmesinden de aktarabilirsiniz.
 
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+![English](../../images/wallets-min.png)
 
 
 <p id="cch-hands_management">&nbsp;</p>
@@ -196,7 +196,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
   3. Birkaç dakika bekleyin ve soğuk cüzdan adresinin güncellenip güncellenmediğini görmek için cüzdan sekmesine gidin.
   4. Not: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.
   ```
-![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+![English](../../images/cold_wallet-min.png)
 
 
 
