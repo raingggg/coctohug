@@ -1,11 +1,15 @@
+# Coctohug-Webブラウザからマイニングする数十のchiaブロックチェーンフォークを管理します！
+- 数十の言語をサポートする優れたローカリゼーション： [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+を使用した簡単なセットアップ [クイックスタート](https://www.coctohug.xyz/)
+
+*私たちの助けを求める [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # クイックスタート
   - [LinuxOSでCoctohugをセットアップする](#cch-linux)
   - [WindowsOSでCoctohugをセットアップする](#cch-windows)
   - [MacOSでCoctohugをセットアップする](#cch-macOS)
   
-を使用した簡単なセットアップ [クイックスタート](https://www.coctohug.xyz/)
-
-*私たちの助けを求める [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # 共通設定
   - [パスワード](#cch-password)
@@ -83,6 +87,8 @@
 - ノードの同期が完了すると、ファーミングは自動的に開始されます
 - その後、さまざまな方法でマイニングステータスを監視できるようになります
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## モニタリング
@@ -101,6 +107,9 @@
 - 見つかったブロックの総数を一覧表示します
 - 受け取ったコインの合計を一覧表示します
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## マイニング警告
@@ -114,6 +123,9 @@
 ## 日報
 - 見つかったブロック/日ごとに受け取ったコインを要約する
 - 日ごとにマイニング警告を要約する
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - すべてのノード接続を一覧表示
 - [接続]タブで接続を追加/削除できます
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## ウォレット管理
 - ウォレットのステータスとアカウントの残高を一覧表示します
 - ウォレットタブでコインを転送することもできます
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. 数分待ってから、[ウォレット]タブに移動して、コールドウォレットアドレスが更新されているかどうかを確認します
   4. 注：インポートする前にウォレット構成をバックアップすることをお勧めします
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - WebUIの右上で、最も好きな言語を選択します
 - 必要に応じて、後で他の言語に切り替えることができます
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## ハードウェア要件
@@ -234,3 +254,38 @@
 - ただし、最初のノード同期段階では、実際にCPUを消費します。したがって、グループごとに5つのブロックチェーンフォークを設定し、グループごとに開始することをお勧めします
 - 必要なメモリは次のとおりです。マイニングブロックチェーンフォークの数に1.8GRAMを掛ける
 - 通常のディスクは50以上のブロックチェーンフォークで問題ないはずです
+
+
+
+# Githubのオープンソースプロジェクト
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## 商標に関する通知
+CHIA NETWORK INC、CHIA™、CHIA BLOCKCHAIN™、CHIA PROTOCOL™、CHIALISP™、および「リーフロゴ」（Chiaを指す場合はリーフロゴのみを含む）は、Chia Network、Incの商標または登録商標です。 。、デラウェア州法人。 *このCoctohugプロジェクトとメインのChiaNetworkプロジェクトの間に提携はありません。*

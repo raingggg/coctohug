@@ -1,11 +1,15 @@
+# Coctohug - ده ها چنگال بلاک چین چیا را که از یک مرورگر وب استخراج می کنند را مدیریت کنید!
+- بومی سازی خوب با پشتیبانی از ده ها زبان: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+راه اندازی آسان با استفاده از [شروع سریع](https://www.coctohug.xyz/)
+
+*از ما کمک بیشتری بخواهید [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # شروع سریع
   - [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
   - [Coctohug را در سیستم عامل ویندوز راه اندازی کنید](#cch-windows)
   - [راه اندازی Coctohug در سیستم عامل مک](#cch-macOS)
   
-راه اندازی آسان با استفاده از [شروع سریع](https://www.coctohug.xyz/)
-
-*از ما کمک بیشتری بخواهید [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # تنظیمات مشترک
   - [کلمه عبور](#cch-password)
@@ -83,6 +87,8 @@
 - هنگامی که همگام سازی گره انجام شد، کشاورزی باید به طور خودکار شروع شود
 - سپس می توانید وضعیت استخراج را با روش های مختلف نظارت کنید
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## نظارت بر
@@ -101,6 +107,9 @@
 - کل بلوک های یافت شده را فهرست کنید
 - کل سکه های دریافتی را فهرست کنید
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## هشدارهای معدن
@@ -114,6 +123,9 @@
 ## گزارش روزانه
 - خلاصه بلوک های یافت شده / سکه های دریافت شده در روز
 - خلاصه هشدارهای معدن در روز
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - تمام اتصالات گره را فهرست کنید
 - می توانید اتصالات را در تب Connections اضافه یا حذف کنید
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## مدیریت کیف پول
 - وضعیت کیف پول و موجودی حساب را فهرست کنید
 - همچنین می توانید سکه ها را در تب کیف پول انتقال دهید
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. چند دقیقه صبر کنید و به تب کیف پول بروید تا ببینید آیا آدرس کیف پول سرد به روز شده است یا خیر
   4. توجه: توصیه می کنیم قبل از وارد کردن، از تنظیمات کیف پول خود نسخه پشتیبان تهیه کنید
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - در سمت راست بالای WebUI، هر زبانی را که بیشتر دوست دارید انتخاب کنید
 - در صورت تمایل می توانید بعداً به هر زبان دیگری تغییر دهید
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## الزامات سخت افزاری
@@ -234,3 +254,38 @@
 - با این حال، برای مرحله همگام سازی گره اولیه، واقعا CPU را می خورد. بنابراین توصیه می کنیم برای هر گروه 5 فورک بلاک چین راه اندازی کنید و گروه به گروه شروع کنید
 - حافظه مورد نیاز برابر است با: تعداد فورک های استخراج بلاک چین، ضربدر 1.8G RAM
 - دیسک معمولی باید برای فورک های بلاک چین بیش از 50 مناسب باشد
+
+
+
+# پروژه های متن باز در Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## اعلامیه علامت تجاری
+CHIA NETWORK INC، CHIA™، CHIA BLOCKCHAIN™، CHIA PROTOCOL™، CHIALISP™ و &#34;لوگوی برگ&#34; (شامل لوگوی برگ به تنهایی هنگامی که به Chia اشاره یا نشان می دهد)، علائم تجاری یا علائم تجاری ثبت شده Chia Network, Inc هستند. .، یک شرکت دلاور. *هیچ وابستگی بین این پروژه Coctohug و پروژه اصلی Chia Network وجود ندارد.*

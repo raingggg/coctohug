@@ -1,11 +1,15 @@
+# Coctohug - Управляйте десятками форков блокчейна chia из веб-браузера!
+- Приятная локализация с поддержкой десятков языков: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Простая настройка с помощью [Быстрый старт](https://www.coctohug.xyz/)
+
+*Ищите дополнительную помощь на нашем [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Быстрый старт
   - [Настройка Coctohug на ОС Linux](#cch-linux)
   - [Настройка Coctohug в ОС Windows](#cch-windows)
   - [Настройка Coctohug на Mac OS](#cch-macOS)
   
-Простая настройка с помощью [Быстрый старт](https://www.coctohug.xyz/)
-
-*Ищите дополнительную помощь на нашем [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Общие настройки
   - [Пароль](#cch-password)
@@ -83,6 +87,8 @@
 - После завершения синхронизации узлов сельское хозяйство должно начаться автоматически.
 - Тогда вы сможете отслеживать статус майнинга различными способами.
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Мониторинг
@@ -101,6 +107,9 @@
 - Список всех найденных блоков
 - Перечислить общее количество полученных монет
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Предупреждения о майнинге
@@ -114,6 +123,9 @@
 ## Ежедневный отчет
 - Суммируйте найденные блоки / полученные монеты за день
 - Обобщение предупреждений майнинга по дням
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - Список всех подключений узлов
 - Вы можете добавлять / удалять соединения во вкладке Connections.
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Управление кошельками
 - Список статусов кошелька и баланса аккаунта
 - Вы также можете переводить монеты во вкладке кошелька
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. Подождите несколько минут и перейдите на вкладку кошелька, чтобы узнать, обновлен ли адрес холодного кошелька или нет.
   4. Примечание: мы рекомендуем сделать резервную копию конфигурации вашего кошелька перед импортом.
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - В правом верхнем углу WebUI выберите любой язык, который вам нравится больше всего.
 - Вы можете переключиться на любой другой язык позже, если захотите
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Требования к оборудованию
@@ -234,3 +254,38 @@
 - Однако на этапе начальной синхронизации узла он действительно съедает центральный процессор. Поэтому мы рекомендуем настроить 5 форков блокчейна на группу и начать группировку за группой.
 - Требуемая память равна: количество форков блокчейна для майнинга умножается на 1,8 ГБ ОЗУ.
 - Нормального диска должно хватить на более чем 50 форков блокчейна.
+
+
+
+# Проекты с открытым исходным кодом на Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Уведомление о товарном знаке
+CHIA NETWORK INC, CHIA ™, CHIA BLOCKCHAIN ​​™, CHIA PROTOCOL ™, CHIALISP ™ и «логотип в виде листа» (включая только логотип в виде листа, когда он относится или указывает на Chia) являются товарными знаками или зарегистрированными товарными знаками Chia Network, Inc. ., корпорация Делавэр. * Нет никакой связи между этим проектом Coctohug и основным проектом Chia Network. *

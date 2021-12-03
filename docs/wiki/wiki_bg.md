@@ -1,11 +1,15 @@
+# Coctohug - Управлявайте десетки блокчейн форкове за добив на чиа от уеб браузър!
+- Приятна локализация с поддръжка на десетки езици: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Лесна настройка с използване [Бърз старт](https://www.coctohug.xyz/)
+
+*Потърсете повече помощ на нашия [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Бърз старт
   - [Инсталирайте Coctohug на Linux OS](#cch-linux)
   - [Инсталирайте Coctohug на Windows OS](#cch-windows)
   - [Настройте Coctohug на Mac OS](#cch-macOS)
   
-Лесна настройка с използване [Бърз старт](https://www.coctohug.xyz/)
-
-*Потърсете повече помощ на нашия [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Общи настройки
   - [парола](#cch-password)
@@ -83,6 +87,8 @@
 - След като синхронизирането на възлите бъде извършено, земеделието трябва да започне автоматично
 - След това ще можете да наблюдавате състоянието на копаене по различни начини
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Мониторинг
@@ -101,6 +107,9 @@
 - Избройте общите намерени блокове
 - Избройте общо получените монети
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Предупреждения за копаене
@@ -114,6 +123,9 @@
 ## Дневен доклад
 - Обобщете намерените блокове / монети, получени по ден
 - Обобщете предупрежденията за копаене по ден
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - Избройте всички връзки на възли
 - Можете да добавяте/премахвате връзки в раздела Връзки
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Управление на портфейли
 - Избройте състоянието на портфейла и баланса на сметката
 - Можете също да прехвърляте монети в раздела на портфейла
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. Изчакайте няколко минути и отидете в раздела на портфейла, за да видите дали адресът на студения портфейл е актуализиран или не
   4. Забележка: препоръчваме да архивирате конфигурациите на портфейла си преди импортиране
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - В горния десен ъгъл на WebUI изберете езика, който харесвате най-много
 - Можете да превключите на други езици по-късно, ако желаете
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Хардуерни изисквания
@@ -234,3 +254,38 @@
 - Въпреки това за началния етап на синхронизиране на възел, той наистина изяжда CPU. Затова препоръчваме да настроите 5 блокчейн разклонения на група и да започнете група по група
 - Необходима памет е равна на: броят на блокчейн разклонения за копаене умножава 1.8G RAM
 - Нормалният диск трябва да е добре за 50+ блокчейн разклонения
+
+
+
+# Проекти с отворен код на Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Известие за търговска марка
+CHIA NETWORK INC, CHIA™, CHIA BLOCKCHAIN™, CHIA PROTOCOL™, CHIALISP™ и „логото на листа“ (включително само логото на листата, когато се отнася за или указва Chia), са търговски марки или регистрирани търговски марки на Chia Network, Inc. ., корпорация от Делауеър. *Няма връзка между този проект Coctohug и основния проект Chia Network.*

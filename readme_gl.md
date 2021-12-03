@@ -5,7 +5,7 @@
 
 Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 
-*Busca máis axuda no noso [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Busca máis axuda no noso [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 *[Aquí tes un manual de usuario máis detallado](./docs/wiki/wiki_gl.md)*
 
@@ -21,6 +21,36 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 
 ## Captura de pantalla en alemán
 ![German](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-german-min.png)
+
+
+# Proxectos de código aberto en Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
 
 
 ## Aviso de marca comercial

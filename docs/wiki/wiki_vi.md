@@ -1,11 +1,15 @@
+# Coctohug - Quản lý khai thác hàng chục nhánh blockchain chia từ trình duyệt web!
+- Bản địa hóa tốt với sự hỗ trợ của hàng chục ngôn ngữ: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www.coctohug.xyz/)
+
+*Tìm kiếm thêm trợ giúp về [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Bắt đầu nhanh
   - [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
   - [Thiết lập Coctohug trên Windows OS](#cch-windows)
   - [Thiết lập Coctohug trên Mac OS](#cch-macOS)
   
-Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www.coctohug.xyz/)
-
-*Tìm kiếm thêm trợ giúp về [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Thiết lập chung
   - [Mật khẩu](#cch-password)
@@ -83,6 +87,8 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Sau khi đồng bộ hóa nút hoàn tất, quá trình canh tác sẽ tự động bắt đầu
 - Sau đó, bạn sẽ có thể theo dõi trạng thái khai thác bằng nhiều cách khác nhau
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Giám sát
@@ -101,6 +107,9 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Liệt kê tổng số khối được tìm thấy
 - Liệt kê tổng số tiền nhận được
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Cảnh báo khai thác
@@ -114,6 +123,9 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 ## Báo cáo hàng ngày
 - Tóm tắt khối tìm thấy / số tiền nhận được theo ngày
 - Tóm tắt cảnh báo khai thác theo ngày
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Liệt kê tất cả các kết nối nút
 - Bạn có thể thêm / xóa kết nối trong tab Kết nối
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Quản lý ví
 - Liệt kê trạng thái ví và số dư tài khoản
 - Bạn cũng có thể chuyển tiền trong tab ví
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   3. Chờ vài phút và chuyển đến tab ví để xem địa chỉ ví lạnh đã được cập nhật hay chưa
   4. Lưu ý: chúng tôi khuyên bạn nên sao lưu cấu hình ví của mình trước khi nhập
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Ở trên cùng bên phải của WebUI, chọn bất kỳ ngôn ngữ nào bạn thích nhất
 - Bạn có thể chuyển sang bất kỳ ngôn ngữ nào khác sau này nếu muốn
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## yêu cầu phần cứng
@@ -234,3 +254,38 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Tuy nhiên, đối với giai đoạn đồng bộ hóa nút nội bộ, nó thực sự ăn CPU. Vì vậy, chúng tôi khuyên bạn nên thiết lập 5 nhánh blockchain cho mỗi nhóm và bắt đầu nhóm theo nhóm
 - Bộ nhớ cần thiết bằng: số lượng nhánh blockchain khai thác nhân 1,8G RAM
 - Đĩa thông thường sẽ ổn cho hơn 50 nhánh blockchain
+
+
+
+# Dự án nguồn mở trên Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Thông báo nhãn hiệu
+CHIA NETWORK INC, CHIA ™, CHIA BLOCKCHAIN ​​™, CHIA PROTOCOL ™, CHIALISP ™ và “Biểu trưng chiếc lá” (bao gồm cả biểu tượng chiếc lá khi nó đề cập hoặc chỉ Chia), là các nhãn hiệu hoặc nhãn hiệu đã đăng ký của Chia Network, Inc. ., một tập đoàn Delaware. * Không có mối liên hệ nào giữa dự án Coctohug này và dự án Mạng Chia chính. *

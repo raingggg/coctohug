@@ -1,11 +1,15 @@
+# <%= localeData['readme.title'] %>
+- <%= localeData['readme.localization'] %> [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+<%= localeData['readme.easy_setup'] %> [<%= localeData['readme.quick_start'] %>](https://www.coctohug.xyz/)
+
+*<%= localeData['readme.more_help'] %> [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # <%= localeData['wiki.quick_start'] %>
   - [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
   - [<%= localeData['wiki.windows_setup'] %>](#cch-windows)
   - [<%= localeData['wiki.macos_setup'] %>](#cch-macOS)
   
-<%= localeData['readme.easy_setup'] %> [<%= localeData['readme.quick_start'] %>](https://www.coctohug.xyz/)
-
-*<%= localeData['readme.more_help'] %> [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # <%= localeData['wiki.common_settings'] %>
   - [<%= localeData['wiki.password'] %>](#cch-password)
@@ -83,6 +87,8 @@
 - <%= localeData['wiki.node_sync_done'] %>
 - <%= localeData['wiki.monitor_farming'] %>
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## <%= localeData['wiki.monitoring'] %>
@@ -101,6 +107,9 @@
 - <%= localeData['wiki.list_total_blocks'] %>
 - <%= localeData['wiki.list_total_coins'] %>
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## <%= localeData['wiki.farming_warnings'] %>
@@ -114,6 +123,9 @@
 ## <%= localeData['wiki.daily_report'] %>
 - <%= localeData['wiki.summarize_block_day'] %>
 - <%= localeData['wiki.summarize_warning_day'] %>
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - <%= localeData['wiki.list_all_nodes'] %>
 - <%= localeData['wiki.edit_connection'] %>
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## <%= localeData['wiki.wallets_management'] %>
 - <%= localeData['wiki.list_wallet'] %>
 - <%= localeData['wiki.transfer_coin'] %>
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. <%= localeData['wiki.import_wait'] %>
   4. <%= localeData['wiki.import_backup'] %>
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - <%= localeData['wiki.choose_language'] %>
 - <%= localeData['wiki.switch_language_later'] %>
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## <%= localeData['wiki.hardware_requirements'] %>
@@ -234,3 +254,38 @@
 - <%= localeData['wiki.cpu_requirement_note'] %>
 - <%= localeData['wiki.ram_requirement'] %>
 - <%= localeData['wiki.disk_requirement'] %>
+
+
+
+# <%= localeData['readme.open_github'] %>
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## <%= localeData['readme.trademark_notice'] %>
+<%= localeData['readme.trademark_detail'] %>

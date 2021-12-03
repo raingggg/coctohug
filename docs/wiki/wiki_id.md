@@ -1,11 +1,15 @@
+# Coctohug - Kelola lusinan penambangan garpu chia blockchain dari browser web!
+- Lokalisasi yang bagus dengan dukungan puluhan bahasa: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
+
+*Cari bantuan lebih lanjut di kami [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Mulai cepat
   - [Setup Coctohug di OS Linux](#cch-linux)
   - [Siapkan Coctohug di OS Windows](#cch-windows)
   - [Siapkan Coctohug di Mac OS](#cch-macOS)
   
-Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
-
-*Cari bantuan lebih lanjut di kami [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Pengaturan umum
   - [Kata sandi](#cch-password)
@@ -83,6 +87,8 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Setelah sinkronisasi simpul selesai, pertanian akan dimulai secara otomatis
 - Maka Anda akan dapat memantau status penambangan dengan berbagai cara
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Pemantauan
@@ -101,6 +107,9 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Daftar total blok yang ditemukan
 - Daftar total koin yang diterima
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Peringatan Penambangan
@@ -114,6 +123,9 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 ## Laporan harian
 - Ringkaskan Blok yang Ditemukan / Koin yang Diterima berdasarkan hari
 - Rangkum Peringatan Penambangan menurut hari
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Daftar semua koneksi simpul
 - Anda dapat menambah/menghapus koneksi di tab Koneksi
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Manajemen Dompet
 - Daftar status dompet dan saldo akun
 - Anda juga dapat mentransfer koin di tab dompet
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
   3. Tunggu beberapa menit, dan buka tab dompet untuk melihat apakah alamat dompet dingin diperbarui atau tidak
   4. Catatan: kami sarankan untuk membuat cadangan konfigurasi dompet Anda sebelum mengimpor
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Di kanan atas WebUI, pilih bahasa apa pun yang paling Anda sukai
 - Anda dapat beralih ke bahasa lain nanti jika Anda mau
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Persyaratan Perangkat Keras
@@ -234,3 +254,38 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Namun untuk tahap sinkronisasi simpul awal, itu benar-benar memakan CPU. Jadi kami sarankan untuk menyiapkan 5 garpu blockchain per grup, dan mulai grup demi grup
 - Memori yang dibutuhkan sama dengan: jumlah garpu penambangan blockchain, kalikan 1,8G RAM
 - Disk normal seharusnya baik untuk 50+ garpu blockchain
+
+
+
+# Proyek Sumber Terbuka di Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Pemberitahuan Merek Dagang
+CHIA NETWORK INC, CHIA™, CHIA BLOCKCHAIN™, CHIA PROTOCOL™, CHIALISP™ dan “Logo daun” (termasuk logo daun saja jika mengacu pada atau menunjukkan Chia), adalah merek dagang atau merek dagang terdaftar dari Chia Network, Inc ., sebuah perusahaan Delaware. *Tidak ada afiliasi antara proyek Coctohug ini dan proyek utama Jaringan Chia.*

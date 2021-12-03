@@ -1,11 +1,15 @@
+# Coctohug - قم بإدارة العشرات من تعدين chia blockchain من متصفح الويب!
+- توطين لطيف مع دعم عشرات اللغات: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+الإعداد السهل باستخدام [بداية سريعة](https://www.coctohug.xyz/)
+
+*اطلب المزيد من المساعدة في موقعنا [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # بداية سريعة
   - [قم بإعداد Coctohug على Linux OS](#cch-linux)
   - [قم بإعداد Coctohug على نظام التشغيل Windows](#cch-windows)
   - [قم بإعداد Coctohug على نظام Mac OS](#cch-macOS)
   
-الإعداد السهل باستخدام [بداية سريعة](https://www.coctohug.xyz/)
-
-*اطلب المزيد من المساعدة في موقعنا [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # الإعدادات العامة
   - [كلمه السر](#cch-password)
@@ -83,6 +87,8 @@
 - بمجرد الانتهاء من مزامنة العقدة ، يجب أن تبدأ الزراعة تلقائيًا
 - بعد ذلك ستتمكن من مراقبة حالة التعدين بطرق مختلفة
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## يراقب
@@ -101,6 +107,9 @@
 - قائمة الكتل الإجمالية التي تم العثور عليها
 - قائمة مجموع العملات المستلمة
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## تحذيرات التعدين
@@ -114,6 +123,9 @@
 ## تقرير يومي
 - لخص الكتل التي تم العثور عليها / العملات المعدنية المستلمة في اليوم
 - تلخيص تحذيرات التعدين حسب اليوم
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - قائمة بجميع اتصالات العقدة
 - يمكنك إضافة / إزالة الاتصالات في علامة التبويب اتصالات
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## إدارة المحافظ
 - قائمة حالة المحفظة ورصيد الحساب
 - يمكنك أيضًا تحويل العملات المعدنية في علامة تبويب المحفظة
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. انتظر بضع دقائق ، وانتقل إلى علامة تبويب المحفظة لمعرفة ما إذا كان عنوان المحفظة البارد محدثًا أم لا
   4. ملاحظة: نوصي بعمل نسخة احتياطية من تكوينات محفظتك قبل الاستيراد
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - في الجزء العلوي الأيمن من WebUI ، اختر اللغة التي تفضلها أكثر
 - يمكنك التبديل إلى أي لغة أخرى لاحقًا إذا كنت ترغب في ذلك
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## متطلبات الأجهزة
@@ -234,3 +254,38 @@
 - ومع ذلك ، بالنسبة لمرحلة مزامنة العقدة الداخلية ، فإنها تأكل وحدة المعالجة المركزية (CPU) حقًا. لذلك نوصي بإعداد 5 شوكات blockchain لكل مجموعة ، والبدء من المجموعة حسب المجموعة
 - الذاكرة المطلوبة تساوي: عدد شوكات تعدين blockchain يتضاعف 1.8 جيجا من ذاكرة الوصول العشوائي
 - يجب أن يكون القرص العادي مناسبًا لأكثر من 50 نوعًا من تفرع blockchain
+
+
+
+# مشاريع مفتوحة المصدر على جيثب
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## إشعار العلامة التجارية
+CHIA NETWORK INC و CHIA ™ و CHIA BLOCKCHAIN ​​™ و CHIA PROTOCOL ™ و CHIALISP ™ و &#34;شعار الأوراق&#34; (بما في ذلك شعار الورقة وحده عندما يشير إلى Chia أو يشير إليه) ، هي علامات تجارية أو علامات تجارية مسجلة لشركة Chia Network، Inc . ، شركة في ولاية ديلاوير. * لا يوجد ارتباط بين مشروع Coctohug ومشروع شبكة Chia الرئيسي. *

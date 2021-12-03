@@ -1,11 +1,15 @@
+# Coctohug - Gérez des dizaines de forks de chia blockchain à partir d&#39;un navigateur Web !
+- Belle localisation avec prise en charge de dizaines de langues : [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
+
+*Demandez plus d&#39;aide sur notre [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Démarrage rapide
   - [Configurer Coctohug sur le système d&#39;exploitation Linux](#cch-linux)
   - [Configurer Coctohug sur le système d&#39;exploitation Windows](#cch-windows)
   - [Configurer Coctohug sur Mac OS](#cch-macOS)
   
-Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
-
-*Demandez plus d&#39;aide sur notre [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Paramètres communs
   - [Mot de passe](#cch-password)
@@ -83,6 +87,8 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - Une fois la synchronisation des nœuds terminée, l&#39;agriculture devrait démarrer automatiquement
 - Ensuite, vous pourrez surveiller l&#39;état de l&#39;exploitation minière de différentes manières
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Surveillance
@@ -101,6 +107,9 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - Liste des blocs totaux trouvés
 - Liste des pièces totales reçues
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Avertissements miniers
@@ -114,6 +123,9 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 ## Rapport journalier
 - Résumer les blocs trouvés / les pièces reçues par jour
 - Résumer les avertissements miniers par jour
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - Répertorier toutes les connexions de nœuds
 - Vous pouvez ajouter/supprimer des connexions dans l&#39;onglet Connexions
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Gestion des portefeuilles
 - Lister le statut du portefeuille et le solde du compte
 - Vous pouvez également transférer des pièces dans l&#39;onglet portefeuille
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
   3. Attendez quelques minutes et accédez à l&#39;onglet portefeuille pour voir si l&#39;adresse du portefeuille froid est mise à jour ou non
   4. Remarque : nous vous recommandons de sauvegarder vos configurations de portefeuille avant d&#39;importer
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - En haut à droite de l&#39;interface Web, choisissez la langue que vous préférez
 - Vous pouvez passer à d&#39;autres langues plus tard si vous le souhaitez
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Exigences matérielles
@@ -234,3 +254,38 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - Cependant, pour l&#39;étape de synchronisation initiale des nœuds, cela consomme vraiment du processeur. Nous vous recommandons donc de configurer 5 forks blockchain par groupe et de commencer groupe par groupe
 - La mémoire nécessaire est égale à : le nombre de fourches blockchain minières multiplie 1,8 G de RAM
 - Le disque normal devrait convenir à plus de 50 forks blockchain
+
+
+
+# Projets Open Source sur Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Avis de marque
+CHIA NETWORK INC, CHIA™, le CHIA BLOCKCHAIN™, le CHIA PROTOCOL™, CHIALISP™ et le « logo de la feuille » (y compris le logo de la feuille seul lorsqu&#39;il fait référence ou indique Chia), sont des marques de commerce ou des marques déposées de Chia Network, Inc ., une société du Delaware. *Il n&#39;y a aucune affiliation entre ce projet Coctohug et le projet principal de Chia Network.*

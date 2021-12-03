@@ -1,11 +1,15 @@
+# Coctohug - Pamahalaan ang dose-dosenang chia blockchain forks mining mula sa isang web browser!
+- Magandang lokalisasyon na may suporta ng dose-dosenang mga wika: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
+
+*Humingi ng higit pang tulong sa aming [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Mabilis na Pagsisimula
   - [I-setup ang Coctohug sa Linux OS](#cch-linux)
   - [I-setup ang Coctohug sa Windows OS](#cch-windows)
   - [I-setup ang Coctohug sa Mac OS](#cch-macOS)
   
-Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
-
-*Humingi ng higit pang tulong sa aming [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Mga Karaniwang Setting
   - [Password](#cch-password)
@@ -83,6 +87,8 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Kapag tapos na ang node sync, dapat na awtomatikong magsimula ang pagsasaka
 - Pagkatapos ay masusubaybayan mo ang katayuan ng pagmimina sa iba&#39;t ibang paraan
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Pagsubaybay
@@ -101,6 +107,9 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Ilista ang kabuuang mga bloke na natagpuan
 - Ilista ang kabuuang mga barya na natanggap
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Mga Babala sa Pagmimina
@@ -114,6 +123,9 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 ## Pang-araw-araw na Ulat
 - Ibuod ang Mga Nahanap na Block / Mga Barya na Natanggap ayon sa araw
 - Ibuod ang Mga Babala sa Pagmimina ayon sa araw
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Ilista ang lahat ng koneksyon sa node
 - Maaari kang magdagdag/mag-alis ng mga koneksyon sa tab na Mga Koneksyon
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Pamamahala ng Wallets
 - Ilista ang katayuan ng wallet at balanse ng account
 - Maaari ka ring maglipat ng mga barya sa tab na wallet
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
   3. Maghintay ng ilang minuto, at pumunta sa tab na wallet para makita kung na-update o hindi ang address ng cold wallet
   4. Tandaan: inirerekomenda namin na i-backup ang iyong mga configuration ng wallet bago mag-import
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Sa kanang itaas ng WebUI, piliin ang anumang wika na pinakagusto mo
 - Maaari kang lumipat sa anumang iba pang mga wika sa ibang pagkakataon kung gusto mo
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Mga Kinakailangan sa Hardware
@@ -234,3 +254,38 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Gayunpaman para sa yugto ng pag-sync ng intial node, talagang kumakain ito ng CPU. Kaya inirerekomenda namin ang pag-setup ng 5 blockchain forks bawat grupo, at simulan ang pangkat ayon sa grupo
 - Ang memory na kailangan ay katumbas ng: ang bilang ng mga mining blockchain forks ay dumarami sa 1.8G RAM
 - Ang normal na disk ay dapat na maayos para sa 50+ blockchain forks
+
+
+
+# Mga Open Source na Proyekto sa Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Paunawa sa Trademark
+Ang CHIA NETWORK INC, CHIA™, ang CHIA BLOCKCHAIN™, ang CHIA PROTOCOL™, CHIALISP™ at ang “leaf Logo” (kabilang ang leaf logo lamang kapag ito ay tumutukoy o nagpapahiwatig ng Chia), ay mga trademark o rehistradong trademark ng Chia Network, Inc ., isang korporasyon ng Delaware. *Walang kaugnayan ang proyektong ito ng Coctohug at ang pangunahing proyekto ng Chia Network.*

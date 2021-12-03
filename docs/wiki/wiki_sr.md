@@ -1,11 +1,15 @@
+# Цоцтохуг - Управљајте десетинама цхиа блоцкцхаин форкс рударења из веб претраживача!
+- Лепа локализација са подршком за десетине језика: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Лако подешавање помоћу [Брз почетак](https://www.coctohug.xyz/)
+
+*Потражите додатну помоћ на нашем [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Брз почетак
   - [Поставите Цоцтохуг на Линук ОС](#cch-linux)
   - [Подесите Цоцтохуг на Виндовс ОС](#cch-windows)
   - [Подесите Цоцтохуг на Мац ОС](#cch-macOS)
   
-Лако подешавање помоћу [Брз почетак](https://www.coctohug.xyz/)
-
-*Потражите додатну помоћ на нашем [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Уобичајена подешавања
   - [Лозинка](#cch-password)
@@ -83,6 +87,8 @@
 - Када се изврши синхронизација чворова, фарма би требало да почне аутоматски
 - Тада ћете моћи да пратите статус рударења на различите начине
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Мониторинг
@@ -101,6 +107,9 @@
 - Наведите укупан број пронађених блокова
 - Наведите укупно примљене новчиће
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Мининг Варнингс
@@ -114,6 +123,9 @@
 ## Дневни извештај
 - Сумирајте пронађене блокове / новчиће примљене по дану
 - Сумирајте упозорења о рударству по дану
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - Наведите све везе чворова
 - Можете додати/уклонити везе на картици Везе
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Управљање новчаницима
 - Наведите статус новчаника и стање на рачуну
 - Такође можете пренети новчиће на картици новчаника
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. Сачекајте неколико минута и идите на картицу Новчаник да видите да ли је адреса хладног новчаника ажурирана или не
   4. Напомена: препоручујемо да направите резервну копију конфигурација новчаника пре увоза
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - У горњем десном углу ВебУИ-ја изаберите језик који вам се највише свиђа
 - Касније можете да пређете на било који други језик ако желите
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Хардверски захтеви
@@ -234,3 +254,38 @@
 - Међутим, за почетну фазу синхронизације чвора, он заиста једе ЦПУ. Зато препоручујемо да подесите 5 блокчејн виљушки по групи и започнете групу по групу
 - Потребна меморија је једнака: број рударских блокчејн виљушки помножи 1,8Г РАМ-а
 - Нормални диск би требао бити у реду за 50+ блокчејн виљушки
+
+
+
+# Пројекти отвореног кода на Гитхуб-у
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Обавештење о жиговима
+ЦХИА НЕТВОРК ИНЦ, ЦХИА™, ЦХИА БЛОЦКЦХАИН™, ЦХИА ПРОТОЦОЛ™, ЦХИАЛИСП™ и „лого листа“ (укључујући само лого листа када се односи на или означава Цхиа), су заштитни знаци или регистровани заштитни знаци компаније Цхиа Нетворк, Инц. ., корпорација из Делавера. *Не постоји веза између овог пројекта Цоцтохуг и главног пројекта Цхиа Нетворк.*

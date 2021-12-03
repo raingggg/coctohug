@@ -1,11 +1,15 @@
+# Coctohug - Bir web tarayıcısından düzinelerce chia blockchain çatal madenciliğini yönetin!
+- Düzinelerce dil desteğiyle güzel yerelleştirme: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
+
+*Bizimle ilgili daha fazla yardım isteyin [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Hızlı başlangıç
   - [Linux işletim sisteminde Coctohug&#39;u kurun](#cch-linux)
   - [Windows işletim sisteminde Coctohug&#39;u kurun](#cch-windows)
   - [Mac OS&#39;de Coctohug&#39;u Kurma](#cch-macOS)
   
-Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
-
-*Bizimle ilgili daha fazla yardım isteyin [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Genel Ayarlar
   - [Parola](#cch-password)
@@ -83,6 +87,8 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Düğüm senkronizasyonu yapıldığında, çiftçilik otomatik olarak başlamalıdır
 - Ardından madencilik durumunu çeşitli yollarla izleyebileceksiniz.
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## izleme
@@ -101,6 +107,9 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Bulunan toplam blokları listele
 - Alınan toplam paraları listele
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Madencilik Uyarıları
@@ -114,6 +123,9 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 ## Günlük rapor
 - Bulunan Blokları / Güne Göre Alınan Paraları Özetle
 - Madencilik Uyarılarını güne göre özetleyin
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Tüm düğüm bağlantılarını listele
 - Bağlantılar sekmesinde bağlantı ekleyebilir/kaldırabilirsiniz
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Cüzdan Yönetimi
 - Cüzdan durumunu ve hesap bakiyesini listeleyin
 - Paraları cüzdan sekmesinden de aktarabilirsiniz.
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
   3. Birkaç dakika bekleyin ve soğuk cüzdan adresinin güncellenip güncellenmediğini görmek için cüzdan sekmesine gidin.
   4. Not: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - WebUI&#39;nin sağ üst köşesinde, en çok beğendiğiniz dili seçin
 - Dilerseniz daha sonra başka dillere geçebilirsiniz.
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Donanım Gereksinimleri
@@ -234,3 +254,38 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Ancak ilk düğüm senkronizasyon aşaması için gerçekten CPU yiyor. Bu nedenle, grup başına 5 blok zinciri çatalı kurmanızı ve gruplara göre grup başlatmanızı öneririz.
 - Gerekli bellek şuna eşittir: madencilik blok zinciri çatallarının sayısı 1.8G RAM ile çarpılır
 - 50&#39;den fazla blockchain çatalı için normal disk iyi olmalıdır
+
+
+
+# Github&#39;da Açık Kaynak Projeleri
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Ticari Marka Bildirimi
+CHIA NETWORK INC, CHIA™, CHIA BLACKCHAIN™, CHIA PROTOCOL™, CHIALISP™ ve “yaprak Logosu” (Chia&#39;ya atıfta bulunduğunda veya Chia&#39;yı gösterdiğinde yalnızca yaprak logosu dahil), Chia Network, Inc&#39;in ticari markaları veya tescilli ticari markalarıdır. ., bir Delaware şirketi. *Bu Coctohug projesi ile ana Chia Network projesi arasında herhangi bir bağlantı yoktur.*

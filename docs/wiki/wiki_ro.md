@@ -1,11 +1,15 @@
+# Coctohug - Gestionați zeci de chia blockchain forks extragerea dintr-un browser web!
+- Localizare plăcută cu suport pentru zeci de limbi: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
+
+*Căutați mai mult ajutor pe site-ul nostru [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Pornire rapidă
   - [Configurați Coctohug pe sistemul de operare Linux](#cch-linux)
   - [Configurați Coctohug pe sistemul de operare Windows](#cch-windows)
   - [Configurați Coctohug pe Mac OS](#cch-macOS)
   
-Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
-
-*Căutați mai mult ajutor pe site-ul nostru [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Setările comune
   - [Parola](#cch-password)
@@ -83,6 +87,8 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Odată ce sincronizarea nodurilor este finalizată, agricultura ar trebui să înceapă automat
 - Apoi veți putea monitoriza starea mineritului în diferite moduri
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Monitorizarea
@@ -101,6 +107,9 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Listează blocurile totale găsite
 - Listați numărul total de monede primite
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Avertismente miniere
@@ -114,6 +123,9 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 ## Raport zilnic
 - Rezumați blocurile găsite/Monede primite pe zi
 - Rezumați avertismentele miniere pe zi
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Listați toate conexiunile nodurilor
 - Puteți adăuga/elimina conexiuni în fila Conexiuni
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Gestionarea portofelelor
 - Listați starea portofelului și soldul contului
 - De asemenea, puteți transfera monede în fila portofel
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
   3. Așteptați câteva minute și accesați fila Portofel pentru a vedea dacă adresa portofelului rece este actualizată sau nu
   4. Notă: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - În dreapta sus a WebUI, alegeți limba care vă place cel mai mult
 - Puteți trece la orice altă limbă mai târziu, dacă doriți
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Cerințe hardware
@@ -234,3 +254,38 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Cu toate acestea, pentru etapa inițială de sincronizare a nodului, chiar consumă CPU. Așa că vă recomandăm să configurați 5 fork-uri blockchain per grup și să începeți grup cu grup
 - Memoria necesară este egală cu: numărul de furci blockchain de minerit multiplica 1,8 G RAM
 - Discul normal ar trebui să fie bine pentru peste 50 de furci blockchain
+
+
+
+# Proiecte open source pe Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Notificare privind mărcile comerciale
+CHIA NETWORK INC, CHIA™, CHIA BLOCKCHAIN™, CHIA PROTOCOL™, CHIALISP™ și „sigla frunzei” (inclusiv logo-ul frunzei atunci când se referă la sau indică Chia), sunt mărci comerciale sau mărci comerciale înregistrate ale Chia Network, Inc. ., o corporație din Delaware. *Nu există nicio legătură între acest proiect Coctohug și proiectul principal Chia Network.*

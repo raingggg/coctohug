@@ -1,11 +1,15 @@
+# Coctohug - จัดการการขุดของ chia blockchain forks จากเว็บเบราว์เซอร์!
+- การโลคัลไลเซชันที่ดีพร้อมรองรับหลายภาษา: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+ติดตั้งง่ายโดยใช้ [เริ่มต้นอย่างรวดเร็ว](https://www.coctohug.xyz/)
+
+*ขอความช่วยเหลือเพิ่มเติมเกี่ยวกับ .ของเรา [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # เริ่มต้นอย่างรวดเร็ว
   - [ตั้งค่า Coctohug บน Linux OS](#cch-linux)
   - [ตั้งค่า Coctohug บน Windows OS](#cch-windows)
   - [ตั้งค่า Coctohug บน Mac OS](#cch-macOS)
   
-ติดตั้งง่ายโดยใช้ [เริ่มต้นอย่างรวดเร็ว](https://www.coctohug.xyz/)
-
-*ขอความช่วยเหลือเพิ่มเติมเกี่ยวกับ .ของเรา [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # การตั้งค่าทั่วไป
   - [รหัสผ่าน](#cch-password)
@@ -83,6 +87,8 @@
 - เมื่อทำการซิงค์โหนดเสร็จแล้ว การทำฟาร์มควรเริ่มต้นโดยอัตโนมัติ
 - จากนั้นคุณจะสามารถติดตามสถานะการขุดได้หลายวิธี
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## การตรวจสอบ
@@ -101,6 +107,9 @@
 - แสดงรายการบล็อกทั้งหมดที่พบ
 - รายชื่อเหรียญทั้งหมดที่ได้รับ
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## คำเตือนการขุด
@@ -114,6 +123,9 @@
 ## รายงานประจำวัน
 - สรุปบล็อคที่พบ / เหรียญที่ได้รับในแต่ละวัน
 - สรุปคำเตือนการขุดตามวัน
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - แสดงรายการการเชื่อมต่อโหนดทั้งหมด
 - คุณสามารถเพิ่ม/ลบการเชื่อมต่อในแท็บการเชื่อมต่อ
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## การจัดการกระเป๋าเงิน
 - แสดงรายการสถานะกระเป๋าเงินและยอดเงินในบัญชี
 - คุณยังสามารถโอนเหรียญในแท็บกระเป๋าสตางค์
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. รอสักครู่แล้วไปที่แท็บกระเป๋าเงินเพื่อดูว่าที่อยู่กระเป๋าเงินเย็นได้รับการอัปเดตหรือไม่
   4. หมายเหตุ: เราแนะนำให้สำรองการกำหนดค่ากระเป๋าเงินของคุณก่อนนำเข้า
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - ที่ด้านบนขวาของ WebUI เลือกภาษาที่คุณชอบมากที่สุด
 - คุณสามารถเปลี่ยนไปใช้ภาษาอื่นในภายหลังได้หากต้องการ
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## ข้อกำหนดฮาร์ดแวร์
@@ -234,3 +254,38 @@
 - อย่างไรก็ตามสำหรับขั้นตอนการซิงค์โหนดเริ่มต้นนั้นกิน CPU จริงๆ ดังนั้นเราแนะนำให้ตั้งค่า 5 blockchain forks ต่อกลุ่ม และเริ่มกลุ่มตามกลุ่ม
 - หน่วยความจำที่ต้องการเท่ากับ: จำนวนบล็อกเชนสำหรับการขุดคูณด้วย 1.8G RAM
 - ดิสก์ปกติน่าจะใช้ได้สำหรับ 50+ blockchain forks
+
+
+
+# โครงการโอเพ่นซอร์สบน Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## ประกาศเครื่องหมายการค้า
+CHIA NETWORK INC, CHIA™, CHIA BLOCKCHAIN™, CHIA PROTOCOL™, CHIALISP™ และ “โลโก้ใบไม้” (รวมถึงโลโก้ใบไม้เพียงอย่างเดียวเมื่ออ้างถึงหรือระบุ Chia) เป็นเครื่องหมายการค้าหรือเครื่องหมายการค้าจดทะเบียนของ Chia Network, Inc ., บริษัทเดลาแวร์. *โครงการ Coctohug นี้ไม่มีส่วนเกี่ยวข้องกับโครงการ Chia Network หลัก*

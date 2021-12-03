@@ -1,11 +1,15 @@
+# Coctohug - Verwalten Sie Dutzende von Chia-Blockchain-Forks-Mining über einen Webbrowser!
+- Schöne Lokalisierung mit Unterstützung von Dutzenden von Sprachen: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
+
+*Suchen Sie mehr Hilfe auf unserer [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # Schnellstart
   - [Coctohug unter Linux-Betriebssystem einrichten](#cch-linux)
   - [Coctohug unter Windows einrichten](#cch-windows)
   - [Coctohug unter Mac OS einrichten](#cch-macOS)
   
-Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
-
-*Suchen Sie mehr Hilfe auf unserer [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # Allgemeine Einstellungen
   - [Passwort](#cch-password)
@@ -83,6 +87,8 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Sobald die Knotensynchronisierung abgeschlossen ist, sollte die Landwirtschaft automatisch starten
 - Dann können Sie den Mining-Status auf verschiedene Weise überwachen
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## Überwachung
@@ -101,6 +107,9 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Gesamtzahl gefundener Blöcke auflisten
 - Gesamtzahl der erhaltenen Münzen auflisten
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## Bergbauwarnungen
@@ -114,6 +123,9 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 ## Tagesbericht
 - Gefundene Blöcke / erhaltene Münzen nach Tag zusammenfassen
 - Mining-Warnungen nach Tag zusammenfassen
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Alle Knotenverbindungen auflisten
 - Sie können Verbindungen auf der Registerkarte Verbindungen hinzufügen/entfernen
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## Geldbörsenverwaltung
 - Wallet-Status und Kontostand auflisten
 - Sie können Münzen auch im Wallet-Tab überweisen
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
   3. Warten Sie einige Minuten und gehen Sie zum Wallet-Tab, um zu sehen, ob die Cold Wallet-Adresse aktualisiert wurde oder nicht
   4. Hinweis: Wir empfehlen Ihnen, Ihre Wallet-Konfigurationen vor dem Importieren zu sichern
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Wählen Sie oben rechts in der WebUI die Sprache aus, die Ihnen am besten gefällt
 - Sie können später zu anderen Sprachen wechseln, wenn Sie möchten
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## Hardware-Anforderungen
@@ -234,3 +254,38 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 - Für die anfängliche Knotensynchronisierungsphase frisst es jedoch wirklich CPU. Wir empfehlen daher, 5 Blockchain-Forks pro Gruppe einzurichten und Gruppe für Gruppe zu starten
 - Der erforderliche Arbeitsspeicher entspricht: Anzahl der Mining-Blockchain-Forks multipliziert mit 1,8 G RAM
 - Normale Festplatte sollte für 50+ Blockchain-Forks in Ordnung sein
+
+
+
+# Open-Source-Projekte auf Github
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## Markenhinweis
+CHIA NETWORK INC, CHIA™, die CHIA BLOCKCHAIN™, das CHIA PROTOCOL™, CHIALISP™ und das „Blattlogo“ (einschließlich des Blattlogos allein, wenn es sich auf Chia bezieht oder darauf hinweist), sind Marken oder eingetragene Marken von Chia Network, Inc ., ein Unternehmen aus Delaware. *Es besteht keine Verbindung zwischen diesem Coctohug-Projekt und dem Hauptprojekt des Chia-Netzwerks.*

@@ -1,11 +1,15 @@
+# Coctohug - 웹 브라우저에서 수십 개의 chia 블록체인 포크 마이닝을 관리하세요!
+- 수십 가지 언어를 지원하는 멋진 현지화: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+를 사용하여 쉬운 설정 [빠른 시작](https://www.coctohug.xyz/)
+
+*더 많은 도움을 받으십시오. [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # 빠른 시작
   - [Linux OS에서 Coctohug 설정](#cch-linux)
   - [Windows OS에서 Coctohug 설정](#cch-windows)
   - [Mac OS에서 Coctohug 설정](#cch-macOS)
   
-를 사용하여 쉬운 설정 [빠른 시작](https://www.coctohug.xyz/)
-
-*더 많은 도움을 받으십시오. [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # 공통 설정
   - [비밀번호](#cch-password)
@@ -83,6 +87,8 @@
 - 노드 동기화가 완료되면 파밍이 자동으로 시작됩니다.
 - 그러면 다양한 방법으로 채굴 상태를 모니터링할 수 있습니다.
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## 모니터링
@@ -101,6 +107,9 @@
 - 발견된 총 블록 나열
 - 받은 총 코인 나열
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## 채굴 경고
@@ -114,6 +123,9 @@
 ## 일일 보고서
 - 요일별로 찾은 블록 / 받은 코인 요약
 - 일별 광업 경고 요약
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - 모든 노드 연결 나열
 - 연결 탭에서 연결을 추가/제거할 수 있습니다.
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## 지갑 관리
 - 지갑 상태 및 계정 잔액 나열
 - 지갑 탭에서 코인을 이체할 수도 있습니다.
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. 몇 분 기다렸다가 지갑 탭으로 이동하여 콜드 지갑 주소가 업데이트되었는지 확인하십시오.
   4. 참고: 가져오기 전에 지갑 구성을 백업하는 것이 좋습니다.
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - WebUI의 오른쪽 상단에서 가장 좋아하는 언어를 선택하십시오.
 - 원하는 경우 나중에 다른 언어로 전환할 수 있습니다.
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## 하드웨어 요구 사항
@@ -234,3 +254,38 @@
 - 그러나 초기 노드 동기화 단계에서는 실제로 CPU를 먹습니다. 따라서 그룹당 5개의 블록체인 포크를 설정하고 그룹별로 시작하는 것이 좋습니다.
 - 필요한 메모리는 다음과 같습니다. 채굴 블록체인 포크의 수는 1.8G RAM을 곱합니다.
 - 일반 디스크는 50개 이상의 블록체인 포크에 적합해야 합니다.
+
+
+
+# Github의 오픈 소스 프로젝트
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## 상표권 고지
+CHIA NETWORK INC, CHIA™, CHIA BLOCKCHAIN™, CHIA PROTOCOL™, CHIALISP™ 및 &#34;잎 로고&#34;(Chia를 지칭하거나 나타내는 경우 잎 로고만 포함)는 Chia Network, Inc.의 상표 또는 등록 상표입니다. ., 델라웨어 기업. *이 Coctohug 프로젝트와 주요 Chia Network 프로젝트 사이에는 아무런 관련이 없습니다.*

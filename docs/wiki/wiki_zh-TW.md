@@ -1,11 +1,15 @@
+# Coctohug - 從網絡瀏覽器管理數十個 chia 區塊鏈分叉挖礦！
+- 支持數十種語言的良好本地化： [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
+
+使用簡單設置 [快速開始](https://www.coctohug.xyz/)
+
+*尋求更多關於我們的幫助 [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+
 # 快速開始
   - [在 Linux 操作系統上設置 Coctohug](#cch-linux)
   - [在 Windows 操作系統上設置 Coctohug](#cch-windows)
   - [在 Mac OS 上設置 Coctohug](#cch-macOS)
   
-使用簡單設置 [快速開始](https://www.coctohug.xyz/)
-
-*尋求更多關於我們的幫助 [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
 
 # 常用設置
   - [密碼](#cch-password)
@@ -83,6 +87,8 @@
 - 節點同步完成後，農業應自動開始
 - 然後你就可以通過各種方式監控挖礦狀態
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/coctohug-summary-en-min.png)
+
 <p id="cch-monitoring">&nbsp;</p>
 
 ## 監控
@@ -101,6 +107,9 @@
 - 列出找到的總塊
 - 列出收到的硬幣總數
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/received-coins-min.png)
+
+
 <p id="cch-farming_warnings">&nbsp;</p>
 
 ## 採礦警告
@@ -114,6 +123,9 @@
 ## 每日報告
 - 總結當天發現的區塊/收到的硬幣
 - 按天匯總採礦警告
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/daily_report-min.png)
+
 
 <p id="cch-weekly_report">&nbsp;</p>
 
@@ -134,12 +146,17 @@
 - 列出所有節點連接
 - 您可以在連接選項卡中添加/刪除連接
 
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/connections-min.png)
+
 
 <p id="cch-wallets_management">&nbsp;</p>
 
 ## 錢包管理
 - 列出錢包狀態和賬戶餘額
 - 您還可以在錢包選項卡中轉移硬幣
+
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/wallets-min.png)
+
 
 <p id="cch-hands_management">&nbsp;</p>
 
@@ -179,6 +196,8 @@
   3. 等幾分鐘，到錢包選項卡查看冷錢包地址是否更新
   4. 注意：我們建議在導入之前備份您的錢包配置
   ```
+![English](https://raw.githubusercontent.com/raingggg/coctohug/main/images/cold_wallet-min.png)
+
 
 
 <p id="cch-secure_passphrase">&nbsp;</p>
@@ -227,6 +246,7 @@
 - 在WebUI的右上角，選擇你最喜歡的語言
 - 如果您願意，您可以稍後切換到任何其他語言
   
+  
 <p id="cch-hardware_requirements">&nbsp;</p>
 
 ## 硬件要求
@@ -234,3 +254,38 @@
 - 然而，對於初始節點同步階段，它確實會消耗 CPU。所以我們建議每組設置 5 個區塊鏈分叉，並逐組啟動
 - 所需內存等於：挖礦區塊鏈分叉數乘以 1.8G RAM
 - 普通磁盤應該可以用於 50 多個區塊鏈分叉
+
+
+
+# Github 上的開源項目
+[webui](https://github.com/raingggg/coctohug-web-docker)
+
+[cactus](https://github.com/raingggg/coctohug-cactus)
+
+[covid](https://github.com/raingggg/coctohug-covid)
+
+[cryptodoge](https://github.com/raingggg/coctohug-cryptodoge)
+
+[ethgreen](https://github.com/raingggg/coctohug-ethgreen)
+
+[flora](https://github.com/raingggg/coctohug-flora)
+
+[greendoge](https://github.com/raingggg/coctohug-greendoge)
+
+[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+
+[shibgreen](https://github.com/raingggg/coctohug-shibgreen)
+
+[silicoin](https://github.com/raingggg/coctohug-silicoin)
+
+[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+
+[stor](https://github.com/raingggg/coctohug-stor)
+
+[tranzact](https://github.com/raingggg/coctohug-tranzact)
+
+[venidium](https://github.com/raingggg/coctohug-venidium)
+
+
+## 商標聲明
+CHIA NETWORK INC、CHIA™、CHIA BLOCKCHAIN™、CHIA PROTOCOL™、CHIALISP™ 和“葉子徽標”（包括單獨的葉子徽標，當它提到或指示 Chia 時）是 Chia Network, Inc 的商標或註冊商標., 一家特拉華州公司。 *此 Coctohug 項目與主要 Chia Network 項目之間沒有關聯。*
