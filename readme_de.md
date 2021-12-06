@@ -5,7 +5,7 @@
 
 Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 
-*Suchen Sie mehr Hilfe auf unserer [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Suchen Sie mehr Hilfe auf unserer [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 *[Hier ist eine ausführlichere Bedienungsanleitung](./docs/wiki/wiki_de.md)*
 

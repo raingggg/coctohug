@@ -3,7 +3,7 @@
 
 Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 
-*Busque más ayuda en nuestro [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Busque más ayuda en nuestro [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # Inicio rápido
   - [Configurar Coctohug en el sistema operativo Linux](#cch-linux)

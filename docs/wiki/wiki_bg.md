@@ -3,7 +3,7 @@
 
 Лесна настройка с използване [Бърз старт](https://www.coctohug.xyz/)
 
-*Потърсете повече помощ на нашия [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Потърсете повече помощ на нашия [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # Бърз старт
   - [Инсталирайте Coctohug на Linux OS](#cch-linux)

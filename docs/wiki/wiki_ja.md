@@ -3,7 +3,7 @@
 
 を使用した簡単なセットアップ [クイックスタート](https://www.coctohug.xyz/)
 
-*私たちの助けを求める [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*私たちの助けを求める [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # クイックスタート
   - [LinuxOSでCoctohugをセットアップする](#cch-linux)

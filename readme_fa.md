@@ -5,7 +5,7 @@
 
 راه اندازی آسان با استفاده از [شروع سریع](https://www.coctohug.xyz/)
 
-*از ما کمک بیشتری بخواهید [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*از ما کمک بیشتری بخواهید [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 *[در اینجا راهنمای کاربر دقیق تر است](./docs/wiki/wiki_fa.md)*
 

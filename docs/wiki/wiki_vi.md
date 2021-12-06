@@ -3,7 +3,7 @@
 
 Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www.coctohug.xyz/)
 
-*Tìm kiếm thêm trợ giúp về [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Tìm kiếm thêm trợ giúp về [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # Bắt đầu nhanh
   - [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)

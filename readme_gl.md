@@ -5,7 +5,7 @@
 
 Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 
-*Busca máis axuda no noso [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Busca máis axuda no noso [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 *[Aquí tes un manual de usuario máis detallado](./docs/wiki/wiki_gl.md)*
 

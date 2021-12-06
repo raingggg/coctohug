@@ -5,7 +5,7 @@
 
 Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 
-*Busqueu més ajuda al nostre [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Busqueu més ajuda al nostre [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 *[Aquí hi ha un manual d&#39;usuari més detallat](./docs/wiki/wiki_ca.md)*
 

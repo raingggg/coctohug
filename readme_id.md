@@ -5,7 +5,7 @@
 
 Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 
-*Cari bantuan lebih lanjut di kami [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Cari bantuan lebih lanjut di kami [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 *[Berikut adalah panduan pengguna yang lebih rinci](./docs/wiki/wiki_id.md)*
 

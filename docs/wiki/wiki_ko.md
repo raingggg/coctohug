@@ -3,7 +3,7 @@
 
 를 사용하여 쉬운 설정 [빠른 시작](https://www.coctohug.xyz/)
 
-*더 많은 도움을 받으십시오. [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*더 많은 도움을 받으십시오. [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # 빠른 시작
   - [Linux OS에서 Coctohug 설정](#cch-linux)

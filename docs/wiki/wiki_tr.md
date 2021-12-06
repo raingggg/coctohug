@@ -3,7 +3,7 @@
 
 Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 
-*Bizimle ilgili daha fazla yardım isteyin [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/channels/914698944435613716/914698944435613718)*.
+*Bizimle ilgili daha fazla yardım isteyin [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
 # Hızlı başlangıç
   - [Linux işletim sisteminde Coctohug&#39;u kurun](#cch-linux)
