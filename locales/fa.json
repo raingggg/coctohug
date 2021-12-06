@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "و برای ایجاد پوشه های docker-compose روی Wallet Mode کلیک کنید",
   "wiki.wallets_management": "مدیریت کیف پول",
   "wiki.weekly_report": "گزارش هفتگی",
-  "wiki.windows_setup": "Coctohug را در سیستم عامل ویندوز راه اندازی کنید"
+  "wiki.windows_setup": "Coctohug را در سیستم عامل ویندوز راه اندازی کنید",
+  "wiki.firewall_port": "نکته 4: ممکن است لازم باشد پورت های مجاز از 12630 تا 12700 را به تنظیمات فایروال سیستم خود اضافه کنید.",
+  "wiki.re_script": "نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه پوشه ها را به ترتیب مجدد اجرا کنید:"
 }

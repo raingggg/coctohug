@@ -56,13 +56,22 @@
 - Откройте браузер и получите доступ к WebUI с URL-адресом <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Примечание 1: не запускайте более 5 форков блокчейна одновременно, так как форки блокчейна chia действительно съедают ЦП при синхронизации узла в первый раз.
 - Примечание 2: для каждой вилки блокчейна требуется около 1,8 ГБ ОЗУ, поэтому выберите несколько вилок цепочки блоков на основе памяти вашего компьютера.
+- Примечание 3: Если есть какие-либо проблемы, вам может потребоваться перезапустить все папки по порядку:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Примечание 4: вам может потребоваться добавить разрешающие порты от 12630 до 12700 в настройках брандмауэра вашей системы.
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Настройка Coctohug в ОС Windows
-- Настраивать <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Установите Ubuntu или другую систему Linux с помощью WSL
-- Остальные шаги такие же, как указано выше [Настройка Coctohug на ОС Linux](#cch-linux)
+- То же самое с [Настройка Coctohug на ОС Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

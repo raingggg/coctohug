@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "e clique em Modo Carteira para gerar pastas docker-compose",
   "wiki.wallets_management": "Gestão de carteiras",
   "wiki.weekly_report": "Relatório semanal",
-  "wiki.windows_setup": "Configurar Coctohug no sistema operacional Windows"
+  "wiki.windows_setup": "Configurar Coctohug no sistema operacional Windows",
+  "wiki.firewall_port": "Nota 4: pode ser necessário adicionar portas de permissão de 12630 a 12700 nas configurações de firewall do sistema",
+  "wiki.re_script": "Observação 3: se houver algum problema, pode ser necessário executar novamente todas as pastas em ordem:"
 }

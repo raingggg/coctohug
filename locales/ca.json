@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "i feu clic a Mode cartera per generar carpetes Docker-Compose",
   "wiki.wallets_management": "Gestió de carteres",
   "wiki.weekly_report": "Informe setmanal",
-  "wiki.windows_setup": "Configura Coctohug al sistema operatiu Windows"
+  "wiki.windows_setup": "Configura Coctohug al sistema operatiu Windows",
+  "wiki.firewall_port": "Nota 4: és possible que hàgiu d'afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema",
+  "wiki.re_script": "Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:"
 }

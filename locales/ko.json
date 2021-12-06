@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "그리고 Wallet Mode를 클릭하여 docker-compose 폴더를 생성합니다.",
   "wiki.wallets_management": "지갑 관리",
   "wiki.weekly_report": "주간 보고서",
-  "wiki.windows_setup": "Windows OS에서 Coctohug 설정"
+  "wiki.windows_setup": "Windows OS에서 Coctohug 설정",
+  "wiki.firewall_port": "참고 4: 시스템 방화벽 설정에서 12630에서 12700 사이의 허용 포트를 추가해야 할 수 있습니다.",
+  "wiki.re_script": "참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다."
 }

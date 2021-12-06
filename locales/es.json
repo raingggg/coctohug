@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "y haga clic en Modo billetera para generar carpetas de composición de ventana acoplable",
   "wiki.wallets_management": "Gestión de carteras",
   "wiki.weekly_report": "Reporte semanal",
-  "wiki.windows_setup": "Configurar Coctohug en el sistema operativo Windows"
+  "wiki.windows_setup": "Configurar Coctohug en el sistema operativo Windows",
+  "wiki.firewall_port": "Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema",
+  "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:"
 }

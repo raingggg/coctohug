@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "und klicken Sie auf Wallet-Modus, um Docker-Compose-Ordner zu generieren",
   "wiki.wallets_management": "Geldbörsenverwaltung",
   "wiki.weekly_report": "Wöchentlicher Report",
-  "wiki.windows_setup": "Coctohug unter Windows einrichten"
+  "wiki.windows_setup": "Coctohug unter Windows einrichten",
+  "wiki.firewall_port": "Hinweis 4: Möglicherweise müssen Sie die zulässigen Ports von 12630 bis 12700 in Ihren System-Firewall-Einstellungen hinzufügen",
+  "wiki.re_script": "Hinweis 3: Wenn Probleme auftreten, müssen Sie möglicherweise alle Ordner der Reihe nach erneut ausführen:"
 }

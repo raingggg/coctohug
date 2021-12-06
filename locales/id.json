@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "dan klik Mode Dompet untuk membuat folder penyusun buruh pelabuhan",
   "wiki.wallets_management": "Manajemen Dompet",
   "wiki.weekly_report": "Laporan mingguan",
-  "wiki.windows_setup": "Siapkan Coctohug di OS Windows"
+  "wiki.windows_setup": "Siapkan Coctohug di OS Windows",
+  "wiki.firewall_port": "Catatan 4: Anda mungkin perlu menambahkan port yang diizinkan dari 12630 hingga 12700 pada pengaturan firewall sistem Anda",
+  "wiki.re_script": "Catatan 3: Jika ada masalah, Anda mungkin perlu menjalankan ulang semua folder berdasarkan pesanan:"
 }

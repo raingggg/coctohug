@@ -121,7 +121,5 @@
   "wiki.wallet_mode_generate": "and click Wallet Mode to generate docker-compose folders",
   "wiki.wallets_management": "Wallets Management",
   "wiki.weekly_report": "Weekly Report",
-  "wiki.windows_setup": "Setup Coctohug on Windows OS",
-  "wiki.re_script": "Note 3: If there are any issues, you may need rerun all the folders by order:",
-  "wiki.firewall_port": "Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings"
+  "wiki.windows_setup": "Setup Coctohug on Windows OS"
 }

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "e fai clic su Modalità Portafoglio per generare cartelle di composizione docker",
   "wiki.wallets_management": "Gestione portafogli",
   "wiki.weekly_report": "Rapporto settimanale",
-  "wiki.windows_setup": "Configura Coctohug su sistema operativo Windows"
+  "wiki.windows_setup": "Configura Coctohug su sistema operativo Windows",
+  "wiki.firewall_port": "Nota 4: potrebbe essere necessario aggiungere porte consentite da 12630 a 12700 nelle impostazioni del firewall di sistema",
+  "wiki.re_script": "Nota 3: in caso di problemi, potrebbe essere necessario rieseguire tutte le cartelle in ordine:"
 }

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "și faceți clic pe Modul portofel pentru a genera foldere docker-compose",
   "wiki.wallets_management": "Gestionarea portofelelor",
   "wiki.weekly_report": "Raport saptamanal",
-  "wiki.windows_setup": "Configurați Coctohug pe sistemul de operare Windows"
+  "wiki.windows_setup": "Configurați Coctohug pe sistemul de operare Windows",
+  "wiki.firewall_port": "Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.",
+  "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:"
 }

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "và nhấp vào Chế độ Wallet để tạo các thư mục do docker-soạn",
   "wiki.wallets_management": "Quản lý ví",
   "wiki.weekly_report": "Báo cáo hàng tuần",
-  "wiki.windows_setup": "Thiết lập Coctohug trên Windows OS"
+  "wiki.windows_setup": "Thiết lập Coctohug trên Windows OS",
+  "wiki.firewall_port": "Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình",
+  "wiki.re_script": "Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:"
 }

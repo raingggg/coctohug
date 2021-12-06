@@ -56,13 +56,22 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 - Abra o navegador e acesse o WebUI com url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: não inicie mais de 5 garfos de blockchain ao mesmo tempo, uma vez que os garfos de blockchain chia realmente consomem CPU quando o nó é sincronizado pela primeira vez
 - Observação 2: cerca de 1,8 G de RAM é necessária para cada fork do blockchain, então escolha alguns garfos do blockchain com base na memória do seu computador
+- Observação 3: se houver algum problema, pode ser necessário executar novamente todas as pastas em ordem:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Nota 4: pode ser necessário adicionar portas de permissão de 12630 a 12700 nas configurações de firewall do sistema
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurar Coctohug no sistema operacional Windows
-- Configurar <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Instale o Ubuntu ou outro sistema Linux usando WSL
-- As etapas restantes são iguais às anteriores [Configurar Coctohug no Linux OS](#cch-linux)
+- Mesmo com [Configurar Coctohug no Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

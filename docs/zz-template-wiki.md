@@ -56,13 +56,22 @@
 - <%= localeData['wiki.browser_access_url'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - <%= localeData['wiki.no_more_5_forks'] %>
 - <%= localeData['wiki.ram_required'] %>
+- <%= localeData['wiki.re_script'] %>
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- <%= localeData['wiki.firewall_port'] %>
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## <%= localeData['wiki.windows_setup'] %>
-- <%= localeData['wiki.setup'] %> <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- <%= localeData['wiki.ubuntu_wsl'] %>
-- <%= localeData['wiki.remaining_same'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+- <%= localeData['wiki.same_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

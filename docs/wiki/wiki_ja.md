@@ -56,13 +56,22 @@
 - ブラウザを開き、URLを使用してWebUIにアクセスします <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 注1：ノードの同期を初めて行う場合、chiaブロックチェーンフォークは実際にCPUを消費するため、5つを超えるブロックチェーンフォークを同時に起動しないでください。
 - 注2：各ブロックチェーンフォークには約1.8GのRAMが必要なので、コンピュータのメモリに基づいていくつかのブロックチェーンフォークを選択してください
+- 注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- 注4：システムファイアウォール設定に12630から12700までの許可ポートを追加する必要がある場合があります
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## WindowsOSでCoctohugをセットアップする
-- 設定 <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- WSLを使用してUbuntuまたは他のLinuxシステムをインストールします
-- 残りの手順は上記と同じです [LinuxOSでCoctohugをセットアップする](#cch-linux)
+- と同じ [LinuxOSでCoctohugをセットアップする](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

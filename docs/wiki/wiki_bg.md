@@ -56,13 +56,22 @@
 - Отворете браузъра и влезте в WebUI с url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Забележка 1: Не стартирайте повече от 5 блокчейн разклонения едновременно, тъй като chia blockchain вилиците наистина изяждат процесора при синхронизиране на възел за първи път
 - Забележка 2: Около 1.8G RAM се изисква за всяка блокчейн вилка, така че изберете някои блокчейн разклонения въз основа на вашата компютърна памет
+- Забележка 3: Ако има някакви проблеми, може да се наложи да стартирате отново всички папки по ред:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Забележка 4: Може да се наложи да добавите разрешаващи портове от 12630 до 12700 в настройките на защитната стена на системата
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Инсталирайте Coctohug на Windows OS
-- Настройвам <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Инсталирайте Ubuntu или друга Linux система с помощта на WSL
-- Останалите стъпки са същите като по-горе [Инсталирайте Coctohug на Linux OS](#cch-linux)
+- Същото с [Инсталирайте Coctohug на Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

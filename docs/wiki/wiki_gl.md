@@ -56,13 +56,22 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 - Abre o navegador e accede á WebUI con url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: Non inicie máis de 5 forks de cadea de bloques ao mesmo tempo, xa que os garfos de cadea de bloques de chia realmente comen CPU cando se sincronizan os nodos por primeira vez
 - Nota 2: Requírese ao redor de 1,8 G de RAM para cada bifurcación de cadea de bloques, polo que escolla algunhas garfos de cadea de bloques en función da memoria do ordenador
+- Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Nota 4: Quizais necesites engadir portos permitidos de 12630 a 12700 na configuración do firewall do teu sistema
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configura Coctohug no sistema operativo Windows
-- Montar <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Instale Ubuntu ou outro sistema Linux usando WSL
-- Os pasos restantes son os mesmos cos anteriores [Configura Coctohug en Linux OS](#cch-linux)
+- O mesmo con [Configura Coctohug en Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

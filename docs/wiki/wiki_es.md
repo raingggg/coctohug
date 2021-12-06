@@ -56,13 +56,22 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Abra el navegador y acceda a WebUI con url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: No inicie más de 5 bifurcaciones de blockchain al mismo tiempo, ya que las bifurcaciones de chia blockchain realmente consumen CPU cuando se sincroniza el nodo por primera vez.
 - Nota 2: Se requieren alrededor de 1.8G de RAM para cada bifurcación de blockchain, así que elija algunas bifurcaciones de blockchain según la memoria de su computadora
+- Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurar Coctohug en el sistema operativo Windows
-- Configuración <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Instale Ubuntu u otro sistema Linux usando WSL
-- Los pasos restantes son los mismos que los anteriores [Configurar Coctohug en el sistema operativo Linux](#cch-linux)
+- Lo mismo con [Configurar Coctohug en el sistema operativo Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "وانقر فوق Wallet Mode (وضع المحفظة) لإنشاء مجلدات إنشاء عامل الإرساء",
   "wiki.wallets_management": "إدارة المحافظ",
   "wiki.weekly_report": "تقرير أسبوعي",
-  "wiki.windows_setup": "قم بإعداد Coctohug على نظام التشغيل Windows"
+  "wiki.windows_setup": "قم بإعداد Coctohug على نظام التشغيل Windows",
+  "wiki.firewall_port": "ملاحظة 4: قد تحتاج إلى إضافة السماح بمنافذ من 12630 إلى 12700 على إعدادات جدار حماية النظام الخاص بك",
+  "wiki.re_script": "ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع المجلدات بالترتيب:"
 }

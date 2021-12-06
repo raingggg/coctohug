@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "e fai clic en Modo carteira para xerar cartafoles de composición docker",
   "wiki.wallets_management": "Xestión de carteiras",
   "wiki.weekly_report": "Informe semanal",
-  "wiki.windows_setup": "Configura Coctohug no sistema operativo Windows"
+  "wiki.windows_setup": "Configura Coctohug no sistema operativo Windows",
+  "wiki.firewall_port": "Nota 4: Quizais necesites engadir portos permitidos de 12630 a 12700 na configuración do firewall do teu sistema",
+  "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:"
 }

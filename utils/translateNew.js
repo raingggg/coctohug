@@ -1,5 +1,5 @@
 const path = require('path');
-const { readdir, writeFile, copyFile } = require('fs/promises');
+const { readdir, writeFile } = require('fs/promises');
 const translateOpen = require('google-translate-open-api');
 const translate = translateOpen.default;
 
@@ -11,16 +11,27 @@ const translateAll = async (startLocale) => {
 
   const en = files.find(f => f === 'en.json');
   const enFile = require(path.resolve(localePath, en));
-  const keys = Object.keys(enFile).sort();
+  let keys = Object.keys(enFile).sort();
+
+  const bak = files.find(f => f === 'en-bak.json');
+  const bakFile = require(path.resolve(localePath, bak));
+  const newKeys = [];
+  keys.forEach(k => {
+    if (enFile[k] !== bakFile[k]) {
+      newKeys.push(k);
+    }
+  });
+  keys = newKeys.sort();
+  console.log('new-keys: ', keys);
 
   const total = files.length;
   for (let i = 0; i < total; i++) {
-    const objContent = {};
     const fileName = files[i];
     const locale = fileName.replace('.json', '');
     if (startLocale && locale < startLocale) continue;
     if (fileName === 'en-bak.json') continue;
 
+    const objContent = require(path.resolve(localePath, fileName));
     console.log('\nlocale ', `${locale} - ${i} of ${total}`);
     for (let j = 0; j < keys.length; j++) {
       if (j % 20 === 0) console.log('processing ', j);
@@ -37,8 +48,6 @@ const translateAll = async (startLocale) => {
 
     await writeFile(path.resolve(localePath, fileName), JSON.stringify(objContent, null, 2));
   }
-
-  await copyFile(path.resolve(localePath, 'en.json'), path.resolve(localePath, 'en-bak.json'));
 };
 
 const retryTrans = async (val, options) => {

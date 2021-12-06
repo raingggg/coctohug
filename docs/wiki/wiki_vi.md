@@ -56,13 +56,22 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Mở trình duyệt và truy cập WebUI bằng url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Lưu ý 1: Không khởi động nhiều hơn 5 nhánh blockchain cùng một lúc, vì các nhánh chia blockchain thực sự ăn CPU khi đồng bộ hóa nút lần đầu tiên
 - Lưu ý 2: Cần có khoảng 1,8G RAM cho mỗi lần fork blockchain, vì vậy hãy chọn một số nhánh blockchain dựa trên bộ nhớ máy tính của bạn
+- Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Thiết lập Coctohug trên Windows OS
-- Cài đặt <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Cài đặt Ubuntu hoặc hệ thống Linux khác bằng WSL
-- Các bước còn lại tương tự như trên [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
+- Giống với [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

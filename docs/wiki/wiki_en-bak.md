@@ -56,7 +56,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Note 1: Do not start up more than 5 blockchain forks at the same time, since chia blockchain forks  really eat CPU when node syncing for the first time
 - Note 2: Around 1.8G RAM is required for each blockchain fork, so choose some blockchain forks based on you computer memory
-- Note 3: If there are any issues, you may need rerun all the folders by order:
+- 
   ```
   cd coctohug0 && docker-compose up -d
   cd ../coctohug1 && docker-compose up -d
@@ -64,7 +64,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   cd ../coctohug3 && docker-compose up -d
   ...
   ```
-- Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings
+- 
 
 
 

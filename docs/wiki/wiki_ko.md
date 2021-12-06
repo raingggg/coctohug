@@ -56,13 +56,22 @@
 - 브라우저를 열고 URL로 WebUI에 액세스 <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 참고 1: chia 블록체인 포크는 노드를 처음 동기화할 때 실제로 CPU를 차지하므로 동시에 5개 이상의 블록체인 포크를 시작하지 마십시오.
 - 참고 2: 각 블록체인 포크에 약 1.8G RAM이 필요하므로 컴퓨터 메모리를 기반으로 블록체인 포크를 선택하십시오.
+- 참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다.
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- 참고 4: 시스템 방화벽 설정에서 12630에서 12700 사이의 허용 포트를 추가해야 할 수 있습니다.
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Windows OS에서 Coctohug 설정
-- 설정 <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- WSL을 사용하여 Ubuntu 또는 기타 Linux 시스템 설치
-- 나머지 단계는 위와 동일 [Linux OS에서 Coctohug 설정](#cch-linux)
+- 와 같다 [Linux OS에서 Coctohug 설정](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

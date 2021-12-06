@@ -56,13 +56,22 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 - Ouvrez le navigateur et accédez à WebUI avec l&#39;url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Remarque 1 : ne démarrez pas plus de 5 forks blockchain en même temps, car les forks chia blockchain consomment vraiment du processeur lors de la première synchronisation des nœuds.
 - Remarque 2 : environ 1,8 G de RAM est requis pour chaque fourche blockchain, alors choisissez des fourches blockchain en fonction de la mémoire de votre ordinateur.
+- Remarque 3 : en cas de problème, vous devrez peut-être réexécuter tous les dossiers par ordre :
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Remarque 4: Vous devrez peut-être ajouter des ports autorisés de 12630 à 12700 sur les paramètres de votre pare-feu système
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurer Coctohug sur le système d&#39;exploitation Windows
-- Installer <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Installez Ubuntu ou un autre système Linux en utilisant WSL
-- Les étapes restantes sont les mêmes que ci-dessus [Configurer Coctohug sur le système d&#39;exploitation Linux](#cch-linux)
+- Même avec [Configurer Coctohug sur le système d&#39;exploitation Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

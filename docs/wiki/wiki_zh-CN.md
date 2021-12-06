@@ -56,13 +56,22 @@
 - 打开浏览器并通过 url 访问 WebUI <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 注意1：不要同时启动超过5个区块链分叉，因为chia区块链分叉在第一次节点同步时真的很吃CPU
 - 注 2：每个区块链分叉大约需要 1.8G RAM，因此请根据您的计算机内存选择一些区块链分叉
+- 注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹：
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- 注意 4：您可能需要在系统防火墙设置中添加从 12630 到 12700 的允许端口
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## 在 Windows 操作系统上设置 Coctohug
-- 设置 <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- 使用 WSL 安装 Ubuntu 或其他 Linux 系统
-- 其余步骤同上 [在 Linux 操作系统上设置 Coctohug](#cch-linux)
+- 同 [在 Linux 操作系统上设置 Coctohug](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "และคลิกโหมดกระเป๋าสตางค์เพื่อสร้างโฟลเดอร์เขียนนักเทียบท่า",
   "wiki.wallets_management": "การจัดการกระเป๋าเงิน",
   "wiki.weekly_report": "รายงานประจำสัปดาห์",
-  "wiki.windows_setup": "ตั้งค่า Coctohug บน Windows OS"
+  "wiki.windows_setup": "ตั้งค่า Coctohug บน Windows OS",
+  "wiki.firewall_port": "หมายเหตุ 4: คุณอาจต้องเพิ่มพอร์ตอนุญาตจาก 12630 ถึง 12700 ในการตั้งค่าไฟร์วอลล์ระบบของคุณ",
+  "wiki.re_script": "หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องเรียกใช้โฟลเดอร์ทั้งหมดใหม่ตามลำดับ:"
 }

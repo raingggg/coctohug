@@ -56,13 +56,22 @@
 - 打開瀏覽器並通過 url 訪問 WebUI <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 注意1：不要同時啟動超過5個區塊鏈分叉，因為chia區塊鏈分叉在第一次節點同步時真的很吃CPU
 - 注 2：每個區塊鏈分叉大約需要 1.8G RAM，因此請根據您的計算機內存選擇一些區塊鏈分叉
+- 注意3：如果有任何問題，您可能需要按順序重新運行所有文件夾：
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- 注意 4：您可能需要在系統防火牆設置中添加從 12630 到 12700 的允許端口
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## 在 Windows 操作系統上設置 Coctohug
-- 設置 <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- 使用 WSL 安裝 Ubuntu 或其他 Linux 系統
-- 其餘步驟同上 [在 Linux 操作系統上設置 Coctohug](#cch-linux)
+- 同 [在 Linux 操作系統上設置 Coctohug](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

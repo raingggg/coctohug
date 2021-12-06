@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "然后点击钱包模式生成docker-compose文件夹",
   "wiki.wallets_management": "钱包管理",
   "wiki.weekly_report": "每周报告",
-  "wiki.windows_setup": "在 Windows 操作系统上设置 Coctohug"
+  "wiki.windows_setup": "在 Windows 操作系统上设置 Coctohug",
+  "wiki.firewall_port": "注意 4：您可能需要在系统防火墙设置中添加从 12630 到 12700 的允许端口",
+  "wiki.re_script": "注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹："
 }

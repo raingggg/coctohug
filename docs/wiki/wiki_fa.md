@@ -56,13 +56,22 @@
 - مرورگر را باز کنید و با url به WebUI دسترسی پیدا کنید <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - نکته 1: بیش از 5 فورک بلاک چین را همزمان راه اندازی نکنید، زیرا فورک های بلاک چین چیا هنگام همگام سازی گره برای اولین بار CPU را می خورند.
 - نکته 2: برای هر فورک بلاک چین حدود 1.8 گیگ رم لازم است، بنابراین چند فورک بلاک چین را بر اساس حافظه رایانه خود انتخاب کنید.
+- نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه پوشه ها را به ترتیب مجدد اجرا کنید:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- نکته 4: ممکن است لازم باشد پورت های مجاز از 12630 تا 12700 را به تنظیمات فایروال سیستم خود اضافه کنید.
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Coctohug را در سیستم عامل ویندوز راه اندازی کنید
-- برپایی <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- اوبونتو یا سیستم لینوکس دیگر را با استفاده از WSL نصب کنید
-- مراحل باقیمانده مانند بالا هستند [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
+- مشابه با [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

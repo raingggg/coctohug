@@ -56,13 +56,22 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Tarayıcıyı açın ve url ile WebUI&#39;ye erişin <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Not 1: Chia blok zinciri çatalları, düğüm senkronizasyonu ilk kez yapıldığında gerçekten CPU yediğinden, aynı anda 5&#39;ten fazla blok zinciri çatalı başlatmayın.
 - Not 2: Her blok zinciri çatalı için yaklaşık 1.8G RAM gereklidir, bu nedenle bilgisayar belleğinize göre bazı blok zincir çatalları seçin
+- Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Not 4: Sistem güvenlik duvarı ayarlarınıza 12630&#39;dan 12700&#39;e kadar izin verilen bağlantı noktaları eklemeniz gerekebilir.
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Windows işletim sisteminde Coctohug&#39;u kurun
-- Kurmak <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- WSL kullanarak Ubuntu veya diğer Linux sistemlerini kurun
-- Kalan adımlar yukarıdaki ile aynıdır [Linux işletim sisteminde Coctohug&#39;u kurun](#cch-linux)
+- İle aynı [Linux işletim sisteminde Coctohug&#39;u kurun](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

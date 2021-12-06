@@ -56,13 +56,22 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Deschideți browserul și accesați WebUI cu url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: Nu porniți mai mult de 5 furci blockchain în același timp, deoarece furcile chia blockchain mănâncă cu adevărat CPU atunci când se sincronizează nodul pentru prima dată
 - Nota 2: Aproximativ 1,8 G RAM este necesar pentru fiecare fork blockchain, așa că alegeți câteva fork blockchain pe baza memoriei computerului dvs.
+- Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurați Coctohug pe sistemul de operare Windows
-- Înființat <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Instalați Ubuntu sau alt sistem Linux folosind WSL
-- Pașii rămași sunt aceiași cu cei de mai sus [Configurați Coctohug pe sistemul de operare Linux](#cch-linux)
+- Acelasi cu [Configurați Coctohug pe sistemul de operare Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

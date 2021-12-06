@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "translate": "node ./utils/translate",
+    "tnew": "node ./utils/translateNew",
     "greadme": "node ./utils/generateReadme",
     "gwiki": "node ./utils/generateWiki",
     "test": "echo \"Error: no test specified\" && exit 1"

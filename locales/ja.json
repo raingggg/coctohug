@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "ウォレットモードをクリックして、docker-composeフォルダーを生成します",
   "wiki.wallets_management": "ウォレット管理",
   "wiki.weekly_report": "ウィークリーレポート",
-  "wiki.windows_setup": "WindowsOSでCoctohugをセットアップする"
+  "wiki.windows_setup": "WindowsOSでCoctohugをセットアップする",
+  "wiki.firewall_port": "注4：システムファイアウォール設定に12630から12700までの許可ポートを追加する必要がある場合があります",
+  "wiki.re_script": "注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。"
 }

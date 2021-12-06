@@ -56,13 +56,22 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Obriu el navegador i accediu a la WebUI amb l&#39;URL <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: no engegueu més de 5 bifurcacions de cadena de blocs al mateix temps, ja que les bifurcacions de cadena de blocs de chia realment mengen CPU quan es sincronitzen el node per primera vegada
 - Nota 2: es necessiten al voltant d&#39;1,8 G de RAM per a cada bifurcació de cadena de blocs, així que trieu algunes bifurcacions de cadena de blocs en funció de la memòria de l&#39;ordinador.
+- Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:
+  ```
+  cd coctohug0 && docker-compose up -d
+  cd ../coctohug1 && docker-compose up -d
+  cd ../coctohug2 && docker-compose up -d
+  cd ../coctohug3 && docker-compose up -d
+  ...
+  ```
+- Nota 4: és possible que hàgiu d&#39;afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema
+
+
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configura Coctohug al sistema operatiu Windows
-- Configuració <a target='_blank' href='https://docs.microsoft.com/en-us/windows/wsl/setup/environment#install-wsl'>WSL / WSL 2</a>
-- Instal·leu Ubuntu o un altre sistema Linux mitjançant WSL
-- Els passos restants són els mateixos que els anteriors [Configura Coctohug al sistema operatiu Linux](#cch-linux)
+- El mateix amb [Configura Coctohug al sistema operatiu Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 

@@ -121,5 +121,7 @@
   "wiki.wallet_mode_generate": "ve docker-compose klasörleri oluşturmak için Cüzdan Modu'nu tıklayın",
   "wiki.wallets_management": "Cüzdan Yönetimi",
   "wiki.weekly_report": "Haftalık rapor",
-  "wiki.windows_setup": "Windows işletim sisteminde Coctohug'u kurun"
+  "wiki.windows_setup": "Windows işletim sisteminde Coctohug'u kurun",
+  "wiki.firewall_port": "Not 4: Sistem güvenlik duvarı ayarlarınıza 12630'dan 12700'e kadar izin verilen bağlantı noktaları eklemeniz gerekebilir.",
+  "wiki.re_script": "Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:"
 }
