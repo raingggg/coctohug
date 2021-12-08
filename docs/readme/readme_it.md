@@ -7,7 +7,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 
 *Cerca più aiuto sul nostro [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Ecco un manuale utente più dettagliato](./docs/wiki/wiki_it.md)*
+*[Ecco un manuale utente più dettagliato](../wiki/wiki_it.md)*
 
 
 ## Schermata inglese

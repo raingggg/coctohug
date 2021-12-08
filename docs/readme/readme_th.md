@@ -7,7 +7,7 @@
 
 *ขอความช่วยเหลือเพิ่มเติมเกี่ยวกับ .ของเรา [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[นี่คือรายละเอียดคู่มือผู้ใช้](./docs/wiki/wiki_th.md)*
+*[นี่คือรายละเอียดคู่มือผู้ใช้](../wiki/wiki_th.md)*
 
 
 ## ภาพหน้าจอภาษาอังกฤษ

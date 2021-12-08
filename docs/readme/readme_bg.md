@@ -7,7 +7,7 @@
 
 *Потърсете повече помощ на нашия [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Ето по-подробно ръководство за потребителя](./docs/wiki/wiki_bg.md)*
+*[Ето по-подробно ръководство за потребителя](../wiki/wiki_bg.md)*
 
 
 ## Екранна снимка на английски език

@@ -7,7 +7,7 @@
 
 *더 많은 도움을 받으십시오. [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[자세한 사용 설명서는 다음과 같습니다.](./docs/wiki/wiki_ko.md)*
+*[자세한 사용 설명서는 다음과 같습니다.](../wiki/wiki_ko.md)*
 
 
 ## 영어 스크린샷

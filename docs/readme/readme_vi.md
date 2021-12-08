@@ -7,7 +7,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 
 *Tìm kiếm thêm trợ giúp về [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Đây là hướng dẫn sử dụng chi tiết hơn](./docs/wiki/wiki_vi.md)*
+*[Đây là hướng dẫn sử dụng chi tiết hơn](../wiki/wiki_vi.md)*
 
 
 ## Ảnh chụp màn hình tiếng Anh

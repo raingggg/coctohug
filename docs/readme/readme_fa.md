@@ -7,7 +7,7 @@
 
 *از ما کمک بیشتری بخواهید [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[در اینجا راهنمای کاربر دقیق تر است](./docs/wiki/wiki_fa.md)*
+*[در اینجا راهنمای کاربر دقیق تر است](../wiki/wiki_fa.md)*
 
 
 ## اسکرین شات انگلیسی

@@ -7,7 +7,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 
 *Bizimle ilgili daha fazla yardım isteyin [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[İşte daha detaylı kullanım kılavuzu](./docs/wiki/wiki_tr.md)*
+*[İşte daha detaylı kullanım kılavuzu](../wiki/wiki_tr.md)*
 
 
 ## İngilizce Ekran Görüntüsü

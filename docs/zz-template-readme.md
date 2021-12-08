@@ -7,7 +7,7 @@
 
 *<%= localeData['readme.more_help'] %> [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[<%= localeData['readme.go_wiki'] %>](./docs/wiki/wiki_<%= localeData['locale'] %>.md)*
+*[<%= localeData['readme.go_wiki'] %>](../wiki/wiki_<%= localeData['locale'] %>.md)*
 
 
 ## <%= localeData['readme.english_veiw'] %>

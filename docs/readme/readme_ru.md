@@ -7,7 +7,7 @@
 
 *Ищите дополнительную помощь на нашем [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Вот более подробное руководство пользователя](./docs/wiki/wiki_ru.md)*
+*[Вот более подробное руководство пользователя](../wiki/wiki_ru.md)*
 
 
 ## Скриншот на английском

@@ -7,7 +7,7 @@
 
 *私たちの助けを求める [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[こちらがより詳細なユーザーマニュアルです](./docs/wiki/wiki_ja.md)*
+*[こちらがより詳細なユーザーマニュアルです](../wiki/wiki_ja.md)*
 
 
 ## 英語のスクリーンショット

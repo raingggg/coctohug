@@ -7,7 +7,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 
 *Căutați mai mult ajutor pe site-ul nostru [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Iată un manual de utilizare mai detaliat](./docs/wiki/wiki_ro.md)*
+*[Iată un manual de utilizare mai detaliat](../wiki/wiki_ro.md)*
 
 
 ## Captură de ecran în engleză

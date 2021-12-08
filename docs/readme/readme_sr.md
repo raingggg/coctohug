@@ -7,7 +7,7 @@
 
 *Потражите додатну помоћ на нашем [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Ево детаљнијег упутства за употребу](./docs/wiki/wiki_sr.md)*
+*[Ево детаљнијег упутства за употребу](../wiki/wiki_sr.md)*
 
 
 ## Снимак екрана на енглеском

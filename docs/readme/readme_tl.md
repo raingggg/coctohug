@@ -7,7 +7,7 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 
 *Humingi ng higit pang tulong sa aming [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Narito ang mas detalyadong manwal ng gumagamit](./docs/wiki/wiki_tl.md)*
+*[Narito ang mas detalyadong manwal ng gumagamit](../wiki/wiki_tl.md)*
 
 
 ## English Screenshot

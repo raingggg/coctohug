@@ -7,7 +7,7 @@
 
 *尋求更多關於我們的幫助 [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[這裡有更詳細的用戶手冊](./docs/wiki/wiki_zh-TW.md)*
+*[這裡有更詳細的用戶手冊](../wiki/wiki_zh-TW.md)*
 
 
 ## 英文截圖

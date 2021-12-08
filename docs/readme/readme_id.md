@@ -7,7 +7,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 
 *Cari bantuan lebih lanjut di kami [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Berikut adalah panduan pengguna yang lebih rinci](./docs/wiki/wiki_id.md)*
+*[Berikut adalah panduan pengguna yang lebih rinci](../wiki/wiki_id.md)*
 
 
 ## Tangkapan layar bahasa Inggris

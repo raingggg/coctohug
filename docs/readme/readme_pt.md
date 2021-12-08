@@ -7,7 +7,7 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 
 *Procure mais ajuda em nosso [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.gg/umfKHm7gVM)*.
 
-*[Aqui está um manual do usuário mais detalhado](./docs/wiki/wiki_pt.md)*
+*[Aqui está um manual do usuário mais detalhado](../wiki/wiki_pt.md)*
 
 
 ## Captura de tela em inglês
