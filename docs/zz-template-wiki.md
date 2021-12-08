@@ -204,6 +204,12 @@
   2. <%= localeData['wiki.import_json'] %>
   3. <%= localeData['wiki.import_wait'] %>
   4. <%= localeData['wiki.import_backup'] %>
+  5. <%= localeData['wiki.import_note_2'] %>
+  6. <%= localeData['wiki.re_script'] %>
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -281,19 +287,51 @@
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## <%= localeData['readme.trademark_notice'] %>

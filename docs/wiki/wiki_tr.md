@@ -201,9 +201,15 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 - Soğuk Cüzdan Hesabını İçe Aktar
   ```
   1. Madencilik makinenizde ayarlar - soğuk cüzdan sekmesini ziyaret edin
-  2. Daha önce indirilen soğuk cüzdan json dosyasını içe aktarın
+  2. Daha önce indirilen soğuk cüzdanı (farklı makinelerde önerilir) json dosyasını içe aktarın
   3. Birkaç dakika bekleyin ve soğuk cüzdan adresinin güncellenip güncellenmediğini görmek için cüzdan sekmesine gidin.
-  4. Not: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.
+  4. Not 1: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.
+  5. Not 2: Yalnızca çalışan blok zinciri çatalları, soğuk cüzdanı içe aktarabilir. Lütfen bunu yapmadan önce blok zinciri çatallarının durup durmadığını kontrol edin. Elbette daha sonra yeniden başlatıldıklarında tekrar içe aktarabilirsiniz.
+  6. Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -266,7 +272,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 
 
 
-# Github&#39;da Açık Kaynak Projeleri
+# Github Üzerindeki Açık Kaynak Projelerimiz
 [webui](https://github.com/raingggg/coctohug-web-docker)
 
 [cactus](https://github.com/raingggg/coctohug-cactus)
@@ -281,19 +287,51 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## Ticari Marka Bildirimi

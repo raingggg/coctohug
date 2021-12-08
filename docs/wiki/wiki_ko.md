@@ -201,9 +201,15 @@
 - 콜드월렛 계정 가져오기
   ```
   1. 마이닝 머신에서 설정 - 콜드 월렛 탭을 방문하십시오.
-  2. 이전에 다운로드한 콜드월렛 json 파일 가져오기
+  2. 이전에 다운로드한 콜드월렛(다른 머신에서 권장) json 파일 가져오기
   3. 몇 분 기다렸다가 지갑 탭으로 이동하여 콜드 지갑 주소가 업데이트되었는지 확인하십시오.
-  4. 참고: 가져오기 전에 지갑 구성을 백업하는 것이 좋습니다.
+  4. 참고 1: 가져오기 전에 지갑 구성을 백업하는 것이 좋습니다.
+  5. 참고 2: 작동하는 블록체인 포크만 콜드 월렛을 가져올 수 있습니다. 이 작업을 수행하기 전에 중지된 블록체인 포크가 있는지 확인하십시오. 물론 나중에 다시 시작할 때 다시 가져올 수도 있습니다.
+  6. 참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다.
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -281,19 +287,51 @@
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## 상표권 고지

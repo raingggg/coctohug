@@ -201,9 +201,15 @@
 - 导入冷钱包账户
   ```
   1. 在您的矿机上，访问设置-冷钱包选项卡
-  2. 导入之前下载的冷钱包json文件
+  2. 导入之前下载的冷钱包（推荐在不同机器上）json文件
   3. 等几分钟，到钱包选项卡查看冷钱包地址是否更新
-  4. 注意：我们建议在导入之前备份您的钱包配置
+  4. 注意1：我们建议在导入之前备份您的钱包配置
+  5. 注 2：只有工作的区块链分叉才能导入冷钱包。在执行此操作之前，请检查是否有停止的区块链分叉。当然，您也可以稍后在重新启动时再次导入
+  6. 注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹：
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -266,7 +272,7 @@
 
 
 
-# Github 上的开源项目
+# 我们在 Github 上的开源项目
 [webui](https://github.com/raingggg/coctohug-web-docker)
 
 [cactus](https://github.com/raingggg/coctohug-cactus)
@@ -281,19 +287,51 @@
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## 商标声明

@@ -201,9 +201,15 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Importați contul Cold Wallet
   ```
   1. Pe mașina dvs. de minerit, accesați setări - fila portofel rece
-  2. Importați fișierul cold wallet json descărcat anterior
+  2. Importați fișierul json pentru portofelul rece descărcat anterior (recomandat pe mașini diferite).
   3. Așteptați câteva minute și accesați fila Portofel pentru a vedea dacă adresa portofelului rece este actualizată sau nu
-  4. Notă: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import
+  4. Nota 1: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import
+  5. Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite
+  6. Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -266,7 +272,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 
 
 
-# Proiecte open source pe Github
+# Proiectele noastre open source pe Github
 [webui](https://github.com/raingggg/coctohug-web-docker)
 
 [cactus](https://github.com/raingggg/coctohug-cactus)
@@ -281,19 +287,51 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## Notificare privind mărcile comerciale

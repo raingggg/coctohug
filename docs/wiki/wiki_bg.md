@@ -201,9 +201,15 @@
 - Импортирайте акаунт в Cold Wallet
   ```
   1. На вашата машина за копаене посетете настройки - раздел студен портфейл
-  2. Импортирайте предишния изтеглен json файл на студен портфейл
+  2. Импортирайте предишния изтеглен студен портфейл (препоръчва се на друга машина) json файл
   3. Изчакайте няколко минути и отидете в раздела на портфейла, за да видите дали адресът на студения портфейл е актуализиран или не
-  4. Забележка: препоръчваме да архивирате конфигурациите на портфейла си преди импортиране
+  4. Забележка 1: препоръчваме да архивирате конфигурациите на портфейла си преди импортиране
+  5. Забележка 2: Само работещи блокчейн разклонения могат да импортират студен портфейл. Моля, проверете дали има спрени блокчейн разклонения или не, преди да направите това. Със сигурност можете също да импортирате по-късно отново, когато те бъдат рестартирани
+  6. Забележка 3: Ако има някакви проблеми, може да се наложи да стартирате отново всички папки по ред:
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -266,7 +272,7 @@
 
 
 
-# Проекти с отворен код на Github
+# Нашите проекти с отворен код в Github
 [webui](https://github.com/raingggg/coctohug-web-docker)
 
 [cactus](https://github.com/raingggg/coctohug-cactus)
@@ -281,19 +287,51 @@
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## Известие за търговска марка

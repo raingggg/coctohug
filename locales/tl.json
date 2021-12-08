@@ -7,7 +7,7 @@
   "readme.go_wiki": "Narito ang mas detalyadong manwal ng gumagamit",
   "readme.localization": "Magandang lokalisasyon na may suporta ng dose-dosenang mga wika:",
   "readme.more_help": "Humingi ng higit pang tulong sa aming",
-  "readme.open_github": "Mga Open Source na Proyekto sa Github",
+  "readme.open_github": "Ang aming mga Open Source na Proyekto sa Github",
   "readme.quick_start": "Mabilis na Pagsisimula",
   "readme.run_os": "Gumagana sa Linux, Windows, MacOS, at higit pa...",
   "readme.russian_veiw": "Screenshot ng Russian",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Mga Kinakailangan sa Hardware",
   "wiki.harvester": "Mang-aani",
   "wiki.harvester_generate_compose": "at i-click ang Harvester Mode upang bumuo ng mga folder ng docker-compose",
-  "wiki.import_backup": "Tandaan: inirerekomenda namin na i-backup ang iyong mga configuration ng wallet bago mag-import",
+  "wiki.import_backup": "Tandaan 1: inirerekomenda namin na i-backup ang iyong mga configuration ng wallet bago mag-import",
   "wiki.import_cold_wallet": "Mag-import ng Cold Wallet Account",
-  "wiki.import_json": "I-import ang dating na-download na cold wallet json file",
+  "wiki.import_json": "I-import ang nakaraang na-download na cold wallet(inirerekomenda sa ibang machine) json file",
   "wiki.import_machine": "Sa iyong mining machine, bisitahin ang mga setting - tab na cold wallet",
   "wiki.import_wait": "Maghintay ng ilang minuto, at pumunta sa tab na wallet para makita kung na-update o hindi ang address ng cold wallet",
   "wiki.incompatible_db_issue": "Sa kaso ng hindi tugmang isyu sa db, maaari mong alisin ang umiiral na database file bago isagawa ang docker-compose start script sa pamamagitan ng",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Lingguhang ulat",
   "wiki.windows_setup": "I-setup ang Coctohug sa Windows OS",
   "wiki.firewall_port": "Tandaan 4: Maaaring kailanganin mong magdagdag ng pagpapahintulot sa mga port mula 12630 hanggang 12700 sa iyong mga setting ng firewall ng system",
-  "wiki.re_script": "Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:"
+  "wiki.re_script": "Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:",
+  "wiki.import_note_2": "Tandaan 2: Tanging mga gumaganang blockchain forks lang ang makakapag-import ng cold wallet. Pakisuri kung may mga tumigil na blockchain forks o wala bago gawin ito. Tiyak na maaari ka ring mag-import sa ibang pagkakataon muli kapag sila ay muling nagsimula"
 }

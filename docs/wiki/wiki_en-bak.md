@@ -56,7 +56,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Note 1: Do not start up more than 5 blockchain forks at the same time, since chia blockchain forks  really eat CPU when node syncing for the first time
 - Note 2: Around 1.8G RAM is required for each blockchain fork, so choose some blockchain forks based on you computer memory
-- 
+- Note 3: If there are any issues, you may need rerun all the folders by order:
   ```
   cd coctohug0 && docker-compose up -d
   cd ../coctohug1 && docker-compose up -d
@@ -64,7 +64,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   cd ../coctohug3 && docker-compose up -d
   ...
   ```
-- 
+- Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings
 
 
 
@@ -201,9 +201,15 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Import Cold Wallet Account
   ```
   1. On your mining machine, visit settings - cold wallet tab
-  2. Import the previous downloaded cold wallet json file
+  2. Import the previous downloaded cold wallet(recommended on different machine) json file
   3. Wait few minutes, and go to wallet tab to see whether the cold wallet address is updated or not
-  4. Note: we recommend backup your wallet configurations before importing
+  4. Note 1: we recommend backup your wallet configurations before importing
+  5. Note 2: Only working blockchain forks can import cold wallet. Please check whether there are stopped blockchain forks or not before doing this. Surely you can also import later again when they are re-started
+  6. Note 3: If there are any issues, you may need rerun all the folders by order:
+    cd coctohug0 && docker-compose up -d
+    cd ../coctohug1 && docker-compose up -d
+    cd ../coctohug2 && docker-compose up -d
+    cd ../coctohug3 && docker-compose up -d
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -281,19 +287,51 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 
 [greendoge](https://github.com/raingggg/coctohug-greendoge)
 
-[lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin)
+[lucky](https://github.com/raingggg/coctohug-lucky) 
+
+[pipscoin](https://github.com/raingggg/coctohug-pipscoin)
 
 [shibgreen](https://github.com/raingggg/coctohug-shibgreen)
 
 [silicoin](https://github.com/raingggg/coctohug-silicoin)
 
-[skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin)
+[skynet](https://github.com/raingggg/coctohug-skynet) 
+
+[staicoin](https://github.com/raingggg/coctohug-staicoin)
 
 [stor](https://github.com/raingggg/coctohug-stor)
 
 [tranzact](https://github.com/raingggg/coctohug-tranzact)
 
 [venidium](https://github.com/raingggg/coctohug-venidium)
+
+[btcgreen](https://github.com/raingggg/coctohug-btcgreen)
+
+[hddcoin](https://github.com/raingggg/coctohug-hddcoin)
+
+[maize](https://github.com/raingggg/coctohug-maize)
+
+[flax](https://github.com/raingggg/coctohug-flax)
+
+[aedge](https://github.com/raingggg/coctohug-aedge)
+
+[apple](https://github.com/raingggg/coctohug-apple)
+
+[wheat](https://github.com/raingggg/coctohug-wheat)
+
+[dogechia](https://github.com/raingggg/coctohug-dogechia)
+
+[tad](https://github.com/raingggg/coctohug-tad)
+
+[taco](https://github.com/raingggg/coctohug-taco)
+
+[socks](https://github.com/raingggg/coctohug-socks)
+
+[mogua](https://github.com/raingggg/coctohug-mogua)
+
+[mint](https://github.com/raingggg/coctohug-mint)
+
+[salvia](https://github.com/raingggg/coctohug-salvia)
 
 
 ## Trademark Notice

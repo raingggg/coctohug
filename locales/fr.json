@@ -7,7 +7,7 @@
   "readme.go_wiki": "Voici un manuel d'utilisation plus détaillé",
   "readme.localization": "Belle localisation avec prise en charge de dizaines de langues :",
   "readme.more_help": "Demandez plus d'aide sur notre",
-  "readme.open_github": "Projets Open Source sur Github",
+  "readme.open_github": "Nos projets Open Source sur Github",
   "readme.quick_start": "Démarrage rapide",
   "readme.run_os": "Fonctionne sur Linux, Windows, MacOS, et plus encore...",
   "readme.russian_veiw": "Capture d'écran russe",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Exigences matérielles",
   "wiki.harvester": "Moissonneuse",
   "wiki.harvester_generate_compose": "et cliquez sur Harvester Mode pour générer des dossiers docker-compose",
-  "wiki.import_backup": "Remarque : nous vous recommandons de sauvegarder vos configurations de portefeuille avant d'importer",
+  "wiki.import_backup": "Remarque 1 : nous vous recommandons de sauvegarder vos configurations de portefeuille avant d'importer",
   "wiki.import_cold_wallet": "Importer un compte Cold Wallet",
-  "wiki.import_json": "Importez le fichier json du portefeuille froid téléchargé précédent",
+  "wiki.import_json": "Importez le fichier json du portefeuille froid téléchargé précédent (recommandé sur une autre machine)",
   "wiki.import_machine": "Sur votre machine de minage, visitez les paramètres - onglet portefeuille froid",
   "wiki.import_wait": "Attendez quelques minutes et accédez à l'onglet portefeuille pour voir si l'adresse du portefeuille froid est mise à jour ou non",
   "wiki.incompatible_db_issue": "En cas de problème de base de données incompatible, vous pouvez supprimer le fichier de base de données existant avant d'exécuter le script de démarrage docker-compose en",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Rapport hebdomadaire",
   "wiki.windows_setup": "Configurer Coctohug sur le système d'exploitation Windows",
   "wiki.firewall_port": "Remarque 4: Vous devrez peut-être ajouter des ports autorisés de 12630 à 12700 sur les paramètres de votre pare-feu système",
-  "wiki.re_script": "Remarque 3 : en cas de problème, vous devrez peut-être réexécuter tous les dossiers par ordre :"
+  "wiki.re_script": "Remarque 3 : en cas de problème, vous devrez peut-être réexécuter tous les dossiers par ordre :",
+  "wiki.import_note_2": "Remarque 2 : seuls les forks de blockchain fonctionnels peuvent importer un cold wallet. Veuillez vérifier s'il y a des fourches blockchain arrêtées ou non avant de faire cela. Vous pouvez sûrement aussi importer à nouveau plus tard lorsqu'ils sont redémarrés"
 }

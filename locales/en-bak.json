@@ -56,9 +56,10 @@
   "wiki.hardware_requirements": "Hardware Requirements",
   "wiki.harvester": "Harvester",
   "wiki.harvester_generate_compose": "and click Harvester Mode to generate docker-compose folders",
-  "wiki.import_backup": "Note: we recommend backup your wallet configurations before importing",
+  "wiki.import_backup": "Note 1: we recommend backup your wallet configurations before importing",
+  "wiki.import_note_2": "Note 2: Only working blockchain forks can import cold wallet. Please check whether there are stopped blockchain forks or not before doing this. Surely you can also import later again when they are re-started",
   "wiki.import_cold_wallet": "Import Cold Wallet Account",
-  "wiki.import_json": "Import the previous downloaded cold wallet json file",
+  "wiki.import_json": "Import the previous downloaded cold wallet(recommended on different machine) json file",
   "wiki.import_machine": "On your mining machine, visit settings - cold wallet tab",
   "wiki.import_wait": "Wait few minutes, and go to wallet tab to see whether the cold wallet address is updated or not",
   "wiki.incompatible_db_issue": "In case of incompatible db issue, you can remove the existing database file before executing docker-compose start script by",
@@ -121,5 +122,7 @@
   "wiki.wallet_mode_generate": "and click Wallet Mode to generate docker-compose folders",
   "wiki.wallets_management": "Wallets Management",
   "wiki.weekly_report": "Weekly Report",
-  "wiki.windows_setup": "Setup Coctohug on Windows OS"
+  "wiki.windows_setup": "Setup Coctohug on Windows OS",
+  "wiki.re_script": "Note 3: If there are any issues, you may need rerun all the folders by order:",
+  "wiki.firewall_port": "Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings"
 }

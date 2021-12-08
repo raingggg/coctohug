@@ -7,7 +7,7 @@
   "readme.go_wiki": "Đây là hướng dẫn sử dụng chi tiết hơn",
   "readme.localization": "Bản địa hóa tốt với sự hỗ trợ của hàng chục ngôn ngữ:",
   "readme.more_help": "Tìm kiếm thêm trợ giúp về",
-  "readme.open_github": "Dự án nguồn mở trên Github",
+  "readme.open_github": "Các dự án nguồn mở của chúng tôi trên Github",
   "readme.quick_start": "Bắt đầu nhanh",
   "readme.run_os": "Chạy trên Linux, Windows, MacOS, v.v.",
   "readme.russian_veiw": "Ảnh chụp màn hình của Nga",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "yêu cầu phần cứng",
   "wiki.harvester": "Máy gặt",
   "wiki.harvester_generate_compose": "và nhấp vào Chế độ Harvester để tạo các thư mục do docker-soạn",
-  "wiki.import_backup": "Lưu ý: chúng tôi khuyên bạn nên sao lưu cấu hình ví của mình trước khi nhập",
+  "wiki.import_backup": "Lưu ý 1: chúng tôi khuyên bạn nên sao lưu cấu hình ví của bạn trước khi nhập",
   "wiki.import_cold_wallet": "Nhập tài khoản ví lạnh",
-  "wiki.import_json": "Nhập tệp json ví lạnh đã tải xuống trước đó",
+  "wiki.import_json": "Nhập tệp json ví lạnh đã tải xuống trước đó (được khuyến nghị trên các máy khác)",
   "wiki.import_machine": "Trên máy khai thác của bạn, hãy truy cập cài đặt - tab ví lạnh",
   "wiki.import_wait": "Chờ vài phút và chuyển đến tab ví để xem địa chỉ ví lạnh đã được cập nhật hay chưa",
   "wiki.incompatible_db_issue": "Trong trường hợp xảy ra sự cố db không tương thích, bạn có thể xóa tệp cơ sở dữ liệu hiện có trước khi thực thi tập lệnh bắt đầu do docker-soạn bằng cách",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Báo cáo hàng tuần",
   "wiki.windows_setup": "Thiết lập Coctohug trên Windows OS",
   "wiki.firewall_port": "Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình",
-  "wiki.re_script": "Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:"
+  "wiki.re_script": "Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:",
+  "wiki.import_note_2": "Lưu ý 2: Chỉ những nhánh blockchain đang hoạt động mới có thể nhập ví lạnh. Vui lòng kiểm tra xem có các nhánh blockchain bị dừng hay không trước khi thực hiện việc này. Chắc chắn bạn cũng có thể nhập lại sau khi chúng được khởi động lại"
 }

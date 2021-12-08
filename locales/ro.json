@@ -7,7 +7,7 @@
   "readme.go_wiki": "Iată un manual de utilizare mai detaliat",
   "readme.localization": "Localizare plăcută cu suport pentru zeci de limbi:",
   "readme.more_help": "Căutați mai mult ajutor pe site-ul nostru",
-  "readme.open_github": "Proiecte open source pe Github",
+  "readme.open_github": "Proiectele noastre open source pe Github",
   "readme.quick_start": "Pornire rapidă",
   "readme.run_os": "Rulează pe Linux, Windows, MacOS și multe altele...",
   "readme.russian_veiw": "Captură de ecran rusă",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Cerințe hardware",
   "wiki.harvester": "Secerator",
   "wiki.harvester_generate_compose": "și faceți clic pe Harvester Mode pentru a genera foldere docker-compose",
-  "wiki.import_backup": "Notă: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import",
+  "wiki.import_backup": "Nota 1: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import",
   "wiki.import_cold_wallet": "Importați contul Cold Wallet",
-  "wiki.import_json": "Importați fișierul cold wallet json descărcat anterior",
+  "wiki.import_json": "Importați fișierul json pentru portofelul rece descărcat anterior (recomandat pe mașini diferite).",
   "wiki.import_machine": "Pe mașina dvs. de minerit, accesați setări - fila portofel rece",
   "wiki.import_wait": "Așteptați câteva minute și accesați fila Portofel pentru a vedea dacă adresa portofelului rece este actualizată sau nu",
   "wiki.incompatible_db_issue": "În cazul unei probleme db incompatibile, puteți elimina fișierul bazei de date existent înainte de a executa scriptul de pornire docker-compose prin",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Raport saptamanal",
   "wiki.windows_setup": "Configurați Coctohug pe sistemul de operare Windows",
   "wiki.firewall_port": "Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.",
-  "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:"
+  "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:",
+  "wiki.import_note_2": "Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite"
 }

@@ -7,7 +7,7 @@
   "readme.go_wiki": "這裡有更詳細的用戶手冊",
   "readme.localization": "支持數十種語言的良好本地化：",
   "readme.more_help": "尋求更多關於我們的幫助",
-  "readme.open_github": "Github 上的開源項目",
+  "readme.open_github": "我們在 Github 上的開源項目",
   "readme.quick_start": "快速開始",
   "readme.run_os": "可在 Linux、Windows、MacOS 等平台上運行...",
   "readme.russian_veiw": "俄文截圖",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "硬件要求",
   "wiki.harvester": "收割機",
   "wiki.harvester_generate_compose": "然後點擊 Harvester Mode 生成 docker-compose 文件夾",
-  "wiki.import_backup": "注意：我們建議在導入之前備份您的錢包配置",
+  "wiki.import_backup": "注意1：我們建議在導入之前備份您的錢包配置",
   "wiki.import_cold_wallet": "導入冷錢包賬戶",
-  "wiki.import_json": "導入之前下載的冷錢包json文件",
+  "wiki.import_json": "導入之前下載的冷錢包（推薦在不同機器上）json文件",
   "wiki.import_machine": "在您的礦機上，訪問設置-冷錢包選項卡",
   "wiki.import_wait": "等幾分鐘，到錢包選項卡查看冷錢包地址是否更新",
   "wiki.incompatible_db_issue": "如果出現不兼容的數據庫問題，您可以在執行 docker-compose 啟動腳本之前刪除現有的數據庫文件",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "每週報告",
   "wiki.windows_setup": "在 Windows 操作系統上設置 Coctohug",
   "wiki.firewall_port": "注意 4：您可能需要在系統防火牆設置中添加從 12630 到 12700 的允許端口",
-  "wiki.re_script": "注意3：如果有任何問題，您可能需要按順序重新運行所有文件夾："
+  "wiki.re_script": "注意3：如果有任何問題，您可能需要按順序重新運行所有文件夾：",
+  "wiki.import_note_2": "注 2：只有工作的區塊鏈分叉才能導入冷錢包。在執行此操作之前，請檢查是否有停止的區塊鏈分叉。當然，您也可以稍後在重新啟動時再次導入"
 }

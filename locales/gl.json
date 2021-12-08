@@ -7,7 +7,7 @@
   "readme.go_wiki": "Aquí tes un manual de usuario máis detallado",
   "readme.localization": "Agradable localización con soporte para decenas de idiomas:",
   "readme.more_help": "Busca máis axuda no noso",
-  "readme.open_github": "Proxectos de código aberto en Github",
+  "readme.open_github": "Os nosos proxectos de código aberto en Github",
   "readme.quick_start": "Inicio rápido",
   "readme.run_os": "Funciona en Linux, Windows, MacOS e moito máis...",
   "readme.russian_veiw": "Captura de pantalla rusa",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Requisitos de hardware",
   "wiki.harvester": "Colleitadora",
   "wiki.harvester_generate_compose": "e fai clic en Modo colleitador para xerar cartafoles de composición docker",
-  "wiki.import_backup": "Nota: recomendamos facer unha copia de seguridade das configuracións da carteira antes de importar",
+  "wiki.import_backup": "Nota 1: recomendamos facer unha copia de seguridade das configuracións da carteira antes de importar",
   "wiki.import_cold_wallet": "Importar conta de Cold Wallet",
-  "wiki.import_json": "Importe o ficheiro json de cold wallet descargado anteriormente",
+  "wiki.import_json": "Importe o ficheiro json de carteira fría descargado anteriormente (recomendado en máquinas diferentes).",
   "wiki.import_machine": "Na súa máquina de minería, visite a configuración - pestana de carteira fría",
   "wiki.import_wait": "Agarde uns minutos e vai á pestana da carteira para ver se o enderezo da carteira fría está actualizado ou non",
   "wiki.incompatible_db_issue": "En caso de problema de base de datos incompatible, pode eliminar o ficheiro de base de datos existente antes de executar o script de inicio docker-compose mediante",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Informe semanal",
   "wiki.windows_setup": "Configura Coctohug no sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Quizais necesites engadir portos permitidos de 12630 a 12700 na configuración do firewall do teu sistema",
-  "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:"
+  "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:",
+  "wiki.import_note_2": "Nota 2: só os garfos blockchain que funcionan poden importar carteira fría. Comproba se hai forks blockchain parados ou non antes de facelo. Seguro que tamén pode importar máis tarde de novo cando se reinicien"
 }

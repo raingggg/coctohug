@@ -7,7 +7,7 @@
   "readme.go_wiki": "Aqui está um manual do usuário mais detalhado",
   "readme.localization": "Ótima localização com suporte para dezenas de idiomas:",
   "readme.more_help": "Procure mais ajuda em nosso",
-  "readme.open_github": "Projetos de código aberto no Github",
+  "readme.open_github": "Nossos projetos de código aberto no Github",
   "readme.quick_start": "Começo rápido",
   "readme.run_os": "Funciona em Linux, Windows, MacOS e muito mais ...",
   "readme.russian_veiw": "Captura de tela russa",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Requisitos de Hardware",
   "wiki.harvester": "Colheitadeira",
   "wiki.harvester_generate_compose": "e clique em Modo Harvester para gerar pastas docker-compose",
-  "wiki.import_backup": "Observação: recomendamos fazer backup das configurações da carteira antes de importar",
+  "wiki.import_backup": "Nota 1: recomendamos fazer backup das configurações da carteira antes de importar",
   "wiki.import_cold_wallet": "Importar conta Cold Wallet",
-  "wiki.import_json": "Importar o arquivo json cold wallet baixado anterior",
+  "wiki.import_json": "Importe o arquivo json da carteira anterior baixada (recomendado em máquina diferente)",
   "wiki.import_machine": "Em sua máquina de mineração, visite as configurações - guia carteira fria",
   "wiki.import_wait": "Aguarde alguns minutos e vá para a guia carteira para ver se o endereço da carteira fria está atualizado ou não",
   "wiki.incompatible_db_issue": "Em caso de problema de db incompatível, você pode remover o arquivo de banco de dados existente antes de executar o script docker-compose start por",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Relatório semanal",
   "wiki.windows_setup": "Configurar Coctohug no sistema operacional Windows",
   "wiki.firewall_port": "Nota 4: pode ser necessário adicionar portas de permissão de 12630 a 12700 nas configurações de firewall do sistema",
-  "wiki.re_script": "Observação 3: se houver algum problema, pode ser necessário executar novamente todas as pastas em ordem:"
+  "wiki.re_script": "Observação 3: se houver algum problema, pode ser necessário executar novamente todas as pastas em ordem:",
+  "wiki.import_note_2": "Nota 2: Apenas garfos de blockchain em funcionamento podem importar cold wallet. Verifique se há garfos de blockchain interrompidos ou não antes de fazer isso. Certamente você também pode importar mais tarde novamente quando eles forem reiniciados"
 }

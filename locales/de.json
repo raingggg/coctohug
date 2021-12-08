@@ -7,7 +7,7 @@
   "readme.go_wiki": "Hier ist eine ausführlichere Bedienungsanleitung",
   "readme.localization": "Schöne Lokalisierung mit Unterstützung von Dutzenden von Sprachen:",
   "readme.more_help": "Suchen Sie mehr Hilfe auf unserer",
-  "readme.open_github": "Open-Source-Projekte auf Github",
+  "readme.open_github": "Unsere Open Source Projekte auf Github",
   "readme.quick_start": "Schnellstart",
   "readme.run_os": "Läuft unter Linux, Windows, MacOS und mehr...",
   "readme.russian_veiw": "Russischer Screenshot",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Hardware-Anforderungen",
   "wiki.harvester": "Mähdrescher",
   "wiki.harvester_generate_compose": "und klicken Sie auf Harvester-Modus, um Docker-Compose-Ordner zu generieren",
-  "wiki.import_backup": "Hinweis: Wir empfehlen Ihnen, Ihre Wallet-Konfigurationen vor dem Importieren zu sichern",
+  "wiki.import_backup": "Hinweis 1: Wir empfehlen Ihnen, Ihre Wallet-Konfigurationen vor dem Importieren zu sichern",
   "wiki.import_cold_wallet": "Cold Wallet-Konto importieren",
-  "wiki.import_json": "Importieren Sie die zuvor heruntergeladene Cold Wallet-JSON-Datei",
+  "wiki.import_json": "Importieren Sie die zuvor heruntergeladene Cold Wallet (empfohlen auf einem anderen Computer) Json-Datei",
   "wiki.import_machine": "Rufen Sie auf Ihrem Mining-Rechner die Einstellungen auf - Registerkarte Cold Wallet",
   "wiki.import_wait": "Warten Sie einige Minuten und gehen Sie zum Wallet-Tab, um zu sehen, ob die Cold Wallet-Adresse aktualisiert wurde oder nicht",
   "wiki.incompatible_db_issue": "Im Falle eines inkompatiblen DB-Problems können Sie die vorhandene Datenbankdatei entfernen, bevor Sie das Docker-Compose-Startskript ausführen, indem Sie",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Wöchentlicher Report",
   "wiki.windows_setup": "Coctohug unter Windows einrichten",
   "wiki.firewall_port": "Hinweis 4: Möglicherweise müssen Sie die zulässigen Ports von 12630 bis 12700 in Ihren System-Firewall-Einstellungen hinzufügen",
-  "wiki.re_script": "Hinweis 3: Wenn Probleme auftreten, müssen Sie möglicherweise alle Ordner der Reihe nach erneut ausführen:"
+  "wiki.re_script": "Hinweis 3: Wenn Probleme auftreten, müssen Sie möglicherweise alle Ordner der Reihenfolge nach erneut ausführen:",
+  "wiki.import_note_2": "Hinweis 2: Nur funktionierende Blockchain-Forks können Cold Wallet importieren. Bitte prüfen Sie vorher, ob es angehaltene Blockchain-Forks gibt oder nicht. Sicherlich kann man sie auch später wieder importieren, wenn sie neu gestartet werden"
 }

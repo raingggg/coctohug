@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "ハードウェア要件",
   "wiki.harvester": "ハーベスター",
   "wiki.harvester_generate_compose": "ハーベスタモードをクリックして、docker-composeフォルダーを生成します",
-  "wiki.import_backup": "注：インポートする前にウォレット構成をバックアップすることをお勧めします",
+  "wiki.import_backup": "注1：インポートする前にウォレット構成をバックアップすることをお勧めします",
   "wiki.import_cold_wallet": "コールドウォレットアカウントをインポートする",
-  "wiki.import_json": "以前にダウンロードしたコールドウォレットのjsonファイルをインポートします",
+  "wiki.import_json": "以前にダウンロードしたコールドウォレット（別のマシンで推奨）のjsonファイルをインポートします",
   "wiki.import_machine": "マイニングマシンで、設定にアクセスします-コールドウォレットタブ",
   "wiki.import_wait": "数分待ってから、[ウォレット]タブに移動して、コールドウォレットアドレスが更新されているかどうかを確認します",
   "wiki.incompatible_db_issue": "互換性のないdbの問題が発生した場合は、docker-compose startscriptを実行する前に既存のデータベースファイルを削除できます。",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "ウィークリーレポート",
   "wiki.windows_setup": "WindowsOSでCoctohugをセットアップする",
   "wiki.firewall_port": "注4：システムファイアウォール設定に12630から12700までの許可ポートを追加する必要がある場合があります",
-  "wiki.re_script": "注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。"
+  "wiki.re_script": "注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。",
+  "wiki.import_note_2": "注2：コールドウォレットをインポートできるのは、動作中のブロックチェーンフォークのみです。これを行う前に、ブロックチェーンフォークが停止しているかどうかを確認してください。確かに、後で再起動したときに再度インポートすることもできます"
 }

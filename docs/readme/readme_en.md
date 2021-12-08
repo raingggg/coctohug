@@ -1,5 +1,5 @@
 # Coctohug - Manage dozens of chia blockchain forks  mining from a web browser!
-- Nice localization with support of dozens of languages: [English](./docs/readme/readme_en.md), [العربية](./docs/readme/readme_ar.md), [Bulgarian](./docs/readme/readme_bg.md), [Catalan](./docs/readme/readme_ca.md), [Deutsch](./docs/readme/readme_de.md), [Español](./docs/readme/readme_es.md), [زبان فارسی](./docs/readme/readme_fa.md), [Français](./docs/readme/readme_fr.md), [Galego](./docs/readme/readme_gl.md), [Indonesian](./docs/readme/readme_id.md), [Italiano](./docs/readme/readme_it.md), [日本語](./docs/readme/readme_ja.md), [한국어](./docs/readme/readme_ko.md), [Português do Brasil](./docs/readme/readme_pt.md), [limba română](./docs/readme/readme_ro.md), [Русский](./docs/readme/readme_ru.md), [Serbian](./docs/readme/readme_sr.md), [Thai](./docs/readme/readme_th.md), [Tagalog (Filipino)](./docs/readme/readme_tl.md), [Türkçe](./docs/readme/readme_tr.md), [Українська](./docs/readme/readme_uk.md), [Vietnamese](./docs/readme/readme_vi.md), [简体中文](./docs/readme/readme_zh-CN.md), [繁體中文](./docs/readme/readme_zh-TW.md)
+- Nice localization with support of dozens of languages: [English](./readme_en.md), [العربية](./readme_ar.md), [Bulgarian](./readme_bg.md), [Catalan](./readme_ca.md), [Deutsch](./readme_de.md), [Español](./readme_es.md), [زبان فارسی](./readme_fa.md), [Français](./readme_fr.md), [Galego](./readme_gl.md), [Indonesian](./readme_id.md), [Italiano](./readme_it.md), [日本語](./readme_ja.md), [한국어](./readme_ko.md), [Português do Brasil](./readme_pt.md), [limba română](./readme_ro.md), [Русский](./readme_ru.md), [Serbian](./readme_sr.md), [Thai](./readme_th.md), [Tagalog (Filipino)](./readme_tl.md), [Türkçe](./readme_tr.md), [Українська](./readme_uk.md), [Vietnamese](./readme_vi.md), [简体中文](./readme_zh-CN.md), [繁體中文](./readme_zh-TW.md)
 - Supports: [cactus](https://github.com/raingggg/coctohug-cactus), [covid](https://github.com/raingggg/coctohug-covid), [cryptodoge](https://github.com/raingggg/coctohug-cryptodoge), [ethgreen](https://github.com/raingggg/coctohug-ethgreen), [flora](https://github.com/raingggg/coctohug-flora), [greendoge](https://github.com/raingggg/coctohug-greendoge), [lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin), [shibgreen](https://github.com/raingggg/coctohug-shibgreen), [silicoin](https://github.com/raingggg/coctohug-silicoin), [skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin), [stor](https://github.com/raingggg/coctohug-stor), [tranzact](https://github.com/raingggg/coctohug-tranzact), [venidium](https://github.com/raingggg/coctohug-venidium), and more...
 - Runs on Linux, Windows, MacOS, and more...
 
@@ -11,16 +11,16 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 
 
 ## English Screenshot
-![English](./images/coctohug-summary-en-min.png)
+![English](../../images/coctohug-summary-en-min.png)
 
 ## Chinese Screenshot
-![Chinese](./images/coctohug-summary-cn-min.png)
+![Chinese](../../images/coctohug-summary-cn-min.png)
 
 ## Russian Screenshot
-![Russian](./images/coctohug-summary-russian-min.png)
+![Russian](../../images/coctohug-summary-russian-min.png)
 
 ## German Screenshot
-![German](./images/coctohug-summary-german-min.png)
+![German](../../images/coctohug-summary-german-min.png)
 
 
 # Our Open Source Projects on Github

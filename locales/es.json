@@ -7,7 +7,7 @@
   "readme.go_wiki": "Aquí hay un manual de usuario más detallado",
   "readme.localization": "Buena localización con soporte para docenas de idiomas:",
   "readme.more_help": "Busque más ayuda en nuestro",
-  "readme.open_github": "Proyectos de código abierto en Github",
+  "readme.open_github": "Nuestros proyectos de código abierto en Github",
   "readme.quick_start": "Inicio rápido",
   "readme.run_os": "Se ejecuta en Linux, Windows, MacOS y más ...",
   "readme.russian_veiw": "Captura de pantalla rusa",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Requisitos de hardware",
   "wiki.harvester": "Segador",
   "wiki.harvester_generate_compose": "y haga clic en Harvester Mode para generar carpetas de composición acoplable",
-  "wiki.import_backup": "Nota: recomendamos hacer una copia de seguridad de las configuraciones de su billetera antes de importar",
+  "wiki.import_backup": "Nota 1: recomendamos hacer una copia de seguridad de las configuraciones de su billetera antes de importar",
   "wiki.import_cold_wallet": "Importar cuenta de Cold Wallet",
-  "wiki.import_json": "Importe el archivo json de billetera fría descargado anteriormente",
+  "wiki.import_json": "Importe el archivo json de la billetera fría descargada anteriormente (recomendado en una máquina diferente)",
   "wiki.import_machine": "En su máquina de minería, visite la configuración - pestaña billetera fría",
   "wiki.import_wait": "Espere unos minutos y vaya a la pestaña de billetera para ver si la dirección de la billetera fría está actualizada o no",
   "wiki.incompatible_db_issue": "En caso de un problema de base de datos incompatible, puede eliminar el archivo de base de datos existente antes de ejecutar el script de inicio de docker-compose mediante",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Reporte semanal",
   "wiki.windows_setup": "Configurar Coctohug en el sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema",
-  "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:"
+  "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:",
+  "wiki.import_note_2": "Nota 2: Solo las bifurcaciones de blockchain que funcionan pueden importar billetera fría. Verifique si hay bifurcaciones de blockchain detenidas o no antes de hacer esto. Seguro que también puedes volver a importar más tarde cuando se reinicien"
 }

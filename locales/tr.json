@@ -7,7 +7,7 @@
   "readme.go_wiki": "İşte daha detaylı kullanım kılavuzu",
   "readme.localization": "Düzinelerce dil desteğiyle güzel yerelleştirme:",
   "readme.more_help": "Bizimle ilgili daha fazla yardım isteyin",
-  "readme.open_github": "Github'da Açık Kaynak Projeleri",
+  "readme.open_github": "Github Üzerindeki Açık Kaynak Projelerimiz",
   "readme.quick_start": "Hızlı başlangıç",
   "readme.run_os": "Linux, Windows, MacOS ve daha fazlasında çalışır...",
   "readme.russian_veiw": "Rusça Ekran Görüntüsü",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Donanım Gereksinimleri",
   "wiki.harvester": "biçerdöver",
   "wiki.harvester_generate_compose": "ve docker-compose klasörleri oluşturmak için Harvester Mode'a tıklayın",
-  "wiki.import_backup": "Not: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.",
+  "wiki.import_backup": "Not 1: İçe aktarmadan önce cüzdan yapılandırmalarınızı yedeklemenizi öneririz.",
   "wiki.import_cold_wallet": "Soğuk Cüzdan Hesabını İçe Aktar",
-  "wiki.import_json": "Daha önce indirilen soğuk cüzdan json dosyasını içe aktarın",
+  "wiki.import_json": "Daha önce indirilen soğuk cüzdanı (farklı makinelerde önerilir) json dosyasını içe aktarın",
   "wiki.import_machine": "Madencilik makinenizde ayarlar - soğuk cüzdan sekmesini ziyaret edin",
   "wiki.import_wait": "Birkaç dakika bekleyin ve soğuk cüzdan adresinin güncellenip güncellenmediğini görmek için cüzdan sekmesine gidin.",
   "wiki.incompatible_db_issue": "Uyumsuz db sorunu olması durumunda, docker-compose başlatma komut dosyasını çalıştırmadan önce mevcut veritabanı dosyasını şu şekilde kaldırabilirsiniz:",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Haftalık rapor",
   "wiki.windows_setup": "Windows işletim sisteminde Coctohug'u kurun",
   "wiki.firewall_port": "Not 4: Sistem güvenlik duvarı ayarlarınıza 12630'dan 12700'e kadar izin verilen bağlantı noktaları eklemeniz gerekebilir.",
-  "wiki.re_script": "Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:"
+  "wiki.re_script": "Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:",
+  "wiki.import_note_2": "Not 2: Yalnızca çalışan blok zinciri çatalları, soğuk cüzdanı içe aktarabilir. Lütfen bunu yapmadan önce blok zinciri çatallarının durup durmadığını kontrol edin. Elbette daha sonra yeniden başlatıldıklarında tekrar içe aktarabilirsiniz."
 }

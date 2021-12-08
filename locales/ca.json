@@ -7,7 +7,7 @@
   "readme.go_wiki": "Aquí hi ha un manual d'usuari més detallat",
   "readme.localization": "Bona localització amb suport de desenes d'idiomes:",
   "readme.more_help": "Busqueu més ajuda al nostre",
-  "readme.open_github": "Projectes de codi obert a Github",
+  "readme.open_github": "Els nostres projectes de codi obert a Github",
   "readme.quick_start": "Començament ràpid",
   "readme.run_os": "S'executa a Linux, Windows, MacOS i més...",
   "readme.russian_veiw": "Captura de pantalla russa",
@@ -56,9 +56,9 @@
   "wiki.hardware_requirements": "Requisits de maquinari",
   "wiki.harvester": "Segadora",
   "wiki.harvester_generate_compose": "i feu clic a Mode Harvester per generar carpetes de composició docker",
-  "wiki.import_backup": "Nota: recomanem una còpia de seguretat de les configuracions de la cartera abans d'importar",
+  "wiki.import_backup": "Nota 1: recomanem una còpia de seguretat de les configuracions de la cartera abans d'importar",
   "wiki.import_cold_wallet": "Importa el compte de Cold Wallet",
-  "wiki.import_json": "Importeu el fitxer json de cold wallet descarregat anteriorment",
+  "wiki.import_json": "Importeu el fitxer json de la cartera freda descarregada anteriorment (recomanat en diferents màquines).",
   "wiki.import_machine": "A la vostra màquina de mineria, visiteu la configuració: pestanya de cartera freda",
   "wiki.import_wait": "Espereu uns minuts i aneu a la pestanya de la cartera per veure si l'adreça de la cartera freda s'actualitza o no",
   "wiki.incompatible_db_issue": "En cas de problemes de base de dades incompatibles, podeu eliminar el fitxer de base de dades existent abans d'executar l'script d'inici de docker-compose mitjançant",
@@ -123,5 +123,6 @@
   "wiki.weekly_report": "Informe setmanal",
   "wiki.windows_setup": "Configura Coctohug al sistema operatiu Windows",
   "wiki.firewall_port": "Nota 4: és possible que hàgiu d'afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema",
-  "wiki.re_script": "Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:"
+  "wiki.re_script": "Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:",
+  "wiki.import_note_2": "Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn"
 }
