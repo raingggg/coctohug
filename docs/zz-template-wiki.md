@@ -147,7 +147,7 @@
 ## <%= localeData['wiki.node_sync'] %>
 - <%= localeData['wiki.node_sync_default'] %>
 - <%= localeData['wiki.connect_blockchain'] %>
-- <%= localeData['wiki.fast_sync'] %> [https://www.coctohug.xyz/](https://www.coctohug.xyz/) <%= localeData['wiki.fast_provide'] %> [Maize fork](https://chiaforksblockchain.com/)
+- <%= localeData['wiki.fast_sync'] %> [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) <%= localeData['wiki.fast_provide'] %> [Maize fork](https://chiaforksblockchain.com/)
   ```
   <%= localeData['wiki.fast_sync_1'] %>
   <%= localeData['wiki.fast_sync_2'] %>

@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Stoppen Sie Blockchain Fork durch ein ähnliches Terminal-Skript (in jedem Ordner):",
   "wiki.fast_sync_3": "3. Kopieren Sie diese Dateien in den Blockchain-Fork-Ordner ähnlich wie:",
   "wiki.fast_sync_4": "4. Starten Sie Blockchain Fork mit einem ähnlichen Terminal-Skript (in jedem Ordner):",
-  "wiki.fast_sync_5": "Hinweise 1: Die Wallet-Blockchain Ihres Forks benötigt eine individuelle Synchronisation im Fork-Programm",
+  "wiki.fast_sync_5": "Hinweise 1: Ihr Wallet benötigt eine individuelle Synchronisation im Fork-Programm",
   "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!"
 }

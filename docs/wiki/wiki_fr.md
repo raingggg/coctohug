@@ -147,7 +147,7 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 ## Synchronisation des nœuds
 - Le nœud se synchronisera automatiquement par défaut
 - Vous pouvez accéder à l&#39;onglet Connexions ou Blockchains pour examiner l&#39;état détaillé
-- Pour accélérer la synchronisation de vos nœuds : [https://www.coctohug.xyz/](https://www.coctohug.xyz/) fournit des liens vers des fichiers de base de données - développé et sponsorisé par : [Maize fork](https://chiaforksblockchain.com/)
+- Pour accélérer la synchronisation de vos nœuds : [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) fournit des liens vers des fichiers de base de données - développé et sponsorisé par : [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Téléchargez les fichiers : blockchain_v1_mainnet.sqlite et peer_table_node.sqlite
   2. Arrêtez la fourche blockchain par un script de terminal similaire (à l&#39;intérieur de chaque dossier):
@@ -162,7 +162,7 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Notes 1 : la blockchain du portefeuille de votre fork a besoin d&#39;une synchronisation individuelle dans le programme fork
+  Notes 1 : votre portefeuille a besoin d&#39;une synchronisation individuelle dans le programme fork
   Notes 2 : La connexion de la base de données téléchargée à votre fork blockchain peut prendre jusqu&#39;à 5 minutes !
   ```
 

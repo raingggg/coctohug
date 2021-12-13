@@ -147,7 +147,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 ## Node Sync
 - Node will sync automatically by default
 - You may go to Connections or Blockchains tab to examine the detailed status
-- To acclerate your node sync, [https://www.coctohug.xyz/](https://www.coctohug.xyz/) provides nodes list and database file(click each blockchain and then you can find them on top right section) [Maize fork](https://chiaforksblockchain.com/)
+- To acclerate your node sync, [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) provides nodes list and database file(click each blockchain and then you can find them on top right section) [Maize fork](https://chiaforksblockchain.com/)
   ```
   
   

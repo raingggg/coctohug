@@ -48,7 +48,7 @@
   "wiki.fast_sync_2": "2. Stop blockchain fork by similar terminal script(inside each folder):",
   "wiki.fast_sync_3": "3. Copy those files to the blockchain fork folder similar to:",
   "wiki.fast_sync_4": "4. Start blockchain fork by similar terminal script(inside each folder):",
-  "wiki.fast_sync_5": "Notes 1: Your fork's wallet blockchain needs individual synchronization in the fork program",
+  "wiki.fast_sync_5": "Notes 1: Your wallet needs individual synchronization in the fork program",
   "wiki.fast_sync_6": "Notes 2: Connection of the downloaded database to your blockchain fork can take up to 5 minutes!",
   "wiki.few_minutes_harvester": "Few minutes later, you will be able to see harvester on WebUI hands tab",
   "wiki.fork_panel_background": "each blockchain fork-panel in Summary tab will have a light green background if it is working fine, otherwise it will be light yellow background",

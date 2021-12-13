@@ -147,7 +147,7 @@
 ## همگام سازی گره
 - Node به طور پیش فرض به طور خودکار همگام می شود
 - برای بررسی وضعیت دقیق می توانید به تب Connections یا Blockchains بروید
-- برای تسریع همگام سازی گره خود: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) پیوندهای فایل پایگاه داده را فراهم می کند - توسعه یافته و حمایت شده توسط: [Maize fork](https://chiaforksblockchain.com/)
+- برای تسریع همگام سازی گره خود: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) پیوندهای فایل پایگاه داده را فراهم می کند - توسعه یافته و حمایت شده توسط: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. دانلود فایل ها: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. فورک بلاک چین را با اسکریپت ترمینال مشابه (داخل هر پوشه) متوقف کنید:
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  یادداشت 1: بلاک چین کیف پول فورک شما نیاز به همگام سازی فردی در برنامه فورک دارد
+  یادداشت 1: کیف پول شما نیاز به همگام سازی فردی در برنامه فورک دارد
   نکته 2: اتصال پایگاه داده دانلود شده به فورک بلاک چین شما می تواند تا 5 دقیقه طول بکشد!
   ```
 

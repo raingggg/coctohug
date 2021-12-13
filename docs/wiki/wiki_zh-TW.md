@@ -147,7 +147,7 @@
 ## 節點同步
 - 默認情況下，節點將自動同步
 - 您可以前往連接或區塊鏈選項卡查看詳細狀態
-- 要加速您的節點同步： [https://www.coctohug.xyz/](https://www.coctohug.xyz/) 提供數據庫文件鏈接 - 開發和讚助： [Maize fork](https://chiaforksblockchain.com/)
+- 要加速您的節點同步： [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) 提供數據庫文件鏈接 - 開發和讚助： [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. 下載文件：blockchain_v1_mainnet.sqlite 和 peer_table_node.sqlite
   2.通過類似的終端腳本（在每個文件夾內）停止區塊鏈分叉：
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  注意事項1：您的分叉錢包區塊鏈需要在分叉程序中單獨同步
+  注意事項1：您的錢包需要在分叉程序中單獨同步
   注 2：將下載的數據庫連接到您的區塊鏈分叉最多可能需要 5 分鐘！
   ```
 

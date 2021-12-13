@@ -147,7 +147,7 @@
 ## 节点同步
 - 默认情况下，节点将自动同步
 - 您可以前往连接或区块链选项卡查看详细状态
-- 要加速您的节点同步： [https://www.coctohug.xyz/](https://www.coctohug.xyz/) 提供数据库文件链接 - 开发和赞助： [Maize fork](https://chiaforksblockchain.com/)
+- 要加速您的节点同步： [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) 提供数据库文件链接 - 开发和赞助： [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. 下载文件：blockchain_v1_mainnet.sqlite 和 peer_table_node.sqlite
   2.通过类似的终端脚本（在每个文件夹内）停止区块链分叉：
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  注意事项1：您的分叉钱包区块链需要在分叉程序中单独同步
+  注意事项1：您的钱包需要在分叉程序中单独同步
   注 2：将下载的数据库连接到您的区块链分叉最多可能需要 5 分钟！
   ```
 

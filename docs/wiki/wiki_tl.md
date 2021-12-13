@@ -147,7 +147,7 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 ## Node Sync
 - Awtomatikong magsi-sync ang node bilang default
 - Maaari kang pumunta sa tab na Connections o Blockchains upang suriin ang detalyadong katayuan
-- Upang mapabilis ang iyong pag-sync ng node: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) nagbibigay ng mga link sa database file - binuo at inisponsor ng: [Maize fork](https://chiaforksblockchain.com/)
+- Upang mapabilis ang iyong pag-sync ng node: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) nagbibigay ng mga link sa database file - binuo at inisponsor ng: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Mag-download ng mga file: blockchain_v1_mainnet.sqlite at peer_table_node.sqlite
   2. Itigil ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):
@@ -162,7 +162,7 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Mga Tala 1: Ang blockchain ng iyong fork&#39;s wallet ay nangangailangan ng indibidwal na pag-synchronize sa fork program
+  Mga Tala 1: Ang iyong wallet ay nangangailangan ng indibidwal na pag-synchronize sa programa ng tinidor
   Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!
   ```
 

@@ -147,7 +147,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
 ## Knotensynchronisierung
 - Der Knoten wird standardmäßig automatisch synchronisiert
 - Sie können zur Registerkarte Verbindungen oder Blockchains gehen, um den detaillierten Status zu überprüfen
-- So beschleunigen Sie Ihre Knotensynchronisierung: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) bietet Links zu Datenbankdateien - entwickelt und gesponsert von: [Maize fork](https://chiaforksblockchain.com/)
+- So beschleunigen Sie Ihre Knotensynchronisierung: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) bietet Links zu Datenbankdateien - entwickelt und gesponsert von: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Dateien herunterladen: blockchain_v1_mainnet.sqlite und peer_table_node.sqlite
   2. Stoppen Sie Blockchain Fork durch ein ähnliches Terminal-Skript (in jedem Ordner):
@@ -162,7 +162,7 @@ Einfache Einrichtung mit [Schnellstart](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Hinweise 1: Die Wallet-Blockchain Ihres Forks benötigt eine individuelle Synchronisation im Fork-Programm
+  Hinweise 1: Ihr Wallet benötigt eine individuelle Synchronisation im Fork-Programm
   Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!
   ```
 

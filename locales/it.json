@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Arresta il fork della blockchain con uno script di terminale simile (all'interno di ogni cartella):",
   "wiki.fast_sync_3": "3. Copia questi file nella cartella fork blockchain in modo simile a:",
   "wiki.fast_sync_4": "4. Avvia il fork della blockchain con uno script di terminale simile (all'interno di ogni cartella):",
-  "wiki.fast_sync_5": "Note 1: la blockchain del tuo portafoglio fork necessita di una sincronizzazione individuale nel programma fork",
+  "wiki.fast_sync_5": "Note 1: Il tuo portafoglio ha bisogno di una sincronizzazione individuale nel programma fork",
   "wiki.fast_sync_6": "Note 2: La connessione del database scaricato al tuo fork blockchain può richiedere fino a 5 minuti!"
 }

@@ -147,7 +147,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 ## Sinkronisasi Node
 - Node akan disinkronkan secara otomatis secara default
 - Anda dapat membuka tab Connections atau Blockchains untuk memeriksa status detailnya
-- Untuk mempercepat sinkronisasi simpul Anda: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) menyediakan tautan file basis data - dikembangkan dan disponsori oleh: [Maize fork](https://chiaforksblockchain.com/)
+- Untuk mempercepat sinkronisasi simpul Anda: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) menyediakan tautan file basis data - dikembangkan dan disponsori oleh: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Unduh file: blockchain_v1_mainnet.sqlite dan peer_table_node.sqlite
   2. Hentikan garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):
@@ -162,7 +162,7 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Catatan 1: Blockchain dompet fork Anda memerlukan sinkronisasi individual dalam program fork
+  Catatan 1: Dompet Anda memerlukan sinkronisasi individual dalam program fork
   Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 5 menit!
   ```
 

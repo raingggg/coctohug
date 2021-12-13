@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Interrompa a bifurcação do blockchain por meio de um script de terminal semelhante (dentro de cada pasta):",
   "wiki.fast_sync_3": "3. Copie esses arquivos para a pasta fork do blockchain semelhante a:",
   "wiki.fast_sync_4": "4. Inicie o fork do blockchain com um script de terminal semelhante (dentro de cada pasta):",
-  "wiki.fast_sync_5": "Notas 1: O blockchain da carteira do seu fork precisa de sincronização individual no programa fork",
+  "wiki.fast_sync_5": "Notas 1: Sua carteira precisa de sincronização individual no programa fork",
   "wiki.fast_sync_6": "Notas 2: A conexão do banco de dados baixado ao fork do blockchain pode levar até 5 minutos!"
 }

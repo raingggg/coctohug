@@ -147,7 +147,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 ## Sincronizarea nodului
 - Node se va sincroniza automat în mod implicit
 - Puteți accesa fila Conexiuni sau Blockchains pentru a examina starea detaliată
-- Pentru a accelera sincronizarea nodului: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) furnizează legături la fișierele bazei de date - dezvoltate și sponsorizate de: [Maize fork](https://chiaforksblockchain.com/)
+- Pentru a accelera sincronizarea nodului: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) furnizează legături la fișierele bazei de date - dezvoltate și sponsorizate de: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Descărcați fișiere: blockchain_v1_mainnet.sqlite și peer_table_node.sqlite
   2. Opriți bifurcația blockchain printr-un script terminal similar (în interiorul fiecărui folder):
@@ -162,7 +162,7 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Note 1: Blockchain-ul portofelului dumneavoastră furk are nevoie de sincronizare individuală în programul furk
+  Note 1: Portofelul dvs. are nevoie de sincronizare individuală în programul furk
   Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!
   ```
 

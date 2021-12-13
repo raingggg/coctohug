@@ -147,7 +147,7 @@
 ## โหนดซิงค์
 - โหนดจะซิงค์โดยอัตโนมัติโดยค่าเริ่มต้น
 - คุณสามารถไปที่แท็บการเชื่อมต่อหรือบล็อคเชนเพื่อตรวจสอบสถานะโดยละเอียด
-- ในการเร่งการซิงค์โหนดของคุณ: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) ให้ลิงค์ไฟล์ฐานข้อมูล - พัฒนาและสนับสนุนโดย: [Maize fork](https://chiaforksblockchain.com/)
+- ในการเร่งการซิงค์โหนดของคุณ: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) ให้ลิงค์ไฟล์ฐานข้อมูล - พัฒนาและสนับสนุนโดย: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. ดาวน์โหลดไฟล์: blockchain_v1_mainnet.sqlite และ peer_table_node.sqlite
   2. หยุด blockchain fork ด้วยเทอร์มินัลสคริปต์ที่คล้ายกัน (ภายในแต่ละโฟลเดอร์):
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  หมายเหตุ 1: blockchain กระเป๋าสตางค์ของ fork ของคุณต้องการการซิงโครไนซ์เป็นรายบุคคลในโปรแกรม fork
+  หมายเหตุ 1: กระเป๋าเงินของคุณต้องมีการซิงโครไนซ์เป็นรายบุคคลในโปรแกรมส้อม
   หมายเหตุ 2: การเชื่อมต่อฐานข้อมูลที่ดาวน์โหลดไปยัง blockchain fork ของคุณอาจใช้เวลานานถึง 5 นาที!
   ```
 

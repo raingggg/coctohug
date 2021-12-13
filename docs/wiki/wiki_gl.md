@@ -147,7 +147,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 ## Sincronización de nodos
 - Node sincronizarase automaticamente por defecto
 - Podes ir á pestana Conexións ou Blockchains para examinar o estado detallado
-- Para acelerar a sincronización do teu nodo: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) ofrece ligazóns a ficheiros de bases de datos desenvolvidas e patrocinadas por: [Maize fork](https://chiaforksblockchain.com/)
+- Para acelerar a sincronización do teu nodo: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) ofrece ligazóns a ficheiros de bases de datos desenvolvidas e patrocinadas por: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Descarga ficheiros: blockchain_v1_mainnet.sqlite e peer_table_node.sqlite
   2. Detén a bifurcación da cadea de bloques mediante un script de terminal similar (dentro de cada cartafol):
@@ -162,7 +162,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Notas 1: a cadea de bloques da carteira do teu fork necesita unha sincronización individual no programa fork
+  Notas 1: a túa carteira necesita sincronización individual no programa de fork
   Notas 2: a conexión da base de datos descargada ao teu fork blockchain pode levar ata 5 minutos.
   ```
 

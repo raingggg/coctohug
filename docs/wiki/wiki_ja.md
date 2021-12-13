@@ -147,7 +147,7 @@
 ## ノード同期
 - ノードはデフォルトで自動的に同期されます
 - [接続]または[ブロックチェーン]タブに移動して、詳細なステータスを確認できます
-- ノードの同期を加速するには： [https://www.coctohug.xyz/](https://www.coctohug.xyz/) データベースファイルリンクを提供します-開発および後援： [Maize fork](https://chiaforksblockchain.com/)
+- ノードの同期を加速するには： [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) データベースファイルリンクを提供します-開発および後援： [Maize fork](https://chiaforksblockchain.com/)
   ```
   1.ファイルをダウンロードします：blockchain_v1_mainnet.sqliteおよびpeer_table_node.sqlite
   2.同様のターミナルスクリプト（各フォルダー内）でブロックチェーンフォークを停止します。
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  注1：フォークのウォレットブロックチェーンには、フォークプログラムで個別に同期する必要があります
+  注1：ウォレットはフォークプログラムで個別に同期する必要があります
   注2：ダウンロードしたデータベースのブロックチェーンフォークへの接続には、最大5分かかる場合があります。
   ```
 

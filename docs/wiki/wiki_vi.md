@@ -147,7 +147,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 ## Node Sync
 - Node sẽ tự động đồng bộ hóa theo mặc định
 - Bạn có thể chuyển đến tab Connections hoặc Blockchains để kiểm tra trạng thái chi tiết
-- Để tích lũy đồng bộ hóa nút của bạn: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) cung cấp liên kết tệp cơ sở dữ liệu - được phát triển và tài trợ bởi: [Maize fork](https://chiaforksblockchain.com/)
+- Để tích lũy đồng bộ hóa nút của bạn: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) cung cấp liên kết tệp cơ sở dữ liệu - được phát triển và tài trợ bởi: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Tải xuống các tệp: blockchain_v1_mainnet.sqlite và peer_table_node.sqlite
   2. Dừng phân nhánh blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):
@@ -162,7 +162,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Lưu ý 1: Blockchain ví fork của bạn cần đồng bộ hóa cá nhân trong chương trình fork
+  Lưu ý 1: Ví của bạn cần đồng bộ hóa cá nhân trong chương trình fork
   Lưu ý 2: Việc kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân nhánh blockchain của bạn có thể mất đến 5 phút!
   ```
 

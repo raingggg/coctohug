@@ -147,7 +147,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
 ## Düğüm Senkronizasyonu
 - Düğüm varsayılan olarak otomatik olarak eşitlenir
 - Ayrıntılı durumu incelemek için Bağlantılar veya Blokajlar sekmesine gidebilirsiniz.
-- Düğüm senkronizasyonunuzu hızlandırmak için: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) veritabanı dosya bağlantıları sağlar - tarafından geliştirilen ve desteklenen: [Maize fork](https://chiaforksblockchain.com/)
+- Düğüm senkronizasyonunuzu hızlandırmak için: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) veritabanı dosya bağlantıları sağlar - tarafından geliştirilen ve desteklenen: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Dosyaları indirin: blockchain_v1_mainnet.sqlite ve peer_table_node.sqlite
   2. Blok zinciri çatalını benzer terminal komut dosyasıyla durdurun (her klasörün içinde):
@@ -162,7 +162,7 @@ Kullanımı Kolay Kurulum [Hızlı başlangıç](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Notlar 1: Çatalınızın cüzdan blok zinciri, çatal programında bireysel senkronizasyona ihtiyaç duyar
+  Notlar 1: Cüzdanınızın çatal programında bireysel senkronizasyona ihtiyacı var
   Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 5 dakika kadar sürebilir!
   ```
 

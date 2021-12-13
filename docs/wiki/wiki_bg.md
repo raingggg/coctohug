@@ -147,7 +147,7 @@
 ## Синхронизиране на възли
 - Node ще се синхронизира автоматично по подразбиране
 - Можете да отидете в раздела Connections или Blockchains, за да разгледате подробното състояние
-- За да ускорите синхронизирането на вашия възел: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) предоставя връзки към файлове на база данни - разработени и спонсорирани от: [Maize fork](https://chiaforksblockchain.com/)
+- За да ускорите синхронизирането на вашия възел: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) предоставя връзки към файлове на база данни - разработени и спонсорирани от: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Изтеглете файлове: blockchain_v1_mainnet.sqlite и peer_table_node.sqlite
   2. Спрете blockchain fork чрез подобен терминален скрипт (вътре във всяка папка):
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Бележки 1: Блокчейнът на портфейла на вашия форк се нуждае от индивидуална синхронизация в програмата за форк
+  Бележки 1: Вашият портфейл се нуждае от индивидуална синхронизация в програмата fork
   Бележки 2: Свързването на изтеглената база данни с вашата блокчейн вилка може да отнеме до 5 минути!
   ```
 

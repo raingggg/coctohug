@@ -147,7 +147,7 @@
 ## مزامنة العقدة
 - ستتم مزامنة العقدة تلقائيًا بشكل افتراضي
 - يمكنك الانتقال إلى علامة التبويب Connections أو Blockchains لفحص الحالة التفصيلية
-- لتسريع مزامنة العقدة الخاصة بك: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) يوفر روابط ملفات قاعدة البيانات - تم تطويرها ورعايتها بواسطة: [Maize fork](https://chiaforksblockchain.com/)
+- لتسريع مزامنة العقدة الخاصة بك: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) يوفر روابط ملفات قاعدة البيانات - تم تطويرها ورعايتها بواسطة: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. تنزيل الملفات: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. قم بإيقاف مفترق blockchain بواسطة برنامج نصي طرفي مماثل (داخل كل مجلد):
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  ملاحظات 1: تحتاج blockchain الخاصة بمحفظة fork إلى مزامنة فردية في برنامج fork
+  ملاحظات 1: تحتاج محفظتك إلى مزامنة فردية في برنامج fork
   ملاحظات 2: يمكن أن يستغرق اتصال قاعدة البيانات التي تم تنزيلها بشوكة blockchain ما يصل إلى 5 دقائق!
   ```
 

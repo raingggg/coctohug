@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Itigil ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
   "wiki.fast_sync_3": "3. Kopyahin ang mga file na iyon sa blockchain fork folder na katulad ng:",
   "wiki.fast_sync_4": "4. Simulan ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
-  "wiki.fast_sync_5": "Mga Tala 1: Ang blockchain ng iyong fork's wallet ay nangangailangan ng indibidwal na pag-synchronize sa fork program",
+  "wiki.fast_sync_5": "Mga Tala 1: Ang iyong wallet ay nangangailangan ng indibidwal na pag-synchronize sa programa ng tinidor",
   "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!"
 }

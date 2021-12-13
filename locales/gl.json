@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Detén a bifurcación da cadea de bloques mediante un script de terminal similar (dentro de cada cartafol):",
   "wiki.fast_sync_3": "3. Copia eses ficheiros no cartafol do fork blockchain de xeito similar a:",
   "wiki.fast_sync_4": "4. Inicia o fork blockchain mediante un script de terminal similar (dentro de cada cartafol):",
-  "wiki.fast_sync_5": "Notas 1: a cadea de bloques da carteira do teu fork necesita unha sincronización individual no programa fork",
+  "wiki.fast_sync_5": "Notas 1: a túa carteira necesita sincronización individual no programa de fork",
   "wiki.fast_sync_6": "Notas 2: a conexión da base de datos descargada ao teu fork blockchain pode levar ata 5 minutos."
 }

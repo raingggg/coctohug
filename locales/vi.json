@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Dừng phân nhánh blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):",
   "wiki.fast_sync_3": "3. Sao chép các tệp đó vào thư mục blockchain fork tương tự như:",
   "wiki.fast_sync_4": "4. Bắt đầu fork blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):",
-  "wiki.fast_sync_5": "Lưu ý 1: Blockchain ví fork của bạn cần đồng bộ hóa cá nhân trong chương trình fork",
+  "wiki.fast_sync_5": "Lưu ý 1: Ví của bạn cần đồng bộ hóa cá nhân trong chương trình fork",
   "wiki.fast_sync_6": "Lưu ý 2: Việc kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân nhánh blockchain của bạn có thể mất đến 5 phút!"
 }

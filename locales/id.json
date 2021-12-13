@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Hentikan garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
   "wiki.fast_sync_3": "3. Salin file-file itu ke folder garpu blockchain yang mirip dengan:",
   "wiki.fast_sync_4": "4. Mulai garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
-  "wiki.fast_sync_5": "Catatan 1: Blockchain dompet fork Anda memerlukan sinkronisasi individual dalam program fork",
+  "wiki.fast_sync_5": "Catatan 1: Dompet Anda memerlukan sinkronisasi individual dalam program fork",
   "wiki.fast_sync_6": "Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 5 menit!"
 }

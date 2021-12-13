@@ -147,7 +147,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 ## Sincronització de nodes
 - El node se sincronitzarà automàticament per defecte
 - Podeu anar a la pestanya Connections o Blockchains per examinar l&#39;estat detallat
-- Per accelerar la sincronització del vostre node: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) proporciona enllaços a fitxers de bases de dades, desenvolupats i patrocinats per: [Maize fork](https://chiaforksblockchain.com/)
+- Per accelerar la sincronització del vostre node: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) proporciona enllaços a fitxers de bases de dades, desenvolupats i patrocinats per: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Baixeu fitxers: blockchain_v1_mainnet.sqlite i peer_table_node.sqlite
   2. Atureu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):
@@ -162,7 +162,7 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  Notes 1: la cadena de blocs de la cartera del vostre fork necessita una sincronització individual al programa fork
+  Notes 1: la vostra cartera necessita una sincronització individual al programa de forquilla
   Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!
   ```
 

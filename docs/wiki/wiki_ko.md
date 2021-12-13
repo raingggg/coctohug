@@ -147,7 +147,7 @@
 ## 노드 동기화
 - 노드는 기본적으로 자동으로 동기화됩니다.
 - 연결 또는 블록체인 탭으로 이동하여 자세한 상태를 확인할 수 있습니다.
-- 노드 동기화를 가속화하려면: [https://www.coctohug.xyz/](https://www.coctohug.xyz/) 데이터베이스 파일 링크 제공 - 개발 및 후원: [Maize fork](https://chiaforksblockchain.com/)
+- 노드 동기화를 가속화하려면: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) 데이터베이스 파일 링크 제공 - 개발 및 후원: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. 파일 다운로드: blockchain_v1_mainnet.sqlite 및 peer_table_node.sqlite
   2. 유사한 터미널 스크립트로 블록체인 포크를 중지합니다(각 폴더 내):
@@ -162,7 +162,7 @@
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  참고 1: 포크의 지갑 블록체인은 포크 프로그램에서 개별 동기화가 필요합니다.
+  참고 1: 지갑은 포크 프로그램에서 개별 동기화가 필요합니다.
   참고 2: 다운로드한 데이터베이스를 블록체인 포크에 연결하는 데 최대 5분이 소요될 수 있습니다!
   ```
 

@@ -129,6 +129,6 @@
   "wiki.fast_sync_2": "2. Blok zinciri çatalını benzer terminal komut dosyasıyla durdurun (her klasörün içinde):",
   "wiki.fast_sync_3": "3. Bu dosyaları aşağıdakine benzer şekilde blockchain çatal klasörüne kopyalayın:",
   "wiki.fast_sync_4": "4. Blok zinciri çatalını benzer terminal komut dosyasıyla başlatın (her klasörün içinde):",
-  "wiki.fast_sync_5": "Notlar 1: Çatalınızın cüzdan blok zinciri, çatal programında bireysel senkronizasyona ihtiyaç duyar",
+  "wiki.fast_sync_5": "Notlar 1: Cüzdanınızın çatal programında bireysel senkronizasyona ihtiyacı var",
   "wiki.fast_sync_6": "Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 5 dakika kadar sürebilir!"
 }
