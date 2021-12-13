@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Exportar cuenta de Cold Wallet",
   "wiki.farming": "Minería",
   "wiki.farming_warnings": "Advertencias mineras",
-  "wiki.fast_provide": "proporciona una lista de nodos y un archivo de base de datos (haga clic en cada blockchain y luego podrá encontrarlos en la sección superior derecha)",
-  "wiki.fast_sync": "Para acelerar la sincronización de su nodo,",
+  "wiki.fast_provide": "proporciona enlaces a archivos de base de datos, desarrollados y patrocinados por:",
+  "wiki.fast_sync": "Para acelerar la sincronización de su nodo:",
   "wiki.few_minutes_harvester": "Unos minutos más tarde, podrá ver el recolector en la pestaña de manos de WebUI",
   "wiki.fork_panel_background": "cada panel de la bifurcación de blockchain en la pestaña Resumen tendrá un fondo verde claro si está funcionando bien, de lo contrario será un fondo amarillo claro",
   "wiki.fork_worker": "Este es cada trabajador de la bifurcación de blockchain",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Configurar Coctohug en el sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema",
   "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:",
-  "wiki.import_note_2": "Nota 2: Solo las bifurcaciones de blockchain que funcionan pueden importar billetera fría. Verifique si hay bifurcaciones de blockchain detenidas o no antes de hacer esto. Seguro que también puedes volver a importar más tarde cuando se reinicien"
+  "wiki.import_note_2": "Nota 2: Solo las bifurcaciones de blockchain que funcionan pueden importar billetera fría. Verifique si hay bifurcaciones de blockchain detenidas o no antes de hacer esto. Seguro que también puedes volver a importar más tarde cuando se reinicien",
+  "wiki.fast_sync_1": "1. Descargar archivos: blockchain_v1_mainnet.sqlite y peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Detenga la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):",
+  "wiki.fast_sync_3": "3. Copie esos archivos en la carpeta de la bifurcación de blockchain similar a:",
+  "wiki.fast_sync_4": "4. Inicie la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):",
+  "wiki.fast_sync_5": "Notas 1: la cadena de bloques de la billetera de su fork necesita una sincronización individual en el programa fork",
+  "wiki.fast_sync_6": "Notas 2: ¡La conexión de la base de datos descargada a su bifurcación blockchain puede demorar hasta 5 minutos!"
 }

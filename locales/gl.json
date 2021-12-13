@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Exportar conta de Cold Wallet",
   "wiki.farming": "Minería",
   "wiki.farming_warnings": "Avisos de minería",
-  "wiki.fast_provide": "ofrece unha lista de nós e un ficheiro de base de datos (faga clic en cada cadea de bloques e, a continuación, pode atopalos na sección superior dereita)",
-  "wiki.fast_sync": "Para acelerar a sincronización do teu nodo,",
+  "wiki.fast_provide": "ofrece ligazóns a ficheiros de bases de datos desenvolvidas e patrocinadas por:",
+  "wiki.fast_sync": "Para acelerar a sincronización do teu nodo:",
   "wiki.few_minutes_harvester": "Poucos minutos despois, poderás ver a colleitadora na pestana de mans da WebUI",
   "wiki.fork_panel_background": "cada panel de bifurcación da cadea de bloques na pestana Resumo terá un fondo verde claro se funciona ben, se non, será un fondo amarelo claro",
   "wiki.fork_worker": "Este é cada un dos traballadores da cadea de bloques",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Configura Coctohug no sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Quizais necesites engadir portos permitidos de 12630 a 12700 na configuración do firewall do teu sistema",
   "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:",
-  "wiki.import_note_2": "Nota 2: só os garfos blockchain que funcionan poden importar carteira fría. Comproba se hai forks blockchain parados ou non antes de facelo. Seguro que tamén pode importar máis tarde de novo cando se reinicien"
+  "wiki.import_note_2": "Nota 2: só os garfos blockchain que funcionan poden importar carteira fría. Comproba se hai forks blockchain parados ou non antes de facelo. Seguro que tamén pode importar máis tarde de novo cando se reinicien",
+  "wiki.fast_sync_1": "1. Descarga ficheiros: blockchain_v1_mainnet.sqlite e peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Detén a bifurcación da cadea de bloques mediante un script de terminal similar (dentro de cada cartafol):",
+  "wiki.fast_sync_3": "3. Copia eses ficheiros no cartafol do fork blockchain de xeito similar a:",
+  "wiki.fast_sync_4": "4. Inicia o fork blockchain mediante un script de terminal similar (dentro de cada cartafol):",
+  "wiki.fast_sync_5": "Notas 1: a cadea de bloques da carteira do teu fork necesita unha sincronización individual no programa fork",
+  "wiki.fast_sync_6": "Notas 2: a conexión da base de datos descargada ao teu fork blockchain pode levar ata 5 minutos."
 }

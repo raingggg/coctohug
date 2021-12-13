@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Xuất tài khoản Ví lạnh",
   "wiki.farming": "Khai thác mỏ",
   "wiki.farming_warnings": "Cảnh báo khai thác",
-  "wiki.fast_provide": "cung cấp danh sách các nút và tệp cơ sở dữ liệu (nhấp vào từng chuỗi khối và sau đó bạn có thể tìm thấy chúng ở phần trên cùng bên phải)",
-  "wiki.fast_sync": "Để tích lũy đồng bộ hóa nút của bạn,",
+  "wiki.fast_provide": "cung cấp liên kết tệp cơ sở dữ liệu - được phát triển và tài trợ bởi:",
+  "wiki.fast_sync": "Để tích lũy đồng bộ hóa nút của bạn:",
   "wiki.few_minutes_harvester": "Vài phút sau, bạn sẽ có thể thấy máy gặt trên tab tay WebUI",
   "wiki.fork_panel_background": "mỗi bảng phân nhánh blockchain trong tab Tóm tắt sẽ có nền màu xanh lá cây nhạt nếu nó đang hoạt động tốt, nếu không nó sẽ có nền màu vàng nhạt",
   "wiki.fork_worker": "Đây là từng nhân viên phân nhánh blockchain",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Thiết lập Coctohug trên Windows OS",
   "wiki.firewall_port": "Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình",
   "wiki.re_script": "Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:",
-  "wiki.import_note_2": "Lưu ý 2: Chỉ những nhánh blockchain đang hoạt động mới có thể nhập ví lạnh. Vui lòng kiểm tra xem có các nhánh blockchain bị dừng hay không trước khi thực hiện việc này. Chắc chắn bạn cũng có thể nhập lại sau khi chúng được khởi động lại"
+  "wiki.import_note_2": "Lưu ý 2: Chỉ những nhánh blockchain đang hoạt động mới có thể nhập ví lạnh. Vui lòng kiểm tra xem có các nhánh blockchain bị dừng hay không trước khi thực hiện việc này. Chắc chắn bạn cũng có thể nhập lại sau khi chúng được khởi động lại",
+  "wiki.fast_sync_1": "1. Tải xuống các tệp: blockchain_v1_mainnet.sqlite và peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Dừng phân nhánh blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):",
+  "wiki.fast_sync_3": "3. Sao chép các tệp đó vào thư mục blockchain fork tương tự như:",
+  "wiki.fast_sync_4": "4. Bắt đầu fork blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):",
+  "wiki.fast_sync_5": "Lưu ý 1: Blockchain ví fork của bạn cần đồng bộ hóa cá nhân trong chương trình fork",
+  "wiki.fast_sync_6": "Lưu ý 2: Việc kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân nhánh blockchain của bạn có thể mất đến 5 phút!"
 }

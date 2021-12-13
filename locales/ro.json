@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Exportați contul Cold Wallet",
   "wiki.farming": "Minerit",
   "wiki.farming_warnings": "Avertismente miniere",
-  "wiki.fast_provide": "oferă lista de noduri și fișierul bazei de date (faceți clic pe fiecare blockchain și apoi le puteți găsi în secțiunea din dreapta sus)",
-  "wiki.fast_sync": "Pentru a vă accelera sincronizarea nodului,",
+  "wiki.fast_provide": "furnizează legături la fișierele bazei de date - dezvoltate și sponsorizate de:",
+  "wiki.fast_sync": "Pentru a accelera sincronizarea nodului:",
   "wiki.few_minutes_harvester": "Câteva minute mai târziu, veți putea vedea recoltatorul în fila mâini WebUI",
   "wiki.fork_panel_background": "fiecare panou de furcă blockchain din fila Rezumat va avea un fundal verde deschis dacă funcționează bine, altfel va fi un fundal galben deschis",
   "wiki.fork_worker": "Acesta este fiecare lucrători blockchain furk",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Configurați Coctohug pe sistemul de operare Windows",
   "wiki.firewall_port": "Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.",
   "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:",
-  "wiki.import_note_2": "Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite"
+  "wiki.import_note_2": "Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite",
+  "wiki.fast_sync_1": "1. Descărcați fișiere: blockchain_v1_mainnet.sqlite și peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Opriți bifurcația blockchain printr-un script terminal similar (în interiorul fiecărui folder):",
+  "wiki.fast_sync_3": "3. Copiați acele fișiere în folderul blockchain fork similar cu:",
+  "wiki.fast_sync_4": "4. Porniți fork blockchain cu un script terminal similar (în interiorul fiecărui folder):",
+  "wiki.fast_sync_5": "Note 1: Blockchain-ul portofelului dumneavoastră furk are nevoie de sincronizare individuală în programul furk",
+  "wiki.fast_sync_6": "Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!"
 }

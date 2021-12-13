@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "콜드월렛 계정 내보내기",
   "wiki.farming": "채광",
   "wiki.farming_warnings": "채굴 경고",
-  "wiki.fast_provide": "노드 목록 및 데이터베이스 파일 제공(각 블록체인을 클릭하면 오른쪽 상단 섹션에서 찾을 수 있음)",
-  "wiki.fast_sync": "노드 동기화를 가속화하려면",
+  "wiki.fast_provide": "데이터베이스 파일 링크 제공 - 개발 및 후원:",
+  "wiki.fast_sync": "노드 동기화를 가속화하려면:",
   "wiki.few_minutes_harvester": "몇 분 후 WebUI 손 탭에서 하베스터를 볼 수 있습니다.",
   "wiki.fork_panel_background": "요약 탭의 각 블록체인 포크 패널은 제대로 작동하는 경우 밝은 녹색 배경을 가지며 그렇지 않으면 밝은 노란색 배경이 됩니다.",
   "wiki.fork_worker": "각 블록체인 포크 워커입니다.",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Windows OS에서 Coctohug 설정",
   "wiki.firewall_port": "참고 4: 시스템 방화벽 설정에서 12630에서 12700 사이의 허용 포트를 추가해야 할 수 있습니다.",
   "wiki.re_script": "참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다.",
-  "wiki.import_note_2": "참고 2: 작동하는 블록체인 포크만 콜드 월렛을 가져올 수 있습니다. 이 작업을 수행하기 전에 중지된 블록체인 포크가 있는지 확인하십시오. 물론 나중에 다시 시작할 때 다시 가져올 수도 있습니다."
+  "wiki.import_note_2": "참고 2: 작동하는 블록체인 포크만 콜드 월렛을 가져올 수 있습니다. 이 작업을 수행하기 전에 중지된 블록체인 포크가 있는지 확인하십시오. 물론 나중에 다시 시작할 때 다시 가져올 수도 있습니다.",
+  "wiki.fast_sync_1": "1. 파일 다운로드: blockchain_v1_mainnet.sqlite 및 peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. 유사한 터미널 스크립트로 블록체인 포크를 중지합니다(각 폴더 내):",
+  "wiki.fast_sync_3": "3. 해당 파일을 다음과 유사한 블록체인 포크 폴더에 복사합니다.",
+  "wiki.fast_sync_4": "4. 유사한 터미널 스크립트로 블록체인 포크를 시작합니다(각 폴더 내):",
+  "wiki.fast_sync_5": "참고 1: 포크의 지갑 블록체인은 포크 프로그램에서 개별 동기화가 필요합니다.",
+  "wiki.fast_sync_6": "참고 2: 다운로드한 데이터베이스를 블록체인 포크에 연결하는 데 최대 5분이 소요될 수 있습니다!"
 }

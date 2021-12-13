@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Ekspor Akun Cold Wallet",
   "wiki.farming": "Pertambangan",
   "wiki.farming_warnings": "Peringatan Penambangan",
-  "wiki.fast_provide": "menyediakan daftar node dan file database (klik setiap blockchain dan kemudian Anda dapat menemukannya di bagian kanan atas)",
-  "wiki.fast_sync": "Untuk mempercepat sinkronisasi simpul Anda,",
+  "wiki.fast_provide": "menyediakan tautan file basis data - dikembangkan dan disponsori oleh:",
+  "wiki.fast_sync": "Untuk mempercepat sinkronisasi simpul Anda:",
   "wiki.few_minutes_harvester": "Beberapa menit kemudian, Anda akan dapat melihat pemanen di tab tangan WebUI",
   "wiki.fork_panel_background": "setiap panel garpu blockchain di tab Ringkasan akan memiliki latar belakang hijau muda jika berfungsi dengan baik, jika tidak maka akan menjadi latar belakang kuning muda",
   "wiki.fork_worker": "Ini adalah setiap pekerja garpu blockchain",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Siapkan Coctohug di OS Windows",
   "wiki.firewall_port": "Catatan 4: Anda mungkin perlu menambahkan port yang diizinkan dari 12630 hingga 12700 pada pengaturan firewall sistem Anda",
   "wiki.re_script": "Catatan 3: Jika ada masalah, Anda mungkin perlu menjalankan ulang semua folder berdasarkan pesanan:",
-  "wiki.import_note_2": "Catatan 2: Hanya garpu blockchain yang berfungsi yang dapat mengimpor dompet dingin. Silakan periksa apakah ada garpu blockchain yang dihentikan atau tidak sebelum melakukan ini. Tentunya Anda juga dapat mengimpor lagi nanti ketika mereka dimulai kembali"
+  "wiki.import_note_2": "Catatan 2: Hanya garpu blockchain yang berfungsi yang dapat mengimpor dompet dingin. Silakan periksa apakah ada garpu blockchain yang dihentikan atau tidak sebelum melakukan ini. Tentunya Anda juga dapat mengimpor lagi nanti ketika mereka dimulai kembali",
+  "wiki.fast_sync_1": "1. Unduh file: blockchain_v1_mainnet.sqlite dan peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Hentikan garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
+  "wiki.fast_sync_3": "3. Salin file-file itu ke folder garpu blockchain yang mirip dengan:",
+  "wiki.fast_sync_4": "4. Mulai garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
+  "wiki.fast_sync_5": "Catatan 1: Blockchain dompet fork Anda memerlukan sinkronisasi individual dalam program fork",
+  "wiki.fast_sync_6": "Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 5 menit!"
 }

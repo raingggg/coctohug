@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "导出冷钱包账户",
   "wiki.farming": "矿业",
   "wiki.farming_warnings": "采矿警告",
-  "wiki.fast_provide": "提供节点列表和数据库文件（单击每个区块链，然后您可以在右上角找到它们）",
-  "wiki.fast_sync": "为了加速您的节点同步，",
+  "wiki.fast_provide": "提供数据库文件链接 - 开发和赞助：",
+  "wiki.fast_sync": "要加速您的节点同步：",
   "wiki.few_minutes_harvester": "几分钟后，您将能够在 WebUI 手选项卡上看到收割机",
   "wiki.fork_panel_background": "如果工作正常，摘要选项卡中的每个区块链分叉面板将具有浅绿色背景，否则将是浅黄色背景",
   "wiki.fork_worker": "这是每个区块链分叉工人",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "在 Windows 操作系统上设置 Coctohug",
   "wiki.firewall_port": "注意 4：您可能需要在系统防火墙设置中添加从 12630 到 12700 的允许端口",
   "wiki.re_script": "注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹：",
-  "wiki.import_note_2": "注 2：只有工作的区块链分叉才能导入冷钱包。在执行此操作之前，请检查是否有停止的区块链分叉。当然，您也可以稍后在重新启动时再次导入"
+  "wiki.import_note_2": "注 2：只有工作的区块链分叉才能导入冷钱包。在执行此操作之前，请检查是否有停止的区块链分叉。当然，您也可以稍后在重新启动时再次导入",
+  "wiki.fast_sync_1": "1. 下载文件：blockchain_v1_mainnet.sqlite 和 peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2.通过类似的终端脚本（在每个文件夹内）停止区块链分叉：",
+  "wiki.fast_sync_3": "3. 将这些文件复制到区块链 fork 文件夹中，类似于：",
+  "wiki.fast_sync_4": "4.通过类似的终端脚本（在每个文件夹内）启动区块链分叉：",
+  "wiki.fast_sync_5": "注意事项1：您的分叉钱包区块链需要在分叉程序中单独同步",
+  "wiki.fast_sync_6": "注 2：将下载的数据库连接到您的区块链分叉最多可能需要 5 分钟！"
 }

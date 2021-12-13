@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Exporta el compte de Cold Wallet",
   "wiki.farming": "Mineria",
   "wiki.farming_warnings": "Avisos de mineria",
-  "wiki.fast_provide": "proporciona una llista de nodes i un fitxer de base de dades (feu clic a cada cadena de blocs i, a continuació, els trobareu a la secció superior dreta)",
-  "wiki.fast_sync": "Per accelerar la sincronització del vostre node,",
+  "wiki.fast_provide": "proporciona enllaços a fitxers de bases de dades, desenvolupats i patrocinats per:",
+  "wiki.fast_sync": "Per accelerar la sincronització del vostre node:",
   "wiki.few_minutes_harvester": "Uns minuts més tard, podreu veure la recol·lectora a la pestanya de mans de WebUI",
   "wiki.fork_panel_background": "cada panell de forquilla de cadena de blocs a la pestanya Resum tindrà un fons verd clar si funciona bé, en cas contrari serà un fons groc clar",
   "wiki.fork_worker": "Aquests són els treballadors de la bifurcació de cadena de blocs",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Configura Coctohug al sistema operatiu Windows",
   "wiki.firewall_port": "Nota 4: és possible que hàgiu d'afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema",
   "wiki.re_script": "Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:",
-  "wiki.import_note_2": "Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn"
+  "wiki.import_note_2": "Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn",
+  "wiki.fast_sync_1": "1. Baixeu fitxers: blockchain_v1_mainnet.sqlite i peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Atureu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):",
+  "wiki.fast_sync_3": "3. Copieu aquests fitxers a la carpeta de la bifurcació de la cadena de blocs de manera semblant a:",
+  "wiki.fast_sync_4": "4. Inicieu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):",
+  "wiki.fast_sync_5": "Notes 1: la cadena de blocs de la cartera del vostre fork necessita una sincronització individual al programa fork",
+  "wiki.fast_sync_6": "Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!"
 }

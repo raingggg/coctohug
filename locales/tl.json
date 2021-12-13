@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "I-export ang Cold Wallet Account",
   "wiki.farming": "Pagmimina",
   "wiki.farming_warnings": "Mga Babala sa Pagmimina",
-  "wiki.fast_provide": "nagbibigay ng listahan ng mga node at database file (i-click ang bawat blockchain at pagkatapos ay mahahanap mo ang mga ito sa kanang bahagi sa itaas)",
-  "wiki.fast_sync": "Upang mapabilis ang iyong pag-sync ng node,",
+  "wiki.fast_provide": "nagbibigay ng mga link sa database file - binuo at inisponsor ng:",
+  "wiki.fast_sync": "Upang mapabilis ang iyong pag-sync ng node:",
   "wiki.few_minutes_harvester": "Pagkalipas ng ilang minuto, makikita mo ang harvester sa tab ng WebUI hands",
   "wiki.fork_panel_background": "bawat blockchain fork-panel sa tab na Buod ay magkakaroon ng mapusyaw na berdeng background kung ito ay gumagana nang maayos, kung hindi, ito ay magiging mapusyaw na dilaw na background",
   "wiki.fork_worker": "Ito ang bawat manggagawa ng blockchain fork",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "I-setup ang Coctohug sa Windows OS",
   "wiki.firewall_port": "Tandaan 4: Maaaring kailanganin mong magdagdag ng pagpapahintulot sa mga port mula 12630 hanggang 12700 sa iyong mga setting ng firewall ng system",
   "wiki.re_script": "Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:",
-  "wiki.import_note_2": "Tandaan 2: Tanging mga gumaganang blockchain forks lang ang makakapag-import ng cold wallet. Pakisuri kung may mga tumigil na blockchain forks o wala bago gawin ito. Tiyak na maaari ka ring mag-import sa ibang pagkakataon muli kapag sila ay muling nagsimula"
+  "wiki.import_note_2": "Tandaan 2: Tanging mga gumaganang blockchain forks lang ang makakapag-import ng cold wallet. Pakisuri kung may mga tumigil na blockchain forks o wala bago gawin ito. Tiyak na maaari ka ring mag-import sa ibang pagkakataon muli kapag sila ay muling nagsimula",
+  "wiki.fast_sync_1": "1. Mag-download ng mga file: blockchain_v1_mainnet.sqlite at peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Itigil ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
+  "wiki.fast_sync_3": "3. Kopyahin ang mga file na iyon sa blockchain fork folder na katulad ng:",
+  "wiki.fast_sync_4": "4. Simulan ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
+  "wiki.fast_sync_5": "Mga Tala 1: Ang blockchain ng iyong fork's wallet ay nangangailangan ng indibidwal na pag-synchronize sa fork program",
+  "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!"
 }

@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Esporta conto Cold Wallet",
   "wiki.farming": "Estrazione",
   "wiki.farming_warnings": "Avvertenze minerarie",
-  "wiki.fast_provide": "fornisce l'elenco dei nodi e il file di database (fai clic su ciascuna blockchain e puoi trovarli nella sezione in alto a destra)",
-  "wiki.fast_sync": "Per accelerare la sincronizzazione del nodo,",
+  "wiki.fast_provide": "fornisce collegamenti ai file di database - sviluppati e sponsorizzati da:",
+  "wiki.fast_sync": "Per accelerare la sincronizzazione del nodo:",
   "wiki.few_minutes_harvester": "Pochi minuti dopo, sarai in grado di vedere la mietitrice nella scheda delle mani di WebUI",
   "wiki.fork_panel_background": "ogni pannello fork della blockchain nella scheda Riepilogo avrà uno sfondo verde chiaro se funziona correttamente, altrimenti sarà uno sfondo giallo chiaro",
   "wiki.fork_worker": "Questo è ogni blockchain fork worker",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Configura Coctohug su sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: potrebbe essere necessario aggiungere porte consentite da 12630 a 12700 nelle impostazioni del firewall di sistema",
   "wiki.re_script": "Nota 3: in caso di problemi, potrebbe essere necessario rieseguire tutte le cartelle in ordine:",
-  "wiki.import_note_2": "Nota 2: solo i fork blockchain funzionanti possono importare cold wallet. Si prega di verificare se ci sono fork blockchain bloccati o meno prima di farlo. Sicuramente puoi anche importare di nuovo in seguito quando vengono riavviati"
+  "wiki.import_note_2": "Nota 2: solo i fork blockchain funzionanti possono importare cold wallet. Si prega di verificare se ci sono fork blockchain bloccati o meno prima di farlo. Sicuramente puoi anche importare di nuovo in seguito quando vengono riavviati",
+  "wiki.fast_sync_1": "1. Scarica i file: blockchain_v1_mainnet.sqlite e peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Arresta il fork della blockchain con uno script di terminale simile (all'interno di ogni cartella):",
+  "wiki.fast_sync_3": "3. Copia questi file nella cartella fork blockchain in modo simile a:",
+  "wiki.fast_sync_4": "4. Avvia il fork della blockchain con uno script di terminale simile (all'interno di ogni cartella):",
+  "wiki.fast_sync_5": "Note 1: la blockchain del tuo portafoglio fork necessita di una sincronizzazione individuale nel programma fork",
+  "wiki.fast_sync_6": "Note 2: La connessione del database scaricato al tuo fork blockchain può richiedere fino a 5 minuti!"
 }

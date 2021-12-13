@@ -42,8 +42,8 @@
   "wiki.export_cold_wallet": "Cold Wallet-Konto exportieren",
   "wiki.farming": "Bergbau",
   "wiki.farming_warnings": "Bergbauwarnungen",
-  "wiki.fast_provide": "bietet Knotenliste und Datenbankdatei (klicken Sie auf jede Blockchain und Sie finden sie im oberen rechten Abschnitt)",
-  "wiki.fast_sync": "Um Ihre Knotensynchronisierung zu beschleunigen,",
+  "wiki.fast_provide": "bietet Links zu Datenbankdateien - entwickelt und gesponsert von:",
+  "wiki.fast_sync": "So beschleunigen Sie Ihre Knotensynchronisierung:",
   "wiki.few_minutes_harvester": "Einige Minuten später können Sie den Harvester auf der WebUI-Registerkarte Hände sehen",
   "wiki.fork_panel_background": "Jedes Blockchain-Fork-Panel auf der Registerkarte \"Zusammenfassung\" hat einen hellgrünen Hintergrund, wenn es einwandfrei funktioniert, andernfalls ist es ein hellgelber Hintergrund",
   "wiki.fork_worker": "Dies ist jeder Blockchain-Fork-Worker",
@@ -124,5 +124,11 @@
   "wiki.windows_setup": "Coctohug unter Windows einrichten",
   "wiki.firewall_port": "Hinweis 4: Möglicherweise müssen Sie die zulässigen Ports von 12630 bis 12700 in Ihren System-Firewall-Einstellungen hinzufügen",
   "wiki.re_script": "Hinweis 3: Wenn Probleme auftreten, müssen Sie möglicherweise alle Ordner der Reihenfolge nach erneut ausführen:",
-  "wiki.import_note_2": "Hinweis 2: Nur funktionierende Blockchain-Forks können Cold Wallet importieren. Bitte prüfen Sie vorher, ob es angehaltene Blockchain-Forks gibt oder nicht. Sicherlich kann man sie auch später wieder importieren, wenn sie neu gestartet werden"
+  "wiki.import_note_2": "Hinweis 2: Nur funktionierende Blockchain-Forks können Cold Wallet importieren. Bitte prüfen Sie vorher, ob es angehaltene Blockchain-Forks gibt oder nicht. Sicherlich kann man sie auch später wieder importieren, wenn sie neu gestartet werden",
+  "wiki.fast_sync_1": "1. Dateien herunterladen: blockchain_v1_mainnet.sqlite und peer_table_node.sqlite",
+  "wiki.fast_sync_2": "2. Stoppen Sie Blockchain Fork durch ein ähnliches Terminal-Skript (in jedem Ordner):",
+  "wiki.fast_sync_3": "3. Kopieren Sie diese Dateien in den Blockchain-Fork-Ordner ähnlich wie:",
+  "wiki.fast_sync_4": "4. Starten Sie Blockchain Fork mit einem ähnlichen Terminal-Skript (in jedem Ordner):",
+  "wiki.fast_sync_5": "Hinweise 1: Die Wallet-Blockchain Ihres Forks benötigt eine individuelle Synchronisation im Fork-Programm",
+  "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!"
 }
