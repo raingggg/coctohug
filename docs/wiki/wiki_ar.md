@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## تطوير
+- هذا يحتاج إلى 24 كلمة ذاكري مرة أخرى. يرجى وضعها في ملف /home/user/.coctohug/mnc.txt. بعد بدء تشغيل جميع حاويات Docker الجديدة ، يمكنك بعد ذلك تفريغ الملف mnc.txt لتحسين مستوى الأمان لديك
 - نص سطر واحد
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

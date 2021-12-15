@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## <%= localeData['wiki.upgrade'] %>
+- <%= localeData['wiki.upgrade_mnc'] %>
 - <%= localeData['wiki.one_line_script'] %>
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

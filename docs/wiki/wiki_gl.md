@@ -256,6 +256,7 @@ Fácil instalación usando [Inicio rápido](https://www.coctohug.xyz/)
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Actualizar
+- Isto precisa de novo as 24 palabras mnemotécnicas. Por favor, colócaas no ficheiro /home/user/.coctohug/mnc.txt. Despois de comezar todos os novos contedores docker, podes baleirar o ficheiro mnc.txt para mellorar o teu nivel de seguranza
 - Guión dunha liña
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

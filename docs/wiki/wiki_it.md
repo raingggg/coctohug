@@ -256,6 +256,7 @@ Facile installazione utilizzando [Avvio veloce](https://www.coctohug.xyz/)
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Aggiornamento
+- Questo ha bisogno di nuovo delle 24 parole mnemoniche. Inseriscili nel file /home/user/.coctohug/mnc.txt. Dopo che tutti i nuovi contenitori docker sono stati avviati, puoi svuotare il file mnc.txt per migliorare il tuo livello di sicurezza
 - Script di una riga
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## อัพเกรด
+- สิ่งนี้ต้องการคำช่วยจำ 24 คำอีกครั้ง โปรดใส่ลงในไฟล์ /home/user/.coctohug/mnc.txt หลังจากคอนเทนเนอร์นักเทียบท่าใหม่เริ่มต้นขึ้น คุณสามารถล้างไฟล์ mnc.txt เพื่อเพิ่มระดับความปลอดภัยของคุณ
 - สคริปต์หนึ่งบรรทัด
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

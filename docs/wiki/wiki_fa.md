@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## ارتقا دهید
+- این دوباره به 24 کلمه یادگاری نیاز دارد. لطفاً آنها را در فایل /home/user/.coctohug/mnc.txt قرار دهید. پس از شروع همه کانتینرهای docker جدید، می توانید فایل mnc.txt را خالی کنید تا سطح امنیت خود را افزایش دهید
 - اسکریپت یک خطی
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

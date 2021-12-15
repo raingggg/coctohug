@@ -23,7 +23,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 ![German](../../images/coctohug-summary-german-min.png)
 
 
-# Open Source Projects on Github 
+# Open Source Projects on Github
 | Coctohug Docker Source Code  | Blockain Forks Source Code  | Blockchain Community  | Coctohug Community  | Blockain Site  | Blockain Files  | Blockain Explorer  |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [WebUI](https://github.com/raingggg/coctohug-web-docker) | [Github](https://github.com/raingggg/coctohug-web)  | [Discord](https://discord.com/invite/RcVpCw3ef7) | [Discord](https://discord.com/invite/RcVpCw3ef7) | [Site](https://www.coctohug.xyz/) | [Files](https://www.coctohug.xyz/) | [Explorer](https://www.coctohug.xyz/)|

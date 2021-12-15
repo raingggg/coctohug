@@ -256,6 +256,7 @@ Configuration facile en utilisant [Démarrage rapide](https://www.coctohug.xyz/)
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Améliorer
+- Cela nécessite à nouveau les 24 mots mnémoniques. Veuillez les mettre dans le fichier /home/user/.coctohug/mnc.txt. Une fois tous les nouveaux conteneurs Docker démarrés, vous pouvez ensuite vider le fichier mnc.txt pour améliorer votre niveau de sécurité
 - Script d&#39;une ligne
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

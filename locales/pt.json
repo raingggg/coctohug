@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Copie esses arquivos para a pasta fork do blockchain semelhante a:",
   "wiki.fast_sync_4": "4. Inicie o fork do blockchain com um script de terminal semelhante (dentro de cada pasta):",
   "wiki.fast_sync_5": "Notas 1: Sua carteira precisa de sincronização individual no programa fork",
-  "wiki.fast_sync_6": "Notas 2: A conexão do banco de dados baixado ao fork do blockchain pode levar até 5 minutos!"
+  "wiki.fast_sync_6": "Notas 2: A conexão do banco de dados baixado ao fork do blockchain pode levar até 5 minutos!",
+  "wiki.upgrade_mnc": "Isso precisa das 24 palavras mnemônicas novamente. Coloque-os no arquivo /home/user/.coctohug/mnc.txt. Depois que todos os novos contêineres do docker forem iniciados, você pode esvaziar o arquivo mnc.txt para aumentar seu nível de segurança"
 }

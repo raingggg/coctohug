@@ -129,6 +129,7 @@
   "wiki.wallets_management": "Wallets Management",
   "wiki.weekly_report": "Weekly Report",
   "wiki.windows_setup": "Setup Coctohug on Windows OS",
+  "wiki.upgrade_mnc": "This needs the 24 mnemonic words again. Please put them into file /home/user/.coctohug/mnc.txt. After all new docker containers started, you can then empty the file mnc.txt to enhance your security level",
   "wiki.re_script": "Note 3: If there are any issues, you may need rerun all the folders by order:",
   "wiki.firewall_port": "Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings"
 }

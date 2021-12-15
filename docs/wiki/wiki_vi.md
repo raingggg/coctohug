@@ -256,6 +256,7 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Nâng cấp
+- Điều này cần 24 từ ghi nhớ một lần nữa. Vui lòng đưa chúng vào tệp /home/user/.coctohug/mnc.txt. Sau khi tất cả các vùng chứa docker mới bắt đầu, bạn có thể làm trống tệp mnc.txt để nâng cao mức độ bảo mật của mình
 - Tập lệnh một dòng
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

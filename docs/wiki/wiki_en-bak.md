@@ -147,23 +147,23 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 ## Node Sync
 - Node will sync automatically by default
 - You may go to Connections or Blockchains tab to examine the detailed status
-- To acclerate your node sync, [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) provides nodes list and database file(click each blockchain and then you can find them on top right section) [Maize fork](https://chiaforksblockchain.com/)
+- To acclerate your node sync: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) provides database file links - developed and sponsored by: [Maize fork](https://chiaforksblockchain.com/)
   ```
-  
-  
+  1. Download files: blockchain_v1_mainnet.sqlite and peer_table_node.sqlite
+  2. Stop blockchain fork by similar terminal script(inside each folder):
     docker-compose stop coctohug-flora
     docker-compose stop coctohug-covid
     docker-compose stop coctohug-lucky
-  
+  3. Copy those files to the blockchain fork folder similar to:
     /home/username/.coctohug-flora/flora/mainnet/db/
     /home/username/.coctohug-covid/covid/mainnet/db/
     /home/username/.coctohug-lucky/lucky/mainnet/db/
-  
+  4. Start blockchain fork by similar terminal script(inside each folder):
     docker-compose restart coctohug-flora
     docker-compose restart coctohug-covid
     docker-compose restart coctohug-lucky
-  
-  
+  Notes 1: Your wallet needs individual synchronization in the fork program
+  Notes 2: Connection of the downloaded database to your blockchain fork can take up to 5 minutes!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -256,6 +256,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Upgrade
+- 
 - One line script
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
@@ -289,7 +290,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 
 
 
-# Open Source Projects on Github 
+# Open Source Projects on Github
 | Coctohug Docker Source Code  | Blockain Forks Source Code  | Blockchain Community  | Coctohug Community  | Blockain Site  | Blockain Files  | Blockain Explorer  |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | [WebUI](https://github.com/raingggg/coctohug-web-docker) | [Github](https://github.com/raingggg/coctohug-web)  | [Discord](https://discord.com/invite/RcVpCw3ef7) | [Discord](https://discord.com/invite/RcVpCw3ef7) | [Site](https://www.coctohug.xyz/) | [Files](https://www.coctohug.xyz/) | [Explorer](https://www.coctohug.xyz/)|

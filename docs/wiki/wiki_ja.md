@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## アップグレード
+- これには、24のニーモニックワードが再び必要です。それらをファイル/home/user/.coctohug/mnc.txtに入れてください。すべての新しいDockerコンテナーが開始されたら、ファイルmnc.txtを空にして、セキュリティレベルを強化できます。
 - 1行のスクリプト
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

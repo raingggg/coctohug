@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## 업그레이드
+- 이것은 다시 24개의 니모닉 단어가 필요합니다. /home/user/.coctohug/mnc.txt 파일에 넣어주세요. 모든 새 도커 컨테이너가 시작된 후 mnc.txt 파일을 비워 보안 수준을 높일 수 있습니다.
 - 한 줄 스크립트
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

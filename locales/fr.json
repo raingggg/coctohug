@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Copiez ces fichiers dans le dossier de la fourche blockchain de la manière suivante :",
   "wiki.fast_sync_4": "4. Démarrez blockchain fork par un script de terminal similaire (à l'intérieur de chaque dossier):",
   "wiki.fast_sync_5": "Notes 1 : votre portefeuille a besoin d'une synchronisation individuelle dans le programme fork",
-  "wiki.fast_sync_6": "Notes 2 : La connexion de la base de données téléchargée à votre fork blockchain peut prendre jusqu'à 5 minutes !"
+  "wiki.fast_sync_6": "Notes 2 : La connexion de la base de données téléchargée à votre fork blockchain peut prendre jusqu'à 5 minutes !",
+  "wiki.upgrade_mnc": "Cela nécessite à nouveau les 24 mots mnémoniques. Veuillez les mettre dans le fichier /home/user/.coctohug/mnc.txt. Une fois tous les nouveaux conteneurs Docker démarrés, vous pouvez ensuite vider le fichier mnc.txt pour améliorer votre niveau de sécurité"
 }

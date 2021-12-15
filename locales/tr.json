@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Bu dosyaları aşağıdakine benzer şekilde blockchain çatal klasörüne kopyalayın:",
   "wiki.fast_sync_4": "4. Blok zinciri çatalını benzer terminal komut dosyasıyla başlatın (her klasörün içinde):",
   "wiki.fast_sync_5": "Notlar 1: Cüzdanınızın çatal programında bireysel senkronizasyona ihtiyacı var",
-  "wiki.fast_sync_6": "Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 5 dakika kadar sürebilir!"
+  "wiki.fast_sync_6": "Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 5 dakika kadar sürebilir!",
+  "wiki.upgrade_mnc": "Bunun için tekrar 24 anımsatıcı kelimeye ihtiyacı var. Lütfen bunları /home/user/.coctohug/mnc.txt dosyasına koyun. Tüm yeni docker kapsayıcıları başlatıldıktan sonra, güvenlik düzeyinizi artırmak için mnc.txt dosyasını boşaltabilirsiniz."
 }

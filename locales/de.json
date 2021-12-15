@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Kopieren Sie diese Dateien in den Blockchain-Fork-Ordner ähnlich wie:",
   "wiki.fast_sync_4": "4. Starten Sie Blockchain Fork mit einem ähnlichen Terminal-Skript (in jedem Ordner):",
   "wiki.fast_sync_5": "Hinweise 1: Ihr Wallet benötigt eine individuelle Synchronisation im Fork-Programm",
-  "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!"
+  "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!",
+  "wiki.upgrade_mnc": "Dazu werden wieder die 24 mnemonischen Wörter benötigt. Bitte legen Sie sie in die Datei /home/user/.coctohug/mnc.txt. Nachdem alle neuen Docker-Container gestartet wurden, können Sie die Datei mnc.txt leeren, um Ihre Sicherheitsstufe zu erhöhen"
 }

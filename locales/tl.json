@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Kopyahin ang mga file na iyon sa blockchain fork folder na katulad ng:",
   "wiki.fast_sync_4": "4. Simulan ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
   "wiki.fast_sync_5": "Mga Tala 1: Ang iyong wallet ay nangangailangan ng indibidwal na pag-synchronize sa programa ng tinidor",
-  "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!"
+  "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!",
+  "wiki.upgrade_mnc": "Kailangan nitong muli ang 24 na mnemonic na salita. Mangyaring ilagay ang mga ito sa file /home/user/.coctohug/mnc.txt. Pagkatapos magsimula ng lahat ng bagong docker container, maaari mong alisan ng laman ang file mnc.txt para mapahusay ang iyong antas ng seguridad"
 }

@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Copieu aquests fitxers a la carpeta de la bifurcació de la cadena de blocs de manera semblant a:",
   "wiki.fast_sync_4": "4. Inicieu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):",
   "wiki.fast_sync_5": "Notes 1: la vostra cartera necessita una sincronització individual al programa de forquilla",
-  "wiki.fast_sync_6": "Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!"
+  "wiki.fast_sync_6": "Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!",
+  "wiki.upgrade_mnc": "Això necessita de nou les 24 paraules mnemotècniques. Si us plau, poseu-los al fitxer /home/user/.coctohug/mnc.txt. Després de començar tots els contenidors de Docker nous, podeu buidar el fitxer mnc.txt per millorar el vostre nivell de seguretat"
 }

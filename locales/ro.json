@@ -130,5 +130,6 @@
   "wiki.fast_sync_3": "3. Copiați acele fișiere în folderul blockchain fork similar cu:",
   "wiki.fast_sync_4": "4. Porniți fork blockchain cu un script terminal similar (în interiorul fiecărui folder):",
   "wiki.fast_sync_5": "Note 1: Portofelul dvs. are nevoie de sincronizare individuală în programul furk",
-  "wiki.fast_sync_6": "Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!"
+  "wiki.fast_sync_6": "Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!",
+  "wiki.upgrade_mnc": "Aceasta are nevoie din nou de cele 24 de cuvinte mnemonice. Vă rugăm să le puneți în fișierul /home/user/.coctohug/mnc.txt. După ce au pornit toate containerele docker noi, puteți goli fișierul mnc.txt pentru a vă îmbunătăți nivelul de securitate"
 }

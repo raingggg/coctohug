@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Оновлення
+- Для цього знову потрібні 24 мнемонічні слова. Будь ласка, помістіть їх у файл /home/user/.coctohug/mnc.txt. Після запуску всіх нових контейнерів Docker ви можете очистити файл mnc.txt, щоб підвищити рівень безпеки
 - Однорядковий сценарій
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

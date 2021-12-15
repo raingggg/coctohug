@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Подобряване на
+- Това отново се нуждае от 24-те мнемонични думи. Моля, поставете ги във файл /home/user/.coctohug/mnc.txt. След като стартират всички нови докер контейнери, можете да изпразните файла mnc.txt, за да подобрите нивото на сигурност
 - Скрипт с един ред
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate

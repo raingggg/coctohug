@@ -256,6 +256,7 @@
 <p id="cch-upgrade">&nbsp;</p>
 
 ## 升級
+- 這又需要24個助記詞。請將它們放入文件/home/user/.coctohug/mnc.txt。在所有新的 docker 容器啟動後，您可以清空文件 mnc.txt 以提高您的安全級別
 - 一行腳本
   ```
   docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
