@@ -44,34 +44,48 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 ## Configura Coctohug al sistema operatiu Linux
 - Configuració <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Vés al lloc <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, a continuació, introduïu tots els camps de formulari necessaris i descarregueu els fitxers de docker-compose comprimits generats
-- Descomprimiu les carpetes descarregades i copieu-les al vostre directori de treball
-- Executeu totes les carpetes per ordre:
+- Descomprimiu les carpetes descarregades i copieu-les al vostre directori de treball. Si us plau, elimineu també aquestes carpetes de forquilla de cadena de blocs no desitjades per evitar que l&#39;ordinador es quedi sense recursos
+- Instal·leu forquilles de cadena de blocs mitjançant scripts similars:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Obriu el navegador i accediu a la WebUI amb l&#39;URL <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: no engegueu més de 5 bifurcacions de cadena de blocs al mateix temps, ja que les bifurcacions de cadena de blocs de chia realment mengen CPU quan es sincronitzen el node per primera vegada
 - Nota 2: es necessiten al voltant d&#39;1,8 G de RAM per a cada bifurcació de cadena de blocs, així que trieu algunes bifurcacions de cadena de blocs en funció de la memòria de l&#39;ordinador.
-- Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:
+- Nota 3: si hi ha cap problema, és possible que hàgiu de reiniciar totes les bifurcacions de cadena de blocs:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Nota 4: és possible que hàgiu d&#39;afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema
-
+- Nota 5: si us plau, recordeu moure la carpeta de forquilles blockchain no desitjades de la carpeta coctohug. En cas contrari, s&#39;iniciaran al mateix temps quan opereu amb totes les bifurcacions de cadena de blocs que funcionin, i això pot provocar que el vostre ordinador es quedi sense recursos.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configura Coctohug al sistema operatiu Windows
-- El mateix amb [Configura Coctohug al sistema operatiu Linux](#cch-linux)
+- La majoria dels passos són els mateixos [Configura Coctohug al sistema operatiu Linux](#cch-linux)
+- Instal·leu forquilles de cadena de blocs mitjançant scripts similars:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   ```
   1. Baixeu fitxers: blockchain_v1_mainnet.sqlite i peer_table_node.sqlite
   2. Atureu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Copieu aquests fitxers a la carpeta de la bifurcació de la cadena de blocs de manera semblant a:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Inicieu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Notes 1: la vostra cartera necessita una sincronització individual al programa de forquilla
-  Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!
+  Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 30 minuts!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   3. Configura les carpetes docker-compose [Configura Coctohug al sistema operatiu Linux]
   4. A la pantalla d&#39;inici de WebUI, genereu una nova clau aquesta vegada
   5. Espereu uns minuts perquè les bifurcacions de cadena de blocs es reiniciin
-  6. Aneu a cada carpeta i executeu l&#39;script docker-compose stop && docker-compose up -d
-  7. Visita http://localhost:12630/, i aneu a la configuració: pestanya de cartera freda per exportar les adreces de cartera freda
-  8. Confirmeu que cada adreça sigui correcta manualment comparant el fitxer baixat amb la informació que es mostra a la pestanya Claus
-  9. Obteniu 24 paraules mnemotècniques mitjançant un script de terminal similar
+  6. Visita http://localhost:12630/, i aneu a la configuració: pestanya de cartera freda per exportar les adreces de cartera freda
+  7. Confirmeu que cada adreça sigui correcta manualment comparant el fitxer baixat amb la informació que es mostra a la pestanya Claus
+  8. Obteniu 24 paraules mnemotècniques mitjançant un script de terminal similar
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   3. Espereu uns minuts i aneu a la pestanya de la cartera per veure si l&#39;adreça de la cartera freda s&#39;actualitza o no
   4. Nota 1: recomanem una còpia de seguretat de les configuracions de la cartera abans d&#39;importar
   5. Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn
-  6. Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Nota 3: si hi ha cap problema, és possible que hàgiu de reiniciar totes les bifurcacions de cadena de blocs:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Això necessita de nou les 24 paraules mnemotècniques. Si us plau, poseu-los al fitxer /home/user/.coctohug/mnc.txt. Després de començar tots els contenidors de Docker nous, podeu buidar el fitxer mnc.txt per millorar el vostre nivell de seguretat
 - Guió d&#39;una línia
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - També podeu executar els scripts anteriors pas a pas
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - En cas de problemes de base de dades incompatibles, podeu eliminar el fitxer de base de dades existent abans d&#39;executar l&#39;script d&#39;inici de docker-compose mitjançant
   ```

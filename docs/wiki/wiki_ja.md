@@ -44,34 +44,48 @@
 ## LinuxOSでCoctohugをセットアップする
 - 設定 <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - サイトに移動 <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, 次に、必要なすべてのフォームフィールドに入力し、生成されたzip形式のdocker-composeファイルをダウンロードします
-- ダウンロードしたフォルダを解凍して、作業ディレクトリにコピーします
-- すべてのフォルダを順番に実行します。
+- ダウンロードしたフォルダを解凍し、作業ディレクトリにコピーします。コンピュータがリソース不足になるのを防ぐために、これらの不要なブロックチェーンフォークフォルダも削除してください
+- 同様のスクリプトでブロックチェーンフォークをインストールします。
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - ブラウザを開き、URLを使用してWebUIにアクセスします <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 注1：ノードの同期を初めて行う場合、chiaブロックチェーンフォークは実際にCPUを消費するため、5つを超えるブロックチェーンフォークを同時に起動しないでください。
 - 注2：各ブロックチェーンフォークには約1.8GのRAMが必要なので、コンピュータのメモリに基づいていくつかのブロックチェーンフォークを選択してください
-- 注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。
+- 注3：問題がある場合は、すべてのブロックチェーンフォークを再起動する必要があります。
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - 注4：システムファイアウォール設定に12630から12700までの許可ポートを追加する必要がある場合があります
-
+- 注5：これらの不要なブロックチェーンフォークフォルダーをcoctohugフォルダーから移動することを忘れないでください。そうしないと、動作中のすべてのブロックチェーンフォークを操作するときに同時に開始され、コンピューターのリソースが不足する可能性があります。
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## WindowsOSでCoctohugをセットアップする
-- と同じ [LinuxOSでCoctohugをセットアップする](#cch-linux)
+- ほとんどの手順は同じです [LinuxOSでCoctohugをセットアップする](#cch-linux)
+- 同様のスクリプトでブロックチェーンフォークをインストールします。
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1.ファイルをダウンロードします：blockchain_v1_mainnet.sqliteおよびpeer_table_node.sqlite
   2.同様のターミナルスクリプト（各フォルダー内）でブロックチェーンフォークを停止します。
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3.これらのファイルを次のようなブロックチェーンフォークフォルダーにコピーします。
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4.同様のターミナルスクリプト（各フォルダー内）でブロックチェーンフォークを起動します。
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   注1：ウォレットはフォークプログラムで個別に同期する必要があります
-  注2：ダウンロードしたデータベースのブロックチェーンフォークへの接続には、最大5分かかる場合があります。
+  注2：ダウンロードしたデータベースのブロックチェーンフォークへの接続には、最大30分かかる場合があります。
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. docker-composeフォルダーをセットアップします [LinuxOSでCoctohugをセットアップする]
   4. WebUI起動画面で、今回は新しいキーを生成します
   5. ブロックチェーンフォークが再起動するまで数分待ちます
-  6. 各フォルダに移動してスクリプトを実行します docker-compose stop && docker-compose up -d
-  7. 訪問 http://localhost:12630/, [設定]-[コールドウォレット]タブに移動して、コールドウォレットアドレスをエクスポートします
-  8. ダウンロードしたファイルを[キー]タブに表示される情報と比較して、各アドレスが手動で正しいことを確認します
-  9. 同様のターミナルスクリプトで24のニーモニックワードを取得します
+  6. 訪問 http://localhost:12630/, [設定]-[コールドウォレット]タブに移動して、コールドウォレットアドレスをエクスポートします
+  7. ダウンロードしたファイルを[キー]タブに表示される情報と比較して、各アドレスが手動で正しいことを確認します
+  8. 同様のターミナルスクリプトで24のニーモニックワードを取得します
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. 数分待ってから、[ウォレット]タブに移動して、コールドウォレットアドレスが更新されているかどうかを確認します
   4. 注1：インポートする前にウォレット構成をバックアップすることをお勧めします
   5. 注2：コールドウォレットをインポートできるのは、動作中のブロックチェーンフォークのみです。これを行う前に、ブロックチェーンフォークが停止しているかどうかを確認してください。確かに、後で再起動したときに再度インポートすることもできます
-  6. 注3：問題がある場合は、すべてのフォルダーを順番に再実行する必要がある場合があります。
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. 注3：問題がある場合は、すべてのブロックチェーンフォークを再起動する必要があります。
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - これには、24のニーモニックワードが再び必要です。それらをファイル/home/user/.coctohug/mnc.txtに入れてください。すべての新しいDockerコンテナーが開始されたら、ファイルmnc.txtを空にして、セキュリティレベルを強化できます。
 - 1行のスクリプト
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - 上記のスクリプトを段階的に実行することもできます
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - 互換性のないdbの問題が発生した場合は、docker-compose startscriptを実行する前に既存のデータベースファイルを削除できます。
   ```

@@ -45,12 +45,12 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Setup <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Go to site <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, then enter all the necessary form fields and download the generated zipped docker-compose files
 - Unzip the downloaded folders and copy them into your working directory
-- Run all the folders by order:
+- 
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,20 +58,34 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Note 2: Around 1.8G RAM is required for each blockchain fork, so choose some blockchain forks based on you computer memory
 - Note 3: If there are any issues, you may need rerun all the folders by order:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings
-
+- 
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Setup Coctohug on Windows OS
-- Same with [Setup Coctohug on Linux OS](#cch-linux)
+-  [Setup Coctohug on Linux OS](#cch-linux)
+- 
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -150,18 +164,15 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - To acclerate your node sync: [Coctohug site](https://www.coctohug.xyz/#dbFilesAndOpenSources) provides database file links - developed and sponsored by: [Maize fork](https://chiaforksblockchain.com/)
   ```
   1. Download files: blockchain_v1_mainnet.sqlite and peer_table_node.sqlite
-  2. Stop blockchain fork by similar terminal script(inside each folder):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+  2. Stop blockchain fork by similar terminal script:
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Copy those files to the blockchain fork folder similar to:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
-  4. Start blockchain fork by similar terminal script(inside each folder):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
+  4. Start blockchain fork by similar terminal script:
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Notes 1: Your wallet needs individual synchronization in the fork program
   Notes 2: Connection of the downloaded database to your blockchain fork can take up to 5 minutes!
   ```
@@ -207,10 +218,9 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   3. Setup the docker-compose folders [Setup Coctohug on Linux OS]
   4. On WebUI launch screen, generate a new key this time
   5. Wait few minutes for blockchain forks restarting
-  6. Go to each folder and execute script docker-compose stop && docker-compose up -d
-  7. Visit http://localhost:12630/, and go to settings - cold wallet tab to export the cold wallet addresses
-  8. Confirm each address is correct manually by comparing the downloaded file with information shown on Keys tab
-  9. Get 24 mnemonic words by similar terminal script
+  6. Visit http://localhost:12630/, and go to settings - cold wallet tab to export the cold wallet addresses
+  7. Confirm each address is correct manually by comparing the downloaded file with information shown on Keys tab
+  8. Get 24 mnemonic words by similar terminal script
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -223,10 +233,8 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   4. Note 1: we recommend backup your wallet configurations before importing
   5. Note 2: Only working blockchain forks can import cold wallet. Please check whether there are stopped blockchain forks or not before doing this. Surely you can also import later again when they are re-started
   6. Note 3: If there are any issues, you may need rerun all the folders by order:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -256,17 +264,16 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 <p id="cch-upgrade">&nbsp;</p>
 
 ## Upgrade
-- 
+- This needs the 24 mnemonic words again. Please put them into file /home/user/.coctohug/mnc.txt. After all new docker containers started, you can then empty the file mnc.txt to enhance your security level
 - One line script
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - You can also execute above scripts step by step
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - In case of incompatible db issue, you can remove the existing database file before executing docker-compose start script by
   ```

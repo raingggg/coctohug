@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Sie können Münzen auch im Wallet-Tab überweisen",
   "wiki.transfer_coins": "Münzen transferieren",
   "wiki.ubuntu_wsl": "Installieren Sie Ubuntu oder ein anderes Linux-System mit WSL",
-  "wiki.unzip_docker_compose": "Entpacken Sie die heruntergeladenen Ordner und kopieren Sie sie in Ihr Arbeitsverzeichnis",
+  "wiki.unzip_docker_compose": "Entpacken Sie die heruntergeladenen Ordner und kopieren Sie sie in Ihr Arbeitsverzeichnis. Bitte entfernen Sie auch diese unerwünschten Blockchain-Forks-Ordner, um zu vermeiden, dass die Ressourcen des Computers erschöpft sind",
   "wiki.upgrade": "Aktualisierung",
   "wiki.used_secure_24": "kann verwendet werden, um Ihre 24 mnemonischen Wörter zu sichern",
   "wiki.visit": "Besuch",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Wöchentlicher Report",
   "wiki.windows_setup": "Coctohug unter Windows einrichten",
   "wiki.firewall_port": "Hinweis 4: Möglicherweise müssen Sie die zulässigen Ports von 12630 bis 12700 in Ihren System-Firewall-Einstellungen hinzufügen",
-  "wiki.re_script": "Hinweis 3: Wenn Probleme auftreten, müssen Sie möglicherweise alle Ordner der Reihenfolge nach erneut ausführen:",
+  "wiki.re_script": "Hinweis 3: Bei Problemen müssen Sie möglicherweise alle Blockchain-Forks neu starten:",
   "wiki.import_note_2": "Hinweis 2: Nur funktionierende Blockchain-Forks können Cold Wallet importieren. Bitte prüfen Sie vorher, ob es angehaltene Blockchain-Forks gibt oder nicht. Sicherlich kann man sie auch später wieder importieren, wenn sie neu gestartet werden",
   "wiki.fast_sync_1": "1. Dateien herunterladen: blockchain_v1_mainnet.sqlite und peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Stoppen Sie Blockchain Fork durch ein ähnliches Terminal-Skript (in jedem Ordner):",
   "wiki.fast_sync_3": "3. Kopieren Sie diese Dateien in den Blockchain-Fork-Ordner ähnlich wie:",
   "wiki.fast_sync_4": "4. Starten Sie Blockchain Fork mit einem ähnlichen Terminal-Skript (in jedem Ordner):",
   "wiki.fast_sync_5": "Hinweise 1: Ihr Wallet benötigt eine individuelle Synchronisation im Fork-Programm",
-  "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 5 Minuten dauern!",
-  "wiki.upgrade_mnc": "Dazu werden wieder die 24 mnemonischen Wörter benötigt. Bitte legen Sie sie in die Datei /home/user/.coctohug/mnc.txt. Nachdem alle neuen Docker-Container gestartet wurden, können Sie die Datei mnc.txt leeren, um Ihre Sicherheitsstufe zu erhöhen"
+  "wiki.fast_sync_6": "Hinweise 2: Die Verbindung der heruntergeladenen Datenbank mit Ihrem Blockchain-Fork kann bis zu 30 Minuten dauern!",
+  "wiki.upgrade_mnc": "Dazu werden wieder die 24 mnemonischen Wörter benötigt. Bitte legen Sie sie in die Datei /home/user/.coctohug/mnc.txt. Nachdem alle neuen Docker-Container gestartet wurden, können Sie die Datei mnc.txt leeren, um Ihre Sicherheitsstufe zu erhöhen",
+  "wiki.almost_with": "Die meisten Schritte sind gleich",
+  "wiki.move_unplanned": "Hinweis 5: Bitte denken Sie daran, diese unerwünschten Blockchain-Forks-Ordner aus dem coctohug-Ordner zu verschieben. Andernfalls werden sie gleichzeitig gestartet, wenn Sie auf allen funktionierenden Blockchain-Forks arbeiten, und dies kann dazu führen, dass Ihr Computer keine Ressourcen mehr hat",
+  "wiki.setup_one": "Installieren Sie Blockchain-Forks durch ähnliche Skripte:"
 }

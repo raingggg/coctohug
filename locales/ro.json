@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "De asemenea, puteți transfera monede în fila portofel",
   "wiki.transfer_coins": "Transfer monede",
   "wiki.ubuntu_wsl": "Instalați Ubuntu sau alt sistem Linux folosind WSL",
-  "wiki.unzip_docker_compose": "Dezarhivați folderele descărcate și copiați-le în directorul dvs. de lucru",
+  "wiki.unzip_docker_compose": "Dezarhivați folderele descărcate și copiați-le în directorul dvs. de lucru. Vă rugăm să eliminați și acele foldere nedorite de blockchain forks pentru a evita situația în care computerul nu are resurse",
   "wiki.upgrade": "Modernizare",
   "wiki.used_secure_24": "poate fi folosit pentru a vă asigura cele 24 de cuvinte mnemonice",
   "wiki.visit": "Vizita",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Raport saptamanal",
   "wiki.windows_setup": "Configurați Coctohug pe sistemul de operare Windows",
   "wiki.firewall_port": "Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.",
-  "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:",
+  "wiki.re_script": "Nota 3: Dacă există probleme, poate fi necesar să reporniți toate furcile blockchain:",
   "wiki.import_note_2": "Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite",
   "wiki.fast_sync_1": "1. Descărcați fișiere: blockchain_v1_mainnet.sqlite și peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Opriți bifurcația blockchain printr-un script terminal similar (în interiorul fiecărui folder):",
   "wiki.fast_sync_3": "3. Copiați acele fișiere în folderul blockchain fork similar cu:",
   "wiki.fast_sync_4": "4. Porniți fork blockchain cu un script terminal similar (în interiorul fiecărui folder):",
   "wiki.fast_sync_5": "Note 1: Portofelul dvs. are nevoie de sincronizare individuală în programul furk",
-  "wiki.fast_sync_6": "Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!",
-  "wiki.upgrade_mnc": "Aceasta are nevoie din nou de cele 24 de cuvinte mnemonice. Vă rugăm să le puneți în fișierul /home/user/.coctohug/mnc.txt. După ce au pornit toate containerele docker noi, puteți goli fișierul mnc.txt pentru a vă îmbunătăți nivelul de securitate"
+  "wiki.fast_sync_6": "Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 30 de minute!",
+  "wiki.upgrade_mnc": "Aceasta are nevoie din nou de cele 24 de cuvinte mnemonice. Vă rugăm să le puneți în fișierul /home/user/.coctohug/mnc.txt. După ce au pornit toate containerele docker noi, puteți goli fișierul mnc.txt pentru a vă îmbunătăți nivelul de securitate",
+  "wiki.almost_with": "Majoritatea pașilor sunt aceiași",
+  "wiki.move_unplanned": "Nota 5: Vă rugăm să nu uitați să mutați dosarul nedorit de furcături blockchain din folderul coctohug. În caz contrar, acestea vor fi pornite în același timp când operați pe toate furcile blockchain care funcționează și care vă poate duce la epuizarea resurselor computerului.",
+  "wiki.setup_one": "Instalați fork-uri blockchain prin scripturi similare:"
 }

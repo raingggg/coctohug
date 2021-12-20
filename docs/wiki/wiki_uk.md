@@ -44,34 +44,48 @@
 ## Налаштуйте Coctohug на ОС Linux
 - Налаштування <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Перейдіть на сайт <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, потім введіть усі необхідні поля форми та завантажте згенеровані заархівовані файли docker-compose
-- Розпакуйте завантажені папки та скопіюйте їх у свій робочий каталог
-- Запустіть усі папки в порядку:
+- Розпакуйте завантажені папки та скопіюйте їх у свій робочий каталог. Будь ласка, також видаліть ці небажані папки блокчейну, щоб уникнути ресурсів комп’ютера
+- Встановіть блокчейн-форки за подібними скриптами:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Відкрийте браузер і відкрийте WebUI за допомогою URL-адреси <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Примітка 1. Не запускайте більше 5 блокчейн-форків одночасно, оскільки блокчейн-вилки chia дійсно споживають ЦП під час першої синхронізації вузла.
 - Примітка 2. Для кожного блокчейну потрібно близько 1,8 ГБ оперативної пам’яті, тому вибирайте кілька блокчейнів на основі пам’яті вашого комп’ютера.
-- Примітка 3. Якщо є якісь проблеми, вам може знадобитися повторно запустити всі папки в порядку:
+- Примітка 3. Якщо є якісь проблеми, вам може знадобитися перезапустити всі блокчейн-форки:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Примітка 4. Можливо, вам знадобиться додати дозволені порти від 12630 до 12700 у налаштуваннях системного брандмауера
-
+- Примітка 5. Будь ласка, не забудьте перемістити ці небажані папки blockchain forks з папки coctohug. В іншому випадку вони будуть запущені одночасно, коли ви працюєте на всіх робочих блокчейнах, що може призвести до втрати ресурсів вашого комп’ютера.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Налаштуйте Coctohug на ОС Windows
-- Те саме з [Налаштуйте Coctohug на ОС Linux](#cch-linux)
+- Більшість кроків однакові [Налаштуйте Coctohug на ОС Linux](#cch-linux)
+- Встановіть блокчейн-форки за подібними скриптами:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. Завантажте файли: blockchain_v1_mainnet.sqlite і peer_table_node.sqlite
   2. Зупиніть блокчейн-форк за допомогою аналогічного термінального сценарію (усередині кожної папки):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Скопіюйте ці файли до папки blockchain fork, як:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Запустіть блокчейн-форк аналогічним термінальним сценарієм (усередині кожної папки):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Примітки 1. Ваш гаманець потребує індивідуальної синхронізації в програмі fork
-  Примітки 2. Підключення завантаженої бази даних до вашої блокчейну може тривати до 5 хвилин!
+  Примітки 2. Підключення завантаженої бази даних до вашої блокчейну може тривати до 30 хвилин!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. Налаштуйте папки docker-compose [Налаштуйте Coctohug на ОС Linux]
   4. На екрані запуску WebUI цього разу згенеруйте новий ключ
   5. Зачекайте кілька хвилин, поки блокчейн перезапуститься
-  6. Перейдіть до кожної папки та запустіть сценарій docker-compose stop && docker-compose up -d
-  7. Відвідати http://localhost:12630/, і перейдіть до налаштувань - вкладка холодного гаманця, щоб експортувати адреси холодного гаманця
-  8. Переконайтеся, що кожна адреса правильна вручну, порівнявши завантажений файл з інформацією на вкладці «Ключі».
-  9. Отримайте 24 мнемонічні слова за допомогою схожого термінального сценарію
+  6. Відвідати http://localhost:12630/, і перейдіть до налаштувань - вкладка холодного гаманця, щоб експортувати адреси холодного гаманця
+  7. Переконайтеся, що кожна адреса правильна вручну, порівнявши завантажений файл з інформацією на вкладці «Ключі».
+  8. Отримайте 24 мнемонічні слова за допомогою схожого термінального сценарію
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. Зачекайте кілька хвилин і перейдіть на вкладку гаманця, щоб побачити, чи оновлена ​​адреса холодного гаманця
   4. Примітка 1: ми рекомендуємо створити резервну копію конфігурацій гаманця перед імпортуванням
   5. Примітка 2. Лише робочі форки блокчейну можуть імпортувати холодний гаманець. Будь ласка, перевірте, чи є зупинені форки блокчейна чи ні, перш ніж робити це. Звичайно, ви також можете імпортувати пізніше, коли вони знову запустять
-  6. Примітка 3. Якщо є якісь проблеми, вам може знадобитися повторно запустити всі папки в порядку:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Примітка 3. Якщо є якісь проблеми, вам може знадобитися перезапустити всі блокчейн-форки:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - Для цього знову потрібні 24 мнемонічні слова. Будь ласка, помістіть їх у файл /home/user/.coctohug/mnc.txt. Після запуску всіх нових контейнерів Docker ви можете очистити файл mnc.txt, щоб підвищити рівень безпеки
 - Однорядковий сценарій
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - Ви також можете виконувати наведені вище сценарії крок за кроком
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - У разі несумісної проблеми з базою даних ви можете видалити наявний файл бази даних перед виконанням сценарію запуску docker-compose за допомогою
   ```

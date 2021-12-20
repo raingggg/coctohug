@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "您還可以在錢包選項卡中轉移硬幣",
   "wiki.transfer_coins": "轉移硬幣",
   "wiki.ubuntu_wsl": "使用 WSL 安裝 Ubuntu 或其他 Linux 系統",
-  "wiki.unzip_docker_compose": "解壓下載的文件夾並將它們複製到您的工作目錄中",
+  "wiki.unzip_docker_compose": "解壓縮下載的文件夾並將它們複製到您的工作目錄中。還請刪除那些不需要的區塊鏈分叉文件夾，以避免計算機資源不足的情況",
   "wiki.upgrade": "升級",
   "wiki.used_secure_24": "可用於保護您的 24 個助記詞",
   "wiki.visit": "訪問",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "每週報告",
   "wiki.windows_setup": "在 Windows 操作系統上設置 Coctohug",
   "wiki.firewall_port": "注意 4：您可能需要在系統防火牆設置中添加從 12630 到 12700 的允許端口",
-  "wiki.re_script": "注意3：如果有任何問題，您可能需要按順序重新運行所有文件夾：",
+  "wiki.re_script": "注 3：如果出現任何問題，您可能需要重啟所有區塊鏈分叉：",
   "wiki.import_note_2": "注 2：只有工作的區塊鏈分叉才能導入冷錢包。在執行此操作之前，請檢查是否有停止的區塊鏈分叉。當然，您也可以稍後在重新啟動時再次導入",
   "wiki.fast_sync_1": "1. 下載文件：blockchain_v1_mainnet.sqlite 和 peer_table_node.sqlite",
   "wiki.fast_sync_2": "2.通過類似的終端腳本（在每個文件夾內）停止區塊鏈分叉：",
   "wiki.fast_sync_3": "3. 將這些文件複製到區塊鏈 fork 文件夾中，類似於：",
   "wiki.fast_sync_4": "4.通過類似的終端腳本（在每個文件夾內）啟動區塊鏈分叉：",
   "wiki.fast_sync_5": "注意事項1：您的錢包需要在分叉程序中單獨同步",
-  "wiki.fast_sync_6": "注 2：將下載的數據庫連接到您的區塊鏈分叉最多可能需要 5 分鐘！",
-  "wiki.upgrade_mnc": "這又需要24個助記詞。請將它們放入文件/home/user/.coctohug/mnc.txt。在所有新的 docker 容器啟動後，您可以清空文件 mnc.txt 以提高您的安全級別"
+  "wiki.fast_sync_6": "注 2：將下載的數據庫連接到您的區塊鏈分叉最多可能需要 30 分鐘！",
+  "wiki.upgrade_mnc": "這又需要24個助記詞。請將它們放入文件/home/user/.coctohug/mnc.txt。在所有新的 docker 容器啟動後，您可以清空文件 mnc.txt 以提高您的安全級別",
+  "wiki.almost_with": "大多數步驟是一樣的",
+  "wiki.move_unplanned": "注意 5：請記住將不需要的區塊鏈分叉文件夾移出 coctohug 文件夾。否則，它們會在您操作所有正在運行的區塊鏈分叉時同時啟動，並可能導致您的計算機資源不足",
+  "wiki.setup_one": "通過類似的腳本安裝區塊鏈分叉："
 }

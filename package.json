@@ -1,6 +1,6 @@
 {
   "name": "coctohug",
-  "version": "1.0.1",
+  "version": "1.2.4",
   "description": "- Nice localization with support of dozens of languages\r - Runs on Linux, Windows, MacOS, and more...\r - Supports: cactus, covid, cryptodoge, ethgreen, flora, greendoge, lucky, pipscoin, shibgreen, silicoin, skynet, staicoin, stor, tranzact, venidium, and more...",
   "main": "index.js",
   "scripts": {

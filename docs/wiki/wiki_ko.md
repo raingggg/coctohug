@@ -44,34 +44,48 @@
 ## Linux OS에서 Coctohug 설정
 - 설정 <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - 사이트로 이동 <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, 그런 다음 필요한 모든 양식 필드를 입력하고 생성된 zip 형식의 docker-compose 파일을 다운로드합니다.
-- 다운로드한 폴더의 압축을 풀고 작업 디렉토리에 복사합니다.
-- 모든 폴더를 순서대로 실행합니다.
+- 다운로드한 폴더의 압축을 풀고 작업 디렉토리에 복사합니다. 컴퓨터에 리소스가 부족한 경우를 방지하기 위해 원치 않는 블록체인 포크 폴더도 제거하십시오.
+- 유사한 스크립트로 블록체인 포크 설치:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - 브라우저를 열고 URL로 WebUI에 액세스 <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 참고 1: chia 블록체인 포크는 노드를 처음 동기화할 때 실제로 CPU를 차지하므로 동시에 5개 이상의 블록체인 포크를 시작하지 마십시오.
 - 참고 2: 각 블록체인 포크에 약 1.8G RAM이 필요하므로 컴퓨터 메모리를 기반으로 블록체인 포크를 선택하십시오.
-- 참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다.
+- 참고 3: 문제가 있는 경우 모든 블록체인 포크를 다시 시작해야 할 수 있습니다.
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - 참고 4: 시스템 방화벽 설정에서 12630에서 12700 사이의 허용 포트를 추가해야 할 수 있습니다.
-
+- 참고 5: 원하지 않는 블록체인 포크 폴더를 coctohug 폴더 밖으로 옮기는 것을 잊지 마십시오. 그렇지 않으면 작동하는 모든 블록체인 포크에서 작업할 때 동시에 시작되어 컴퓨터에 리소스가 부족해질 수 있습니다.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Windows OS에서 Coctohug 설정
-- 와 같다 [Linux OS에서 Coctohug 설정](#cch-linux)
+- 대부분의 단계는 동일합니다. [Linux OS에서 Coctohug 설정](#cch-linux)
+- 유사한 스크립트로 블록체인 포크 설치:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. 파일 다운로드: blockchain_v1_mainnet.sqlite 및 peer_table_node.sqlite
   2. 유사한 터미널 스크립트로 블록체인 포크를 중지합니다(각 폴더 내):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. 해당 파일을 다음과 유사한 블록체인 포크 폴더에 복사합니다.
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. 유사한 터미널 스크립트로 블록체인 포크를 시작합니다(각 폴더 내):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   참고 1: 지갑은 포크 프로그램에서 개별 동기화가 필요합니다.
-  참고 2: 다운로드한 데이터베이스를 블록체인 포크에 연결하는 데 최대 5분이 소요될 수 있습니다!
+  참고 2: 다운로드한 데이터베이스를 블록체인 포크에 연결하는 데 최대 30분이 소요될 수 있습니다!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. docker-compose 폴더 설정 [Linux OS에서 Coctohug 설정]
   4. WebUI 실행 화면에서 이번에는 새 키를 생성합니다.
   5. 블록체인 포크가 다시 시작될 때까지 몇 분 기다립니다.
-  6. 각 폴더로 이동하여 스크립트 실행 docker-compose stop && docker-compose up -d
-  7. 방문 http://localhost:12630/, 설정 - 콜드월렛 탭으로 이동하여 콜드월렛 주소를 내보냅니다.
-  8. 다운로드한 파일을 키 탭에 표시된 정보와 비교하여 각 주소가 올바른지 수동으로 확인하십시오.
-  9. 유사한 터미널 스크립트로 24개의 니모닉 단어 얻기
+  6. 방문 http://localhost:12630/, 설정 - 콜드월렛 탭으로 이동하여 콜드월렛 주소를 내보냅니다.
+  7. 다운로드한 파일을 키 탭에 표시된 정보와 비교하여 각 주소가 올바른지 수동으로 확인하십시오.
+  8. 유사한 터미널 스크립트로 24개의 니모닉 단어 얻기
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. 몇 분 기다렸다가 지갑 탭으로 이동하여 콜드 지갑 주소가 업데이트되었는지 확인하십시오.
   4. 참고 1: 가져오기 전에 지갑 구성을 백업하는 것이 좋습니다.
   5. 참고 2: 작동하는 블록체인 포크만 콜드 월렛을 가져올 수 있습니다. 이 작업을 수행하기 전에 중지된 블록체인 포크가 있는지 확인하십시오. 물론 나중에 다시 시작할 때 다시 가져올 수도 있습니다.
-  6. 참고 3: 문제가 있는 경우 모든 폴더를 순서대로 다시 실행해야 할 수 있습니다.
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. 참고 3: 문제가 있는 경우 모든 블록체인 포크를 다시 시작해야 할 수 있습니다.
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - 이것은 다시 24개의 니모닉 단어가 필요합니다. /home/user/.coctohug/mnc.txt 파일에 넣어주세요. 모든 새 도커 컨테이너가 시작된 후 mnc.txt 파일을 비워 보안 수준을 높일 수 있습니다.
 - 한 줄 스크립트
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - 위의 스크립트를 단계별로 실행할 수도 있습니다.
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - 호환되지 않는 db 문제의 경우 다음과 같이 docker-compose 시작 스크립트를 실행하기 전에 기존 데이터베이스 파일을 제거할 수 있습니다.
   ```

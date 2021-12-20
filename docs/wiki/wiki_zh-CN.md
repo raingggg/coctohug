@@ -44,34 +44,48 @@
 ## 在 Linux 操作系统上设置 Coctohug
 - 设置 <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - 前往网站 <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, 然后输入所有必要的表单字段并下载生成的压缩 docker-compose 文件
-- 解压下载的文件夹并将它们复制到您的工作目录中
-- 按顺序运行所有文件夹：
+- 解压缩下载的文件夹并将它们复制到您的工作目录中。还请删除那些不需要的区块链分叉文件夹，以避免计算机资源不足的情况
+- 通过类似的脚本安装区块链分叉：
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - 打开浏览器并通过 url 访问 WebUI <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - 注意1：不要同时启动超过5个区块链分叉，因为chia区块链分叉在第一次节点同步时真的很吃CPU
 - 注 2：每个区块链分叉大约需要 1.8G RAM，因此请根据您的计算机内存选择一些区块链分叉
-- 注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹：
+- 注 3：如果出现任何问题，您可能需要重启所有区块链分叉：
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - 注意 4：您可能需要在系统防火墙设置中添加从 12630 到 12700 的允许端口
-
+- 注意 5：请记住将不需要的区块链分叉文件夹移出 coctohug 文件夹。否则，它们会在您操作所有正在运行的区块链分叉时同时启动，并可能导致您的计算机资源不足
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## 在 Windows 操作系统上设置 Coctohug
-- 同 [在 Linux 操作系统上设置 Coctohug](#cch-linux)
+- 大多数步骤是一样的 [在 Linux 操作系统上设置 Coctohug](#cch-linux)
+- 通过类似的脚本安装区块链分叉：
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. 下载文件：blockchain_v1_mainnet.sqlite 和 peer_table_node.sqlite
   2.通过类似的终端脚本（在每个文件夹内）停止区块链分叉：
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. 将这些文件复制到区块链 fork 文件夹中，类似于：
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4.通过类似的终端脚本（在每个文件夹内）启动区块链分叉：
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   注意事项1：您的钱包需要在分叉程序中单独同步
-  注 2：将下载的数据库连接到您的区块链分叉最多可能需要 5 分钟！
+  注2：您blockchain叉下载数据库的连接可能需要长达30分钟！
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. 设置 docker-compose 文件夹 [在 Linux 操作系统上设置 Coctohug]
   4. 在 WebUI 启动屏幕上，这次生成一个新密钥
   5. 等待几分钟让区块链分叉重新启动
-  6. 转到每个文件夹并执行脚本 docker-compose stop && docker-compose up -d
-  7. 访问 http://localhost:12630/, 并转到设置-冷钱包选项卡以导出冷钱包地址
-  8. 通过将下载的文件与密钥选项卡上显示的信息进行比较，手动确认每个地址是否正确
-  9. 通过类似的终端脚本获取24个助记词
+  6. 访问 http://localhost:12630/, 并转到设置-冷钱包选项卡以导出冷钱包地址
+  7. 通过将下载的文件与密钥选项卡上显示的信息进行比较，手动确认每个地址是否正确
+  8. 通过类似的终端脚本获取24个助记词
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. 等几分钟，到钱包选项卡查看冷钱包地址是否更新
   4. 注意1：我们建议在导入之前备份您的钱包配置
   5. 注 2：只有工作的区块链分叉才能导入冷钱包。在执行此操作之前，请检查是否有停止的区块链分叉。当然，您也可以稍后在重新启动时再次导入
-  6. 注意3：如果有任何问题，您可能需要按顺序重新运行所有文件夹：
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. 注 3：如果出现任何问题，您可能需要重启所有区块链分叉：
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - 这又需要24个助记词。请将它们放入文件/home/user/.coctohug/mnc.txt。在所有新的 docker 容器启动后，您可以清空文件 mnc.txt 以提高您的安全级别
 - 一行脚本
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - 也可以一步步执行上面的脚本
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - 如果出现不兼容的数据库问题，您可以在执行 docker-compose 启动脚本之前删除现有的数据库文件
   ```

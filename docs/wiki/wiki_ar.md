@@ -44,34 +44,48 @@
 ## قم بإعداد Coctohug على Linux OS
 - اقامة <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - انتقل إلى الموقع <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, ثم أدخل جميع حقول النموذج الضرورية وقم بتنزيل ملفات إنشاء عامل الإرساء المضغوطة التي تم إنشاؤها
-- قم بفك ضغط المجلدات التي تم تنزيلها وانسخها في دليل العمل الخاص بك
-- قم بتشغيل جميع المجلدات بالترتيب:
+- قم بفك ضغط المجلدات التي تم تنزيلها وانسخها في دليل العمل الخاص بك. يرجى أيضًا إزالة مجلدات شوكات blockchain غير المرغوب فيها لتجنب حالة نفاد موارد الكمبيوتر
+- قم بتثبيت مفترقات blockchain بواسطة نصوص برمجية مماثلة:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - افتح المستعرض وقم بالوصول إلى WebUI باستخدام عنوان url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - ملحوظة 1: لا تبدأ تشغيل أكثر من 5 مفترقات blockchain في نفس الوقت ، لأن شوكات blockchain chia تأكل بالفعل وحدة المعالجة المركزية عند مزامنة العقدة لأول مرة
 - ملاحظة 2: مطلوب حوالي 1.8 جيجا من ذاكرة الوصول العشوائي لكل مفترق blockchain ، لذلك اختر بعض مفترقات blockchain بناءً على ذاكرة الكمبيوتر لديك
-- ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع المجلدات بالترتيب:
+- ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع مفترقات blockchain:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - ملاحظة 4: قد تحتاج إلى إضافة السماح بمنافذ من 12630 إلى 12700 على إعدادات جدار حماية النظام الخاص بك
-
+- ملاحظة 5: يرجى تذكر نقل مجلد شوكات blockchain غير المرغوب فيه من مجلد coctohug. خلاف ذلك ، سيتم تشغيلهم في نفس الوقت عندما تعمل على جميع مفترقات blockchain العاملة ، مما قد يتسبب في نفاد موارد جهاز الكمبيوتر الخاص بك
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## قم بإعداد Coctohug على نظام التشغيل Windows
-- نفس الشيء مع [قم بإعداد Coctohug على Linux OS](#cch-linux)
+- معظم الخطوات متشابهة [قم بإعداد Coctohug على Linux OS](#cch-linux)
+- قم بتثبيت مفترقات blockchain بواسطة نصوص برمجية مماثلة:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. تنزيل الملفات: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. قم بإيقاف مفترق blockchain بواسطة برنامج نصي طرفي مماثل (داخل كل مجلد):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. انسخ هذه الملفات إلى مجلد blockchain fork المماثل لما يلي:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. ابدأ تفرع blockchain بواسطة برنامج نصي طرفي مماثل (داخل كل مجلد):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   ملاحظات 1: تحتاج محفظتك إلى مزامنة فردية في برنامج fork
-  ملاحظات 2: يمكن أن يستغرق اتصال قاعدة البيانات التي تم تنزيلها بشوكة blockchain ما يصل إلى 5 دقائق!
+  ملاحظات 2: يمكن أن يستغرق اتصال قاعدة البيانات التي تم تنزيلها بشوكة blockchain ما يصل إلى 30 دقيقة!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. قم بإعداد مجلدات عامل الإرساء [قم بإعداد Coctohug على Linux OS]
   4. على شاشة تشغيل WebUI ، قم بإنشاء مفتاح جديد هذه المرة
   5. انتظر بضع دقائق لإعادة تشغيل شوكات blockchain
-  6. انتقل إلى كل مجلد وقم بتنفيذ البرنامج النصي docker-compose stop && docker-compose up -d
-  7. يزور http://localhost:12630/, وانتقل إلى الإعدادات - علامة تبويب المحفظة الباردة لتصدير عناوين المحفظة الباردة
-  8. تأكد من صحة كل عنوان يدويًا عن طريق مقارنة الملف الذي تم تنزيله بالمعلومات الموضحة في علامة التبويب المفاتيح
-  9. احصل على 24 كلمة ذاكري من خلال نص طرفي مماثل
+  6. يزور http://localhost:12630/, وانتقل إلى الإعدادات - علامة تبويب المحفظة الباردة لتصدير عناوين المحفظة الباردة
+  7. تأكد من صحة كل عنوان يدويًا عن طريق مقارنة الملف الذي تم تنزيله بالمعلومات الموضحة في علامة التبويب المفاتيح
+  8. احصل على 24 كلمة ذاكري من خلال نص طرفي مماثل
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. انتظر بضع دقائق ، وانتقل إلى علامة تبويب المحفظة لمعرفة ما إذا كان عنوان المحفظة البارد محدثًا أم لا
   4. ملاحظة 1: نوصي بعمل نسخة احتياطية من تكوينات محفظتك قبل الاستيراد
   5. ملاحظة 2: يمكن فقط لشوكات blockchain العاملة استيراد المحفظة الباردة. يرجى التحقق مما إذا كان هناك شوكات blockchain متوقفة أم لا قبل القيام بذلك. بالتأكيد يمكنك أيضًا الاستيراد لاحقًا مرة أخرى عند إعادة تشغيلها
-  6. ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع المجلدات بالترتيب:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع مفترقات blockchain:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - هذا يحتاج إلى 24 كلمة ذاكري مرة أخرى. يرجى وضعها في ملف /home/user/.coctohug/mnc.txt. بعد بدء تشغيل جميع حاويات Docker الجديدة ، يمكنك بعد ذلك تفريغ الملف mnc.txt لتحسين مستوى الأمان لديك
 - نص سطر واحد
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - يمكنك أيضًا تنفيذ البرامج النصية أعلاه خطوة بخطوة
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - في حالة وجود مشكلة db غير متوافقة ، يمكنك إزالة ملف قاعدة البيانات الموجودة قبل تنفيذ Docker-Compose start script بواسطة
   ```

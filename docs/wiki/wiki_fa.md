@@ -44,34 +44,48 @@
 ## راه اندازی Coctohug در سیستم عامل لینوکس
 - برپایی <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - به سایت بروید <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, سپس تمام فیلدهای فرم لازم را وارد کرده و فایل های زیپ شده docker-compose تولید شده را دانلود کنید
-- پوشه های دانلود شده را از حالت فشرده خارج کنید و آنها را در پوشه کاری خود کپی کنید
-- همه پوشه ها را به ترتیب اجرا کنید:
+- پوشه های دانلود شده را از حالت فشرده خارج کنید و آنها را در پوشه کاری خود کپی کنید. لطفاً پوشه‌های فورک‌های ناخواسته بلاک چین را نیز حذف کنید تا از کمبود منابع رایانه جلوگیری کنید
+- فورک های بلاک چین را با اسکریپت های مشابه نصب کنید:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - مرورگر را باز کنید و با url به WebUI دسترسی پیدا کنید <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - نکته 1: بیش از 5 فورک بلاک چین را همزمان راه اندازی نکنید، زیرا فورک های بلاک چین چیا هنگام همگام سازی گره برای اولین بار CPU را می خورند.
 - نکته 2: برای هر فورک بلاک چین حدود 1.8 گیگ رم لازم است، بنابراین چند فورک بلاک چین را بر اساس حافظه رایانه خود انتخاب کنید.
-- نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه پوشه ها را به ترتیب مجدد اجرا کنید:
+- نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه فورک های بلاک چین را مجددا راه اندازی کنید:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - نکته 4: ممکن است لازم باشد پورت های مجاز از 12630 تا 12700 را به تنظیمات فایروال سیستم خود اضافه کنید.
-
+- نکته 5: لطفاً به یاد داشته باشید که پوشه فورک های ناخواسته بلاک چین را از پوشه کوکتولوگ خارج کنید. در غیر این صورت، زمانی که شما روی تمام فورک‌های بلاک چین کار می‌کنید، همزمان راه‌اندازی می‌شوند و ممکن است باعث از بین رفتن منابع رایانه شما شود.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Coctohug را در سیستم عامل ویندوز راه اندازی کنید
-- مشابه با [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
+- اکثر مراحل یکسان است [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
+- فورک های بلاک چین را با اسکریپت های مشابه نصب کنید:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. دانلود فایل ها: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. فورک بلاک چین را با اسکریپت ترمینال مشابه (داخل هر پوشه) متوقف کنید:
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. آن فایل‌ها را در پوشه فورک بلاک چین مشابه موارد زیر کپی کنید:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. فورک بلاک چین را با اسکریپت ترمینال مشابه (در داخل هر پوشه) شروع کنید:
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   یادداشت 1: کیف پول شما نیاز به همگام سازی فردی در برنامه فورک دارد
-  نکته 2: اتصال پایگاه داده دانلود شده به فورک بلاک چین شما می تواند تا 5 دقیقه طول بکشد!
+  نکته 2: اتصال پایگاه داده دانلود شده به فورک بلاک چین شما می تواند تا 30 دقیقه طول بکشد!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. پوشه های docker-compose را راه اندازی کنید [راه اندازی Coctohug در سیستم عامل لینوکس]
   4. در صفحه راه اندازی WebUI، این بار یک کلید جدید ایجاد کنید
   5. چند دقیقه صبر کنید تا فورک های بلاک چین راه اندازی مجدد شوند
-  6. به هر پوشه بروید و اسکریپت را اجرا کنید docker-compose stop && docker-compose up -d
-  7. بازدید کنید http://localhost:12630/, و به تنظیمات - تب سرد کیف پول بروید تا آدرس های کیف پول سرد را صادر کنید
-  8. با مقایسه فایل دانلود شده با اطلاعات نشان داده شده در برگه کلیدها، صحت هر آدرس را به صورت دستی تأیید کنید
-  9. با اسکریپت ترمینال مشابه، 24 کلمه یادگاری دریافت کنید
+  6. بازدید کنید http://localhost:12630/, و به تنظیمات - تب سرد کیف پول بروید تا آدرس های کیف پول سرد را صادر کنید
+  7. با مقایسه فایل دانلود شده با اطلاعات نشان داده شده در برگه کلیدها، صحت هر آدرس را به صورت دستی تأیید کنید
+  8. با اسکریپت ترمینال مشابه، 24 کلمه یادگاری دریافت کنید
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. چند دقیقه صبر کنید و به تب کیف پول بروید تا ببینید آیا آدرس کیف پول سرد به روز شده است یا خیر
   4. نکته 1: توصیه می کنیم قبل از وارد کردن، از تنظیمات کیف پول خود نسخه پشتیبان تهیه کنید
   5. نکته 2: فقط چنگال های بلاک چین فعال می توانند کیف پول سرد وارد کنند. لطفاً قبل از انجام این کار بررسی کنید که آیا فورک های بلاک چین متوقف شده است یا خیر. مطمئناً می‌توانید بعداً با راه‌اندازی مجدد آنها دوباره وارد کنید
-  6. نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه پوشه ها را به ترتیب مجدد اجرا کنید:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه فورک های بلاک چین را مجددا راه اندازی کنید:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - این دوباره به 24 کلمه یادگاری نیاز دارد. لطفاً آنها را در فایل /home/user/.coctohug/mnc.txt قرار دهید. پس از شروع همه کانتینرهای docker جدید، می توانید فایل mnc.txt را خالی کنید تا سطح امنیت خود را افزایش دهید
 - اسکریپت یک خطی
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - همچنین می توانید اسکریپت های بالا را مرحله به مرحله اجرا کنید
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - در صورت بروز مشکل db ناسازگار، می توانید فایل پایگاه داده موجود را قبل از اجرای اسکریپت شروع docker-compose حذف کنید.
   ```

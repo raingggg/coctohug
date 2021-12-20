@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "També podeu transferir monedes a la pestanya de cartera",
   "wiki.transfer_coins": "Transferència de monedes",
   "wiki.ubuntu_wsl": "Instal·leu Ubuntu o un altre sistema Linux mitjançant WSL",
-  "wiki.unzip_docker_compose": "Descomprimiu les carpetes descarregades i copieu-les al vostre directori de treball",
+  "wiki.unzip_docker_compose": "Descomprimiu les carpetes descarregades i copieu-les al vostre directori de treball. Si us plau, elimineu també aquestes carpetes de forquilla de cadena de blocs no desitjades per evitar que l'ordinador es quedi sense recursos",
   "wiki.upgrade": "Actualitza",
   "wiki.used_secure_24": "es pot utilitzar per assegurar les teves 24 paraules mnemotècniques",
   "wiki.visit": "Visita",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Informe setmanal",
   "wiki.windows_setup": "Configura Coctohug al sistema operatiu Windows",
   "wiki.firewall_port": "Nota 4: és possible que hàgiu d'afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema",
-  "wiki.re_script": "Nota 3: Si hi ha cap problema, és possible que hàgiu de tornar a executar totes les carpetes per ordre:",
+  "wiki.re_script": "Nota 3: si hi ha cap problema, és possible que hàgiu de reiniciar totes les bifurcacions de cadena de blocs:",
   "wiki.import_note_2": "Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn",
   "wiki.fast_sync_1": "1. Baixeu fitxers: blockchain_v1_mainnet.sqlite i peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Atureu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):",
   "wiki.fast_sync_3": "3. Copieu aquests fitxers a la carpeta de la bifurcació de la cadena de blocs de manera semblant a:",
   "wiki.fast_sync_4": "4. Inicieu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):",
   "wiki.fast_sync_5": "Notes 1: la vostra cartera necessita una sincronització individual al programa de forquilla",
-  "wiki.fast_sync_6": "Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 5 minuts!",
-  "wiki.upgrade_mnc": "Això necessita de nou les 24 paraules mnemotècniques. Si us plau, poseu-los al fitxer /home/user/.coctohug/mnc.txt. Després de començar tots els contenidors de Docker nous, podeu buidar el fitxer mnc.txt per millorar el vostre nivell de seguretat"
+  "wiki.fast_sync_6": "Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 30 minuts!",
+  "wiki.upgrade_mnc": "Això necessita de nou les 24 paraules mnemotècniques. Si us plau, poseu-los al fitxer /home/user/.coctohug/mnc.txt. Després de començar tots els contenidors de Docker nous, podeu buidar el fitxer mnc.txt per millorar el vostre nivell de seguretat",
+  "wiki.almost_with": "La majoria dels passos són els mateixos",
+  "wiki.move_unplanned": "Nota 5: si us plau, recordeu moure la carpeta de forquilles blockchain no desitjades de la carpeta coctohug. En cas contrari, s'iniciaran al mateix temps quan opereu amb totes les bifurcacions de cadena de blocs que funcionin, i això pot provocar que el vostre ordinador es quedi sense recursos.",
+  "wiki.setup_one": "Instal·leu forquilles de cadena de blocs mitjançant scripts similars:"
 }

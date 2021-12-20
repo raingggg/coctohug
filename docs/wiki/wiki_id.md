@@ -44,34 +44,48 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 ## Setup Coctohug di OS Linux
 - Mempersiapkan <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Pergi ke situs <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, lalu masukkan semua bidang formulir yang diperlukan dan unduh file komposisi buruh pelabuhan zip yang dihasilkan
-- Buka zip folder yang diunduh dan salin ke direktori kerja Anda
-- Jalankan semua folder berdasarkan pesanan:
+- Buka zip folder yang diunduh dan salin ke direktori kerja Anda. Harap juga hapus folder garpu blockchain yang tidak diinginkan itu untuk menghindari kasus komputer kehabisan sumber daya
+- Instal garpu blockchain dengan skrip serupa:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Buka browser dan akses WebUI dengan url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Catatan 1: Jangan memulai lebih dari 5 garpu blockchain secara bersamaan, karena garpu blockchain chia benar-benar memakan CPU saat sinkronisasi node untuk pertama kalinya
 - Catatan 2: Sekitar 1,8G RAM diperlukan untuk setiap garpu blockchain, jadi pilihlah beberapa garpu blockchain berdasarkan memori komputer Anda
-- Catatan 3: Jika ada masalah, Anda mungkin perlu menjalankan ulang semua folder berdasarkan pesanan:
+- Catatan 3: Jika ada masalah, Anda mungkin perlu memulai ulang semua garpu blockchain:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Catatan 4: Anda mungkin perlu menambahkan port yang diizinkan dari 12630 hingga 12700 pada pengaturan firewall sistem Anda
-
+- Catatan 5: Harap ingat untuk memindahkan folder garpu blockchain yang tidak diinginkan dari folder coctohug. Jika tidak, mereka akan dimulai pada saat yang sama ketika Anda mengoperasikan semua garpu blockchain yang berfungsi, dan yang dapat menyebabkan komputer Anda kehabisan sumber daya.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Siapkan Coctohug di OS Windows
-- Sama dengan [Setup Coctohug di OS Linux](#cch-linux)
+- Sebagian besar langkahnya sama [Setup Coctohug di OS Linux](#cch-linux)
+- Instal garpu blockchain dengan skrip serupa:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
   ```
   1. Unduh file: blockchain_v1_mainnet.sqlite dan peer_table_node.sqlite
   2. Hentikan garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Salin file-file itu ke folder garpu blockchain yang mirip dengan:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Mulai garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Catatan 1: Dompet Anda memerlukan sinkronisasi individual dalam program fork
-  Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 5 menit!
+  Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 30 menit!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
   3. Siapkan folder komposisi buruh pelabuhan [Setup Coctohug di OS Linux]
   4. Pada layar peluncuran WebUI, buat kunci baru kali ini
   5. Tunggu beberapa menit untuk memulai ulang garpu blockchain
-  6. Buka setiap folder dan jalankan skrip docker-compose stop && docker-compose up -d
-  7. Mengunjungi http://localhost:12630/, dan buka pengaturan - tab dompet dingin untuk mengekspor alamat dompet dingin
-  8. Konfirmasikan setiap alamat sudah benar secara manual dengan membandingkan file yang diunduh dengan informasi yang ditampilkan pada tab Tombol
-  9. Dapatkan 24 kata mnemonik dengan skrip terminal serupa
+  6. Mengunjungi http://localhost:12630/, dan buka pengaturan - tab dompet dingin untuk mengekspor alamat dompet dingin
+  7. Konfirmasikan setiap alamat sudah benar secara manual dengan membandingkan file yang diunduh dengan informasi yang ditampilkan pada tab Tombol
+  8. Dapatkan 24 kata mnemonik dengan skrip terminal serupa
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
   3. Tunggu beberapa menit, dan buka tab dompet untuk melihat apakah alamat dompet dingin diperbarui atau tidak
   4. Catatan 1: kami sarankan untuk membuat cadangan konfigurasi dompet Anda sebelum mengimpor
   5. Catatan 2: Hanya garpu blockchain yang berfungsi yang dapat mengimpor dompet dingin. Silakan periksa apakah ada garpu blockchain yang dihentikan atau tidak sebelum melakukan ini. Tentunya Anda juga dapat mengimpor lagi nanti ketika mereka dimulai kembali
-  6. Catatan 3: Jika ada masalah, Anda mungkin perlu menjalankan ulang semua folder berdasarkan pesanan:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Catatan 3: Jika ada masalah, Anda mungkin perlu memulai ulang semua garpu blockchain:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Pengaturan Mudah menggunakan [Mulai cepat](https://www.coctohug.xyz/)
 - Ini membutuhkan 24 kata mnemonik lagi. Silakan masukkan ke dalam file /home/user/.coctohug/mnc.txt. Setelah semua kontainer buruh pelabuhan baru dimulai, Anda dapat mengosongkan file mnc.txt untuk meningkatkan tingkat keamanan Anda
 - Skrip satu baris
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - Anda juga dapat menjalankan skrip di atas langkah demi langkah
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - Jika ada masalah db yang tidak kompatibel, Anda dapat menghapus file database yang ada sebelum menjalankan skrip awal penulisan docker dengan:
   ```

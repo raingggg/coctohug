@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Tamén podes transferir moedas na pestana da carteira",
   "wiki.transfer_coins": "Transferir moedas",
   "wiki.ubuntu_wsl": "Instale Ubuntu ou outro sistema Linux usando WSL",
-  "wiki.unzip_docker_compose": "Descomprime os cartafoles descargados e cópiaos no teu directorio de traballo",
+  "wiki.unzip_docker_compose": "Descomprime os cartafoles descargados e cópiaos no teu directorio de traballo. Elimina tamén eses cartafoles de forks de cadea de bloques non desexados para evitar que o ordenador non teña recursos",
   "wiki.upgrade": "Actualizar",
   "wiki.used_secure_24": "pódese usar para protexer as túas 24 palabras mnemotécnicas",
   "wiki.visit": "Visita",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Informe semanal",
   "wiki.windows_setup": "Configura Coctohug no sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Quizais necesites engadir portos permitidos de 12630 a 12700 na configuración do firewall do teu sistema",
-  "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites volver executar todos os cartafoles por orde:",
+  "wiki.re_script": "Nota 3: Se hai algún problema, é posible que necesites reiniciar todos os forks da cadea de bloques:",
   "wiki.import_note_2": "Nota 2: só os garfos blockchain que funcionan poden importar carteira fría. Comproba se hai forks blockchain parados ou non antes de facelo. Seguro que tamén pode importar máis tarde de novo cando se reinicien",
   "wiki.fast_sync_1": "1. Descarga ficheiros: blockchain_v1_mainnet.sqlite e peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Detén a bifurcación da cadea de bloques mediante un script de terminal similar (dentro de cada cartafol):",
   "wiki.fast_sync_3": "3. Copia eses ficheiros no cartafol do fork blockchain de xeito similar a:",
   "wiki.fast_sync_4": "4. Inicia o fork blockchain mediante un script de terminal similar (dentro de cada cartafol):",
   "wiki.fast_sync_5": "Notas 1: a túa carteira necesita sincronización individual no programa de fork",
-  "wiki.fast_sync_6": "Notas 2: a conexión da base de datos descargada ao teu fork blockchain pode levar ata 5 minutos.",
-  "wiki.upgrade_mnc": "Isto precisa de novo as 24 palabras mnemotécnicas. Por favor, colócaas no ficheiro /home/user/.coctohug/mnc.txt. Despois de comezar todos os novos contedores docker, podes baleirar o ficheiro mnc.txt para mellorar o teu nivel de seguranza"
+  "wiki.fast_sync_6": "Notas 2: a conexión da base de datos descargada á túa cadea de bloques pode levar ata 30 minutos.",
+  "wiki.upgrade_mnc": "Isto precisa de novo as 24 palabras mnemotécnicas. Por favor, colócaas no ficheiro /home/user/.coctohug/mnc.txt. Despois de comezar todos os novos contedores docker, podes baleirar o ficheiro mnc.txt para mellorar o teu nivel de seguranza",
+  "wiki.almost_with": "A maioría dos pasos son os mesmos",
+  "wiki.move_unplanned": "Nota 5: lembre de mover o cartafol dos garfos da cadea de bloques non desexados do cartafol coctohug. En caso contrario, iniciaranse ao mesmo tempo cando opere en todos os forks de cadea de bloques que funcionen, e o que pode provocar que o seu ordenador se quede sen recursos.",
+  "wiki.setup_one": "Instala forks de cadea de bloques mediante scripts similares:"
 }

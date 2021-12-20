@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Paraları cüzdan sekmesinden de aktarabilirsiniz.",
   "wiki.transfer_coins": "Para Transferi",
   "wiki.ubuntu_wsl": "WSL kullanarak Ubuntu veya diğer Linux sistemlerini kurun",
-  "wiki.unzip_docker_compose": "İndirilen klasörleri açın ve çalışma dizininize kopyalayın",
+  "wiki.unzip_docker_compose": "İndirdiğiniz klasörleri açın ve çalışma dizininize kopyalayın. Bilgisayarın kaynaklarının tükenmesini önlemek için lütfen bu istenmeyen blok zinciri çatal klasörlerini de kaldırın.",
   "wiki.upgrade": "Güncelleme",
   "wiki.used_secure_24": "24 anımsatıcı kelimenizi güvenceye almak için kullanılabilir",
   "wiki.visit": "Ziyaret",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Haftalık rapor",
   "wiki.windows_setup": "Windows işletim sisteminde Coctohug'u kurun",
   "wiki.firewall_port": "Not 4: Sistem güvenlik duvarı ayarlarınıza 12630'dan 12700'e kadar izin verilen bağlantı noktaları eklemeniz gerekebilir.",
-  "wiki.re_script": "Not 3: Herhangi bir sorun varsa, tüm klasörleri sırayla yeniden çalıştırmanız gerekebilir:",
+  "wiki.re_script": "Not 3: Herhangi bir sorun varsa, tüm blockchain çatallarını yeniden başlatmanız gerekebilir:",
   "wiki.import_note_2": "Not 2: Yalnızca çalışan blok zinciri çatalları, soğuk cüzdanı içe aktarabilir. Lütfen bunu yapmadan önce blok zinciri çatallarının durup durmadığını kontrol edin. Elbette daha sonra yeniden başlatıldıklarında tekrar içe aktarabilirsiniz.",
   "wiki.fast_sync_1": "1. Dosyaları indirin: blockchain_v1_mainnet.sqlite ve peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Blok zinciri çatalını benzer terminal komut dosyasıyla durdurun (her klasörün içinde):",
   "wiki.fast_sync_3": "3. Bu dosyaları aşağıdakine benzer şekilde blockchain çatal klasörüne kopyalayın:",
   "wiki.fast_sync_4": "4. Blok zinciri çatalını benzer terminal komut dosyasıyla başlatın (her klasörün içinde):",
   "wiki.fast_sync_5": "Notlar 1: Cüzdanınızın çatal programında bireysel senkronizasyona ihtiyacı var",
-  "wiki.fast_sync_6": "Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 5 dakika kadar sürebilir!",
-  "wiki.upgrade_mnc": "Bunun için tekrar 24 anımsatıcı kelimeye ihtiyacı var. Lütfen bunları /home/user/.coctohug/mnc.txt dosyasına koyun. Tüm yeni docker kapsayıcıları başlatıldıktan sonra, güvenlik düzeyinizi artırmak için mnc.txt dosyasını boşaltabilirsiniz."
+  "wiki.fast_sync_6": "Not 2: İndirilen veritabanının blok zinciri çatalınıza bağlanması 30 dakika kadar sürebilir!",
+  "wiki.upgrade_mnc": "Bunun için tekrar 24 anımsatıcı kelimeye ihtiyacı var. Lütfen bunları /home/user/.coctohug/mnc.txt dosyasına koyun. Tüm yeni docker kapsayıcıları başlatıldıktan sonra, güvenlik düzeyinizi artırmak için mnc.txt dosyasını boşaltabilirsiniz.",
+  "wiki.almost_with": "Çoğu adım aynı",
+  "wiki.move_unplanned": "Not 5: Lütfen bu istenmeyen blockchain çatalları klasörünü coctohug klasöründen çıkarmayı unutmayın. Aksi takdirde, çalışan tüm blok zinciri çatalları üzerinde çalıştığınızda aynı anda başlatılırlar ve bu da bilgisayarınızın kaynaklarının tükenmesine neden olabilir.",
+  "wiki.setup_one": "Blok zinciri çatallarını benzer komut dosyalarıyla kurun:"
 }

@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "También puede transferir monedas en la pestaña de billetera",
   "wiki.transfer_coins": "Transferencia de monedas",
   "wiki.ubuntu_wsl": "Instale Ubuntu u otro sistema Linux usando WSL",
-  "wiki.unzip_docker_compose": "Descomprima las carpetas descargadas y cópielas en su directorio de trabajo",
+  "wiki.unzip_docker_compose": "Descomprima las carpetas descargadas y cópielas en su directorio de trabajo. Elimine también las carpetas de bifurcaciones de blockchain no deseadas para evitar que la computadora se quede sin recursos",
   "wiki.upgrade": "Potenciar",
   "wiki.used_secure_24": "se puede utilizar para asegurar sus 24 palabras mnemotécnicas",
   "wiki.visit": "Visita",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Reporte semanal",
   "wiki.windows_setup": "Configurar Coctohug en el sistema operativo Windows",
   "wiki.firewall_port": "Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema",
-  "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:",
+  "wiki.re_script": "Nota 3: Si hay algún problema, es posible que deba reiniciar todas las bifurcaciones de blockchain:",
   "wiki.import_note_2": "Nota 2: Solo las bifurcaciones de blockchain que funcionan pueden importar billetera fría. Verifique si hay bifurcaciones de blockchain detenidas o no antes de hacer esto. Seguro que también puedes volver a importar más tarde cuando se reinicien",
   "wiki.fast_sync_1": "1. Descargar archivos: blockchain_v1_mainnet.sqlite y peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Detenga la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):",
   "wiki.fast_sync_3": "3. Copie esos archivos en la carpeta de la bifurcación de blockchain similar a:",
   "wiki.fast_sync_4": "4. Inicie la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):",
   "wiki.fast_sync_5": "Notas 1: su billetera necesita sincronización individual en el programa de bifurcación",
-  "wiki.fast_sync_6": "Notas 2: ¡La conexión de la base de datos descargada a su bifurcación blockchain puede demorar hasta 5 minutos!",
-  "wiki.upgrade_mnc": "Esto necesita las 24 palabras mnemotécnicas nuevamente. Colóquelos en el archivo /home/user/.coctohug/mnc.txt. Una vez que se hayan iniciado todos los contenedores Docker nuevos, puede vaciar el archivo mnc.txt para mejorar su nivel de seguridad."
+  "wiki.fast_sync_6": "Notas 2: ¡La conexión de la base de datos descargada a su bifurcación blockchain puede demorar hasta 30 minutos!",
+  "wiki.upgrade_mnc": "Esto necesita las 24 palabras mnemotécnicas nuevamente. Colóquelos en el archivo /home/user/.coctohug/mnc.txt. Una vez que se hayan iniciado todos los contenedores Docker nuevos, puede vaciar el archivo mnc.txt para mejorar su nivel de seguridad.",
+  "wiki.almost_with": "La mayoría de los pasos son los mismos",
+  "wiki.move_unplanned": "Nota 5: recuerde mover esa carpeta de bifurcaciones de blockchain no deseada fuera de la carpeta coctohug. De lo contrario, se iniciarán al mismo tiempo cuando opere en todas las bifurcaciones de blockchain que funcionan, y lo que puede hacer que su computadora se quede sin recursos.",
+  "wiki.setup_one": "Instale las bifurcaciones de blockchain mediante scripts similares:"
 }

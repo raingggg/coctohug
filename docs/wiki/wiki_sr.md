@@ -44,34 +44,48 @@
 ## Поставите Цоцтохуг на Линук ОС
 - Подесити <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Иди на сајт <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, затим унесите сва потребна поља обрасца и преузмите генерисане зиповане доцкер-цомпосе датотеке
-- Распакујте преузете фасцикле и копирајте их у свој радни директоријум
-- Покрените све фасцикле по редоследу:
+- Распакујте преузете фасцикле и копирајте их у свој радни директоријум. Уклоните и те нежељене блокцхаин форкс фолдере да бисте избегли случај да рачунар остане без ресурса
+- Инсталирајте блоцкцхаин форкс помоћу сличних скрипти:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Отворите претраживач и приступите ВебУИ са урл-ом <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Напомена 1: Немојте покретати више од 5 блоцкцхаин виљушки у исто време, пошто цхиа блоцкцхаин виљушке заиста једу ЦПУ када се чвор синхронизује по први пут
 - Напомена 2: Око 1,8Г РАМ-а је потребно за сваку виљушку блоцкцхаин-а, тако да изаберите неке блокчејн виљушке на основу меморије вашег рачунара
-- Напомена 3: Ако постоје проблеми, можда ћете морати поново да покренете све фасцикле по редоследу:
+- Напомена 3: Ако постоје проблеми, можда ћете морати поново да покренете све блокчејн виљушке:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Напомена 4: Можда ћете морати да додате дозвољене портове од 12630 до 12700 у поставкама заштитног зида система
-
+- Напомена 5: Не заборавите да преместите те нежељене блокцхаин форкс фасцикле из фасцикле цоцтохуг. У супротном, они ће бити покренути у исто време када радите на свим радним блокчејнским виљушкама и што може довести до губитка ресурса вашег рачунара
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Подесите Цоцтохуг на Виндовс ОС
-- Исто је и са [Поставите Цоцтохуг на Линук ОС](#cch-linux)
+- Већина корака је иста [Поставите Цоцтохуг на Линук ОС](#cch-linux)
+- Инсталирајте блоцкцхаин форкс помоћу сличних скрипти:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. Преузмите датотеке: блоцкцхаин_в1_маиннет.склите и пеер_табле_ноде.склите
   2. Зауставите блоцкцхаин форк помоћу сличне терминалске скрипте (унутар сваке фасцикле):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Копирајте те датотеке у фолдер блоцкцхаин форк слично:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Покрените блоцкцхаин форк помоћу сличне терминалске скрипте (унутар сваке фасцикле):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Напомене 1: Вашем новчанику је потребна индивидуална синхронизација у форк програму
-  Напомене 2: Повезивање преузете базе података са вашом блоцкцхаин форком може потрајати до 5 минута!
+  Напомене 2: Повезивање преузете базе података са вашом блоцкцхаин форком може потрајати до 30 минута!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. Подесите доцкер-цомпосе фасцикле [Поставите Цоцтохуг на Линук ОС]
   4. На екрану за покретање ВебУИ, овог пута генеришите нови кључ
   5. Сачекајте неколико минута да се блоцкцхаин форкс поново покрене
-  6. Идите у сваку фасциклу и извршите скрипту docker-compose stop && docker-compose up -d
-  7. Посетите http://localhost:12630/, и идите на подешавања - картица хладног новчаника да бисте извезли адресе хладног новчаника
-  8. Потврдите да је свака адреса тачна ручно тако што ћете упоредити преузету датотеку са информацијама приказаним на картици Кључеви
-  9. Набавите 24 мнемоничке речи помоћу сличне терминалске скрипте
+  6. Посетите http://localhost:12630/, и идите на подешавања - картица хладног новчаника да бисте извезли адресе хладног новчаника
+  7. Потврдите да је свака адреса тачна ручно тако што ћете упоредити преузету датотеку са информацијама приказаним на картици Кључеви
+  8. Набавите 24 мнемоничке речи помоћу сличне терминалске скрипте
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. Сачекајте неколико минута и идите на картицу Новчаник да видите да ли је адреса хладног новчаника ажурирана или не
   4. Напомена 1: препоручујемо да направите резервну копију конфигурација новчаника пре увоза
   5. Напомена 2: Само функционалне виљушке блокчејна могу да увезу хладни новчаник. Пре него што то урадите, проверите да ли постоје заустављене виљушке блокчејна или не. Сигурно можете и касније поново да увезете када се поново покрену
-  6. Напомена 3: Ако постоје проблеми, можда ћете морати поново да покренете све фасцикле по редоследу:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Напомена 3: Ако постоје проблеми, можда ћете морати поново да покренете све блокчејн виљушке:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - За ово су поново потребне 24 мнемоничке речи. Ставите их у датотеку /хоме/усер/.цоцтохуг/мнц.ткт. Након покретања свих нових доцкер контејнера, можете испразнити датотеку мнц.ткт да бисте побољшали ниво безбедности
 - Скрипта у једном реду
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - Такође можете извршити горе наведене скрипте корак по корак
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - У случају некомпатибилног дб проблема, можете уклонити постојећу датотеку базе података пре него што извршите доцкер-цомпосе старт скрипту тако што ћете
   ```

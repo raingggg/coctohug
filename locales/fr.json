@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Vous pouvez également transférer des pièces dans l'onglet portefeuille",
   "wiki.transfer_coins": "Transférer des pièces",
   "wiki.ubuntu_wsl": "Installez Ubuntu ou un autre système Linux en utilisant WSL",
-  "wiki.unzip_docker_compose": "Décompressez les dossiers téléchargés et copiez-les dans votre répertoire de travail",
+  "wiki.unzip_docker_compose": "Décompressez les dossiers téléchargés et copiez-les dans votre répertoire de travail. Veuillez également supprimer ces dossiers de fourches blockchain indésirables pour éviter le cas d'ordinateur à court de ressources",
   "wiki.upgrade": "Améliorer",
   "wiki.used_secure_24": "peut être utilisé pour sécuriser vos 24 mots mnémotechniques",
   "wiki.visit": "Visite",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Rapport hebdomadaire",
   "wiki.windows_setup": "Configurer Coctohug sur le système d'exploitation Windows",
   "wiki.firewall_port": "Remarque 4: Vous devrez peut-être ajouter des ports autorisés de 12630 à 12700 sur les paramètres de votre pare-feu système",
-  "wiki.re_script": "Remarque 3 : en cas de problème, vous devrez peut-être réexécuter tous les dossiers par ordre :",
+  "wiki.re_script": "Remarque 3 : en cas de problème, vous devrez peut-être redémarrer tous les forks de la blockchain :",
   "wiki.import_note_2": "Remarque 2 : seuls les forks de blockchain fonctionnels peuvent importer un cold wallet. Veuillez vérifier s'il y a des fourches blockchain arrêtées ou non avant de faire cela. Vous pouvez sûrement aussi importer à nouveau plus tard lorsqu'ils sont redémarrés",
   "wiki.fast_sync_1": "1. Téléchargez les fichiers : blockchain_v1_mainnet.sqlite et peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Arrêtez la fourche blockchain par un script de terminal similaire (à l'intérieur de chaque dossier):",
   "wiki.fast_sync_3": "3. Copiez ces fichiers dans le dossier de la fourche blockchain de la manière suivante :",
   "wiki.fast_sync_4": "4. Démarrez blockchain fork par un script de terminal similaire (à l'intérieur de chaque dossier):",
   "wiki.fast_sync_5": "Notes 1 : votre portefeuille a besoin d'une synchronisation individuelle dans le programme fork",
-  "wiki.fast_sync_6": "Notes 2 : La connexion de la base de données téléchargée à votre fork blockchain peut prendre jusqu'à 5 minutes !",
-  "wiki.upgrade_mnc": "Cela nécessite à nouveau les 24 mots mnémoniques. Veuillez les mettre dans le fichier /home/user/.coctohug/mnc.txt. Une fois tous les nouveaux conteneurs Docker démarrés, vous pouvez ensuite vider le fichier mnc.txt pour améliorer votre niveau de sécurité"
+  "wiki.fast_sync_6": "Notes 2 : La connexion de la base de données téléchargée à votre fork blockchain peut prendre jusqu'à 30 minutes !",
+  "wiki.upgrade_mnc": "Cela nécessite à nouveau les 24 mots mnémoniques. Veuillez les mettre dans le fichier /home/user/.coctohug/mnc.txt. Une fois tous les nouveaux conteneurs Docker démarrés, vous pouvez ensuite vider le fichier mnc.txt pour améliorer votre niveau de sécurité",
+  "wiki.almost_with": "La plupart des étapes sont les mêmes",
+  "wiki.move_unplanned": "Remarque 5: N'oubliez pas de déplacer ces dossiers de fourches blockchain indésirables hors du dossier coctohug. Sinon, ils seront démarrés en même temps que vous opérez sur tous les forks de blockchain fonctionnels, ce qui peut entraîner une pénurie de ressources sur votre ordinateur.",
+  "wiki.setup_one": "Installez les fourches blockchain par des scripts similaires :"
 }

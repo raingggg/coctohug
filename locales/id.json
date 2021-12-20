@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Anda juga dapat mentransfer koin di tab dompet",
   "wiki.transfer_coins": "Transfer Koin",
   "wiki.ubuntu_wsl": "Instal Ubuntu atau sistem Linux lainnya menggunakan WSL",
-  "wiki.unzip_docker_compose": "Buka zip folder yang diunduh dan salin ke direktori kerja Anda",
+  "wiki.unzip_docker_compose": "Buka zip folder yang diunduh dan salin ke direktori kerja Anda. Harap juga hapus folder garpu blockchain yang tidak diinginkan itu untuk menghindari kasus komputer kehabisan sumber daya",
   "wiki.upgrade": "Meningkatkan",
   "wiki.used_secure_24": "dapat digunakan untuk mengamankan 24 kata mnemonik Anda",
   "wiki.visit": "Mengunjungi",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Laporan mingguan",
   "wiki.windows_setup": "Siapkan Coctohug di OS Windows",
   "wiki.firewall_port": "Catatan 4: Anda mungkin perlu menambahkan port yang diizinkan dari 12630 hingga 12700 pada pengaturan firewall sistem Anda",
-  "wiki.re_script": "Catatan 3: Jika ada masalah, Anda mungkin perlu menjalankan ulang semua folder berdasarkan pesanan:",
+  "wiki.re_script": "Catatan 3: Jika ada masalah, Anda mungkin perlu memulai ulang semua garpu blockchain:",
   "wiki.import_note_2": "Catatan 2: Hanya garpu blockchain yang berfungsi yang dapat mengimpor dompet dingin. Silakan periksa apakah ada garpu blockchain yang dihentikan atau tidak sebelum melakukan ini. Tentunya Anda juga dapat mengimpor lagi nanti ketika mereka dimulai kembali",
   "wiki.fast_sync_1": "1. Unduh file: blockchain_v1_mainnet.sqlite dan peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Hentikan garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
   "wiki.fast_sync_3": "3. Salin file-file itu ke folder garpu blockchain yang mirip dengan:",
   "wiki.fast_sync_4": "4. Mulai garpu blockchain dengan skrip terminal serupa (di dalam setiap folder):",
   "wiki.fast_sync_5": "Catatan 1: Dompet Anda memerlukan sinkronisasi individual dalam program fork",
-  "wiki.fast_sync_6": "Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 5 menit!",
-  "wiki.upgrade_mnc": "Ini membutuhkan 24 kata mnemonik lagi. Silakan masukkan ke dalam file /home/user/.coctohug/mnc.txt. Setelah semua kontainer buruh pelabuhan baru dimulai, Anda dapat mengosongkan file mnc.txt untuk meningkatkan tingkat keamanan Anda"
+  "wiki.fast_sync_6": "Catatan 2: Koneksi database yang diunduh ke garpu blockchain Anda dapat memakan waktu hingga 30 menit!",
+  "wiki.upgrade_mnc": "Ini membutuhkan 24 kata mnemonik lagi. Silakan masukkan ke dalam file /home/user/.coctohug/mnc.txt. Setelah semua kontainer buruh pelabuhan baru dimulai, Anda dapat mengosongkan file mnc.txt untuk meningkatkan tingkat keamanan Anda",
+  "wiki.almost_with": "Sebagian besar langkahnya sama",
+  "wiki.move_unplanned": "Catatan 5: Harap ingat untuk memindahkan folder garpu blockchain yang tidak diinginkan dari folder coctohug. Jika tidak, mereka akan dimulai pada saat yang sama ketika Anda mengoperasikan semua garpu blockchain yang berfungsi, dan yang dapat menyebabkan komputer Anda kehabisan sumber daya.",
+  "wiki.setup_one": "Instal garpu blockchain dengan skrip serupa:"
 }

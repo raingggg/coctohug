@@ -44,34 +44,48 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 ## Configurar Coctohug en el sistema operativo Linux
 - Configuración <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Ir al sitio <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, luego ingrese todos los campos de formulario necesarios y descargue los archivos comprimidos generados de la ventana acoplable componer
-- Descomprima las carpetas descargadas y cópielas en su directorio de trabajo
-- Ejecute todas las carpetas por orden:
+- Descomprima las carpetas descargadas y cópielas en su directorio de trabajo. Elimine también las carpetas de bifurcaciones de blockchain no deseadas para evitar que la computadora se quede sin recursos
+- Instale las bifurcaciones de blockchain mediante scripts similares:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Abra el navegador y acceda a WebUI con url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: No inicie más de 5 bifurcaciones de blockchain al mismo tiempo, ya que las bifurcaciones de chia blockchain realmente consumen CPU cuando se sincroniza el nodo por primera vez.
 - Nota 2: Se requieren alrededor de 1.8G de RAM para cada bifurcación de blockchain, así que elija algunas bifurcaciones de blockchain según la memoria de su computadora
-- Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:
+- Nota 3: Si hay algún problema, es posible que deba reiniciar todas las bifurcaciones de blockchain:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Nota 4: Es posible que deba agregar los puertos de autorización de 12630 a 12700 en la configuración del firewall de su sistema
-
+- Nota 5: recuerde mover esa carpeta de bifurcaciones de blockchain no deseada fuera de la carpeta coctohug. De lo contrario, se iniciarán al mismo tiempo cuando opere en todas las bifurcaciones de blockchain que funcionan, y lo que puede hacer que su computadora se quede sin recursos.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurar Coctohug en el sistema operativo Windows
-- Lo mismo con [Configurar Coctohug en el sistema operativo Linux](#cch-linux)
+- La mayoría de los pasos son los mismos [Configurar Coctohug en el sistema operativo Linux](#cch-linux)
+- Instale las bifurcaciones de blockchain mediante scripts similares:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
   ```
   1. Descargar archivos: blockchain_v1_mainnet.sqlite y peer_table_node.sqlite
   2. Detenga la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Copie esos archivos en la carpeta de la bifurcación de blockchain similar a:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Inicie la bifurcación de blockchain con un script de terminal similar (dentro de cada carpeta):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Notas 1: su billetera necesita sincronización individual en el programa de bifurcación
-  Notas 2: ¡La conexión de la base de datos descargada a su bifurcación blockchain puede demorar hasta 5 minutos!
+  Notas 2: ¡La conexión de la base de datos descargada a su bifurcación blockchain puede demorar hasta 30 minutos!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
   3. Configurar las carpetas docker-compose [Configurar Coctohug en el sistema operativo Linux]
   4. En la pantalla de inicio de WebUI, esta vez genera una nueva clave
   5. Espere unos minutos para que se reinicien las bifurcaciones de blockchain
-  6. Vaya a cada carpeta y ejecute el script docker-compose stop && docker-compose up -d
-  7. Visita http://localhost:12630/, y vaya a configuración - pestaña billetera fría para exportar las direcciones de billetera fría
-  8. Confirme que cada dirección sea correcta manualmente comparando el archivo descargado con la información que se muestra en la pestaña Teclas
-  9. Obtenga 24 palabras mnemotécnicas mediante un script de terminal similar
+  6. Visita http://localhost:12630/, y vaya a configuración - pestaña billetera fría para exportar las direcciones de billetera fría
+  7. Confirme que cada dirección sea correcta manualmente comparando el archivo descargado con la información que se muestra en la pestaña Teclas
+  8. Obtenga 24 palabras mnemotécnicas mediante un script de terminal similar
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
   3. Espere unos minutos y vaya a la pestaña de billetera para ver si la dirección de la billetera fría está actualizada o no
   4. Nota 1: recomendamos hacer una copia de seguridad de las configuraciones de su billetera antes de importar
   5. Nota 2: Solo las bifurcaciones de blockchain que funcionan pueden importar billetera fría. Verifique si hay bifurcaciones de blockchain detenidas o no antes de hacer esto. Seguro que también puedes volver a importar más tarde cuando se reinicien
-  6. Nota 3: Si hay algún problema, es posible que deba volver a ejecutar todas las carpetas por orden:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Nota 3: Si hay algún problema, es posible que deba reiniciar todas las bifurcaciones de blockchain:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Fácil configuración usando [Inicio rápido](https://www.coctohug.xyz/)
 - Esto necesita las 24 palabras mnemotécnicas nuevamente. Colóquelos en el archivo /home/user/.coctohug/mnc.txt. Una vez que se hayan iniciado todos los contenedores Docker nuevos, puede vaciar el archivo mnc.txt para mejorar su nivel de seguridad.
 - Script de una línea
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - También puede ejecutar los scripts anteriores paso a paso
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - En caso de un problema de base de datos incompatible, puede eliminar el archivo de base de datos existente antes de ejecutar el script de inicio de docker-compose mediante
   ```

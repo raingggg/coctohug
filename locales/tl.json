@@ -113,7 +113,7 @@
   "wiki.transfer_coin": "Maaari ka ring maglipat ng mga barya sa tab na wallet",
   "wiki.transfer_coins": "Maglipat ng mga barya",
   "wiki.ubuntu_wsl": "I-install ang Ubuntu o iba pang Linux system gamit ang WSL",
-  "wiki.unzip_docker_compose": "I-unzip ang mga na-download na folder at kopyahin ang mga ito sa iyong gumaganang direktoryo",
+  "wiki.unzip_docker_compose": "I-unzip ang mga na-download na folder at kopyahin ang mga ito sa iyong gumaganang direktoryo. Mangyaring alisin din ang mga hindi gustong blockchain forks na mga folder upang maiwasan ang kaso ng computer na wala sa mga mapagkukunan",
   "wiki.upgrade": "Mag-upgrade",
   "wiki.used_secure_24": "ay maaaring gamitin upang ma-secure ang iyong 24 mnemonic na salita",
   "wiki.visit": "Bisitahin",
@@ -123,13 +123,16 @@
   "wiki.weekly_report": "Lingguhang ulat",
   "wiki.windows_setup": "I-setup ang Coctohug sa Windows OS",
   "wiki.firewall_port": "Tandaan 4: Maaaring kailanganin mong magdagdag ng pagpapahintulot sa mga port mula 12630 hanggang 12700 sa iyong mga setting ng firewall ng system",
-  "wiki.re_script": "Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:",
+  "wiki.re_script": "Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong i-restart ang lahat ng blockchain forks:",
   "wiki.import_note_2": "Tandaan 2: Tanging mga gumaganang blockchain forks lang ang makakapag-import ng cold wallet. Pakisuri kung may mga tumigil na blockchain forks o wala bago gawin ito. Tiyak na maaari ka ring mag-import sa ibang pagkakataon muli kapag sila ay muling nagsimula",
   "wiki.fast_sync_1": "1. Mag-download ng mga file: blockchain_v1_mainnet.sqlite at peer_table_node.sqlite",
   "wiki.fast_sync_2": "2. Itigil ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
   "wiki.fast_sync_3": "3. Kopyahin ang mga file na iyon sa blockchain fork folder na katulad ng:",
   "wiki.fast_sync_4": "4. Simulan ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):",
   "wiki.fast_sync_5": "Mga Tala 1: Ang iyong wallet ay nangangailangan ng indibidwal na pag-synchronize sa programa ng tinidor",
-  "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!",
-  "wiki.upgrade_mnc": "Kailangan nitong muli ang 24 na mnemonic na salita. Mangyaring ilagay ang mga ito sa file /home/user/.coctohug/mnc.txt. Pagkatapos magsimula ng lahat ng bagong docker container, maaari mong alisan ng laman ang file mnc.txt para mapahusay ang iyong antas ng seguridad"
+  "wiki.fast_sync_6": "Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal nang hanggang 30 minuto!",
+  "wiki.upgrade_mnc": "Kailangan nitong muli ang 24 na mnemonic na salita. Mangyaring ilagay ang mga ito sa file /home/user/.coctohug/mnc.txt. Pagkatapos magsimula ng lahat ng bagong docker container, maaari mong alisan ng laman ang file mnc.txt para mapahusay ang iyong antas ng seguridad",
+  "wiki.almost_with": "Karamihan sa mga hakbang ay pareho",
+  "wiki.move_unplanned": "Tandaan 5: Mangyaring tandaan na ilipat ang mga hindi gustong blockchain forks folder mula sa folder ng coctohug. Kung hindi, magsisimula ang mga ito nang sabay-sabay kapag nag-operate ka sa lahat ng gumaganang blockchain forks, at maaaring maging sanhi ng pagkawala ng iyong computer sa mga mapagkukunan.",
+  "wiki.setup_one": "Mag-install ng mga blockchain forks sa pamamagitan ng mga katulad na script:"
 }

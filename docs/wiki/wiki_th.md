@@ -44,34 +44,48 @@
 ## ตั้งค่า Coctohug บน Linux OS
 - ติดตั้ง <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - ไปที่เว็บไซต์ <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, จากนั้นป้อนฟิลด์แบบฟอร์มที่จำเป็นทั้งหมดและดาวน์โหลดไฟล์ zip ที่สร้างขึ้นสำหรับนักเทียบท่า
-- เปิดเครื่องรูดโฟลเดอร์ที่ดาวน์โหลดและคัดลอกลงในไดเร็กทอรีการทำงานของคุณ
-- เรียกใช้โฟลเดอร์ทั้งหมดตามลำดับ:
+- เปิดเครื่องรูดโฟลเดอร์ที่ดาวน์โหลดและคัดลอกลงในไดเร็กทอรีการทำงานของคุณ โปรดลบโฟลเดอร์ forks blockchain ที่ไม่ต้องการเหล่านั้นด้วย เพื่อหลีกเลี่ยงกรณีที่คอมพิวเตอร์หมดทรัพยากร
+- ติดตั้ง blockchain forks ด้วยสคริปต์ที่คล้ายกัน:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - เปิดเบราว์เซอร์และเข้าถึง WebUI ด้วย url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - หมายเหตุ 1: อย่าเริ่มต้นมากกว่า 5 blockchain fork พร้อมกัน เนื่องจาก Chia blockchain fork กิน CPU จริงๆ เมื่อทำการซิงค์โหนดเป็นครั้งแรก
 - หมายเหตุ 2: ต้องใช้ RAM ประมาณ 1.8G สำหรับแต่ละบล็อคบล็อค ดังนั้นให้เลือกส้อมบล็อคเชนบางตัวตามหน่วยความจำคอมพิวเตอร์ของคุณ
-- หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องเรียกใช้โฟลเดอร์ทั้งหมดอีกครั้งตามลำดับ:
+- หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องรีสตาร์ทบล็อคเชนทั้งหมด:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - หมายเหตุ 4: คุณอาจต้องเพิ่มพอร์ตอนุญาตจาก 12630 ถึง 12700 ในการตั้งค่าไฟร์วอลล์ระบบของคุณ
-
+- หมายเหตุ 5: โปรดอย่าลืมย้ายโฟลเดอร์ blockchain forks ที่ไม่ต้องการออกจากโฟลเดอร์ coctohug มิฉะนั้น พวกมันจะเริ่มต้นพร้อมกันเมื่อคุณใช้งาน fork บล็อคเชนที่ทำงานทั้งหมด และอาจทำให้คอมพิวเตอร์ของคุณไม่มีทรัพยากร
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## ตั้งค่า Coctohug บน Windows OS
-- เหมือนกับ [ตั้งค่า Coctohug บน Linux OS](#cch-linux)
+- ขั้นตอนส่วนใหญ่เหมือนกัน [ตั้งค่า Coctohug บน Linux OS](#cch-linux)
+- ติดตั้ง blockchain forks ด้วยสคริปต์ที่คล้ายกัน:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@
   ```
   1. ดาวน์โหลดไฟล์: blockchain_v1_mainnet.sqlite และ peer_table_node.sqlite
   2. หยุด blockchain fork ด้วยเทอร์มินัลสคริปต์ที่คล้ายกัน (ภายในแต่ละโฟลเดอร์):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. คัดลอกไฟล์เหล่านั้นไปยังโฟลเดอร์ blockchain fork ที่คล้ายกับ:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. เริ่ม blockchain fork ด้วยเทอร์มินัลสคริปต์ที่คล้ายกัน (ภายในแต่ละโฟลเดอร์):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   หมายเหตุ 1: กระเป๋าเงินของคุณต้องมีการซิงโครไนซ์เป็นรายบุคคลในโปรแกรมส้อม
-  หมายเหตุ 2: การเชื่อมต่อฐานข้อมูลที่ดาวน์โหลดไปยัง blockchain fork ของคุณอาจใช้เวลานานถึง 5 นาที!
+  หมายเหตุ 2: การเชื่อมต่อฐานข้อมูลที่ดาวน์โหลดไปยัง blockchain fork ของคุณอาจใช้เวลานานถึง 30 นาที!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@
   3. ตั้งค่าโฟลเดอร์เขียนนักเทียบท่า [ตั้งค่า Coctohug บน Linux OS]
   4. บนหน้าจอเปิดใช้ WebUI ให้สร้างคีย์ใหม่ในครั้งนี้
   5. รอสักครู่เพื่อให้ fork blockchain เริ่มต้นใหม่
-  6. ไปที่แต่ละโฟลเดอร์และรันสคริปต์ docker-compose stop && docker-compose up -d
-  7. เยี่ยม http://localhost:12630/, และไปที่การตั้งค่า - แท็บกระเป๋าเงินเย็นเพื่อส่งออกที่อยู่กระเป๋าเงินเย็น
-  8. ยืนยันว่าที่อยู่แต่ละรายการถูกต้องด้วยตนเองโดยเปรียบเทียบไฟล์ที่ดาวน์โหลดกับข้อมูลที่แสดงบนแท็บคีย์
-  9. รับ 24 คำช่วยจำโดยใช้เทอร์มินัลสคริปต์ที่คล้ายกัน
+  6. เยี่ยม http://localhost:12630/, และไปที่การตั้งค่า - แท็บกระเป๋าเงินเย็นเพื่อส่งออกที่อยู่กระเป๋าเงินเย็น
+  7. ยืนยันว่าที่อยู่แต่ละรายการถูกต้องด้วยตนเองโดยเปรียบเทียบไฟล์ที่ดาวน์โหลดกับข้อมูลที่แสดงบนแท็บคีย์
+  8. รับ 24 คำช่วยจำโดยใช้เทอร์มินัลสคริปต์ที่คล้ายกัน
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@
   3. รอสักครู่แล้วไปที่แท็บกระเป๋าเงินเพื่อดูว่าที่อยู่กระเป๋าเงินเย็นได้รับการอัปเดตหรือไม่
   4. หมายเหตุ 1: เราแนะนำให้สำรองการกำหนดค่ากระเป๋าเงินของคุณก่อนนำเข้า
   5. หมายเหตุ 2: เฉพาะส้อมบล็อคที่ใช้งานได้เท่านั้นที่สามารถนำเข้ากระเป๋าเงินเย็นได้ โปรดตรวจสอบว่ามีการแยกบล็อคเชน (blockchain fork) ที่หยุดทำงานหรือไม่ก่อนที่จะดำเนินการนี้ แน่นอนคุณสามารถนำเข้าอีกครั้งในภายหลังเมื่อเริ่มต้นใหม่
-  6. หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องเรียกใช้โฟลเดอร์ทั้งหมดอีกครั้งตามลำดับ:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องรีสตาร์ทบล็อคเชนทั้งหมด:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - สิ่งนี้ต้องการคำช่วยจำ 24 คำอีกครั้ง โปรดใส่ลงในไฟล์ /home/user/.coctohug/mnc.txt หลังจากคอนเทนเนอร์นักเทียบท่าใหม่เริ่มต้นขึ้น คุณสามารถล้างไฟล์ mnc.txt เพื่อเพิ่มระดับความปลอดภัยของคุณ
 - สคริปต์หนึ่งบรรทัด
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - คุณยังสามารถรันสคริปต์ด้านบนทีละขั้นตอน
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - ในกรณีของปัญหา db ที่เข้ากันไม่ได้ คุณสามารถลบไฟล์ฐานข้อมูลที่มีอยู่ก่อนที่จะรันสคริปต์เริ่มต้นของ docker-compose โดย
   ```

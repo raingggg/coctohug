@@ -44,34 +44,48 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 ## Thiết lập Coctohug trên Hệ điều hành Linux
 - Cài đặt <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Đi đến trang web <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, sau đó nhập tất cả các trường biểu mẫu cần thiết và tải xuống các tệp soạn nhạc do docker nén đã tạo
-- Giải nén các thư mục đã tải xuống và sao chép chúng vào thư mục làm việc của bạn
-- Chạy tất cả các thư mục theo thứ tự:
+- Giải nén các thư mục đã tải xuống và sao chép chúng vào thư mục làm việc của bạn. Cũng vui lòng xóa các thư mục blockchain fork không mong muốn đó để tránh trường hợp máy tính hết tài nguyên
+- Cài đặt các nhánh blockchain bằng các tập lệnh tương tự:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Mở trình duyệt và truy cập WebUI bằng url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Lưu ý 1: Không khởi động nhiều hơn 5 nhánh blockchain cùng một lúc, vì các nhánh chia blockchain thực sự ăn CPU khi đồng bộ hóa nút lần đầu tiên
 - Lưu ý 2: Cần có khoảng 1,8G RAM cho mỗi lần fork blockchain, vì vậy hãy chọn một số nhánh blockchain dựa trên bộ nhớ máy tính của bạn
-- Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:
+- Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần khởi động lại tất cả các nhánh blockchain:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình
-
+- Lưu ý 5: Hãy nhớ chuyển thư mục blockchain fork không mong muốn đó ra khỏi thư mục coctohug. Nếu không, chúng sẽ được khởi động cùng lúc khi bạn vận hành trên tất cả các nhánh blockchain đang hoạt động và điều này có thể khiến máy tính của bạn hết tài nguyên
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Thiết lập Coctohug trên Windows OS
-- Giống với [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
+- Hầu hết các bước đều giống nhau [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
+- Cài đặt các nhánh blockchain bằng các tập lệnh tương tự:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   ```
   1. Tải xuống các tệp: blockchain_v1_mainnet.sqlite và peer_table_node.sqlite
   2. Dừng phân nhánh blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Sao chép các tệp đó vào thư mục blockchain fork tương tự như:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Bắt đầu fork blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Lưu ý 1: Ví của bạn cần đồng bộ hóa cá nhân trong chương trình fork
-  Lưu ý 2: Việc kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân nhánh blockchain của bạn có thể mất đến 5 phút!
+  Lưu ý 2: Kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân tách blockchain của bạn có thể mất đến 30 phút!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   3. Thiết lập các thư mục soạn thảo docker [Thiết lập Coctohug trên Hệ điều hành Linux]
   4. Trên màn hình khởi chạy WebUI, tạo khóa mới lần này
   5. Chờ vài phút để các nhánh blockchain khởi động lại
-  6. Đi đến từng thư mục và thực thi tập lệnh docker-compose stop && docker-compose up -d
-  7. Chuyến thăm http://localhost:12630/, và đi tới cài đặt - tab ví lạnh để xuất địa chỉ ví lạnh
-  8. Xác nhận từng địa chỉ là chính xác theo cách thủ công bằng cách so sánh tệp đã tải xuống với thông tin được hiển thị trên tab Phím
-  9. Nhận 24 từ dễ nhớ bằng tập lệnh đầu cuối tương tự
+  6. Chuyến thăm http://localhost:12630/, và đi tới cài đặt - tab ví lạnh để xuất địa chỉ ví lạnh
+  7. Xác nhận từng địa chỉ là chính xác theo cách thủ công bằng cách so sánh tệp đã tải xuống với thông tin được hiển thị trên tab Phím
+  8. Nhận 24 từ dễ nhớ bằng tập lệnh đầu cuối tương tự
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   3. Chờ vài phút và chuyển đến tab ví để xem địa chỉ ví lạnh đã được cập nhật hay chưa
   4. Lưu ý 1: chúng tôi khuyên bạn nên sao lưu cấu hình ví của bạn trước khi nhập
   5. Lưu ý 2: Chỉ những nhánh blockchain đang hoạt động mới có thể nhập ví lạnh. Vui lòng kiểm tra xem có các nhánh blockchain bị dừng hay không trước khi thực hiện việc này. Chắc chắn bạn cũng có thể nhập lại sau khi chúng được khởi động lại
-  6. Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần chạy lại tất cả các thư mục theo thứ tự:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần khởi động lại tất cả các nhánh blockchain:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Điều này cần 24 từ ghi nhớ một lần nữa. Vui lòng đưa chúng vào tệp /home/user/.coctohug/mnc.txt. Sau khi tất cả các vùng chứa docker mới bắt đầu, bạn có thể làm trống tệp mnc.txt để nâng cao mức độ bảo mật của mình
 - Tập lệnh một dòng
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - Bạn cũng có thể thực thi các tập lệnh trên theo từng bước
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - Trong trường hợp xảy ra sự cố db không tương thích, bạn có thể xóa tệp cơ sở dữ liệu hiện có trước khi thực thi tập lệnh bắt đầu do docker-soạn bằng cách
   ```

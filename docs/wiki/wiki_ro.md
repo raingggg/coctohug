@@ -44,34 +44,48 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 ## Configurați Coctohug pe sistemul de operare Linux
 - Înființat <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Accesați site-ul <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, apoi introduceți toate câmpurile de formular necesare și descărcați fișierele docker-compose arhivate generate
-- Dezarhivați folderele descărcate și copiați-le în directorul dvs. de lucru
-- Rulați toate folderele după comandă:
+- Dezarhivați folderele descărcate și copiați-le în directorul dvs. de lucru. Vă rugăm să eliminați și acele foldere nedorite de blockchain forks pentru a evita situația în care computerul nu are resurse
+- Instalați fork-uri blockchain prin scripturi similare:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Deschideți browserul și accesați WebUI cu url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Nota 1: Nu porniți mai mult de 5 furci blockchain în același timp, deoarece furcile chia blockchain mănâncă cu adevărat CPU atunci când se sincronizează nodul pentru prima dată
 - Nota 2: Aproximativ 1,8 G RAM este necesar pentru fiecare fork blockchain, așa că alegeți câteva fork blockchain pe baza memoriei computerului dvs.
-- Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:
+- Nota 3: Dacă există probleme, poate fi necesar să reporniți toate furcile blockchain:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Notă 4: poate fi necesar să adăugați porturi de permisie de la 12630 la 12700 în setările firewall-ului sistemului dvs.
-
+- Nota 5: Vă rugăm să nu uitați să mutați dosarul nedorit de furcături blockchain din folderul coctohug. În caz contrar, acestea vor fi pornite în același timp când operați pe toate furcile blockchain care funcționează și care vă poate duce la epuizarea resurselor computerului.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurați Coctohug pe sistemul de operare Windows
-- Acelasi cu [Configurați Coctohug pe sistemul de operare Linux](#cch-linux)
+- Majoritatea pașilor sunt aceiași [Configurați Coctohug pe sistemul de operare Linux](#cch-linux)
+- Instalați fork-uri blockchain prin scripturi similare:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
   ```
   1. Descărcați fișiere: blockchain_v1_mainnet.sqlite și peer_table_node.sqlite
   2. Opriți bifurcația blockchain printr-un script terminal similar (în interiorul fiecărui folder):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Copiați acele fișiere în folderul blockchain fork similar cu:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Porniți fork blockchain cu un script terminal similar (în interiorul fiecărui folder):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Note 1: Portofelul dvs. are nevoie de sincronizare individuală în programul furk
-  Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 5 minute!
+  Note 2: Conectarea bazei de date descărcate la furculița blockchain poate dura până la 30 de minute!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
   3. Configurați folderele docker-compose [Configurați Coctohug pe sistemul de operare Linux]
   4. Pe ecranul de lansare WebUI, generați o cheie nouă de data aceasta
   5. Așteptați câteva minute pentru repornirea fork-urilor blockchain
-  6. Accesați fiecare folder și executați scriptul docker-compose stop && docker-compose up -d
-  7. Vizita http://localhost:12630/, și accesați setări - fila portofel rece pentru a exporta adresele portofelului rece
-  8. Confirmați că fiecare adresă este corectă manual, comparând fișierul descărcat cu informațiile afișate în fila Chei
-  9. Obțineți 24 de cuvinte mnemonice printr-un script terminal similar
+  6. Vizita http://localhost:12630/, și accesați setări - fila portofel rece pentru a exporta adresele portofelului rece
+  7. Confirmați că fiecare adresă este corectă manual, comparând fișierul descărcat cu informațiile afișate în fila Chei
+  8. Obțineți 24 de cuvinte mnemonice printr-un script terminal similar
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
   3. Așteptați câteva minute și accesați fila Portofel pentru a vedea dacă adresa portofelului rece este actualizată sau nu
   4. Nota 1: vă recomandăm să faceți backup pentru configurațiile portofelului înainte de import
   5. Nota 2: Numai furcile blockchain care funcționează pot importa portofel rece. Vă rugăm să verificați dacă există blocuri blocate oprite sau nu înainte de a face acest lucru. Cu siguranță, puteți importa și mai târziu, când sunt repornite
-  6. Nota 3: Dacă există probleme, poate fi necesar să rulați din nou toate folderele după comandă:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Nota 3: Dacă există probleme, poate fi necesar să reporniți toate furcile blockchain:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Configurare ușoară folosind [Pornire rapidă](https://www.coctohug.xyz/)
 - Aceasta are nevoie din nou de cele 24 de cuvinte mnemonice. Vă rugăm să le puneți în fișierul /home/user/.coctohug/mnc.txt. După ce au pornit toate containerele docker noi, puteți goli fișierul mnc.txt pentru a vă îmbunătăți nivelul de securitate
 - Script cu o linie
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - De asemenea, puteți executa scripturile de mai sus pas cu pas
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - În cazul unei probleme db incompatibile, puteți elimina fișierul bazei de date existent înainte de a executa scriptul de pornire docker-compose prin
   ```

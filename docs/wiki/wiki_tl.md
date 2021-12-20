@@ -44,34 +44,48 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 ## I-setup ang Coctohug sa Linux OS
 - Setup <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Pumunta sa site <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, pagkatapos ay ilagay ang lahat ng kinakailangang mga patlang ng form at i-download ang nabuong mga naka-zip na docker-compose na mga file
-- I-unzip ang mga na-download na folder at kopyahin ang mga ito sa iyong gumaganang direktoryo
-- Patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:
+- I-unzip ang mga na-download na folder at kopyahin ang mga ito sa iyong gumaganang direktoryo. Mangyaring alisin din ang mga hindi gustong blockchain forks na mga folder upang maiwasan ang kaso ng computer na wala sa mga mapagkukunan
+- Mag-install ng mga blockchain forks sa pamamagitan ng mga katulad na script:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - Buksan ang browser at i-access ang WebUI gamit ang url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Tandaan 1: Huwag simulan ang higit sa 5 blockchain forks nang sabay-sabay, dahil ang chia blockchain forks ay talagang kumakain ng CPU kapag ang node ay nagsi-sync sa unang pagkakataon
 - Tandaan 2: Humigit-kumulang 1.8G RAM ang kinakailangan para sa bawat blockchain fork, kaya pumili ng ilang blockchain forks batay sa memorya ng iyong computer
-- Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:
+- Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong i-restart ang lahat ng blockchain forks:
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - Tandaan 4: Maaaring kailanganin mong magdagdag ng pagpapahintulot sa mga port mula 12630 hanggang 12700 sa iyong mga setting ng firewall ng system
-
+- Tandaan 5: Mangyaring tandaan na ilipat ang mga hindi gustong blockchain forks folder mula sa folder ng coctohug. Kung hindi, magsisimula ang mga ito nang sabay-sabay kapag nag-operate ka sa lahat ng gumaganang blockchain forks, at maaaring maging sanhi ng pagkawala ng iyong computer sa mga mapagkukunan.
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## I-setup ang Coctohug sa Windows OS
-- Pareho sa [I-setup ang Coctohug sa Linux OS](#cch-linux)
+- Karamihan sa mga hakbang ay pareho [I-setup ang Coctohug sa Linux OS](#cch-linux)
+- Mag-install ng mga blockchain forks sa pamamagitan ng mga katulad na script:
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,19 +165,16 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
   ```
   1. Mag-download ng mga file: blockchain_v1_mainnet.sqlite at peer_table_node.sqlite
   2. Itigil ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   3. Kopyahin ang mga file na iyon sa blockchain fork folder na katulad ng:
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Simulan ang blockchain fork sa pamamagitan ng katulad na terminal script (sa loob ng bawat folder):
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   Mga Tala 1: Ang iyong wallet ay nangangailangan ng indibidwal na pag-synchronize sa programa ng tinidor
-  Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal ng hanggang 5 minuto!
+  Mga Tala 2: Ang koneksyon ng na-download na database sa iyong blockchain fork ay maaaring tumagal nang hanggang 30 minuto!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -207,10 +218,9 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
   3. I-setup ang mga folder ng docker-compose [I-setup ang Coctohug sa Linux OS]
   4. Sa screen ng paglulunsad ng WebUI, bumuo ng bagong key sa pagkakataong ito
   5. Maghintay ng ilang minuto para mag-restart ang blockchain forks
-  6. Pumunta sa bawat folder at isagawa ang script docker-compose stop && docker-compose up -d
-  7. Bisitahin http://localhost:12630/, at pumunta sa mga setting - tab na cold wallet para i-export ang mga address ng cold wallet
-  8. Kumpirmahing tama ang bawat address nang manu-mano sa pamamagitan ng paghahambing ng na-download na file sa impormasyong ipinapakita sa tab na Mga Key
-  9. Kumuha ng 24 na mnemonic na salita sa pamamagitan ng katulad na terminal script
+  6. Bisitahin http://localhost:12630/, at pumunta sa mga setting - tab na cold wallet para i-export ang mga address ng cold wallet
+  7. Kumpirmahing tama ang bawat address nang manu-mano sa pamamagitan ng paghahambing ng na-download na file sa impormasyong ipinapakita sa tab na Mga Key
+  8. Kumuha ng 24 na mnemonic na salita sa pamamagitan ng katulad na terminal script
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -222,11 +232,9 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
   3. Maghintay ng ilang minuto, at pumunta sa tab na wallet para makita kung na-update o hindi ang address ng cold wallet
   4. Tandaan 1: inirerekomenda namin na i-backup ang iyong mga configuration ng wallet bago mag-import
   5. Tandaan 2: Tanging mga gumaganang blockchain forks lang ang makakapag-import ng cold wallet. Pakisuri kung may mga tumigil na blockchain forks o wala bago gawin ito. Tiyak na maaari ka ring mag-import sa ibang pagkakataon muli kapag sila ay muling nagsimula
-  6. Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong muling patakbuhin ang lahat ng mga folder ayon sa pagkakasunud-sunod:
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+  6. Tandaan 3: Kung mayroong anumang mga isyu, maaaring kailanganin mong i-restart ang lahat ng blockchain forks:
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@ Madaling paggamit ng Setup [Mabilis na Pagsisimula](https://www.coctohug.xyz/)
 - Kailangan nitong muli ang 24 na mnemonic na salita. Mangyaring ilagay ang mga ito sa file /home/user/.coctohug/mnc.txt. Pagkatapos magsimula ng lahat ng bagong docker container, maaari mong alisan ng laman ang file mnc.txt para mapahusay ang iyong antas ng seguridad
 - Isang linyang script
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - Maaari mo ring isagawa ang mga script sa itaas nang sunud-sunod
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - Sa kaso ng hindi tugmang isyu sa db, maaari mong alisin ang umiiral na database file bago isagawa ang docker-compose start script sa pamamagitan ng
   ```

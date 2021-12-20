@@ -45,12 +45,12 @@
 - <%= localeData['wiki.setup'] %> <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - <%= localeData['wiki.go_to_site'] %> <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, <%= localeData['wiki.enter_form_fields'] %>
 - <%= localeData['wiki.unzip_docker_compose'] %>
-- <%= localeData['wiki.rull_all_folders'] %>
+- <%= localeData['wiki.setup_one'] %>
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh start flora
+  ./ccm.sh start flax
+  ./ccm.sh start hddcoin
+  ./ccm.sh start chia
   ...
   ```
 - <%= localeData['wiki.browser_access_url'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,20 +58,34 @@
 - <%= localeData['wiki.ram_required'] %>
 - <%= localeData['wiki.re_script'] %>
   ```
-  cd coctohug0 && docker-compose up -d
-  cd ../coctohug1 && docker-compose up -d
-  cd ../coctohug2 && docker-compose up -d
-  cd ../coctohug3 && docker-compose up -d
+  ./ccm.sh restart flora
+  ./ccm.sh restart flax
+  ./ccm.sh restart hddcoin
+  ./ccm.sh restart chia
   ...
   ```
 - <%= localeData['wiki.firewall_port'] %>
-
+- <%= localeData['wiki.move_unplanned'] %>
+  ```
+  ./ccm.sh start all
+  ./ccm.sh restart all
+  ./ccm.sh stop all
+  ./ccm.sh upgrade all
+  ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## <%= localeData['wiki.windows_setup'] %>
-- <%= localeData['wiki.same_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+- <%= localeData['wiki.almost_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
+- <%= localeData['wiki.setup_one'] %>
+  ```
+  .\ccm.ps1 start flora
+  .\ccm.ps1 start flax
+  .\ccm.ps1 start hddcoin
+  .\ccm.ps1 start chia
+  ...
+  ```
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -151,17 +165,14 @@
   ```
   <%= localeData['wiki.fast_sync_1'] %>
   <%= localeData['wiki.fast_sync_2'] %>
-    docker-compose stop coctohug-flora
-    docker-compose stop coctohug-covid
-    docker-compose stop coctohug-lucky
+    Windows: .\ccm.ps1 stop all
+    Linux / Mac: ./ccm.sh stop all
   <%= localeData['wiki.fast_sync_3'] %>
-    /home/username/.coctohug-flora/flora/mainnet/db/
-    /home/username/.coctohug-covid/covid/mainnet/db/
-    /home/username/.coctohug-lucky/lucky/mainnet/db/
+    Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
+    Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   <%= localeData['wiki.fast_sync_4'] %>
-    docker-compose restart coctohug-flora
-    docker-compose restart coctohug-covid
-    docker-compose restart coctohug-lucky
+     Windows: .\ccm.ps1 restart all
+     Linux / Mac: ./ccm.sh restart all
   <%= localeData['wiki.fast_sync_5'] %>
   <%= localeData['wiki.fast_sync_6'] %>
   ```
@@ -207,10 +218,9 @@
   3. <%= localeData['wiki.setup_compose_folders'] %> [<%= localeData['wiki.linux_setup'] %>]
   4. <%= localeData['wiki.generate_new_key'] %>
   5. <%= localeData['wiki.wait_few_minutes'] %>
-  6. <%= localeData['wiki.go_each_folder'] %> docker-compose stop && docker-compose up -d
-  7. <%= localeData['wiki.visit'] %> http://localhost:12630/, <%= localeData['wiki.settings_export_cold'] %>
-  8. <%= localeData['wiki.confirm_cold_address'] %>
-  9. <%= localeData['wiki.get_24_mnemonic_words'] %>
+  6. <%= localeData['wiki.visit'] %> http://localhost:12630/, <%= localeData['wiki.settings_export_cold'] %>
+  7. <%= localeData['wiki.confirm_cold_address'] %>
+  8. <%= localeData['wiki.get_24_mnemonic_words'] %>
     docker exec -it coctohug-flora flora keys show --show-mnemonic-seed
     docker exec -it coctohug-covid covid keys show --show-mnemonic-seed
     docker exec -it coctohug-lucky lucky keys show --show-mnemonic-seed
@@ -223,10 +233,8 @@
   4. <%= localeData['wiki.import_backup'] %>
   5. <%= localeData['wiki.import_note_2'] %>
   6. <%= localeData['wiki.re_script'] %>
-    cd coctohug0 && docker-compose up -d
-    cd ../coctohug1 && docker-compose up -d
-    cd ../coctohug2 && docker-compose up -d
-    cd ../coctohug3 && docker-compose up -d
+    Windows: .\ccm.ps1 restart all
+    Linux / Mac: ./ccm.sh restart all
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -259,14 +267,13 @@
 - <%= localeData['wiki.upgrade_mnc'] %>
 - <%= localeData['wiki.one_line_script'] %>
   ```
-  docker-compose stop && docker-compose rm -f && docker-compose pull && docker-compose up -d --force-recreate
+  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
+  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
   ```
 - <%= localeData['wiki.execute_by_step'] %>
   ```
-  docker-compose stop
-  docker-compose rm -f
-  docker-compose pull
-  docker-compose up -d --force-recreate
+  .\ccm.ps1 upgrade all
+  .\ccm.ps1 start all
   ```
 - <%= localeData['wiki.incompatible_db_issue'] %>
   ```
