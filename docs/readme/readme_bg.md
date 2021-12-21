@@ -3,7 +3,7 @@
 - Поддържа: [cactus](https://github.com/raingggg/coctohug-cactus), [covid](https://github.com/raingggg/coctohug-covid), [cryptodoge](https://github.com/raingggg/coctohug-cryptodoge), [ethgreen](https://github.com/raingggg/coctohug-ethgreen), [flora](https://github.com/raingggg/coctohug-flora), [greendoge](https://github.com/raingggg/coctohug-greendoge), [lucky](https://github.com/raingggg/coctohug-lucky) [pipscoin](https://github.com/raingggg/coctohug-pipscoin), [shibgreen](https://github.com/raingggg/coctohug-shibgreen), [silicoin](https://github.com/raingggg/coctohug-silicoin), [skynet](https://github.com/raingggg/coctohug-skynet) [staicoin](https://github.com/raingggg/coctohug-staicoin), [stor](https://github.com/raingggg/coctohug-stor), [tranzact](https://github.com/raingggg/coctohug-tranzact), [venidium](https://github.com/raingggg/coctohug-venidium), и още...
 - Работи под Linux, Windows, MacOS и други...
 
-Лесна настройка с използване [Бърз старт](https://www.coctohug.xyz/)
+Лесна настройка с използване [Бърз старт](https://www.coctohug.xyz/) & [ccm](../ccm/ccm_bg.md)
 
 *Потърсете повече помощ на нашия [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/invite/RcVpCw3ef7)*.
 

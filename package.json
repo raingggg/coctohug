@@ -6,8 +6,9 @@
   "scripts": {
     "translate": "node ./utils/translate",
     "tnew": "node ./utils/translateNew",
-    "greadme": "node ./utils/generateReadme",
-    "gwiki": "node ./utils/generateWiki",
+    "readme": "node ./utils/generateReadme",
+    "wiki": "node ./utils/generateWiki",
+    "ccm": "node ./utils/generateCcm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,7 +1,7 @@
 # Coctohug - Manage dozens of chia blockchain forks  mining from a web browser!
 - Nice localization with support of dozens of languages: [English](./wiki_en.md), [العربية](./wiki_ar.md), [Bulgarian](./wiki_bg.md), [Catalan](./wiki_ca.md), [Deutsch](./wiki_de.md), [Español](./wiki_es.md), [زبان فارسی](./wiki_fa.md), [Français](./wiki_fr.md), [Galego](./wiki_gl.md), [Indonesian](./wiki_id.md), [Italiano](./wiki_it.md), [日本語](./wiki_ja.md), [한국어](./wiki_ko.md), [Português do Brasil](./wiki_pt.md), [limba română](./wiki_ro.md), [Русский](./wiki_ru.md), [Serbian](./wiki_sr.md), [Thai](./wiki_th.md), [Tagalog (Filipino)](./wiki_tl.md), [Türkçe](./wiki_tr.md), [Українська](./wiki_uk.md), [Vietnamese](./wiki_vi.md), [简体中文](./wiki_zh-CN.md), [繁體中文](./wiki_zh-TW.md)
 
-Easy Setup using [Quick Start](https://www.coctohug.xyz/)
+Easy Setup using [Quick Start](https://www.coctohug.xyz/) & [ccm](../ccm/ccm_en-bak.md)
 
 *Seek more help on our [Website](https://www.coctohug.xyz/) / [Github](https://github.com/raingggg/coctohug) / [Discussions](https://github.com/raingggg/coctohug/discussions) / [Discord](https://discord.com/invite/RcVpCw3ef7)*.
 
@@ -44,8 +44,8 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 ## Setup Coctohug on Linux OS
 - Setup <a target='_blank' href='https://www.docker.com/products/docker-desktop'>Docker</a> + <a target='_blank' href='https://docs.docker.com/compose/install/'>Docker-Compose</a> 
 - Go to site <a target='_blank' href='https://www.coctohug.xyz/'>https://www.coctohug.xyz</a>, then enter all the necessary form fields and download the generated zipped docker-compose files
-- Unzip the downloaded folders and copy them into your working directory
-- 
+- Unzip the downloaded folders and copy them into your working directory. Please also remove those unwanted blockchain forks folders to avoid the case of computer out of resources
+- Install blockchain forks by similar scripts:
   ```
   ccm start flora
   ccm start flax
@@ -56,7 +56,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
 - Note 1: Do not start up more than 5 blockchain forks at the same time, since chia blockchain forks  really eat CPU when node syncing for the first time
 - Note 2: Around 1.8G RAM is required for each blockchain fork, so choose some blockchain forks based on you computer memory
-- Note 3: If there are any issues, you may need rerun all the folders by order:
+- Note 3: If there are any issues, you may need restart all blockchain forks:
   ```
   ccm restart flora
   ccm restart flax
@@ -65,7 +65,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   ...
   ```
 - Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings
-- 
+- Note 5: Please do remember to move those unwanted blockchain forks folder out of coctohug folder. Otherwise, they will be started at the same time when you operate on all working blockchain forks, and which may cause your computer out of resources
   ```
   ccm start all
   ccm restart all
@@ -166,7 +166,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
      ccm restart cryptodoge
      ccm restart all
   Notes 1: Your wallet needs individual synchronization in the fork program
-  Notes 2: Connection of the downloaded database to your blockchain fork can take up to 5 minutes!
+  Notes 2: Connection of the downloaded database to your blockchain fork can take up to 30 minutes!
   ```
 
 <p id="cch-connections_management">&nbsp;</p>
@@ -224,7 +224,7 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   3. Wait few minutes, and go to wallet tab to see whether the cold wallet address is updated or not
   4. Note 1: we recommend backup your wallet configurations before importing
   5. Note 2: Only working blockchain forks can import cold wallet. Please check whether there are stopped blockchain forks or not before doing this. Surely you can also import later again when they are re-started
-  6. Note 3: If there are any issues, you may need rerun all the folders by order:
+  6. Note 3: If there are any issues, you may need restart all blockchain forks:
     ccm restart all
     ccm restart ethgreen
   ```

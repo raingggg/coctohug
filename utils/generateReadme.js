@@ -12,6 +12,7 @@ const processAll = async (startLocale) => {
   let content = await readFile(`${destPath}.md`, 'utf8');
   content = content.replaceAll('(./readme', '(./docs/readme/readme');
   content = content.replaceAll('(../wiki', '(./docs/wiki');
+  content = content.replaceAll('(../ccm', '(./docs/ccm');
   content = content.replaceAll('(../../images', '(./images');
   await writeFile(readmePath, content);
 };
