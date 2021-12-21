@@ -47,10 +47,10 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Descomprimiu les carpetes descarregades i copieu-les al vostre directori de treball. Si us plau, elimineu també aquestes carpetes de forquilla de cadena de blocs no desitjades per evitar que l&#39;ordinador es quedi sense recursos
 - Instal·leu forquilles de cadena de blocs mitjançant scripts similars:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - Obriu el navegador i accediu a la WebUI amb l&#39;URL <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Nota 2: es necessiten al voltant d&#39;1,8 G de RAM per a cada bifurcació de cadena de blocs, així que trieu algunes bifurcacions de cadena de blocs en funció de la memòria de l&#39;ordinador.
 - Nota 3: si hi ha cap problema, és possible que hàgiu de reiniciar totes les bifurcacions de cadena de blocs:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - Nota 4: és possible que hàgiu d&#39;afegir ports que permeten des del 12630 al 12700 a la configuració del tallafoc del vostre sistema
 - Nota 5: si us plau, recordeu moure la carpeta de forquilles blockchain no desitjades de la carpeta coctohug. En cas contrari, s&#39;iniciaran al mateix temps quan opereu amb totes les bifurcacions de cadena de blocs que funcionin, i això pot provocar que el vostre ordinador es quedi sense recursos.
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configura Coctohug al sistema operatiu Windows
-- La majoria dels passos són els mateixos [Configura Coctohug al sistema operatiu Linux](#cch-linux)
-- Instal·leu forquilles de cadena de blocs mitjançant scripts similars:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- El mateix amb [Configura Coctohug al sistema operatiu Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   ```
   1. Baixeu fitxers: blockchain_v1_mainnet.sqlite i peer_table_node.sqlite
   2. Atureu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. Copieu aquests fitxers a la carpeta de la bifurcació de la cadena de blocs de manera semblant a:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Inicieu la bifurcació de cadena de blocs mitjançant un script de terminal similar (dins de cada carpeta):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   Notes 1: la vostra cartera necessita una sincronització individual al programa de forquilla
   Notes 2: la connexió de la base de dades descarregada a la vostra forquilla blockchain pot trigar fins a 30 minuts!
   ```
@@ -233,8 +225,8 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
   4. Nota 1: recomanem una còpia de seguretat de les configuracions de la cartera abans d&#39;importar
   5. Nota 2: només les forquilles de cadena de blocs que funcionen poden importar cartera freda. Si us plau, comproveu si hi ha bifurcacions blockchain aturades o no abans de fer-ho. Segurament també podeu importar més tard de nou quan es reiniciïn
   6. Nota 3: si hi ha cap problema, és possible que hàgiu de reiniciar totes les bifurcacions de cadena de blocs:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@ Configuració fàcil utilitzant [Començament ràpid](https://www.coctohug.xyz/)
 - Això necessita de nou les 24 paraules mnemotècniques. Si us plau, poseu-los al fitxer /home/user/.coctohug/mnc.txt. Després de començar tots els contenidors de Docker nous, podeu buidar el fitxer mnc.txt per millorar el vostre nivell de seguretat
 - Guió d&#39;una línia
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - També podeu executar els scripts anteriors pas a pas
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - En cas de problemes de base de dades incompatibles, podeu eliminar el fitxer de base de dades existent abans d&#39;executar l&#39;script d&#39;inici de docker-compose mitjançant
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

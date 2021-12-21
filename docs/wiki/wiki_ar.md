@@ -47,10 +47,10 @@
 - قم بفك ضغط المجلدات التي تم تنزيلها وانسخها في دليل العمل الخاص بك. يرجى أيضًا إزالة مجلدات شوكات blockchain غير المرغوب فيها لتجنب حالة نفاد موارد الكمبيوتر
 - قم بتثبيت مفترقات blockchain بواسطة نصوص برمجية مماثلة:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - افتح المستعرض وقم بالوصول إلى WebUI باستخدام عنوان url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@
 - ملاحظة 2: مطلوب حوالي 1.8 جيجا من ذاكرة الوصول العشوائي لكل مفترق blockchain ، لذلك اختر بعض مفترقات blockchain بناءً على ذاكرة الكمبيوتر لديك
 - ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع مفترقات blockchain:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - ملاحظة 4: قد تحتاج إلى إضافة السماح بمنافذ من 12630 إلى 12700 على إعدادات جدار حماية النظام الخاص بك
 - ملاحظة 5: يرجى تذكر نقل مجلد شوكات blockchain غير المرغوب فيه من مجلد coctohug. خلاف ذلك ، سيتم تشغيلهم في نفس الوقت عندما تعمل على جميع مفترقات blockchain العاملة ، مما قد يتسبب في نفاد موارد جهاز الكمبيوتر الخاص بك
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## قم بإعداد Coctohug على نظام التشغيل Windows
-- معظم الخطوات متشابهة [قم بإعداد Coctohug على Linux OS](#cch-linux)
-- قم بتثبيت مفترقات blockchain بواسطة نصوص برمجية مماثلة:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- نفس الشيء مع [قم بإعداد Coctohug على Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@
   ```
   1. تنزيل الملفات: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. قم بإيقاف مفترق blockchain بواسطة برنامج نصي طرفي مماثل (داخل كل مجلد):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. انسخ هذه الملفات إلى مجلد blockchain fork المماثل لما يلي:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. ابدأ تفرع blockchain بواسطة برنامج نصي طرفي مماثل (داخل كل مجلد):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   ملاحظات 1: تحتاج محفظتك إلى مزامنة فردية في برنامج fork
   ملاحظات 2: يمكن أن يستغرق اتصال قاعدة البيانات التي تم تنزيلها بشوكة blockchain ما يصل إلى 30 دقيقة!
   ```
@@ -233,8 +225,8 @@
   4. ملاحظة 1: نوصي بعمل نسخة احتياطية من تكوينات محفظتك قبل الاستيراد
   5. ملاحظة 2: يمكن فقط لشوكات blockchain العاملة استيراد المحفظة الباردة. يرجى التحقق مما إذا كان هناك شوكات blockchain متوقفة أم لا قبل القيام بذلك. بالتأكيد يمكنك أيضًا الاستيراد لاحقًا مرة أخرى عند إعادة تشغيلها
   6. ملاحظة 3: إذا كانت هناك أية مشكلات ، فقد تحتاج إلى إعادة تشغيل جميع مفترقات blockchain:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@
 - هذا يحتاج إلى 24 كلمة ذاكري مرة أخرى. يرجى وضعها في ملف /home/user/.coctohug/mnc.txt. بعد بدء تشغيل جميع حاويات Docker الجديدة ، يمكنك بعد ذلك تفريغ الملف mnc.txt لتحسين مستوى الأمان لديك
 - نص سطر واحد
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - يمكنك أيضًا تنفيذ البرامج النصية أعلاه خطوة بخطوة
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - في حالة وجود مشكلة db غير متوافقة ، يمكنك إزالة ملف قاعدة البيانات الموجودة قبل تنفيذ Docker-Compose start script بواسطة
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

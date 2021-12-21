@@ -47,10 +47,10 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Unzip the downloaded folders and copy them into your working directory. Please also remove those unwanted blockchain forks folders to avoid the case of computer out of resources
 - Install blockchain forks by similar scripts:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - Open browser and access WebUI with url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - Note 2: Around 1.8G RAM is required for each blockchain fork, so choose some blockchain forks based on you computer memory
 - Note 3: If there are any issues, you may need restart all blockchain forks:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - Note 4: You may need to add allowing ports from 12630 to 12700 on your system firewall settings
 - Note 5: Please do remember to move those unwanted blockchain forks folder out of coctohug folder. Otherwise, they will be started at the same time when you operate on all working blockchain forks, and which may cause your computer out of resources
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Setup Coctohug on Windows OS
-- Most steps are same [Setup Coctohug on Linux OS](#cch-linux)
-- Install blockchain forks by similar scripts:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- Same with [Setup Coctohug on Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   ```
   1. Download files: blockchain_v1_mainnet.sqlite and peer_table_node.sqlite
   2. Stop blockchain fork by similar terminal script:
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. Copy those files to the blockchain fork folder similar to:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Start blockchain fork by similar terminal script:
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   Notes 1: Your wallet needs individual synchronization in the fork program
   Notes 2: Connection of the downloaded database to your blockchain fork can take up to 30 minutes!
   ```
@@ -233,8 +225,8 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
   4. Note 1: we recommend backup your wallet configurations before importing
   5. Note 2: Only working blockchain forks can import cold wallet. Please check whether there are stopped blockchain forks or not before doing this. Surely you can also import later again when they are re-started
   6. Note 3: If there are any issues, you may need restart all blockchain forks:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - This needs the 24 mnemonic words again. Please put them into file /home/user/.coctohug/mnc.txt. After all new docker containers started, you can then empty the file mnc.txt to enhance your security level
 - One line script
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - You can also execute above scripts step by step
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - In case of incompatible db issue, you can remove the existing database file before executing docker-compose start script by
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

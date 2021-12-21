@@ -47,10 +47,10 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 - Descompacte as pastas baixadas e copie-as em seu diretório de trabalho. Por favor, remova também aquelas indesejadas pastas de bifurcações de blockchain para evitar o caso de computador sem recursos
 - Instale garfos de blockchain por scripts semelhantes:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - Abra o navegador e acesse o WebUI com url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 - Observação 2: cerca de 1,8 G de RAM é necessária para cada fork do blockchain, então escolha alguns garfos do blockchain com base na memória do seu computador
 - Nota 3: se houver algum problema, pode ser necessário reiniciar todos os garfos do blockchain:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - Nota 4: pode ser necessário adicionar portas de permissão de 12630 a 12700 nas configurações de firewall do sistema
 - Nota 5: Por favor, lembre-se de mover a pasta de garfos blockchain indesejados para fora da pasta coctohug. Caso contrário, eles serão iniciados ao mesmo tempo quando você operar em todos os garfos do blockchain em funcionamento, o que pode fazer com que seu computador fique sem recursos
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Configurar Coctohug no sistema operacional Windows
-- A maioria das etapas são iguais [Configurar Coctohug no Linux OS](#cch-linux)
-- Instale garfos de blockchain por scripts semelhantes:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- Mesmo com [Configurar Coctohug no Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
   ```
   1. Baixe os arquivos: blockchain_v1_mainnet.sqlite e peer_table_node.sqlite
   2. Interrompa a bifurcação do blockchain por meio de um script de terminal semelhante (dentro de cada pasta):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. Copie esses arquivos para a pasta fork do blockchain semelhante a:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Inicie o fork do blockchain com um script de terminal semelhante (dentro de cada pasta):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   Notas 1: Sua carteira precisa de sincronização individual no programa fork
   Notas 2: A conexão do banco de dados baixado ao fork do blockchain pode levar até 30 minutos!
   ```
@@ -233,8 +225,8 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
   4. Nota 1: recomendamos fazer backup das configurações da carteira antes de importar
   5. Nota 2: Apenas garfos de blockchain em funcionamento podem importar cold wallet. Verifique se há garfos de blockchain interrompidos ou não antes de fazer isso. Certamente você também pode importar mais tarde novamente quando eles forem reiniciados
   6. Nota 3: se houver algum problema, pode ser necessário reiniciar todos os garfos do blockchain:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@ Configuração fácil usando [Começo rápido](https://www.coctohug.xyz/)
 - Isso precisa das 24 palavras mnemônicas novamente. Coloque-os no arquivo /home/user/.coctohug/mnc.txt. Depois que todos os novos contêineres do docker forem iniciados, você pode esvaziar o arquivo mnc.txt para aumentar seu nível de segurança
 - Script de uma linha
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - Você também pode executar os scripts acima, passo a passo
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - Em caso de problema de db incompatível, você pode remover o arquivo de banco de dados existente antes de executar o script docker-compose start por
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

@@ -47,10 +47,10 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Giải nén các thư mục đã tải xuống và sao chép chúng vào thư mục làm việc của bạn. Cũng vui lòng xóa các thư mục blockchain fork không mong muốn đó để tránh trường hợp máy tính hết tài nguyên
 - Cài đặt các nhánh blockchain bằng các tập lệnh tương tự:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - Mở trình duyệt và truy cập WebUI bằng url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Lưu ý 2: Cần có khoảng 1,8G RAM cho mỗi lần fork blockchain, vì vậy hãy chọn một số nhánh blockchain dựa trên bộ nhớ máy tính của bạn
 - Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần khởi động lại tất cả các nhánh blockchain:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - Lưu ý 4: Bạn có thể cần thêm các cổng cho phép từ 12630 đến 12700 trên cài đặt tường lửa hệ thống của mình
 - Lưu ý 5: Hãy nhớ chuyển thư mục blockchain fork không mong muốn đó ra khỏi thư mục coctohug. Nếu không, chúng sẽ được khởi động cùng lúc khi bạn vận hành trên tất cả các nhánh blockchain đang hoạt động và điều này có thể khiến máy tính của bạn hết tài nguyên
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Thiết lập Coctohug trên Windows OS
-- Hầu hết các bước đều giống nhau [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
-- Cài đặt các nhánh blockchain bằng các tập lệnh tương tự:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- Giống với [Thiết lập Coctohug trên Hệ điều hành Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   ```
   1. Tải xuống các tệp: blockchain_v1_mainnet.sqlite và peer_table_node.sqlite
   2. Dừng phân nhánh blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. Sao chép các tệp đó vào thư mục blockchain fork tương tự như:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Bắt đầu fork blockchain bằng tập lệnh đầu cuối tương tự (bên trong mỗi thư mục):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   Lưu ý 1: Ví của bạn cần đồng bộ hóa cá nhân trong chương trình fork
   Lưu ý 2: Kết nối cơ sở dữ liệu đã tải xuống với chuỗi phân tách blockchain của bạn có thể mất đến 30 phút!
   ```
@@ -233,8 +225,8 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
   4. Lưu ý 1: chúng tôi khuyên bạn nên sao lưu cấu hình ví của bạn trước khi nhập
   5. Lưu ý 2: Chỉ những nhánh blockchain đang hoạt động mới có thể nhập ví lạnh. Vui lòng kiểm tra xem có các nhánh blockchain bị dừng hay không trước khi thực hiện việc này. Chắc chắn bạn cũng có thể nhập lại sau khi chúng được khởi động lại
   6. Lưu ý 3: Nếu có bất kỳ sự cố nào, bạn có thể cần khởi động lại tất cả các nhánh blockchain:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@ Cài đặt dễ dàng bằng cách sử dụng [Bắt đầu nhanh](https://www
 - Điều này cần 24 từ ghi nhớ một lần nữa. Vui lòng đưa chúng vào tệp /home/user/.coctohug/mnc.txt. Sau khi tất cả các vùng chứa docker mới bắt đầu, bạn có thể làm trống tệp mnc.txt để nâng cao mức độ bảo mật của mình
 - Tập lệnh một dòng
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - Bạn cũng có thể thực thi các tập lệnh trên theo từng bước
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - Trong trường hợp xảy ra sự cố db không tương thích, bạn có thể xóa tệp cơ sở dữ liệu hiện có trước khi thực thi tập lệnh bắt đầu do docker-soạn bằng cách
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

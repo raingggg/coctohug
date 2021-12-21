@@ -47,10 +47,10 @@
 - <%= localeData['wiki.unzip_docker_compose'] %>
 - <%= localeData['wiki.setup_one'] %>
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - <%= localeData['wiki.browser_access_url'] %> <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@
 - <%= localeData['wiki.ram_required'] %>
 - <%= localeData['wiki.re_script'] %>
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - <%= localeData['wiki.firewall_port'] %>
 - <%= localeData['wiki.move_unplanned'] %>
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## <%= localeData['wiki.windows_setup'] %>
-- <%= localeData['wiki.almost_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
-- <%= localeData['wiki.setup_one'] %>
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- <%= localeData['wiki.same_with'] %> [<%= localeData['wiki.linux_setup'] %>](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@
   ```
   <%= localeData['wiki.fast_sync_1'] %>
   <%= localeData['wiki.fast_sync_2'] %>
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   <%= localeData['wiki.fast_sync_3'] %>
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   <%= localeData['wiki.fast_sync_4'] %>
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   <%= localeData['wiki.fast_sync_5'] %>
   <%= localeData['wiki.fast_sync_6'] %>
   ```
@@ -233,8 +225,8 @@
   4. <%= localeData['wiki.import_backup'] %>
   5. <%= localeData['wiki.import_note_2'] %>
   6. <%= localeData['wiki.re_script'] %>
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@
 - <%= localeData['wiki.upgrade_mnc'] %>
 - <%= localeData['wiki.one_line_script'] %>
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - <%= localeData['wiki.execute_by_step'] %>
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - <%= localeData['wiki.incompatible_db_issue'] %>
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

@@ -47,10 +47,10 @@
 - Разархивируйте загруженные папки и скопируйте их в свой рабочий каталог. Также удалите ненужные папки форков блокчейна, чтобы избежать нехватки ресурсов на компьютере.
 - Установите форки блокчейна по аналогичным скриптам:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - Откройте браузер и получите доступ к WebUI с URL-адресом <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@
 - Примечание 2: для каждой вилки блокчейна требуется около 1,8 ГБ ОЗУ, поэтому выберите несколько вилок цепочки блоков на основе памяти вашего компьютера.
 - Примечание 3: если есть какие-либо проблемы, вам может потребоваться перезапустить все вилки блокчейна:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - Примечание 4: вам может потребоваться добавить разрешающие порты от 12630 до 12700 в настройках брандмауэра вашей системы.
 - Примечание 5: не забудьте переместить папку нежелательных форков блокчейна из папки coctohug. В противном случае они будут запущены одновременно со всеми рабочими форками блокчейна, что может привести к нехватке ресурсов на вашем компьютере.
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Настройка Coctohug в ОС Windows
-- Большинство шагов одинаковы [Настройка Coctohug на ОС Linux](#cch-linux)
-- Установите форки блокчейна по аналогичным скриптам:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- То же самое с [Настройка Coctohug на ОС Linux](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@
   ```
   1. Загрузите файлы: blockchain_v1_mainnet.sqlite и peer_table_node.sqlite
   2. Остановите форк блокчейна аналогичным скриптом терминала (внутри каждой папки):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. Скопируйте эти файлы в папку форка блокчейна, как показано ниже:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. Запустите форк блокчейна аналогичным скриптом терминала (внутри каждой папки):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   Примечания 1: Ваш кошелек требует индивидуальной синхронизации в программе форка.
   Примечания 2: Подключение загруженной базы данных к вашей вилке блокчейна может занять до 30 минут!
   ```
@@ -233,8 +225,8 @@
   4. Примечание 1: мы рекомендуем сделать резервную копию конфигурации вашего кошелька перед импортом.
   5. Примечание 2: только рабочие форки блокчейна могут импортировать холодный кошелек. Пожалуйста, проверьте, есть ли остановленные форки блокчейна, прежде чем делать это. Конечно, вы также можете импортировать позже снова, когда они будут перезапущены
   6. Примечание 3: если есть какие-либо проблемы, вам может потребоваться перезапустить все вилки блокчейна:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@
 - Здесь снова нужны 24 мнемонических слова. Поместите их в файл /home/user/.coctohug/mnc.txt. После запуска всех новых контейнеров докеров вы можете очистить файл mnc.txt, чтобы повысить уровень безопасности.
 - Однострочный сценарий
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - Вы также можете пошагово выполнить вышеуказанные скрипты.
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - В случае несовместимой проблемы с базой данных вы можете удалить существующий файл базы данных перед запуском скрипта запуска docker-compose с помощью
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

@@ -47,10 +47,10 @@
 - เปิดเครื่องรูดโฟลเดอร์ที่ดาวน์โหลดและคัดลอกลงในไดเร็กทอรีการทำงานของคุณ โปรดลบโฟลเดอร์ forks blockchain ที่ไม่ต้องการเหล่านั้นด้วย เพื่อหลีกเลี่ยงกรณีที่คอมพิวเตอร์หมดทรัพยากร
 - ติดตั้ง blockchain forks ด้วยสคริปต์ที่คล้ายกัน:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - เปิดเบราว์เซอร์และเข้าถึง WebUI ด้วย url <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@
 - หมายเหตุ 2: ต้องใช้ RAM ประมาณ 1.8G สำหรับแต่ละบล็อคบล็อค ดังนั้นให้เลือกส้อมบล็อคเชนบางตัวตามหน่วยความจำคอมพิวเตอร์ของคุณ
 - หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องรีสตาร์ทบล็อคเชนทั้งหมด:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - หมายเหตุ 4: คุณอาจต้องเพิ่มพอร์ตอนุญาตจาก 12630 ถึง 12700 ในการตั้งค่าไฟร์วอลล์ระบบของคุณ
 - หมายเหตุ 5: โปรดอย่าลืมย้ายโฟลเดอร์ blockchain forks ที่ไม่ต้องการออกจากโฟลเดอร์ coctohug มิฉะนั้น พวกมันจะเริ่มต้นพร้อมกันเมื่อคุณใช้งาน fork บล็อคเชนที่ทำงานทั้งหมด และอาจทำให้คอมพิวเตอร์ของคุณไม่มีทรัพยากร
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## ตั้งค่า Coctohug บน Windows OS
-- ขั้นตอนส่วนใหญ่เหมือนกัน [ตั้งค่า Coctohug บน Linux OS](#cch-linux)
-- ติดตั้ง blockchain forks ด้วยสคริปต์ที่คล้ายกัน:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- เหมือนกับ [ตั้งค่า Coctohug บน Linux OS](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@
   ```
   1. ดาวน์โหลดไฟล์: blockchain_v1_mainnet.sqlite และ peer_table_node.sqlite
   2. หยุด blockchain fork ด้วยเทอร์มินัลสคริปต์ที่คล้ายกัน (ภายในแต่ละโฟลเดอร์):
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. คัดลอกไฟล์เหล่านั้นไปยังโฟลเดอร์ blockchain fork ที่คล้ายกับ:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. เริ่ม blockchain fork ด้วยเทอร์มินัลสคริปต์ที่คล้ายกัน (ภายในแต่ละโฟลเดอร์):
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   หมายเหตุ 1: กระเป๋าเงินของคุณต้องมีการซิงโครไนซ์เป็นรายบุคคลในโปรแกรมส้อม
   หมายเหตุ 2: การเชื่อมต่อฐานข้อมูลที่ดาวน์โหลดไปยัง blockchain fork ของคุณอาจใช้เวลานานถึง 30 นาที!
   ```
@@ -233,8 +225,8 @@
   4. หมายเหตุ 1: เราแนะนำให้สำรองการกำหนดค่ากระเป๋าเงินของคุณก่อนนำเข้า
   5. หมายเหตุ 2: เฉพาะส้อมบล็อคที่ใช้งานได้เท่านั้นที่สามารถนำเข้ากระเป๋าเงินเย็นได้ โปรดตรวจสอบว่ามีการแยกบล็อคเชน (blockchain fork) ที่หยุดทำงานหรือไม่ก่อนที่จะดำเนินการนี้ แน่นอนคุณสามารถนำเข้าอีกครั้งในภายหลังเมื่อเริ่มต้นใหม่
   6. หมายเหตุ 3: หากมีปัญหาใดๆ คุณอาจต้องรีสตาร์ทบล็อคเชนทั้งหมด:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@
 - สิ่งนี้ต้องการคำช่วยจำ 24 คำอีกครั้ง โปรดใส่ลงในไฟล์ /home/user/.coctohug/mnc.txt หลังจากคอนเทนเนอร์นักเทียบท่าใหม่เริ่มต้นขึ้น คุณสามารถล้างไฟล์ mnc.txt เพื่อเพิ่มระดับความปลอดภัยของคุณ
 - สคริปต์หนึ่งบรรทัด
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - คุณยังสามารถรันสคริปต์ด้านบนทีละขั้นตอน
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - ในกรณีของปัญหา db ที่เข้ากันไม่ได้ คุณสามารถลบไฟล์ฐานข้อมูลที่มีอยู่ก่อนที่จะรันสคริปต์เริ่มต้นของ docker-compose โดย
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>

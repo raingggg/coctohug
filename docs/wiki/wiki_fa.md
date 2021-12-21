@@ -47,10 +47,10 @@
 - پوشه های دانلود شده را از حالت فشرده خارج کنید و آنها را در پوشه کاری خود کپی کنید. لطفاً پوشه‌های فورک‌های ناخواسته بلاک چین را نیز حذف کنید تا از کمبود منابع رایانه جلوگیری کنید
 - فورک های بلاک چین را با اسکریپت های مشابه نصب کنید:
   ```
-  ./ccm.sh start flora
-  ./ccm.sh start flax
-  ./ccm.sh start hddcoin
-  ./ccm.sh start chia
+  ccm start flora
+  ccm start flax
+  ccm start hddcoin
+  ccm start chia
   ...
   ```
 - مرورگر را باز کنید و با url به WebUI دسترسی پیدا کنید <a target='_blank' href='http://localhost:12630/'>http://localhost:12630/</a>
@@ -58,34 +58,26 @@
 - نکته 2: برای هر فورک بلاک چین حدود 1.8 گیگ رم لازم است، بنابراین چند فورک بلاک چین را بر اساس حافظه رایانه خود انتخاب کنید.
 - نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه فورک های بلاک چین را مجددا راه اندازی کنید:
   ```
-  ./ccm.sh restart flora
-  ./ccm.sh restart flax
-  ./ccm.sh restart hddcoin
-  ./ccm.sh restart chia
+  ccm restart flora
+  ccm restart flax
+  ccm restart hddcoin
+  ccm restart chia
   ...
   ```
 - نکته 4: ممکن است لازم باشد پورت های مجاز از 12630 تا 12700 را به تنظیمات فایروال سیستم خود اضافه کنید.
 - نکته 5: لطفاً به یاد داشته باشید که پوشه فورک های ناخواسته بلاک چین را از پوشه کوکتولوگ خارج کنید. در غیر این صورت، زمانی که شما روی تمام فورک‌های بلاک چین کار می‌کنید، همزمان راه‌اندازی می‌شوند و ممکن است باعث از بین رفتن منابع رایانه شما شود.
   ```
-  ./ccm.sh start all
-  ./ccm.sh restart all
-  ./ccm.sh stop all
-  ./ccm.sh upgrade all
+  ccm start all
+  ccm restart all
+  ccm stop all
+  ccm upgrade all
   ...
 
 
 <p id="cch-windows">&nbsp;</p>
 
 ## Coctohug را در سیستم عامل ویندوز راه اندازی کنید
-- اکثر مراحل یکسان است [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
-- فورک های بلاک چین را با اسکریپت های مشابه نصب کنید:
-  ```
-  .\ccm.ps1 start flora
-  .\ccm.ps1 start flax
-  .\ccm.ps1 start hddcoin
-  .\ccm.ps1 start chia
-  ...
-  ```
+- مشابه با [راه اندازی Coctohug در سیستم عامل لینوکس](#cch-linux)
 
 <p id="cch-macOS">&nbsp;</p>
 
@@ -165,14 +157,14 @@
   ```
   1. دانلود فایل ها: blockchain_v1_mainnet.sqlite و peer_table_node.sqlite
   2. فورک بلاک چین را با اسکریپت ترمینال مشابه (داخل هر پوشه) متوقف کنید:
-    Windows: .\ccm.ps1 stop all
-    Linux / Mac: ./ccm.sh stop all
+    ccm stop flora
+    ccm stop all
   3. آن فایل‌ها را در پوشه فورک بلاک چین مشابه موارد زیر کپی کنید:
     Windows: /c:/users/username/.coctohug-covid/covid/mainnet/db/
     Linux / Mac: /home/username/.coctohug-flora/flora/mainnet/db/
   4. فورک بلاک چین را با اسکریپت ترمینال مشابه (در داخل هر پوشه) شروع کنید:
-     Windows: .\ccm.ps1 restart all
-     Linux / Mac: ./ccm.sh restart all
+     ccm restart cryptodoge
+     ccm restart all
   یادداشت 1: کیف پول شما نیاز به همگام سازی فردی در برنامه فورک دارد
   نکته 2: اتصال پایگاه داده دانلود شده به فورک بلاک چین شما می تواند تا 30 دقیقه طول بکشد!
   ```
@@ -233,8 +225,8 @@
   4. نکته 1: توصیه می کنیم قبل از وارد کردن، از تنظیمات کیف پول خود نسخه پشتیبان تهیه کنید
   5. نکته 2: فقط چنگال های بلاک چین فعال می توانند کیف پول سرد وارد کنند. لطفاً قبل از انجام این کار بررسی کنید که آیا فورک های بلاک چین متوقف شده است یا خیر. مطمئناً می‌توانید بعداً با راه‌اندازی مجدد آنها دوباره وارد کنید
   6. نکته 3: در صورت وجود هر گونه مشکل، ممکن است لازم باشد همه فورک های بلاک چین را مجددا راه اندازی کنید:
-    Windows: .\ccm.ps1 restart all
-    Linux / Mac: ./ccm.sh restart all
+    ccm restart all
+    ccm restart ethgreen
   ```
 ![English](../../images/cold_wallet-min.png)
 
@@ -267,17 +259,16 @@
 - این دوباره به 24 کلمه یادگاری نیاز دارد. لطفاً آنها را در فایل /home/user/.coctohug/mnc.txt قرار دهید. پس از شروع همه کانتینرهای docker جدید، می توانید فایل mnc.txt را خالی کنید تا سطح امنیت خود را افزایش دهید
 - اسکریپت یک خطی
   ```
-  Windows: .\ccm.ps1 upgrade all; .\ccm.ps1 start all
-  Linux / Mac: ./ccm.sh upgrade all && ./ccm.sh start all
+  ccm upgrade all && ccm start all
   ```
 - همچنین می توانید اسکریپت های بالا را مرحله به مرحله اجرا کنید
   ```
-  .\ccm.ps1 upgrade all
-  .\ccm.ps1 start all
+  ccm upgrade all
+  ccm start all
   ```
 - در صورت بروز مشکل db ناسازگار، می توانید فایل پایگاه داده موجود را قبل از اجرای اسکریپت شروع docker-compose حذف کنید.
   ```
-  rm ~/.coctohug-web/db/coctohug.sqlite
+  rm -f ~/.coctohug-web/db/coctohug.sqlite
   ```
 
 <p id="cch-local_language">&nbsp;</p>
