@@ -5,9 +5,10 @@ on:
     tags:
       - 'v*.*.*_web'
       - 'v*.*.*_all'
+
 defaults:
   run:
-    working-directory: dockers/coctohug-web-docker
+    working-directory: ./dockers/coctohug-web-docker
 
 jobs:
   docker:
