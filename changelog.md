@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.3] - 2021-12-30
+- Reward address updates balance every hour
+  
 ## [1.0.5] - 2021-12-15
 - Account balance of Wallet in US Dollar
 - weekly report with coldwallet
