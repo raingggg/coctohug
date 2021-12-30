@@ -1,9 +1,9 @@
-ImageName=$1
+tagName=$1
 
 echo "\n"
-echo "releasing ${ImageName}"
+echo "releasing ${tagName}"
 
 cd ..
-gh release create v1.3.1_${ImageName} -F changelog.md
+gh release create ${tagName} -F changelog.md
 
 git status
