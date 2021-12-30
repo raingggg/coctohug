@@ -1,6 +1,6 @@
 echo "\n"
 
 cd ..
-gh release create v1.4.1_web -F changelog.md
+gh release create v1.3.3_web -F changelog.md
 
 git status
