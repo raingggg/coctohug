@@ -10,9 +10,6 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./dockers/coctohug-web-docker
     steps:
       -
         name: Checkout
@@ -33,6 +30,7 @@ jobs:
       -
         name: Build and push
         uses: docker/build-push-action@v2
+        working-directory: ./dockers/coctohug-web-docker
         with:
           file: dockerfile
           context: .
