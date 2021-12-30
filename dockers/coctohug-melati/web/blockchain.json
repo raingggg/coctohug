@@ -1,0 +1,13 @@
+{
+  "blockchain": "melati",
+  "binary": "/melati-blockchain/venv/bin/melati",
+  "mainnet": ".melati/mainnet",
+  "config": ".melati/mainnet/config/config.yaml",
+  "coldWalletName": "xmx_target_address",
+  "certificates": ".melati/mainnet/config/ssl/ca",
+  "chainlog": ".melati/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".melati/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".melati/cwd.log"
+}

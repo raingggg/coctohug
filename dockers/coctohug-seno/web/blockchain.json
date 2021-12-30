@@ -1,0 +1,13 @@
+{
+  "blockchain": "seno",
+  "binary": "/seno-blockchain/venv/bin/seno",
+  "mainnet": ".seno2/mainnet",
+  "config": ".seno2/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".seno2/mainnet/config/ssl/ca",
+  "chainlog": ".seno2/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".seno2/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".seno2/cwd.log"
+}

@@ -1,0 +1,13 @@
+{
+  "blockchain": "chia",
+  "binary": "/chia-blockchain/venv/bin/chia",
+  "mainnet": ".chia/mainnet",
+  "config": ".chia/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".chia/mainnet/config/ssl/ca",
+  "chainlog": ".chia/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".chia/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".chia/cwd.log"
+}

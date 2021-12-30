@@ -1,0 +1,13 @@
+{
+  "blockchain": "mint",
+  "binary": "/mint-blockchain/venv/bin/mint",
+  "mainnet": ".mint/mainnet",
+  "config": ".mint/mainnet/config/config.yaml",
+  "coldWalletName": "xkm_target_address",
+  "certificates": ".mint/mainnet/config/ssl/ca",
+  "chainlog": ".mint/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".mint/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".mint/cwd.log"
+}

@@ -1,0 +1,13 @@
+{
+  "blockchain": "ethgreen",
+  "binary": "/ethgreen-blockchain/venv/bin/ethgreen",
+  "mainnet": ".ethgreen/mainnet",
+  "config": ".ethgreen/mainnet/config/config.yaml",
+  "coldWalletName": "xeth_target_address",
+  "certificates": ".ethgreen/mainnet/config/ssl/ca",
+  "chainlog": ".ethgreen/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".ethgreen/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".ethgreen/cwd.log"
+}

@@ -1,0 +1,13 @@
+{
+  "blockchain": "kale",
+  "binary": "/kale-blockchain/venv/bin/kale",
+  "mainnet": ".kale/mainnet",
+  "config": ".kale/mainnet/config/config.yaml",
+  "coldWalletName": "xka_target_address",
+  "certificates": ".kale/mainnet/config/ssl/ca",
+  "chainlog": ".kale/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".kale/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".kale/cwd.log"
+}

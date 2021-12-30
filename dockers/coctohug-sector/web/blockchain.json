@@ -1,0 +1,13 @@
+{
+  "blockchain": "sector",
+  "binary": "/sector-blockchain/venv/bin/sector",
+  "mainnet": ".sector/mainnet",
+  "config": ".sector/mainnet/config/config.yaml",
+  "coldWalletName": "xsc_target_address",
+  "certificates": ".sector/mainnet/config/ssl/ca",
+  "chainlog": ".sector/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".sector/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".sector/cwd.log"
+}

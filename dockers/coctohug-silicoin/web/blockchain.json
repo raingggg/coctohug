@@ -1,0 +1,13 @@
+{
+  "blockchain": "silicoin",
+  "binary": "/silicoin-blockchain/venv/bin/sit",
+  "mainnet": ".sit/mainnet",
+  "config": ".sit/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".sit/mainnet/config/ssl/ca",
+  "chainlog": ".sit/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".sit/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".sit/cwd.log"
+}

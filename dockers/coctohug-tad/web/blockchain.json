@@ -1,0 +1,13 @@
+{
+  "blockchain": "tad",
+  "binary": "/tad-blockchain/venv/bin/tad",
+  "mainnet": ".tad/mainnet",
+  "config": ".tad/mainnet/config/config.yaml",
+  "coldWalletName": "tad_target_address",
+  "certificates": ".tad/mainnet/config/ssl/ca",
+  "chainlog": ".tad/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".tad/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".tad/cwd.log"
+}

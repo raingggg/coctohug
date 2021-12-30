@@ -1,0 +1,13 @@
+{
+  "blockchain": "nchain",
+  "binary": "/ext9-blockchain/venv/bin/chia",
+  "mainnet": ".nchain/mainnet",
+  "config": ".nchain/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".nchain/mainnet/config/ssl/ca",
+  "chainlog": ".nchain/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".nchain/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".nchain/cwd.log"
+}

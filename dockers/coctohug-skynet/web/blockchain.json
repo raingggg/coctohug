@@ -1,0 +1,13 @@
+{
+  "blockchain": "skynet",
+  "binary": "/skynet-blockchain/venv/bin/skynet",
+  "mainnet": ".skynet/mainnet",
+  "config": ".skynet/mainnet/config/config.yaml",
+  "coldWalletName": "xnt_target_address",
+  "certificates": ".skynet/mainnet/config/ssl/ca",
+  "chainlog": ".skynet/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".skynet/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".skynet/cwd.log"
+}

@@ -1,0 +1,13 @@
+{
+  "blockchain": "cannabis",
+  "binary": "/cannabis-blockchain/venv/bin/cannabis",
+  "mainnet": ".cannabis/mainnet",
+  "config": ".cannabis/mainnet/config/config.yaml",
+  "coldWalletName": "cans_target_address",
+  "certificates": ".cannabis/mainnet/config/ssl/ca",
+  "chainlog": ".cannabis/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".cannabis/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".cannabis/cwd.log"
+}

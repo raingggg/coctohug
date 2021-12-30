@@ -1,0 +1,8 @@
+node_modules
+*.log
+
+# macOS (optional)
+.DS_Store
+
+# Visual Studio Code (optional)
+.vscode

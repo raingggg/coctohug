@@ -1,0 +1,13 @@
+{
+  "blockchain": "hddcoin",
+  "binary": "/hddcoin-blockchain/venv/bin/hddcoin",
+  "mainnet": ".hddcoin/mainnet",
+  "config": ".hddcoin/mainnet/config/config.yaml",
+  "coldWalletName": "hdd_target_address",
+  "certificates": ".hddcoin/mainnet/config/ssl/ca",
+  "chainlog": ".hddcoin/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".hddcoin/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".hddcoin/cwd.log"
+}

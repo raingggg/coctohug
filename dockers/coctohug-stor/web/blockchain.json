@@ -1,0 +1,13 @@
+{
+  "blockchain": "stor",
+  "binary": "/stor-blockchain/venv/bin/stor",
+  "mainnet": ".stor/mainnet",
+  "config": ".stor/mainnet/config/config.yaml",
+  "coldWalletName": "stor_target_address",
+  "certificates": ".stor/mainnet/config/ssl/ca",
+  "chainlog": ".stor/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".stor/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".stor/cwd.log"
+}

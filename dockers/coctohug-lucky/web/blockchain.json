@@ -1,0 +1,13 @@
+{
+  "blockchain": "lucky",
+  "binary": "/lucky-blockchain/venv/bin/lucky",
+  "mainnet": ".lucky/mainnet",
+  "config": ".lucky/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".lucky/mainnet/config/ssl/ca",
+  "chainlog": ".lucky/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".lucky/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".lucky/cwd.log"
+}

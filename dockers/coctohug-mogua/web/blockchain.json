@@ -1,0 +1,13 @@
+{
+  "blockchain": "mogua",
+  "binary": "/mogua-blockchain/venv/bin/mogua",
+  "mainnet": ".mogua/mainnet",
+  "config": ".mogua/mainnet/config/config.yaml",
+  "coldWalletName": "mga_target_address",
+  "certificates": ".mogua/mainnet/config/ssl/ca",
+  "chainlog": ".mogua/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".mogua/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".mogua/cwd.log"
+}

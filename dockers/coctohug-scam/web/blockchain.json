@@ -1,0 +1,13 @@
+{
+  "blockchain": "scam",
+  "binary": "/scam-blockchain/venv/bin/scam",
+  "mainnet": ".scam/mainnet",
+  "config": ".scam/mainnet/config/config.yaml",
+  "coldWalletName": "scm_target_address",
+  "certificates": ".scam/mainnet/config/ssl/ca",
+  "chainlog": ".scam/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".scam/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".scam/cwd.log"
+}

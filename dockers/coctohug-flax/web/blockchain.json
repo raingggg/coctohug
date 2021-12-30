@@ -1,0 +1,13 @@
+{
+  "blockchain": "flax",
+  "binary": "/flax-blockchain/venv/bin/flax",
+  "mainnet": ".flax/mainnet",
+  "config": ".flax/mainnet/config/config.yaml",
+  "coldWalletName": "xfx_target_address",
+  "certificates": ".flax/mainnet/config/ssl/ca",
+  "chainlog": ".flax/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".flax/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".flax/cwd.log"
+}

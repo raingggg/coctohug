@@ -1,0 +1,13 @@
+{
+  "blockchain": "staicoin",
+  "binary": "/staicoin-blockchain/venv/bin/staicoin",
+  "mainnet": ".staicoin/mainnet",
+  "config": ".staicoin/mainnet/config/config.yaml",
+  "coldWalletName": "stai_target_address",
+  "certificates": ".staicoin/mainnet/config/ssl/ca",
+  "chainlog": ".staicoin/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".staicoin/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".staicoin/cwd.log"
+}

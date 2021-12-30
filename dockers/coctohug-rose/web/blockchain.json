@@ -1,0 +1,13 @@
+{
+  "blockchain": "rose",
+  "binary": "/chia-rosechain/venv/bin/chia",
+  "mainnet": ".chiarose/mainnet",
+  "config": ".chiarose/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".chiarose/mainnet/config/ssl/ca",
+  "chainlog": ".chiarose/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".chiarose/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".chiarose/cwd.log"
+}

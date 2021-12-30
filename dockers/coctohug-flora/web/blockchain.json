@@ -1,0 +1,13 @@
+{
+  "blockchain": "flora",
+  "binary": "/flora-blockchain/venv/bin/flora",
+  "mainnet": ".flora/mainnet",
+  "config": ".flora/mainnet/config/config.yaml",
+  "coldWalletName": "xfl_target_address",
+  "certificates": ".flora/mainnet/config/ssl/ca",
+  "chainlog": ".flora/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".flora/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".flora/cwd.log"
+}

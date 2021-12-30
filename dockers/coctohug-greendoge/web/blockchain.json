@@ -1,0 +1,13 @@
+{
+  "blockchain": "greendoge",
+  "binary": "/greendoge-blockchain/venv/bin/greendoge",
+  "mainnet": ".greendoge/mainnet",
+  "config": ".greendoge/mainnet/config/config.yaml",
+  "coldWalletName": "gdog_target_address",
+  "certificates": ".greendoge/mainnet/config/ssl/ca",
+  "chainlog": ".greendoge/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".greendoge/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".greendoge/cwd.log"
+}

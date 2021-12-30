@@ -1,0 +1,13 @@
+{
+  "blockchain": "socks",
+  "binary": "/socks-blockchain/venv/bin/socks",
+  "mainnet": ".socks/mainnet",
+  "config": ".socks/mainnet/config/config.yaml",
+  "coldWalletName": "sock_target_address",
+  "certificates": ".socks/mainnet/config/ssl/ca",
+  "chainlog": ".socks/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".socks/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".socks/cwd.log"
+}

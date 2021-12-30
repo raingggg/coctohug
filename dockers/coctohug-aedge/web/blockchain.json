@@ -1,0 +1,13 @@
+{
+  "blockchain": "aedge",
+  "binary": "/aedge-blockchain/venv/bin/aedge",
+  "mainnet": ".aedge/mainnet",
+  "config": ".aedge/mainnet/config/config.yaml",
+  "coldWalletName": "aec_target_address",
+  "certificates": ".aedge/mainnet/config/ssl/ca",
+  "chainlog": ".aedge/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".aedge/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".aedge/cwd.log"
+}

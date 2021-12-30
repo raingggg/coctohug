@@ -1,0 +1,13 @@
+{
+  "blockchain": "chaingreen",
+  "binary": "/chaingreen-blockchain/venv/bin/chaingreen",
+  "mainnet": ".chaingreen/mainnet",
+  "config": ".chaingreen/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".chaingreen/mainnet/config/ssl/ca",
+  "chainlog": ".chaingreen/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".chaingreen/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".chaingreen/cwd.log"
+}

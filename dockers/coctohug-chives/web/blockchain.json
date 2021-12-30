@@ -1,0 +1,13 @@
+{
+  "blockchain": "chives",
+  "binary": "/chives-blockchain/venv/bin/chives",
+  "mainnet": ".chives/mainnet",
+  "config": ".chives/mainnet/config/config.yaml",
+  "coldWalletName": "xcc_target_address",
+  "certificates": ".chives/mainnet/config/ssl/ca",
+  "chainlog": ".chives/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".chives/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".chives/cwd.log"
+}

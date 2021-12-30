@@ -1,0 +1,13 @@
+{
+  "blockchain": "goji",
+  "binary": "/gojiv2-blockchain/venv/bin/goji",
+  "mainnet": ".goji/mainnet",
+  "config": ".goji/mainnet/config/config.yaml",
+  "coldWalletName": "xgj_target_address",
+  "certificates": ".goji/mainnet/config/ssl/ca",
+  "chainlog": ".goji/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".goji/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".goji/cwd.log"
+}

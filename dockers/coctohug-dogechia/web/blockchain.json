@@ -1,0 +1,13 @@
+{
+  "blockchain": "dogechia",
+  "binary": "/doge-chia/venv/bin/dogechia",
+  "mainnet": ".dogechia/mainnet",
+  "config": ".dogechia/mainnet/config/config.yaml",
+  "coldWalletName": "xdg_target_address",
+  "certificates": ".dogechia/mainnet/config/ssl/ca",
+  "chainlog": ".dogechia/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".dogechia/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".dogechia/cwd.log"
+}

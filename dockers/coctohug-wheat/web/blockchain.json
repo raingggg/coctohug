@@ -1,0 +1,13 @@
+{
+  "blockchain": "wheat",
+  "binary": "/wheat-blockchain/venv/bin/wheat",
+  "mainnet": ".wheat/mainnet",
+  "config": ".wheat/mainnet/config/config.yaml",
+  "coldWalletName": "wheat_target_address",
+  "certificates": ".wheat/mainnet/config/ssl/ca",
+  "chainlog": ".wheat/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".wheat/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".wheat/cwd.log"
+}

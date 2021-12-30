@@ -1,0 +1,13 @@
+{
+  "blockchain": "avocado",
+  "binary": "/avocado-blockchain/venv/bin/avocado",
+  "mainnet": ".avocado/mainnet",
+  "config": ".avocado/mainnet/config/config.yaml",
+  "coldWalletName": "avo_target_address",
+  "certificates": ".avocado/mainnet/config/ssl/ca",
+  "chainlog": ".avocado/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".avocado/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".avocado/cwd.log"
+}

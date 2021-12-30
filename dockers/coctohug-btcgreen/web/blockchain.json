@@ -1,0 +1,13 @@
+{
+  "blockchain": "btcgreen",
+  "binary": "/btcgreen-blockchain/venv/bin/btcgreen",
+  "mainnet": ".btcgreen/mainnet",
+  "config": ".btcgreen/mainnet/config/config.yaml",
+  "coldWalletName": "xbtc_target_address",
+  "certificates": ".btcgreen/mainnet/config/ssl/ca",
+  "chainlog": ".btcgreen/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".btcgreen/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".btcgreen/cwd.log"
+}

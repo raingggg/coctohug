@@ -1,0 +1,13 @@
+{
+  "blockchain": "shibgreen",
+  "binary": "/shibgreen-blockchain/venv/bin/shibgreen",
+  "mainnet": ".shibgreen/mainnet",
+  "config": ".shibgreen/mainnet/config/config.yaml",
+  "coldWalletName": "xshib_target_address",
+  "certificates": ".shibgreen/mainnet/config/ssl/ca",
+  "chainlog": ".shibgreen/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".shibgreen/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".shibgreen/cwd.log"
+}

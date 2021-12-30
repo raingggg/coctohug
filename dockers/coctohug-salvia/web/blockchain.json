@@ -1,0 +1,13 @@
+{
+  "blockchain": "salvia",
+  "binary": "/salvia-blockchain/venv/bin/salvia",
+  "mainnet": ".salvia/mainnet",
+  "config": ".salvia/mainnet/config/config.yaml",
+  "coldWalletName": "xslv_target_address",
+  "certificates": ".salvia/mainnet/config/ssl/ca",
+  "chainlog": ".salvia/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".salvia/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".salvia/cwd.log"
+}

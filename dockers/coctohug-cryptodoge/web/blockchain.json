@@ -1,0 +1,13 @@
+{
+  "blockchain": "cryptodoge",
+  "binary": "/cryptodoge/venv/bin/cryptodoge",
+  "mainnet": ".cryptodoge/mainnet",
+  "config": ".cryptodoge/mainnet/config/config.yaml",
+  "coldWalletName": "xcd_target_address",
+  "certificates": ".cryptodoge/mainnet/config/ssl/ca",
+  "chainlog": ".cryptodoge/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".cryptodoge/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".cryptodoge/cwd.log"
+}

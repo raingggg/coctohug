@@ -1,0 +1,13 @@
+{
+  "blockchain": "venidium",
+  "binary": "/venidium-blockchain/venv/bin/venidium",
+  "mainnet": ".venidium/mainnet",
+  "config": ".venidium/mainnet/config/config.yaml",
+  "coldWalletName": "xvm_target_address",
+  "certificates": ".venidium/mainnet/config/ssl/ca",
+  "chainlog": ".venidium/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".venidium/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".venidium/cwd.log"
+}

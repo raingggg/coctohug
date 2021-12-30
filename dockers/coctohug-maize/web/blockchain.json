@@ -1,0 +1,13 @@
+{
+  "blockchain": "maize",
+  "binary": "/maize-blockchain/venv/bin/maize",
+  "mainnet": ".maize/mainnet",
+  "config": ".maize/mainnet/config/config.yaml",
+  "coldWalletName": "xch_target_address",
+  "certificates": ".maize/mainnet/config/ssl/ca",
+  "chainlog": ".maize/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".maize/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".maize/cwd.log"
+}

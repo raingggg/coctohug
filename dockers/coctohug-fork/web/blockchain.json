@@ -1,0 +1,13 @@
+{
+  "blockchain": "fork",
+  "binary": "/fork-blockchain/venv/bin/fork",
+  "mainnet": ".fork/mainnet",
+  "config": ".fork/mainnet/config/config.yaml",
+  "coldWalletName": "xfk_target_address",
+  "certificates": ".fork/mainnet/config/ssl/ca",
+  "chainlog": ".fork/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".fork/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".fork/cwd.log"
+}

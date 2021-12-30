@@ -1,0 +1,13 @@
+{
+  "blockchain": "pipscoin",
+  "binary": "/pipscoin-blockchain/venv/bin/pipscoin",
+  "mainnet": ".pipscoin/mainnet",
+  "config": ".pipscoin/mainnet/config/config.yaml",
+  "coldWalletName": "pips_target_address",
+  "certificates": ".pipscoin/mainnet/config/ssl/ca",
+  "chainlog": ".pipscoin/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".pipscoin/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".pipscoin/cwd.log"
+}

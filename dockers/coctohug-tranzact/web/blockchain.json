@@ -1,0 +1,13 @@
+{
+  "blockchain": "tranzact",
+  "binary": "/tranzact-blockchain/venv/bin/tranzact",
+  "mainnet": ".tranzact/mainnet",
+  "config": ".tranzact/mainnet/config/config.yaml",
+  "coldWalletName": "trz_target_address",
+  "certificates": ".tranzact/mainnet/config/ssl/ca",
+  "chainlog": ".tranzact/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".tranzact/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".tranzact/cwd.log"
+}

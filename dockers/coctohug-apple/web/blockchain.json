@@ -1,0 +1,13 @@
+{
+  "blockchain": "apple",
+  "binary": "/apple-blockchain/venv/bin/apple",
+  "mainnet": ".apple/mainnet",
+  "config": ".apple/mainnet/config/config.yaml",
+  "coldWalletName": "apple_target_address",
+  "certificates": ".apple/mainnet/config/ssl/ca",
+  "chainlog": ".apple/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".apple/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".apple/cwd.log"
+}

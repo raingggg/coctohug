@@ -1,0 +1,13 @@
+{
+  "blockchain": "spare",
+  "binary": "/sparev2-blockchain/venv/bin/spare",
+  "mainnet": ".spare/mainnet",
+  "config": ".spare/mainnet/config/config.yaml",
+  "coldWalletName": "spare_target_address",
+  "certificates": ".spare/mainnet/config/ssl/ca",
+  "chainlog": ".spare/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".spare/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".spare/cwd.log"
+}

@@ -1,0 +1,13 @@
+{
+  "blockchain": "taco",
+  "binary": "/taco-blockchain/venv/bin/taco",
+  "mainnet": ".taco/mainnet",
+  "config": ".taco/mainnet/config/config.yaml",
+  "coldWalletName": "xtx_target_address",
+  "certificates": ".taco/mainnet/config/ssl/ca",
+  "chainlog": ".taco/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".taco/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".taco/cwd.log"
+}
