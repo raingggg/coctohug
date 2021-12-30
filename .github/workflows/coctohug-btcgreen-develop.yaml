@@ -30,8 +30,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: dockers/coctohug-btcgreen/dockerfile
-          context: .
+          file: ./dockers/coctohug-btcgreen/dockerfile
+          context: ./dockers/coctohug-btcgreen
           platforms: linux/amd64
           push: true
           build-args: |

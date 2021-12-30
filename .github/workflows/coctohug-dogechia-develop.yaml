@@ -30,8 +30,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: dockers/coctohug-dogechia/dockerfile
-          context: .
+          file: ./dockers/coctohug-dogechia/dockerfile
+          context: ./dockers/coctohug-dogechia
           platforms: linux/amd64
           push: true
           build-args: |

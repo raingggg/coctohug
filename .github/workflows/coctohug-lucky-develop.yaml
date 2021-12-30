@@ -30,8 +30,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: dockers/coctohug-lucky/dockerfile
-          context: .
+          file: ./dockers/coctohug-lucky/dockerfile
+          context: ./dockers/coctohug-lucky
           platforms: linux/amd64
           push: true
           build-args: |

@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.1] - 2021-12-30
+- Correct the github-action docker path for all images
+  
 ## [1.3.3] - 2021-12-30
 - Reward address updates balance every hour
   
