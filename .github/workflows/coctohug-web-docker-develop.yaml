@@ -6,13 +6,13 @@ on:
       - 'v*.*.*_web'
       - 'v*.*.*_all'
 
-defaults:
-  run:
-    working-directory: ./dockers/coctohug-web-docker
 
 jobs:
   docker:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./dockers/coctohug-web-docker
     steps:
       -
         name: Checkout
