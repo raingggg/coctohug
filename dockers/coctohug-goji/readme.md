@@ -28,8 +28,8 @@ Easy Setup using [Quick Start](https://www.coctohug.xyz/)
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.2.1266 -t coctohug-goji:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.2.1266 -t coctohug-goji:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=3be896d4dcb48a734f8d2a901ab5648201fbd4d7 -t coctohug-goji:latest .
+- sudo docker build --build-arg CODE_BRANCH=3be896d4dcb48a734f8d2a901ab5648201fbd4d7 -t coctohug-goji:latest .
 
 # docker-compose
 - coctohug-goji: 
