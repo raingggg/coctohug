@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*.*.*_web'
       - 'v*.*.*_all'
+defaults:
+  run:
+    working-directory: dockers/coctohug-web-docker
 
 jobs:
   docker:
@@ -30,7 +33,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: dockers/coctohug-web-docker/dockerfile
+          file: dockerfile
           context: .
           platforms: linux/amd64
           push: true
