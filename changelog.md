@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.4] - 2021-12-31
+- Remember font-size choices for desktop review page
+- Mark one row when been clicked for desktop review page
+- Improve sorting feature for netspace and expected_win_time
+- Coin Address > Wallet Address
+- Mark wallet balance with green color
+- Cold wallet > Reward address
+
 ## [1.3.4] - 2021-12-30
 - fix goji wallet not syncing issue
   
