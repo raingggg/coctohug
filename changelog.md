@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.5] - 2022-01/06
+- Support 4 new forks: rolls  melon goldcoin kujenga
+- Save RAM usage by more than 30% improvement
+- Remove sector support
+
 ## [1.3.4] - 2021-12-31
 - Remember font-size choices for desktop review page
 - Mark one row when been clicked for desktop review page
