@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=1.2.9"
+            "CODE_BRANCH=1.2.11"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-hddcoin:develop
