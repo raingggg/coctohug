@@ -1,0 +1,13 @@
+{
+  "blockchain": "goldcoin",
+  "binary": "/goldcoin-blockchain/venv/bin/goldcoin",
+  "mainnet": ".goldcoin/mainnet",
+  "config": ".goldcoin/mainnet/config/config.yaml",
+  "coldWalletName": "ozt_target_address",
+  "certificates": ".goldcoin/mainnet/config/ssl/ca",
+  "chainlog": ".goldcoin/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".goldcoin/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".goldcoin/cwd.log"
+}

@@ -1,7 +1,11 @@
 # Changelog
 
-## [1.3.5] - 2022-01/06
-- Support 4 new forks: rolls  melon goldcoin kujenga
+## [1.3.6] - 2022-01-07
+- Support 4 new forks: rolls melon goldcoin kujenga
+- Fix fullnode wallet_balance not accurate issue
+
+## [1.3.5] - 2022-01-06
+- Support 4 new forks: rolls melon goldcoin kujenga
 - Save RAM usage by more than 30% improvement
 - Remove sector support
 

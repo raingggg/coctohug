@@ -1,0 +1,13 @@
+{
+  "blockchain": "rolls",
+  "binary": "/rolls-blockchain/venv/bin/rolls",
+  "mainnet": ".rolls/mainnet",
+  "config": ".rolls/mainnet/config/config.yaml",
+  "coldWalletName": "rolls_target_address",
+  "certificates": ".rolls/mainnet/config/ssl/ca",
+  "chainlog": ".rolls/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".rolls/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".rolls/cwd.log"
+}

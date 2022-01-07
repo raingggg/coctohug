@@ -1,0 +1,13 @@
+{
+  "blockchain": "melon",
+  "binary": "/melon-blockchain/venv/bin/melon",
+  "mainnet": ".melon/mainnet",
+  "config": ".melon/mainnet/config/config.yaml",
+  "coldWalletName": "melon_target_address",
+  "certificates": ".melon/mainnet/config/ssl/ca",
+  "chainlog": ".melon/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".melon/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".melon/cwd.log"
+}

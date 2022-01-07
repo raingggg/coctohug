@@ -1,0 +1,13 @@
+{
+  "blockchain": "kujenga",
+  "binary": "/kujenga-blockchain/venv/bin/kujenga",
+  "mainnet": ".kujenga/mainnet",
+  "config": ".kujenga/mainnet/config/config.yaml",
+  "coldWalletName": "xkj_target_address",
+  "certificates": ".kujenga/mainnet/config/ssl/ca",
+  "chainlog": ".kujenga/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".kujenga/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".kujenga/cwd.log"
+}
