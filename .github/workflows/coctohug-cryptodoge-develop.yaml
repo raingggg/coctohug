@@ -3,7 +3,7 @@ name: develop-body
 on:
   push:
     tags:
-      - 'v*.*.*_crptodoge'
+      - 'v*.*.*_cryptodoge'
       - 'v*.*.*_all'
 
 jobs:
