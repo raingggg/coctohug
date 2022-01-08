@@ -1,0 +1,13 @@
+{
+  "blockchain": "thyme",
+  "binary": "/thyme-blockchain/venv/bin/thyme",
+  "mainnet": ".thyme/mainnet",
+  "config": ".thyme/mainnet/config/config.yaml",
+  "coldWalletName": "xth_target_address",
+  "certificates": ".thyme/mainnet/config/ssl/ca",
+  "chainlog": ".thyme/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".thyme/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".thyme/cwd.log"
+}

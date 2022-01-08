@@ -1,0 +1,13 @@
+{
+  "blockchain": "kiwi",
+  "binary": "/kiwi-blockchain/venv/bin/kiwi",
+  "mainnet": ".kiwi/mainnet",
+  "config": ".kiwi/mainnet/config/config.yaml",
+  "coldWalletName": "xkw_target_address",
+  "certificates": ".kiwi/mainnet/config/ssl/ca",
+  "chainlog": ".kiwi/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".kiwi/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".kiwi/cwd.log"
+}

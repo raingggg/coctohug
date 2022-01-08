@@ -1,0 +1,13 @@
+{
+  "blockchain": "lotus",
+  "binary": "/lotus-blockchain/venv/bin/lotus",
+  "mainnet": ".lotus/mainnet",
+  "config": ".lotus/mainnet/config/config.yaml",
+  "coldWalletName": "lch_target_address",
+  "certificates": ".lotus/mainnet/config/ssl/ca",
+  "chainlog": ".lotus/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".lotus/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".lotus/cwd.log"
+}
