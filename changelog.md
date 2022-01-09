@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.8] - 2022-01-09
+- 0 coin price fix
+- Fix 5 connection-of-less-memory not working issue
+
 ## [1.3.7] - 2022-01-08
 - Support 3 new forks: lotus thyme kiwi
 - Make timeout longer for farm_summary and wallet_summary
