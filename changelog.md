@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.9] - 2022-01-09
+- Fix hddcoin and melati wallet not showing issue
+
 ## [1.3.8] - 2022-01-09
 - 0 coin price fix
 - Fix 5 connection-of-less-memory not working issue
