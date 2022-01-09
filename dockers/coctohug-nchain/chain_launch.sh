@@ -47,7 +47,7 @@ for p in ${plots_dir//:/ }; do
 done
 
 sed -i 's/localhost/127.0.0.1/g' ~/${CONFIG_PATH}/mainnet/config/config.yaml
-sed -i "s/target_outbound_peer_count: 8/target_outbound_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/mainnet/config/config.yaml
+sed -i "s/target_outbound_peer_count: .*/target_outbound_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/mainnet/config/config.yaml
 
 chmod 755 -R /root/${CONFIG_PATH}/mainnet/config/ssl/ &> /dev/null
 ${BINARY_NAME} init --fix-ssl-permissions > /dev/null 
