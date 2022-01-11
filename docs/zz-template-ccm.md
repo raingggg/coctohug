@@ -34,6 +34,7 @@
 - <%= localeData['ccm.sample_stop'] %> <i>ccm stop flora</i>
 - <%= localeData['ccm.sample_restart'] %> <i>ccm restart flora</i>
 - <%= localeData['ccm.sample_upgrade'] %> <i>ccm upgrade flora</i>
+- <%= localeData['ccm.sample_upup'] %> <i>ccm upup flora</i>
 - <%= localeData['ccm.sample_uninstall'] %> <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - <%= localeData['ccm.all_stop'] %> <i>ccm stop all</i>
 - <%= localeData['ccm.all_restart'] %> <i>ccm restart all</i>
 - <%= localeData['ccm.all_upgrade'] %> <i>ccm upgrade all</i>
+- <%= localeData['ccm.all_upup'] %> <i>ccm upup all</i>
 - <%= localeData['ccm.all_uninstall'] %> <i>ccm uninstall all</i>
 
 

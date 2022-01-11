@@ -166,5 +166,8 @@
   "ccm.view_header": "詳細なブロックチェーンフォークのステータスを表示する",
   "ccm.view_key": "ethgreenなどのキー情報を表示します。",
   "ccm.view_log": "ethgreenなどのログ情報を表示します。",
-  "ccm.view_wallet": "ethgreenなどのウォレット情報を表示します。"
+  "ccm.view_wallet": "ethgreenなどのウォレット情報を表示します。",
+  "ccm.ccm_title": "Coctohugコマンドマネージャー",
+  "ccm.all_upup": "アップグレードしてから、すべてのブロックチェーンフォークを開始します。",
+  "ccm.sample_upup": "アップグレードしてから、フローラなどの1つのブロックチェーンフォークを開始します。"
 }

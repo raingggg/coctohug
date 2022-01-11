@@ -166,5 +166,8 @@
   "ccm.view_header": "Ayrıntılı blockchain çatal durumunu görüntüleyin",
   "ccm.view_key": "ethgreen gibi anahtar bilgilerini görüntüleyin:",
   "ccm.view_log": "ethgreen gibi günlük bilgilerini görüntüleyin:",
-  "ccm.view_wallet": "ethgreen gibi cüzdan bilgilerini görüntüleyin:"
+  "ccm.view_wallet": "ethgreen gibi cüzdan bilgilerini görüntüleyin:",
+  "ccm.ccm_title": "Coctohug Komuta Müdürü",
+  "ccm.all_upup": "Yükselt ve ardından tüm blockchain çatallarını başlat:",
+  "ccm.sample_upup": "Yükseltme ve ardından flora gibi bir blok zinciri çatalı başlatın:"
 }

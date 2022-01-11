@@ -166,5 +166,8 @@
   "ccm.view_header": "Consulta o estado detallado do fork blockchain",
   "ccm.view_key": "Ver información de claves como ethgreen:",
   "ccm.view_log": "Ver información de rexistro como ethgreen:",
-  "ccm.view_wallet": "Ver información da carteira como ethgreen:"
+  "ccm.view_wallet": "Ver información da carteira como ethgreen:",
+  "ccm.ccm_title": "Xestor de comandos Coctohug",
+  "ccm.all_upup": "Actualiza e inicia todos os forks de blockchain:",
+  "ccm.sample_upup": "Actualiza e despois inicia un fork de cadea de bloques como flora:"
 }

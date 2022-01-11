@@ -166,5 +166,8 @@
   "ccm.view_header": "عرض مفصل لحالة شوكة blockchain",
   "ccm.view_key": "عرض معلومات المفاتيح مثل ethgreen:",
   "ccm.view_log": "عرض معلومات السجل مثل ethgreen:",
-  "ccm.view_wallet": "عرض معلومات المحفظة مثل ethgreen:"
+  "ccm.view_wallet": "عرض معلومات المحفظة مثل ethgreen:",
+  "ccm.ccm_title": "مدير قيادة Coctohug",
+  "ccm.all_upup": "قم بالترقية ثم ابدأ جميع مفترقات blockchain:",
+  "ccm.sample_upup": "قم بالترقية ثم ابدأ شوكة واحدة من blockchain مثل flora:"
 }

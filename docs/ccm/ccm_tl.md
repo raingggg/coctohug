@@ -34,6 +34,7 @@
 - Itigil ang isang blockchain fork gaya ng flora: <i>ccm stop flora</i>
 - I-restart ang isang blockchain fork gaya ng flora: <i>ccm restart flora</i>
 - Mag-upgrade ng isang blockchain fork gaya ng flora: <i>ccm upgrade flora</i>
+- Mag-upgrade pagkatapos magsimula ng isang blockchain fork gaya ng flora: <i>ccm upup flora</i>
 - I-uninstall ang isang blockchain fork gaya ng flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Itigil ang lahat ng blockchain forks: <i>ccm stop all</i>
 - I-restart ang lahat ng blockchain forks: <i>ccm restart all</i>
 - I-upgrade ang lahat ng blockchain forks: <i>ccm upgrade all</i>
+- Mag-upgrade pagkatapos simulan ang lahat ng blockchain forks: <i>ccm upup all</i>
 - I-uninstall ang lahat ng blockchain forks: <i>ccm uninstall all</i>
 
 

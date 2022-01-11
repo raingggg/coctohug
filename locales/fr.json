@@ -166,5 +166,8 @@
   "ccm.view_header": "Afficher le statut détaillé de la fourche blockchain",
   "ccm.view_key": "Afficher les informations sur les clés telles que ethgreen :",
   "ccm.view_log": "Afficher les informations de journal telles que ethgreen :",
-  "ccm.view_wallet": "Afficher les informations du portefeuille telles que ethgreen :"
+  "ccm.view_wallet": "Afficher les informations du portefeuille telles que ethgreen :",
+  "ccm.ccm_title": "Gestionnaire de commandes de Coctohug",
+  "ccm.all_upup": "Mettez à niveau puis démarrez tous les forks blockchain :",
+  "ccm.sample_upup": "Mettez à niveau puis démarrez un fork blockchain tel que flora :"
 }

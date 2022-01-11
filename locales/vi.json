@@ -166,5 +166,8 @@
   "ccm.view_header": "Xem trạng thái fork blockchain chi tiết",
   "ccm.view_key": "Xem thông tin khóa chẳng hạn như ethgreen:",
   "ccm.view_log": "Xem thông tin nhật ký chẳng hạn như ethgreen:",
-  "ccm.view_wallet": "Xem thông tin ví như ethgreen:"
+  "ccm.view_wallet": "Xem thông tin ví như ethgreen:",
+  "ccm.ccm_title": "Trình quản lý lệnh Coctohug",
+  "ccm.all_upup": "Nâng cấp sau đó bắt đầu tất cả các nhánh blockchain:",
+  "ccm.sample_upup": "Nâng cấp sau đó bắt đầu một nhánh blockchain chẳng hạn như hệ thực vật:"
 }

@@ -34,6 +34,7 @@
 - Detén una bifurcación de blockchain como flora: <i>ccm stop flora</i>
 - Reinicie una bifurcación de blockchain como flora: <i>ccm restart flora</i>
 - Actualice una bifurcación de blockchain como flora: <i>ccm upgrade flora</i>
+- Actualice y luego inicie una bifurcación de blockchain como flora: <i>ccm upup flora</i>
 - Desinstale una bifurcación de blockchain como flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Detenga todas las bifurcaciones de blockchain: <i>ccm stop all</i>
 - Reinicie todas las bifurcaciones de blockchain: <i>ccm restart all</i>
 - Actualice todas las bifurcaciones de blockchain: <i>ccm upgrade all</i>
+- Actualice y luego inicie todas las bifurcaciones de blockchain: <i>ccm upup all</i>
 - Desinstale todas las bifurcaciones de blockchain: <i>ccm uninstall all</i>
 
 

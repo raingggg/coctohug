@@ -34,6 +34,7 @@
 - Arrêtez une fourchette de blockchain telle que flora : <i>ccm stop flora</i>
 - Redémarrez un fork blockchain tel que flora : <i>ccm restart flora</i>
 - Mettez à niveau une fourchette de blockchain telle que flora : <i>ccm upgrade flora</i>
+- Mettez à niveau puis démarrez un fork blockchain tel que flora : <i>ccm upup flora</i>
 - Désinstallez un fork blockchain tel que flora : <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Arrêtez toutes les fourches blockchain : <i>ccm stop all</i>
 - Redémarrez tous les forks blockchain : <i>ccm restart all</i>
 - Mettez à niveau toutes les fourches blockchain : <i>ccm upgrade all</i>
+- Mettez à niveau puis démarrez tous les forks blockchain : <i>ccm upup all</i>
 - Désinstallez toutes les fourches blockchain : <i>ccm uninstall all</i>
 
 

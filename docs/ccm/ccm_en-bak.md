@@ -3,78 +3,80 @@
 
 
 # Quick Start
-  - [](#ccm-setup)
-  - [](#ccm-help)
-  - [](#ccm-sample)
-  - [](#ccm-all)
-  - [](#ccm-view)
-  - [](#ccm-docker)
-  - [](#ccm-docker-manage)
-  - [](#ccm-more)
+  - [Setup](#ccm-setup)
+  - [Help](#ccm-help)
+  - [Sample commands for the flora blockchain fork](#ccm-sample)
+  - [Quick commands for all blockchain forks](#ccm-all)
+  - [View detailed blockchain fork status](#ccm-view)
+  - [Go to docker container](#ccm-docker)
+  - [Docker operational management](#ccm-docker-manage)
+  - [More](#ccm-more)
   
 
 <p id="ccm-setup">&nbsp;</p>
 
-## 
-- 
--  <i>sudo ln -s /full/path/to/your/file/ccm.sh /usr/local/bin/ccm</i>
+## Setup
+- Open terminal and change working directory to the folder contains ccm.sh
+- (Linux / Mac)Init ccm by creating link: <i>sudo ln -s /full/path/to/your/file/ccm.sh /usr/local/bin/ccm</i>
 
 
 <p id="ccm-help">&nbsp;</p>
 
-## 
--  <i>ccm help</i>
+## Help
+- Command guide: <i>ccm help</i>
 
 
 <p id="ccm-sample">&nbsp;</p>
 
-## 
--  <i>ccm install flora</i>
--  <i>ccm start flora</i>
--  <i>ccm stop flora</i>
--  <i>ccm restart flora</i>
--  <i>ccm upgrade flora</i>
--  <i>ccm uninstall flora</i>
+## Sample commands for the flora blockchain fork
+- Install one blockchain fork such as flora: <i>ccm install flora</i>
+- Start one blockchain fork such as flora: <i>ccm start flora</i>
+- Stop one blockchain fork such as flora: <i>ccm stop flora</i>
+- Restart one blockchain fork such as flora: <i>ccm restart flora</i>
+- Upgrade one blockchain fork such as flora: <i>ccm upgrade flora</i>
+-  <i>ccm upup flora</i>
+- Uninstall one blockchain fork such as flora: <i>ccm uninstall flora</i>
 
 
 <p id="ccm-all">&nbsp;</p>
 
-## 
--  <i>ccm install all</i>
--  <i>ccm start all</i>
--  <i>ccm stop all</i>
--  <i>ccm restart all</i>
--  <i>ccm upgrade all</i>
--  <i>ccm uninstall all</i>
+## Quick commands for all blockchain forks
+- Install all blockchain forks: <i>ccm install all</i>
+- Start all blockchain forks: <i>ccm start all</i>
+- Stop all blockchain forks: <i>ccm stop all</i>
+- Restart all blockchain forks: <i>ccm restart all</i>
+- Upgrade all blockchain forks: <i>ccm upgrade all</i>
+-  <i>ccm upup all</i>
+- Uninstall all blockchain forks: <i>ccm uninstall all</i>
 
 
 <p id="ccm-view">&nbsp;</p>
 
-## 
--  <i>ccm vconnection ethgreen</i>
--  <i>ccm vsummary ethgreen</i>
--  <i>ccm vwallet ethgreen</i>
--  <i>ccm vkey ethgreen</i>
--  <i>ccm vlog ethgreen</i>
+## View detailed blockchain fork status
+- View connection info such as ethgreen: <i>ccm vconnection ethgreen</i>
+- View farm summary info such as ethgreen: <i>ccm vsummary ethgreen</i>
+- View wallet info such as ethgreen: <i>ccm vwallet ethgreen</i>
+- View keys info such as ethgreen: <i>ccm vkey ethgreen</i>
+- View log info such as ethgreen: <i>ccm vlog ethgreen</i>
 
 
 <p id="ccm-docker">&nbsp;</p>
 
-## 
--  <i>ccm docker tranzact</i>
+## Go to docker container
+- Go inside docker such as tranzact: <i>ccm docker tranzact</i>
 
 
 <p id="ccm-docker-manage">&nbsp;</p>
 
-## 
--  <i>ccm clean</i>
--  <i>ccm container</i>
--  <i>ccm image</i>
+## Docker operational management
+- Clean all unused docker images: <i>ccm clean</i>
+- Show all docker containers: <i>ccm container</i>
+- Show all Docker images: <i>ccm image</i>
 
 
 <p id="ccm-more">&nbsp;</p>
 
-## 
+## More
 - [Github](https://github.com/raingggg/coctohug-manager)
 
 ## Trademark Notice

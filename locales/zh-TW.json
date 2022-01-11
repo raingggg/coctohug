@@ -166,5 +166,8 @@
   "ccm.view_header": "查看詳細的區塊鏈分叉狀態",
   "ccm.view_key": "查看 ethgreen 等密鑰信息：",
   "ccm.view_log": "查看 ethgreen 等日誌信息：",
-  "ccm.view_wallet": "查看ethgreen等錢包信息："
+  "ccm.view_wallet": "查看ethgreen等錢包信息：",
+  "ccm.ccm_title": "Coctohug 命令管理器",
+  "ccm.all_upup": "升級然後啟動所有區塊鏈分叉：",
+  "ccm.sample_upup": "升級然後啟動一個區塊鏈分叉，例如flora："
 }

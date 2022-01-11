@@ -34,6 +34,7 @@
 - หยุดหนึ่งส้อมบล็อคเชนเช่นฟลอรา: <i>ccm stop flora</i>
 - รีสตาร์ทหนึ่งส้อมบล็อคเชนเช่นฟลอรา: <i>ccm restart flora</i>
 - อัปเกรดส้อมบล็อคเชนหนึ่งอัน เช่น ฟลอรา: <i>ccm upgrade flora</i>
+- อัปเกรดแล้วเริ่มส้อมบล็อกเชนหนึ่งอัน เช่น ฟลอรา: <i>ccm upup flora</i>
 - ถอนการติดตั้ง blockchain fork หนึ่งอัน เช่น ฟลอรา: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - หยุดส้อมบล็อคเชนทั้งหมด: <i>ccm stop all</i>
 - รีสตาร์ทส้อมบล็อคเชนทั้งหมด: <i>ccm restart all</i>
 - อัปเกรดส้อม blockchain ทั้งหมด: <i>ccm upgrade all</i>
+- อัปเกรดแล้วเริ่มส้อมบล็อคเชนทั้งหมด: <i>ccm upup all</i>
 - ถอนการติดตั้ง blockchain fork ทั้งหมด: <i>ccm uninstall all</i>
 
 

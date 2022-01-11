@@ -34,6 +34,7 @@
 - Stoppen Sie eine Blockchain-Gabel wie Flora: <i>ccm stop flora</i>
 - Starten Sie eine Blockchain-Fork wie Flora neu: <i>ccm restart flora</i>
 - Aktualisieren Sie eine Blockchain-Gabel wie Flora: <i>ccm upgrade flora</i>
+- Führen Sie ein Upgrade durch und starten Sie dann eine Blockchain-Fork wie Flora: <i>ccm upup flora</i>
 - Deinstallieren Sie eine Blockchain-Fork wie Flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Stoppen Sie alle Blockchain-Forks: <i>ccm stop all</i>
 - Starten Sie alle Blockchain-Forks neu: <i>ccm restart all</i>
 - Aktualisieren Sie alle Blockchain-Forks: <i>ccm upgrade all</i>
+- Aktualisieren Sie dann alle Blockchain-Forks: <i>ccm upup all</i>
 - Deinstallieren Sie alle Blockchain-Forks: <i>ccm uninstall all</i>
 
 

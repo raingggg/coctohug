@@ -34,6 +34,7 @@
 - 식물상과 같은 하나의 블록체인 포크를 중지합니다. <i>ccm stop flora</i>
 - 식물상과 같은 하나의 블록체인 포크를 다시 시작합니다. <i>ccm restart flora</i>
 - 식물상과 같은 하나의 블록체인 포크 업그레이드: <i>ccm upgrade flora</i>
+- 업그레이드한 다음 식물상과 같은 하나의 블록체인 포크를 시작하십시오. <i>ccm upup flora</i>
 - 식물상과 같은 하나의 블록체인 포크를 제거합니다. <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - 모든 블록체인 포크 중지: <i>ccm stop all</i>
 - 모든 블록체인 포크를 다시 시작합니다. <i>ccm restart all</i>
 - 모든 블록체인 포크 업그레이드: <i>ccm upgrade all</i>
+- 업그레이드한 다음 모든 블록체인 포크를 시작합니다. <i>ccm upup all</i>
 - 모든 블록체인 포크 제거: <i>ccm uninstall all</i>
 
 

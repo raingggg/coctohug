@@ -34,6 +34,7 @@
 - Opriți o furcă blockchain, cum ar fi flora: <i>ccm stop flora</i>
 - Reporniți o furcă blockchain, cum ar fi flora: <i>ccm restart flora</i>
 - Actualizați o furcă blockchain, cum ar fi flora: <i>ccm upgrade flora</i>
+- Faceți upgrade, apoi porniți un bloc blockchain, cum ar fi flora: <i>ccm upup flora</i>
 - Dezinstalați o furcă blockchain, cum ar fi flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Opriți toate furcile blockchain: <i>ccm stop all</i>
 - Reporniți toate furcile blockchain: <i>ccm restart all</i>
 - Actualizați toate furcile blockchain: <i>ccm upgrade all</i>
+- Faceți upgrade, apoi porniți toate forkurile blockchain: <i>ccm upup all</i>
 - Dezinstalați toate furcile blockchain: <i>ccm uninstall all</i>
 
 

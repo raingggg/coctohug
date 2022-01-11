@@ -166,5 +166,8 @@
   "ccm.view_header": "Tingnan ang detalyadong blockchain fork status",
   "ccm.view_key": "Tingnan ang impormasyon ng mga key gaya ng ethgreen:",
   "ccm.view_log": "Tingnan ang impormasyon ng log gaya ng ethgreen:",
-  "ccm.view_wallet": "Tingnan ang impormasyon ng wallet gaya ng ethgreen:"
+  "ccm.view_wallet": "Tingnan ang impormasyon ng wallet gaya ng ethgreen:",
+  "ccm.ccm_title": "Coctohug Command Manager",
+  "ccm.all_upup": "Mag-upgrade pagkatapos simulan ang lahat ng blockchain forks:",
+  "ccm.sample_upup": "Mag-upgrade pagkatapos magsimula ng isang blockchain fork gaya ng flora:"
 }

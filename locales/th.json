@@ -166,5 +166,8 @@
   "ccm.view_header": "ดูสถานะ fork blockchain โดยละเอียด",
   "ccm.view_key": "ดูข้อมูลคีย์เช่น ethgreen:",
   "ccm.view_log": "ดูข้อมูลบันทึกเช่น ethgreen:",
-  "ccm.view_wallet": "ดูข้อมูลกระเป๋าเงินเช่น ethgreen:"
+  "ccm.view_wallet": "ดูข้อมูลกระเป๋าเงินเช่น ethgreen:",
+  "ccm.ccm_title": "ผู้จัดการคำสั่งค็อคโตฮัก",
+  "ccm.all_upup": "อัปเกรดแล้วเริ่มส้อมบล็อคเชนทั้งหมด:",
+  "ccm.sample_upup": "อัปเกรดแล้วเริ่มส้อมบล็อกเชนหนึ่งอัน เช่น ฟลอรา:"
 }

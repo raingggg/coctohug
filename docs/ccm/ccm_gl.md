@@ -34,6 +34,7 @@
 - Detén un garfo de cadea de bloques como flora: <i>ccm stop flora</i>
 - Reinicie unha bifurcación de cadea de bloques como flora: <i>ccm restart flora</i>
 - Actualiza un fork de cadea de bloques como flora: <i>ccm upgrade flora</i>
+- Actualiza e despois inicia un fork de cadea de bloques como flora: <i>ccm upup flora</i>
 - Desinstale un fork de cadea de bloques como flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Detén todas as bifurcacións de blockchain: <i>ccm stop all</i>
 - Reinicia todos os forks de blockchain: <i>ccm restart all</i>
 - Actualiza todos os forks de blockchain: <i>ccm upgrade all</i>
+- Actualiza e inicia todos os forks de blockchain: <i>ccm upup all</i>
 - Desinstale todos os forks de blockchain: <i>ccm uninstall all</i>
 
 

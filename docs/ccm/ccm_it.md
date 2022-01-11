@@ -34,6 +34,7 @@
 - Ferma un fork di blockchain come flora: <i>ccm stop flora</i>
 - Riavvia un fork di blockchain come flora: <i>ccm restart flora</i>
 - Aggiorna un fork di blockchain come flora: <i>ccm upgrade flora</i>
+- Esegui l&#39;upgrade quindi avvia un fork blockchain come flora: <i>ccm upup flora</i>
 - Disinstalla un fork di blockchain come flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Interrompi tutti i fork della blockchain: <i>ccm stop all</i>
 - Riavvia tutti i fork della blockchain: <i>ccm restart all</i>
 - Aggiorna tutti i fork blockchain: <i>ccm upgrade all</i>
+- Esegui l&#39;upgrade quindi avvia tutti i fork blockchain: <i>ccm upup all</i>
 - Disinstalla tutti i fork blockchain: <i>ccm uninstall all</i>
 
 

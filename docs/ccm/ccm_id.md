@@ -34,6 +34,7 @@
 - Hentikan satu garpu blockchain seperti flora: <i>ccm stop flora</i>
 - Mulai ulang satu garpu blockchain seperti flora: <i>ccm restart flora</i>
 - Tingkatkan satu garpu blockchain seperti flora: <i>ccm upgrade flora</i>
+- Tingkatkan lalu mulai satu garpu blockchain seperti flora: <i>ccm upup flora</i>
 - Copot satu garpu blockchain seperti flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Hentikan semua garpu blockchain: <i>ccm stop all</i>
 - Mulai ulang semua garpu blockchain: <i>ccm restart all</i>
 - Tingkatkan semua garpu blockchain: <i>ccm upgrade all</i>
+- Tingkatkan lalu mulai semua garpu blockchain: <i>ccm upup all</i>
 - Copot semua garpu blockchain: <i>ccm uninstall all</i>
 
 

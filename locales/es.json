@@ -166,5 +166,8 @@
   "ccm.view_header": "Ver el estado detallado de la bifurcación de blockchain",
   "ccm.view_key": "Ver información de claves como ethgreen:",
   "ccm.view_log": "Ver información de registro como ethgreen:",
-  "ccm.view_wallet": "Ver información de billetera como ethgreen:"
+  "ccm.view_wallet": "Ver información de billetera como ethgreen:",
+  "ccm.ccm_title": "Gerente de comando de Coctohug",
+  "ccm.all_upup": "Actualice y luego inicie todas las bifurcaciones de blockchain:",
+  "ccm.sample_upup": "Actualice y luego inicie una bifurcación de blockchain como flora:"
 }

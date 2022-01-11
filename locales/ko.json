@@ -166,5 +166,8 @@
   "ccm.view_header": "자세한 블록체인 포크 상태 보기",
   "ccm.view_key": "ethgreen과 같은 키 정보 보기:",
   "ccm.view_log": "ethgreen과 같은 로그 정보 보기:",
-  "ccm.view_wallet": "ethgreen과 같은 지갑 정보 보기:"
+  "ccm.view_wallet": "ethgreen과 같은 지갑 정보 보기:",
+  "ccm.ccm_title": "Coctohug 명령 관리자",
+  "ccm.all_upup": "업그레이드한 다음 모든 블록체인 포크를 시작합니다.",
+  "ccm.sample_upup": "업그레이드한 다음 식물상과 같은 하나의 블록체인 포크를 시작하십시오."
 }

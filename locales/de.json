@@ -166,5 +166,8 @@
   "ccm.view_header": "Detaillierten Blockchain-Fork-Status anzeigen",
   "ccm.view_key": "Anzeigen von Schlüsselinformationen wie Ethgreen:",
   "ccm.view_log": "Log-Informationen wie Ethgreen anzeigen:",
-  "ccm.view_wallet": "Anzeigen von Wallet-Informationen wie Ethgreen:"
+  "ccm.view_wallet": "Anzeigen von Wallet-Informationen wie Ethgreen:",
+  "ccm.ccm_title": "Coctohug Command Manager",
+  "ccm.all_upup": "Aktualisieren Sie dann alle Blockchain-Forks:",
+  "ccm.sample_upup": "Führen Sie ein Upgrade durch und starten Sie dann eine Blockchain-Fork wie Flora:"
 }

@@ -166,5 +166,8 @@
   "ccm.view_header": "Vezi starea detaliată a blockchain fork",
   "ccm.view_key": "Vizualizați informații despre chei, cum ar fi ethgreen:",
   "ccm.view_log": "Vedeți informațiile din jurnal, cum ar fi ethgreen:",
-  "ccm.view_wallet": "Vedeți informații despre portofel, cum ar fi ethgreen:"
+  "ccm.view_wallet": "Vedeți informații despre portofel, cum ar fi ethgreen:",
+  "ccm.ccm_title": "Manager de comandă Coctohug",
+  "ccm.all_upup": "Faceți upgrade, apoi porniți toate forkurile blockchain:",
+  "ccm.sample_upup": "Faceți upgrade, apoi porniți un bloc blockchain, cum ar fi flora:"
 }

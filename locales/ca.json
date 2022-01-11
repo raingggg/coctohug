@@ -166,5 +166,8 @@
   "ccm.view_header": "Mostra l'estat detallat de la forquilla de blockchain",
   "ccm.view_key": "Veure la informació de les claus com ara ethgreen:",
   "ccm.view_log": "Veure informació de registre com ara ethgreen:",
-  "ccm.view_wallet": "Veure informació de la cartera com ara ethgreen:"
+  "ccm.view_wallet": "Veure informació de la cartera com ara ethgreen:",
+  "ccm.ccm_title": "Gestor de comandaments Coctohug",
+  "ccm.all_upup": "Actualitzeu i inicieu totes les bifurcacions de blockchain:",
+  "ccm.sample_upup": "Actualitzeu i inicieu una bifurcació de cadena de blocs, com ara flora:"
 }

@@ -166,5 +166,8 @@
   "ccm.view_header": "Lihat status garpu blockchain yang terperinci",
   "ccm.view_key": "Lihat info kunci seperti ethgreen:",
   "ccm.view_log": "Lihat info log seperti ethgreen:",
-  "ccm.view_wallet": "Lihat info dompet seperti ethgreen:"
+  "ccm.view_wallet": "Lihat info dompet seperti ethgreen:",
+  "ccm.ccm_title": "Manajer Komando Coctohug",
+  "ccm.all_upup": "Tingkatkan lalu mulai semua garpu blockchain:",
+  "ccm.sample_upup": "Tingkatkan lalu mulai satu garpu blockchain seperti flora:"
 }

@@ -34,6 +34,7 @@
 - أوقف شوكة واحدة من سلسلة الكتل مثل فلورا: <i>ccm stop flora</i>
 - أعد تشغيل شوكة blockchain واحدة مثل flora: <i>ccm restart flora</i>
 - قم بترقية مفترق blockchain واحد مثل flora: <i>ccm upgrade flora</i>
+- قم بالترقية ثم ابدأ شوكة واحدة من blockchain مثل flora: <i>ccm upup flora</i>
 - قم بإلغاء تثبيت مفترق blockchain واحد مثل flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - أوقف جميع شوكات blockchain: <i>ccm stop all</i>
 - أعد تشغيل جميع مفترقات blockchain: <i>ccm restart all</i>
 - قم بترقية جميع شوكات blockchain: <i>ccm upgrade all</i>
+- قم بالترقية ثم ابدأ جميع مفترقات blockchain: <i>ccm upup all</i>
 - قم بإلغاء تثبيت جميع مفترقات blockchain: <i>ccm uninstall all</i>
 
 

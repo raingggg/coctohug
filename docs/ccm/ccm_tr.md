@@ -34,6 +34,7 @@
 - Flora gibi bir blockchain çatalını durdurun: <i>ccm stop flora</i>
 - Flora gibi bir blockchain çatalını yeniden başlatın: <i>ccm restart flora</i>
 - Flora gibi bir blockchain çatalını yükseltin: <i>ccm upgrade flora</i>
+- Yükseltme ve ardından flora gibi bir blok zinciri çatalı başlatın: <i>ccm upup flora</i>
 - Flora gibi bir blockchain çatalını kaldırın: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Tüm blockchain çatallarını durdurun: <i>ccm stop all</i>
 - Tüm blockchain çatallarını yeniden başlatın: <i>ccm restart all</i>
 - Tüm blockchain çatallarını yükseltin: <i>ccm upgrade all</i>
+- Yükselt ve ardından tüm blockchain çatallarını başlat: <i>ccm upup all</i>
 - Tüm blockchain çatallarını kaldırın: <i>ccm uninstall all</i>
 
 

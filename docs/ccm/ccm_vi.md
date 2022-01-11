@@ -34,6 +34,7 @@
 - Dừng một nhánh blockchain chẳng hạn như hệ thực vật: <i>ccm stop flora</i>
 - Khởi động lại một nhánh blockchain chẳng hạn như hệ thực vật: <i>ccm restart flora</i>
 - Nâng cấp một nhánh blockchain như hệ thực vật: <i>ccm upgrade flora</i>
+- Nâng cấp sau đó bắt đầu một nhánh blockchain chẳng hạn như hệ thực vật: <i>ccm upup flora</i>
 - Gỡ cài đặt một nhánh blockchain như hệ thực vật: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Dừng tất cả các nhánh blockchain: <i>ccm stop all</i>
 - Khởi động lại tất cả các nhánh blockchain: <i>ccm restart all</i>
 - Nâng cấp tất cả các nhánh blockchain: <i>ccm upgrade all</i>
+- Nâng cấp sau đó bắt đầu tất cả các nhánh blockchain: <i>ccm upup all</i>
 - Gỡ cài đặt tất cả các nhánh blockchain: <i>ccm uninstall all</i>
 
 

@@ -34,6 +34,7 @@
 - Atureu una bifurcació de cadena de blocs com la flora: <i>ccm stop flora</i>
 - Reinicieu una bifurcació de cadena de blocs, com ara flora: <i>ccm restart flora</i>
 - Actualitzeu una bifurcació de cadena de blocs, com ara flora: <i>ccm upgrade flora</i>
+- Actualitzeu i inicieu una bifurcació de cadena de blocs, com ara flora: <i>ccm upup flora</i>
 - Desinstal·leu una bifurcació de cadena de blocs, com ara flora: <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - Atura totes les bifurcacions de blockchain: <i>ccm stop all</i>
 - Reinicieu totes les bifurcacions de blockchain: <i>ccm restart all</i>
 - Actualitzeu totes les bifurcacions de blockchain: <i>ccm upgrade all</i>
+- Actualitzeu i inicieu totes les bifurcacions de blockchain: <i>ccm upup all</i>
 - Desinstal·leu totes les bifurcacions blockchain: <i>ccm uninstall all</i>
 
 

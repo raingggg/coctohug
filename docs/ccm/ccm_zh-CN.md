@@ -34,6 +34,7 @@
 - 停止一个区块链分叉，例如 flora： <i>ccm stop flora</i>
 - 重启一个区块链分叉，例如 flora： <i>ccm restart flora</i>
 - 升级一个区块链分叉，例如 flora： <i>ccm upgrade flora</i>
+- 升级然后启动一个区块链分叉，例如flora： <i>ccm upup flora</i>
 - 卸载一个区块链分叉，例如 flora： <i>ccm uninstall flora</i>
 
 
@@ -45,6 +46,7 @@
 - 停止所有区块链分叉： <i>ccm stop all</i>
 - 重启所有区块链分叉： <i>ccm restart all</i>
 - 升级所有区块链分叉： <i>ccm upgrade all</i>
+- 升级然后启动所有区块链分叉： <i>ccm upup all</i>
 - 卸载所有区块链分叉： <i>ccm uninstall all</i>
 
 

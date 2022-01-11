@@ -166,5 +166,8 @@
   "ccm.view_header": "Visualizza lo stato dettagliato del fork blockchain",
   "ccm.view_key": "Visualizza le informazioni sulle chiavi come ethgreen:",
   "ccm.view_log": "Visualizza le informazioni di registro come ethgreen:",
-  "ccm.view_wallet": "Visualizza le informazioni sul portafoglio come ethgreen:"
+  "ccm.view_wallet": "Visualizza le informazioni sul portafoglio come ethgreen:",
+  "ccm.ccm_title": "Cocthug Command Manager",
+  "ccm.all_upup": "Esegui l'upgrade quindi avvia tutti i fork blockchain:",
+  "ccm.sample_upup": "Esegui l'upgrade quindi avvia un fork blockchain come flora:"
 }
