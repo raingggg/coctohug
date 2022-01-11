@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.1] - 2022-01-11
+- Fix last_block_time on simple_view sorting issue
+
 ## [1.4.0] - 2022-01-11
 - Fix hddcoin wallet not showing issue
 - Add last_block_time to simple_view
