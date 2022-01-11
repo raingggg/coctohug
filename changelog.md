@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.0] - 2022-01-11
+- Fix hddcoin wallet not showing issue
+- Add last_block_time to simple_view
+
 ## [1.3.9] - 2022-01-09
 - Fix hddcoin and melati wallet not showing issue
 
