@@ -65,9 +65,8 @@ ENV fullnode_protocol_port="22222"
 EXPOSE 22222
 
 # blockchain farmer port - DO NOT forward at router
-ENV farmer_port="10447"
-EXPOSE 10447
-EXPOSE 11447
+ENV farmer_port="22447"
+EXPOSE 22447
 
 WORKDIR /chia-blockchain
 ENTRYPOINT ["bash", "./entrypoint.sh"]
