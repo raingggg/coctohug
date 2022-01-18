@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.4] - 2022-01-18
+- hours since last block keep 1 decimal point
+
 ## [1.4.3] - 2022-01-18
 - show hours since last block instead of days
 
