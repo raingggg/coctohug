@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.2] - 2022-01-18
+- how long it has passed since last winning block
+- how many blocks winned today
+- add order into hands-table and move ip to the last column
+- allow harvester in 120 minutes
+
 ## [1.4.1] - 2022-01-11
 - Fix last_block_time on simple_view sorting issue
 
