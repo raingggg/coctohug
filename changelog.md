@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.3] - 2022-01-18
+- show hours since last block instead of days
+
 ## [1.4.2] - 2022-01-18
 - how long it has passed since last winning block
 - how many blocks winned today
