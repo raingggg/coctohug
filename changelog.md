@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.7] - 2022-01-22
+- correct littlelambocoin mojo unit
+
 ## [1.4.5] - 2022-01-22
 - no_block_time and today_block_count added to balance view
 - claim nft 7/8 reward button for chia
