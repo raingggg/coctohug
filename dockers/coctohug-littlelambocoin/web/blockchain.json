@@ -1,0 +1,13 @@
+{
+  "blockchain": "littlelambocoin",
+  "binary": "/littlelambocoin-blockchain/venv/bin/littlelambocoin",
+  "mainnet": ".littlelambocoin/mainnet",
+  "config": ".littlelambocoin/mainnet/config/config.yaml",
+  "coldWalletName": "llc_target_address",
+  "certificates": ".littlelambocoin/mainnet/config/ssl/ca",
+  "chainlog": ".littlelambocoin/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".littlelambocoin/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".littlelambocoin/cwd.log"
+}
