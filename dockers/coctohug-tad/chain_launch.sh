@@ -91,4 +91,6 @@ elif [[ ${mode} =~ ^harvester.* ]]; then
 elif [[ ${mode} == 'wallet' ]]; then
   node /coctohug/flexible_config.js
   ${BINARY_NAME} start wallet-only
+elif [[ ${mode} == 'standard_wallet' ]]; then
+  ${BINARY_NAME} start wallet
 fi
