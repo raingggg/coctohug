@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Aquests són els treballadors de la bifurcació de cadena de blocs",
   "wiki.forks": "Blockchain Forks",
   "wiki.generate_new_key": "A la pantalla d'inici de WebUI, genereu una nova clau aquesta vegada",
-  "wiki.get_24_mnemonic_words": "Obteniu 24 paraules mnemotècniques mitjançant un script de terminal similar",
+  "wiki.get_24_mnemonic_words": "Obteniu 24 paraules mnemotècniques mitjançant un script de terminal similar (totes les bifurcacions de cadena de blocs haurien de compartir les mateixes 24 paraules mnemotècniques)",
   "wiki.go_each_folder": "Aneu a cada carpeta i executeu l'script",
   "wiki.go_to_site": "Vés al lloc",
   "wiki.hands_management": "Gestió de les mans",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Veure informació de la cartera com ara ethgreen:",
   "ccm.ccm_title": "Gestor de comandaments Coctohug",
   "ccm.all_upup": "Actualitzeu i inicieu totes les bifurcacions de blockchain:",
-  "ccm.sample_upup": "Actualitzeu i inicieu una bifurcació de cadena de blocs, com ara flora:"
+  "ccm.sample_upup": "Actualitzeu i inicieu una bifurcació de cadena de blocs, com ara flora:",
+  "ccm.sample_migrate_db": "Migreu una base de dades de la bifurcació de cadena de blocs, com ara flora:",
+  "ccm.sample_migrate_wallet": "Migra una base de dades de cartera de forquilla de cadena de blocs, com ara flora:",
+  "readme.structure": "Diagrama de configuració de Harevster"
 }

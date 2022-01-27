@@ -36,6 +36,8 @@
 - <%= localeData['ccm.sample_upgrade'] %> <i>ccm upgrade flora</i>
 - <%= localeData['ccm.sample_upup'] %> <i>ccm upup flora</i>
 - <%= localeData['ccm.sample_uninstall'] %> <i>ccm uninstall flora</i>
+- <%= localeData['ccm.sample_migrate_db'] %> <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- <%= localeData['ccm.sample_migrate_wallet'] %> <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

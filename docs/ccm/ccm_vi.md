@@ -36,6 +36,8 @@
 - Nâng cấp một nhánh blockchain như hệ thực vật: <i>ccm upgrade flora</i>
 - Nâng cấp sau đó bắt đầu một nhánh blockchain chẳng hạn như hệ thực vật: <i>ccm upup flora</i>
 - Gỡ cài đặt một nhánh blockchain như hệ thực vật: <i>ccm uninstall flora</i>
+- Di chuyển một db fork blockchain chẳng hạn như hệ thực vật: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Di chuyển một ví fork blockchain db chẳng hạn như hệ thực vật: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

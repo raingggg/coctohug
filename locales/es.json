@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Este es cada trabajador de la bifurcación de blockchain",
   "wiki.forks": "Horquillas Blockchain",
   "wiki.generate_new_key": "En la pantalla de inicio de WebUI, esta vez genera una nueva clave",
-  "wiki.get_24_mnemonic_words": "Obtenga 24 palabras mnemotécnicas mediante un script de terminal similar",
+  "wiki.get_24_mnemonic_words": "Obtenga 24 palabras mnemotécnicas mediante un script de terminal similar (todas las bifurcaciones de blockchain deben compartir las mismas 24 palabras mnemotécnicas)",
   "wiki.go_each_folder": "Vaya a cada carpeta y ejecute el script",
   "wiki.go_to_site": "Ir al sitio",
   "wiki.hands_management": "Manejo de manos",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Ver información de billetera como ethgreen:",
   "ccm.ccm_title": "Gerente de comando de Coctohug",
   "ccm.all_upup": "Actualice y luego inicie todas las bifurcaciones de blockchain:",
-  "ccm.sample_upup": "Actualice y luego inicie una bifurcación de blockchain como flora:"
+  "ccm.sample_upup": "Actualice y luego inicie una bifurcación de blockchain como flora:",
+  "ccm.sample_migrate_db": "Migre una base de datos de una bifurcación de cadena de bloques, como flora:",
+  "ccm.sample_migrate_wallet": "Migre una base de datos de billetera de bifurcación de cadena de bloques como flora:",
+  "readme.structure": "Diagrama de instalación de Harevster"
 }

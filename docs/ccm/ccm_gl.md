@@ -36,6 +36,8 @@
 - Actualiza un fork de cadea de bloques como flora: <i>ccm upgrade flora</i>
 - Actualiza e despois inicia un fork de cadea de bloques como flora: <i>ccm upup flora</i>
 - Desinstale un fork de cadea de bloques como flora: <i>ccm uninstall flora</i>
+- Migra un fork blockchain db como flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migra unha base de datos de carteira fork blockchain como flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

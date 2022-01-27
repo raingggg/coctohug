@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Este é cada un dos traballadores da cadea de bloques",
   "wiki.forks": "Forks Blockchain",
   "wiki.generate_new_key": "Na pantalla de inicio de WebUI, xera unha nova clave esta vez",
-  "wiki.get_24_mnemonic_words": "Obtén 24 palabras mnemónicas mediante un script de terminal similar",
+  "wiki.get_24_mnemonic_words": "Obtén 24 palabras mnemónicas mediante un script de terminal similar (todos os forks de blockchain deberían compartir as mesmas 24 palabras mnemónicas)",
   "wiki.go_each_folder": "Vaia a cada cartafol e execute o script",
   "wiki.go_to_site": "Ir ao sitio",
   "wiki.hands_management": "Xestión de mans",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Ver información da carteira como ethgreen:",
   "ccm.ccm_title": "Xestor de comandos Coctohug",
   "ccm.all_upup": "Actualiza e inicia todos os forks de blockchain:",
-  "ccm.sample_upup": "Actualiza e despois inicia un fork de cadea de bloques como flora:"
+  "ccm.sample_upup": "Actualiza e despois inicia un fork de cadea de bloques como flora:",
+  "ccm.sample_migrate_db": "Migra un fork blockchain db como flora:",
+  "ccm.sample_migrate_wallet": "Migra unha base de datos de carteira fork blockchain como flora:",
+  "readme.structure": "Diagrama de configuración de Harevster"
 }

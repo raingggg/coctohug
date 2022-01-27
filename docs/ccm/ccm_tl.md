@@ -36,6 +36,8 @@
 - Mag-upgrade ng isang blockchain fork gaya ng flora: <i>ccm upgrade flora</i>
 - Mag-upgrade pagkatapos magsimula ng isang blockchain fork gaya ng flora: <i>ccm upup flora</i>
 - I-uninstall ang isang blockchain fork gaya ng flora: <i>ccm uninstall flora</i>
+- Mag-migrate ng isang blockchain fork db gaya ng flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Mag-migrate ng isang blockchain fork wallet db gaya ng flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

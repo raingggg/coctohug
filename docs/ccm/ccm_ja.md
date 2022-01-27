@@ -36,6 +36,8 @@
 - 植物相などの1つのブロックチェーンフォークをアップグレードします。 <i>ccm upgrade flora</i>
 - アップグレードしてから、フローラなどの1つのブロックチェーンフォークを開始します。 <i>ccm upup flora</i>
 - 植物相などの1つのブロックチェーンフォークをアンインストールします。 <i>ccm uninstall flora</i>
+- 植物相などの1つのブロックチェーンフォークデータベースを移行します。 <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- 植物相などの1つのブロックチェーンフォークウォレットデータベースを移行します。 <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

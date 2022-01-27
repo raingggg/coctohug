@@ -36,6 +36,8 @@
 - Upgrade one blockchain fork such as flora: <i>ccm upgrade flora</i>
 - Upgrade then start one blockchain fork such as flora: <i>ccm upup flora</i>
 - Uninstall one blockchain fork such as flora: <i>ccm uninstall flora</i>
+- Migrate one blockchain fork db such as flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migrate one blockchain fork wallet db such as flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

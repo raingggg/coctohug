@@ -49,7 +49,7 @@
   "wiki.fork_worker": "هذا هو كل عمال شوكة blockchain",
   "wiki.forks": "شوك بلوكتشين",
   "wiki.generate_new_key": "على شاشة تشغيل WebUI ، قم بإنشاء مفتاح جديد هذه المرة",
-  "wiki.get_24_mnemonic_words": "احصل على 24 كلمة ذاكري من خلال نص طرفي مماثل",
+  "wiki.get_24_mnemonic_words": "احصل على 24 كلمة ذاكري بواسطة برنامج نصي طرفي مماثل (يجب أن تشترك جميع شوكات blockchain في نفس 24 كلمة ذاكري)",
   "wiki.go_each_folder": "انتقل إلى كل مجلد وقم بتنفيذ البرنامج النصي",
   "wiki.go_to_site": "انتقل إلى الموقع",
   "wiki.hands_management": "إدارة اليدين",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "عرض معلومات المحفظة مثل ethgreen:",
   "ccm.ccm_title": "مدير قيادة Coctohug",
   "ccm.all_upup": "قم بالترقية ثم ابدأ جميع مفترقات blockchain:",
-  "ccm.sample_upup": "قم بالترقية ثم ابدأ شوكة واحدة من blockchain مثل flora:"
+  "ccm.sample_upup": "قم بالترقية ثم ابدأ شوكة واحدة من blockchain مثل flora:",
+  "ccm.sample_migrate_db": "ترحيل شوكة واحدة من blockchain db مثل flora:",
+  "ccm.sample_migrate_wallet": "ترحيل واحد blockchain fork wallet db مثل flora:",
+  "readme.structure": "مخطط إعداد Harevster"
 }

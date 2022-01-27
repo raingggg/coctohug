@@ -49,7 +49,7 @@
   "wiki.fork_worker": "각 블록체인 포크 워커입니다.",
   "wiki.forks": "블록체인 포크",
   "wiki.generate_new_key": "WebUI 실행 화면에서 이번에는 새 키를 생성합니다.",
-  "wiki.get_24_mnemonic_words": "유사한 터미널 스크립트로 24개의 니모닉 단어 얻기",
+  "wiki.get_24_mnemonic_words": "유사한 터미널 스크립트로 24개의 니모닉 단어 가져오기(모든 블록체인 포크는 동일한 24개의 니모닉 단어를 공유해야 함)",
   "wiki.go_each_folder": "각 폴더로 이동하여 스크립트 실행",
   "wiki.go_to_site": "사이트로 이동",
   "wiki.hands_management": "손 관리",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "ethgreen과 같은 지갑 정보 보기:",
   "ccm.ccm_title": "Coctohug 명령 관리자",
   "ccm.all_upup": "업그레이드한 다음 모든 블록체인 포크를 시작합니다.",
-  "ccm.sample_upup": "업그레이드한 다음 식물상과 같은 하나의 블록체인 포크를 시작하십시오."
+  "ccm.sample_upup": "업그레이드한 다음 식물상과 같은 하나의 블록체인 포크를 시작하십시오.",
+  "ccm.sample_migrate_db": "식물상과 같은 하나의 블록체인 포크 db를 마이그레이션합니다.",
+  "ccm.sample_migrate_wallet": "플로라와 같은 하나의 블록체인 포크 지갑 db를 마이그레이션합니다.",
+  "readme.structure": "Harevster 설정 다이어그램"
 }

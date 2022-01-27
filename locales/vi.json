@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Đây là từng nhân viên phân nhánh blockchain",
   "wiki.forks": "Blockchain Forks",
   "wiki.generate_new_key": "Trên màn hình khởi chạy WebUI, tạo khóa mới lần này",
-  "wiki.get_24_mnemonic_words": "Nhận 24 từ dễ nhớ bằng tập lệnh đầu cuối tương tự",
+  "wiki.get_24_mnemonic_words": "Nhận 24 từ dễ nhớ bằng tập lệnh đầu cuối tương tự (tất cả các nhánh blockchain phải chia sẻ cùng 24 từ dễ nhớ)",
   "wiki.go_each_folder": "Đi đến từng thư mục và thực thi tập lệnh",
   "wiki.go_to_site": "Đi đến trang web",
   "wiki.hands_management": "Quản lý tay",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Xem thông tin ví như ethgreen:",
   "ccm.ccm_title": "Trình quản lý lệnh Coctohug",
   "ccm.all_upup": "Nâng cấp sau đó bắt đầu tất cả các nhánh blockchain:",
-  "ccm.sample_upup": "Nâng cấp sau đó bắt đầu một nhánh blockchain chẳng hạn như hệ thực vật:"
+  "ccm.sample_upup": "Nâng cấp sau đó bắt đầu một nhánh blockchain chẳng hạn như hệ thực vật:",
+  "ccm.sample_migrate_db": "Di chuyển một db fork blockchain chẳng hạn như hệ thực vật:",
+  "ccm.sample_migrate_wallet": "Di chuyển một ví fork blockchain db chẳng hạn như hệ thực vật:",
+  "readme.structure": "Sơ đồ thiết lập Harevster"
 }

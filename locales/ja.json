@@ -49,7 +49,7 @@
   "wiki.fork_worker": "これは各ブロックチェーンフォークワーカーです",
   "wiki.forks": "ブロックチェーンフォーク",
   "wiki.generate_new_key": "WebUI起動画面で、今回は新しいキーを生成します",
-  "wiki.get_24_mnemonic_words": "同様のターミナルスクリプトで24のニーモニックワードを取得します",
+  "wiki.get_24_mnemonic_words": "同様のターミナルスクリプトで24のニーモニックワードを取得します（すべてのブロックチェーンフォークは同じ24のニーモニックワードを共有する必要があります）",
   "wiki.go_each_folder": "各フォルダに移動してスクリプトを実行します",
   "wiki.go_to_site": "サイトに移動",
   "wiki.hands_management": "手の管理",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "ethgreenなどのウォレット情報を表示します。",
   "ccm.ccm_title": "Coctohugコマンドマネージャー",
   "ccm.all_upup": "アップグレードしてから、すべてのブロックチェーンフォークを開始します。",
-  "ccm.sample_upup": "アップグレードしてから、フローラなどの1つのブロックチェーンフォークを開始します。"
+  "ccm.sample_upup": "アップグレードしてから、フローラなどの1つのブロックチェーンフォークを開始します。",
+  "ccm.sample_migrate_db": "植物相などの1つのブロックチェーンフォークデータベースを移行します。",
+  "ccm.sample_migrate_wallet": "植物相などの1つのブロックチェーンフォークウォレットデータベースを移行します。",
+  "readme.structure": "Harevsterセットアップ図"
 }

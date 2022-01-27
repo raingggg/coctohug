@@ -36,6 +36,8 @@
 - Actualice una bifurcación de blockchain como flora: <i>ccm upgrade flora</i>
 - Actualice y luego inicie una bifurcación de blockchain como flora: <i>ccm upup flora</i>
 - Desinstale una bifurcación de blockchain como flora: <i>ccm uninstall flora</i>
+- Migre una base de datos de una bifurcación de cadena de bloques, como flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migre una base de datos de billetera de bifurcación de cadena de bloques como flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

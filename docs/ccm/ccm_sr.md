@@ -36,6 +36,8 @@
 - Надоградите једну блоцкцхаин виљушку као што је флора: <i>ccm upgrade flora</i>
 - Надоградите, а затим покрените једну блокчејн виљушку као што је флора: <i>ccm upup flora</i>
 - Деинсталирајте једну блоцкцхаин виљушку као што је флора: <i>ccm uninstall flora</i>
+- Мигрирајте један блоцкцхаин форк дб као што је флора: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Пренесите један блоцкцхаин форк новчаник дб као што је флора: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

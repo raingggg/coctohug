@@ -49,7 +49,7 @@
   "wiki.fork_worker": "นี่คือคนงาน fork blockchain แต่ละคน",
   "wiki.forks": "Blockchain Forks",
   "wiki.generate_new_key": "บนหน้าจอเปิดใช้ WebUI ให้สร้างคีย์ใหม่ในครั้งนี้",
-  "wiki.get_24_mnemonic_words": "รับ 24 คำช่วยจำโดยใช้เทอร์มินัลสคริปต์ที่คล้ายกัน",
+  "wiki.get_24_mnemonic_words": "รับคำช่วยจำ 24 คำโดยสคริปต์เทอร์มินัลที่คล้ายกัน (ส้อมบล็อคเชนทั้งหมดควรมีคำศัพท์ช่วยจำเหมือนกัน 24 คำ)",
   "wiki.go_each_folder": "ไปที่แต่ละโฟลเดอร์และรันสคริปต์",
   "wiki.go_to_site": "ไปที่เว็บไซต์",
   "wiki.hands_management": "การจัดการมือ",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "ดูข้อมูลกระเป๋าเงินเช่น ethgreen:",
   "ccm.ccm_title": "ผู้จัดการคำสั่งค็อคโตฮัก",
   "ccm.all_upup": "อัปเกรดแล้วเริ่มส้อมบล็อคเชนทั้งหมด:",
-  "ccm.sample_upup": "อัปเกรดแล้วเริ่มส้อมบล็อกเชนหนึ่งอัน เช่น ฟลอรา:"
+  "ccm.sample_upup": "อัปเกรดแล้วเริ่มส้อมบล็อกเชนหนึ่งอัน เช่น ฟลอรา:",
+  "ccm.sample_migrate_db": "โยกย้ายหนึ่ง blockchain fork db เช่นฟลอรา:",
+  "ccm.sample_migrate_wallet": "โยกย้ายหนึ่งฐานข้อมูล blockchain fork wallet เช่นฟลอรา:",
+  "readme.structure": "Harevster ไดอะแกรมการตั้งค่า"
 }

@@ -36,6 +36,8 @@
 - 升级一个区块链分叉，例如 flora： <i>ccm upgrade flora</i>
 - 升级然后启动一个区块链分叉，例如flora： <i>ccm upup flora</i>
 - 卸载一个区块链分叉，例如 flora： <i>ccm uninstall flora</i>
+- 迁移一个区块链分叉数据库如flora： <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- 迁移一个区块链分叉钱包数据库如flora： <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

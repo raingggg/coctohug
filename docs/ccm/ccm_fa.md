@@ -36,6 +36,8 @@
 - یک فورک بلاک چین مانند فلورا را ارتقا دهید: <i>ccm upgrade flora</i>
 - ارتقا دهید و سپس یک فورک بلاک چین مانند فلورا را شروع کنید: <i>ccm upup flora</i>
 - یک فورک بلاک چین مانند فلورا را حذف نصب کنید: <i>ccm uninstall flora</i>
+- یک db فورک بلاک چین مانند فلورا را مهاجرت کنید: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- یک db کیف پول فورکی بلاک چین مانند فلورا را مهاجرت کنید: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

@@ -36,6 +36,8 @@
 - Надстройте една блокчейн вилка, като например флора: <i>ccm upgrade flora</i>
 - Надстройте след това стартирайте една блокчейн вилка, като например флора: <i>ccm upup flora</i>
 - Деинсталирайте една блокчейн вилка, като flora: <i>ccm uninstall flora</i>
+- Мигрирайте една blockchain fork db, като например флора: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Мигрирайте един блокчейн вилка портфейл db, като например флора: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Ito ang bawat manggagawa ng blockchain fork",
   "wiki.forks": "Blockchain Forks",
   "wiki.generate_new_key": "Sa screen ng paglulunsad ng WebUI, bumuo ng bagong key sa pagkakataong ito",
-  "wiki.get_24_mnemonic_words": "Kumuha ng 24 na mnemonic na salita sa pamamagitan ng katulad na terminal script",
+  "wiki.get_24_mnemonic_words": "Kumuha ng 24 na mnemonic na salita sa pamamagitan ng katulad na terminal script (lahat ng blockchain forks ay dapat magbahagi ng parehong 24 mnemonic na salita)",
   "wiki.go_each_folder": "Pumunta sa bawat folder at isagawa ang script",
   "wiki.go_to_site": "Pumunta sa site",
   "wiki.hands_management": "Pamamahala ng mga Kamay",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Tingnan ang impormasyon ng wallet gaya ng ethgreen:",
   "ccm.ccm_title": "Coctohug Command Manager",
   "ccm.all_upup": "Mag-upgrade pagkatapos simulan ang lahat ng blockchain forks:",
-  "ccm.sample_upup": "Mag-upgrade pagkatapos magsimula ng isang blockchain fork gaya ng flora:"
+  "ccm.sample_upup": "Mag-upgrade pagkatapos magsimula ng isang blockchain fork gaya ng flora:",
+  "ccm.sample_migrate_db": "Mag-migrate ng isang blockchain fork db gaya ng flora:",
+  "ccm.sample_migrate_wallet": "Mag-migrate ng isang blockchain fork wallet db gaya ng flora:",
+  "readme.structure": "Harevster Setup Diagram"
 }

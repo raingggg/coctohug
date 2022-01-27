@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Acesta este fiecare lucrători blockchain furk",
   "wiki.forks": "Blockchain Forks",
   "wiki.generate_new_key": "Pe ecranul de lansare WebUI, generați o cheie nouă de data aceasta",
-  "wiki.get_24_mnemonic_words": "Obțineți 24 de cuvinte mnemonice printr-un script terminal similar",
+  "wiki.get_24_mnemonic_words": "Obțineți 24 de cuvinte mnemonice printr-un script terminal similar (toate furcile blockchain ar trebui să aibă aceleași 24 de cuvinte mnemonice)",
   "wiki.go_each_folder": "Accesați fiecare folder și executați scriptul",
   "wiki.go_to_site": "Accesați site-ul",
   "wiki.hands_management": "Managementul mâinilor",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Vedeți informații despre portofel, cum ar fi ethgreen:",
   "ccm.ccm_title": "Manager de comandă Coctohug",
   "ccm.all_upup": "Faceți upgrade, apoi porniți toate forkurile blockchain:",
-  "ccm.sample_upup": "Faceți upgrade, apoi porniți un bloc blockchain, cum ar fi flora:"
+  "ccm.sample_upup": "Faceți upgrade, apoi porniți un bloc blockchain, cum ar fi flora:",
+  "ccm.sample_migrate_db": "Migrați un blockchain fork db, cum ar fi flora:",
+  "ccm.sample_migrate_wallet": "Migrați un portofel blockchain fork db, cum ar fi flora:",
+  "readme.structure": "Diagrama de configurare Harevster"
 }

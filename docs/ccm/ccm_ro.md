@@ -36,6 +36,8 @@
 - Actualizați o furcă blockchain, cum ar fi flora: <i>ccm upgrade flora</i>
 - Faceți upgrade, apoi porniți un bloc blockchain, cum ar fi flora: <i>ccm upup flora</i>
 - Dezinstalați o furcă blockchain, cum ar fi flora: <i>ccm uninstall flora</i>
+- Migrați un blockchain fork db, cum ar fi flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migrați un portofel blockchain fork db, cum ar fi flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

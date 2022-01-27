@@ -36,6 +36,8 @@
 - Обновите одну вилку блокчейна, такую ​​как флора: <i>ccm upgrade flora</i>
 - Обновите, затем запустите один форк блокчейна, такой как флора: <i>ccm upup flora</i>
 - Удалите одну вилку блокчейна, такую ​​как флора: <i>ccm uninstall flora</i>
+- Перенесите одну базу данных форка блокчейна, такую ​​как флора: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Перенесите одну базу данных кошелька форка блокчейна, такую ​​как флора: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

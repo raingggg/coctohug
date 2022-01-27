@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Bu, her bir blockchain çatal işçisi",
   "wiki.forks": "Blockchain Çatalları",
   "wiki.generate_new_key": "WebUI başlatma ekranında bu sefer yeni bir anahtar oluşturun",
-  "wiki.get_24_mnemonic_words": "Benzer terminal komut dosyasıyla 24 anımsatıcı kelime alın",
+  "wiki.get_24_mnemonic_words": "Benzer terminal komut dosyasıyla 24 anımsatıcı sözcük alın (tüm blok zinciri çatalları aynı 24 anımsatıcı sözcüğü paylaşmalıdır)",
   "wiki.go_each_folder": "Her klasöre gidin ve komut dosyasını yürütün",
   "wiki.go_to_site": "siteye git",
   "wiki.hands_management": "El Yönetimi",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "ethgreen gibi cüzdan bilgilerini görüntüleyin:",
   "ccm.ccm_title": "Coctohug Komuta Müdürü",
   "ccm.all_upup": "Yükselt ve ardından tüm blockchain çatallarını başlat:",
-  "ccm.sample_upup": "Yükseltme ve ardından flora gibi bir blok zinciri çatalı başlatın:"
+  "ccm.sample_upup": "Yükseltme ve ardından flora gibi bir blok zinciri çatalı başlatın:",
+  "ccm.sample_migrate_db": "Flora gibi bir blockchain çatal db'sini taşıyın:",
+  "ccm.sample_migrate_wallet": "Flora gibi bir blockchain çatal cüzdan db'sini taşıyın:",
+  "readme.structure": "Harevster Kurulum Şeması"
 }

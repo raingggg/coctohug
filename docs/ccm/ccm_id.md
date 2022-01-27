@@ -36,6 +36,8 @@
 - Tingkatkan satu garpu blockchain seperti flora: <i>ccm upgrade flora</i>
 - Tingkatkan lalu mulai satu garpu blockchain seperti flora: <i>ccm upup flora</i>
 - Copot satu garpu blockchain seperti flora: <i>ccm uninstall flora</i>
+- Migrasikan satu db garpu blockchain seperti flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migrasikan satu db dompet garpu blockchain seperti flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

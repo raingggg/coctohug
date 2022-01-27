@@ -36,6 +36,8 @@
 - อัปเกรดส้อมบล็อคเชนหนึ่งอัน เช่น ฟลอรา: <i>ccm upgrade flora</i>
 - อัปเกรดแล้วเริ่มส้อมบล็อกเชนหนึ่งอัน เช่น ฟลอรา: <i>ccm upup flora</i>
 - ถอนการติดตั้ง blockchain fork หนึ่งอัน เช่น ฟลอรา: <i>ccm uninstall flora</i>
+- โยกย้ายหนึ่ง blockchain fork db เช่นฟลอรา: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- โยกย้ายหนึ่งฐานข้อมูล blockchain fork wallet เช่นฟลอรา: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

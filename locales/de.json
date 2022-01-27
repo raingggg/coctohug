@@ -49,7 +49,7 @@
   "wiki.fork_worker": "Dies ist jeder Blockchain-Fork-Worker",
   "wiki.forks": "Blockchain-Forks",
   "wiki.generate_new_key": "Generieren Sie dieses Mal auf dem WebUI-Startbildschirm einen neuen Schlüssel",
-  "wiki.get_24_mnemonic_words": "Holen Sie sich 24 mnemonische Wörter durch ein ähnliches Terminalskript",
+  "wiki.get_24_mnemonic_words": "Erhalten Sie 24 mnemonische Wörter durch ein ähnliches Terminalskript (alle Blockchain-Forks sollten dieselben 24 mnemonischen Wörter teilen)",
   "wiki.go_each_folder": "Gehen Sie zu jedem Ordner und führen Sie das Skript aus",
   "wiki.go_to_site": "Zur Website gehen",
   "wiki.hands_management": "Handmanagement",
@@ -169,5 +169,8 @@
   "ccm.view_wallet": "Anzeigen von Wallet-Informationen wie Ethgreen:",
   "ccm.ccm_title": "Coctohug Command Manager",
   "ccm.all_upup": "Aktualisieren Sie dann alle Blockchain-Forks:",
-  "ccm.sample_upup": "Führen Sie ein Upgrade durch und starten Sie dann eine Blockchain-Fork wie Flora:"
+  "ccm.sample_upup": "Führen Sie ein Upgrade durch und starten Sie dann eine Blockchain-Fork wie Flora:",
+  "ccm.sample_migrate_db": "Migrieren Sie eine Blockchain-Fork-Datenbank wie Flora:",
+  "ccm.sample_migrate_wallet": "Migrieren Sie eine Blockchain-Fork-Wallet-Datenbank wie Flora:",
+  "readme.structure": "Harevster-Setup-Diagramm"
 }

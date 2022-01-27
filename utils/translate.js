@@ -43,8 +43,8 @@ const translateAll = async (startLocale) => {
 
 const retryTrans = async (val, options) => {
   let res = '';
-  for (let i = 0; i < 3; i++) {
-    if (res) break;
+  for (let i = 0; i < 10; i++) {
+    if (res && res.data && res.data.sentences) break;
 
     try {
       res = await translate(val, options);

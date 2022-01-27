@@ -36,6 +36,8 @@
 - 升級一個區塊鏈分叉，例如 flora： <i>ccm upgrade flora</i>
 - 升級然後啟動一個區塊鏈分叉，例如flora： <i>ccm upup flora</i>
 - 卸載一個區塊鏈分叉，例如 flora： <i>ccm uninstall flora</i>
+- 遷移一個區塊鏈分叉數據庫如flora： <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- 遷移一個區塊鏈分叉錢包數據庫如flora： <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

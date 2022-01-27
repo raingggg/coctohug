@@ -36,6 +36,8 @@
 - Оновіть один блокчейн-форк, наприклад flora: <i>ccm upgrade flora</i>
 - Оновіть, а потім запустіть один блокчейн-форк, наприклад flora: <i>ccm upup flora</i>
 - Видаліть один блокчейн-форк, наприклад flora: <i>ccm uninstall flora</i>
+- Перенесіть одну базу даних блокчейну fork, наприклад flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Перенесіть один блокчейн-форк гаманця db, наприклад flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

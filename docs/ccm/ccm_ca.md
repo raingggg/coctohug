@@ -36,6 +36,8 @@
 - Actualitzeu una bifurcació de cadena de blocs, com ara flora: <i>ccm upgrade flora</i>
 - Actualitzeu i inicieu una bifurcació de cadena de blocs, com ara flora: <i>ccm upup flora</i>
 - Desinstal·leu una bifurcació de cadena de blocs, com ara flora: <i>ccm uninstall flora</i>
+- Migreu una base de dades de la bifurcació de cadena de blocs, com ara flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migra una base de dades de cartera de forquilla de cadena de blocs, com ara flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

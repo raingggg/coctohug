@@ -36,6 +36,8 @@
 - 식물상과 같은 하나의 블록체인 포크 업그레이드: <i>ccm upgrade flora</i>
 - 업그레이드한 다음 식물상과 같은 하나의 블록체인 포크를 시작하십시오. <i>ccm upup flora</i>
 - 식물상과 같은 하나의 블록체인 포크를 제거합니다. <i>ccm uninstall flora</i>
+- 식물상과 같은 하나의 블록체인 포크 db를 마이그레이션합니다. <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- 플로라와 같은 하나의 블록체인 포크 지갑 db를 마이그레이션합니다. <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

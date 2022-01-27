@@ -36,6 +36,8 @@
 - Flora gibi bir blockchain çatalını yükseltin: <i>ccm upgrade flora</i>
 - Yükseltme ve ardından flora gibi bir blok zinciri çatalı başlatın: <i>ccm upup flora</i>
 - Flora gibi bir blockchain çatalını kaldırın: <i>ccm uninstall flora</i>
+- Flora gibi bir blockchain çatal db&#39;sini taşıyın: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Flora gibi bir blockchain çatal cüzdan db&#39;sini taşıyın: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

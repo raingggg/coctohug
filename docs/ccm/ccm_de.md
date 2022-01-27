@@ -36,6 +36,8 @@
 - Aktualisieren Sie eine Blockchain-Gabel wie Flora: <i>ccm upgrade flora</i>
 - Führen Sie ein Upgrade durch und starten Sie dann eine Blockchain-Fork wie Flora: <i>ccm upup flora</i>
 - Deinstallieren Sie eine Blockchain-Fork wie Flora: <i>ccm uninstall flora</i>
+- Migrieren Sie eine Blockchain-Fork-Datenbank wie Flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- Migrieren Sie eine Blockchain-Fork-Wallet-Datenbank wie Flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>

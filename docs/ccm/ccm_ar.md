@@ -36,6 +36,8 @@
 - قم بترقية مفترق blockchain واحد مثل flora: <i>ccm upgrade flora</i>
 - قم بالترقية ثم ابدأ شوكة واحدة من blockchain مثل flora: <i>ccm upup flora</i>
 - قم بإلغاء تثبيت مفترق blockchain واحد مثل flora: <i>ccm uninstall flora</i>
+- ترحيل شوكة واحدة من blockchain db مثل flora: <i>ccm migrate-db "flora,/home/username/.flora/mainnet/db"</i>
+- ترحيل واحد blockchain fork wallet db مثل flora: <i>ccm migrate-wallet "flora,/home/username/.flora/mainnet/wallet/db"</i>
 
 
 <p id="ccm-all">&nbsp;</p>
