@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.4.8] - 2022-01-28
+- standard wallet mode support
+
 ## [1.4.7] - 2022-01-22
 - correct littlelambocoin mojo unit
 
