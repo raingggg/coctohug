@@ -1,0 +1,13 @@
+{
+  "blockchain": "beet",
+  "binary": "/beet-blockchain/venv/bin/beet",
+  "mainnet": ".beet/mainnet",
+  "config": ".beet/mainnet/config/config.yaml",
+  "coldWalletName": "xbt_target_address",
+  "certificates": ".beet/mainnet/config/ssl/ca",
+  "chainlog": ".beet/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".beet/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".beet/cwd.log"
+}
