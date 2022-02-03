@@ -3,7 +3,7 @@
 #
 CODE_FOLDER=/beer-blockchain
 BINARY_NAME=beer
-CONFIG_PATH=.beer
+CONFIG_PATH=.beernetwork
 CHIA_FORK_FOLDER=beer
 CERT_NAME=beer
 

@@ -1,13 +1,13 @@
 {
   "blockchain": "beer",
   "binary": "/beer-blockchain/venv/bin/beer",
-  "mainnet": ".beer/mainnet",
-  "config": ".beer/mainnet/config/config.yaml",
+  "mainnet": ".beernetwork/mainnet",
+  "config": ".beernetwork/mainnet/config/config.yaml",
   "coldWalletName": "xbr_target_address",
-  "certificates": ".beer/mainnet/config/ssl/ca",
-  "chainlog": ".beer/mainnet/log/debug.log",
+  "certificates": ".beernetwork/mainnet/config/ssl/ca",
+  "chainlog": ".beernetwork/mainnet/log/debug.log",
   "webLogLevel": "error",
-  "webLogFile": ".beer/web.log",
+  "webLogFile": ".beernetwork/web.log",
   "watchDogLogLevel": "error",
-  "watchDogLogFile": ".beer/cwd.log"
+  "watchDogLogFile": ".beernetwork/cwd.log"
 }
