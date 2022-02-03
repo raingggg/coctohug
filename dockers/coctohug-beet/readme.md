@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=v2.2.0 -t coctohug-beet:latest .
-- sudo docker build --build-arg CODE_BRANCH=v2.2.0 -t coctohug-beet:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v2.1.3 -t coctohug-beet:latest .
+- sudo docker build --build-arg CODE_BRANCH=v2.1.3 -t coctohug-beet:latest .
 
 # docker-compose
 - coctohug-beet: 
