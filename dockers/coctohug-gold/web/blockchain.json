@@ -1,0 +1,13 @@
+{
+  "blockchain": "gold",
+  "binary": "/gold-blockchain/venv/bin/gold",
+  "mainnet": ".gold/mainnet",
+  "config": ".gold/mainnet/config/config.yaml",
+  "coldWalletName": "gl_target_address",
+  "certificates": ".gold/mainnet/config/ssl/ca",
+  "chainlog": ".gold/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".gold/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".gold/cwd.log"
+}
