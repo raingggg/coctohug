@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.0] - 2022-02-09
+- table veiw improvement for columns: version, #plots, blocksToday, ETW
+- ccm improvement for: restart, silicoin
+- peers_count improvement for all forks
+
 ## [1.4.9] - 2022-02-03
 - correct rose mojo unit
 - support 2 new forks: beet, beer
