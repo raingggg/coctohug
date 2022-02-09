@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.2] - 2022-02-09
+- new fork support: gold
+
 ## [1.5.1] - 2022-02-09
 - new fork support: bpx
 
