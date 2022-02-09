@@ -1,0 +1,13 @@
+{
+  "blockchain": "bpx",
+  "binary": "/bpx-blockchain/venv/bin/bpx",
+  "mainnet": ".bpx/mainnet",
+  "config": ".bpx/mainnet/config/config.yaml",
+  "coldWalletName": "bpx_target_address",
+  "certificates": ".bpx/mainnet/config/ssl/ca",
+  "chainlog": ".bpx/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".bpx/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".bpx/cwd.log"
+}

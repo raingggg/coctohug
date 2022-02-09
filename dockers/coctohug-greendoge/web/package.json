@@ -9,6 +9,6 @@
   "author": "raingggg",
   "license": "MIT",
   "dependencies": {
-    "coctohug-web": "1.5.0"
+    "coctohug-web": "1.5.1"
   }
 }

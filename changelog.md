@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.1] - 2022-02-09
+- new fork support: bpx
+
 ## [1.5.0] - 2022-02-09
 - table veiw improvement for columns: version, #plots, blocksToday, ETW
 - ccm improvement for: restart, silicoin
