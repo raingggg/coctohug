@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.2] - 2022-02-12
+- update bpx fork to latest 1.0.1
+
 ## [1.5.2] - 2022-02-09
 - new fork support: gold
 
