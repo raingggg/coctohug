@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.4] - 2022-02-14
+- add logos, tokenname, sorting to balance tab
+- add logos, tokenname, sorting to recieved coins tab
+- add logos to summary chart
+
 ## [1.5.3] - 2022-02-14
 - add logos for all forks
 
