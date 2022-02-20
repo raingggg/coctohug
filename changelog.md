@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.5] - 2022-02-20
+- add logos, tokenname, sorting to all tabs
+- add isValidETW to show forks out of expectation with red font
+- move best practices from summary chart to a new tab
+
 ## [1.5.4] - 2022-02-14
 - add logos, tokenname, sorting to balance tab
 - add logos, tokenname, sorting to recieved coins tab
