@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.6] - 2022-02-22
+- fix forks price issue by using new API
+
 ## [1.5.5] - 2022-02-20
 - add logos, tokenname, sorting to all tabs
 - add isValidETW to show forks out of expectation with red font
