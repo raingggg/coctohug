@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.7] - 2022-02-27
+- more forks have a price now by merging alltheblocks.net and posat.io pricing information
+
 ## [1.5.6] - 2022-02-22
 - fix forks price issue by using new API
 
