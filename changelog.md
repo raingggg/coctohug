@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.8] - 2022-02-27
+- go to alltheblocks.net when clicking on fork icon for table view
+
 ## [1.5.7] - 2022-02-27
 - more forks have a price now by merging alltheblocks.net and posat.io pricing information
 
