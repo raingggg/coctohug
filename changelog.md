@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.5.8] - 2022-02-27
+## [1.5.8] - 2022-02-28
+- update silicoin to latest v1.2.2
+  
+## [1.5.8] - 2022-02-28
 - go to alltheblocks.net when clicking on fork icon for table view
 
 ## [1.5.7] - 2022-02-27

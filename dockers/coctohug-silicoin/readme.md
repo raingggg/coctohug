@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.2.0 -t coctohug-silicoin:latest .
-- sudo docker build --build-arg CODE_BRANCH=v1.2.0 -t coctohug-silicoin:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.2.2 -t coctohug-silicoin:latest .
+- sudo docker build --build-arg CODE_BRANCH=v1.2.2 -t coctohug-silicoin:latest .
 
 # docker-compose
 - coctohug-silicoin: 

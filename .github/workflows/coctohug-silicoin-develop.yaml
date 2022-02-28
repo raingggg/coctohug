@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=v1.2.0"
+            "CODE_BRANCH=v1.2.2"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-silicoin:develop
