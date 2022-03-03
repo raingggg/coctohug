@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.0] - 2022-03-03
+- improve warning menu apperance
+
 ## [1.5.9] - 2022-03-01
 - Error with red colors; Syncing with yellow colors
 - "Daily Report" and "Weekly Report" a. remove message column b. add instead Amount column and Token name collumn
