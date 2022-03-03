@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.9] - 2022-03-01
+- Error with red colors; Syncing with yellow colors
+- "Daily Report" and "Weekly Report" a. remove message column b. add instead Amount column and Token name collumn
+- add possibility to change config files via gui
+- add comments for update duration
+
 ## [1.5.8] - 2022-02-28
 - update silicoin to latest v1.2.2
   
