@@ -1,9 +1,12 @@
 # Changelog
 
+## [1.6.1] - 2022-03-03
+- translation improvement for config.yaml page
+
 ## [1.6.0] - 2022-03-03
 - improve warning menu apperance
 
-## [1.5.9] - 2022-03-01
+## [1.5.9] - 2022-03-03
 - Error with red colors; Syncing with yellow colors
 - "Daily Report" and "Weekly Report" a. remove message column b. add instead Amount column and Token name collumn
 - add possibility to change config files via gui
