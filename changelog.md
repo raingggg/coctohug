@@ -1,26 +1,30 @@
 # Changelog
 
+## [1.6.2] - 2022-03-12
+- chia wallet balance does not include CAT
+- add useful site links to Best Practice menu
+
 ## [1.6.1] - 2022-03-12
-- bpx upgrade to version: 1.1.0
-- btcgreen upgrade to version: 1.3.0
-- cactus upgrade to version: v1.2.11
-- chaingreen upgrade to version: 2.1.0
-- chia upgrade to version: 1.3.0
-- ethgreen upgrade to version: 0.2.0
-- flax upgrade to version: 0.1.6
-- gold upgrade to version: v1.0.7
-- goldcoin upgrade to version: 1.3.0
-- hddcoin upgrade to version: 2.0.2
-- littlelambocoin upgrade to version: 1.2.11-1
-- mint upgrade to version: v0.2.11
-- pipscoin upgrade to version: 1.2.1
-- shibgreen upgrade to version: 1.3.0
-- skynet upgrade to version: 1.0.1
-- staicoin upgrade to version: 1.1.3
-- taco upgrade to version: 1.3.0
-- tad upgrade to version: 1.1.0
-- tranzact upgrade to version: v1.0.4
-- wheat upgrade to version: 1.3.0
+- bpx upgrades to version: 1.1.0
+- btcgreen upgrades to version: 1.3.0
+- cactus upgrades to version: v1.2.11
+- chaingreen upgrades to version: 2.1.0
+- chia upgrades to version: 1.3.0
+- ethgreen upgrades to version: 0.2.0
+- flax upgrades to version: 0.1.6
+- gold upgrades to version: v1.0.7
+- goldcoin upgrades to version: 1.3.0
+- hddcoin upgrades to version: 2.0.2
+- littlelambocoin upgrades to version: 1.2.11-1
+- mint upgrades to version: v0.2.11
+- pipscoin upgrades to version: 1.2.1
+- shibgreen upgrades to version: 1.3.0
+- skynet upgrades to version: 1.0.1
+- staicoin upgrades to version: 1.1.3
+- taco upgrades to version: 1.3.0
+- tad upgrades to version: 1.1.0
+- tranzact upgrades to version: v1.0.4
+- wheat upgrades to version: 1.3.0
 
 
 ## [1.6.1] - 2022-03-03
