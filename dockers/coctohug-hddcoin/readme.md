@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=2.0.0 -t coctohug-hddcoin:latest .
-- sudo docker build --build-arg CODE_BRANCH=2.0.0 -t coctohug-hddcoin:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=2.0.2 -t coctohug-hddcoin:latest .
+- sudo docker build --build-arg CODE_BRANCH=2.0.2 -t coctohug-hddcoin:latest .
 
 # docker-compose
 - coctohug-hddcoin: 

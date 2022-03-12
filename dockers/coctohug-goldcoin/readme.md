@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.2.6 -t coctohug-goldcoin:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.2.6 -t coctohug-goldcoin:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.3.0 -t coctohug-goldcoin:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.3.0 -t coctohug-goldcoin:latest .
 
 # docker-compose
 - coctohug-goldcoin: 

@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=6993b108cbe15cd300be4e9830323c8083365b06 -t coctohug-gold:latest .
-- sudo docker build --build-arg CODE_BRANCH=6993b108cbe15cd300be4e9830323c8083365b06 -t coctohug-gold:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.0.7 -t coctohug-gold:latest .
+- sudo docker build --build-arg CODE_BRANCH=v1.0.7 -t coctohug-gold:latest .
 
 # docker-compose
 - coctohug-gold: 

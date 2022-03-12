@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=littlelambocoin -t coctohug-littlelambocoin:latest .
-- sudo docker build --build-arg CODE_BRANCH=littlelambocoin -t coctohug-littlelambocoin:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.2.11-1 -t coctohug-littlelambocoin:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.2.11-1 -t coctohug-littlelambocoin:latest .
 
 # docker-compose
 - coctohug-littlelambocoin: 

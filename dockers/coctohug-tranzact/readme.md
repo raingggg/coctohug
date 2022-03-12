@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.0.2 -t coctohug-tranzact:latest .
-- sudo docker build --build-arg CODE_BRANCH=v1.0.2 -t coctohug-tranzact:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.0.4 -t coctohug-tranzact:latest .
+- sudo docker build --build-arg CODE_BRANCH=v1.0.4 -t coctohug-tranzact:latest .
 
 # notes
 - v1.0.3 has issue, so use v.1.0.2

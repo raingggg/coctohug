@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=v1.0.2"
+            "CODE_BRANCH=v1.0.4"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-tranzact:develop

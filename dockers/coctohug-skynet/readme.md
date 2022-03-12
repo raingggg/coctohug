@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.0.0 -t coctohug-skynet:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.0.0 -t coctohug-skynet:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.0.1 -t coctohug-skynet:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.0.1 -t coctohug-skynet:latest .
 
 # docker-compose
 - coctohug-skynet: 

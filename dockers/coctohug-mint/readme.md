@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=v0.1.0 -t coctohug-mint:latest .
-- sudo docker build --build-arg CODE_BRANCH=v0.1.0 -t coctohug-mint:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v0.2.11 -t coctohug-mint:latest .
+- sudo docker build --build-arg CODE_BRANCH=v0.2.11 -t coctohug-mint:latest .
 
 # docker-compose
 - coctohug-mint: 

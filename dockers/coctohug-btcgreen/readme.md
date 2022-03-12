@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=2.2.61 -t coctohug-btcgreen:latest .
-- sudo docker build --build-arg CODE_BRANCH=2.2.61 -t coctohug-btcgreen:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.3.0 -t coctohug-btcgreen:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.3.0 -t coctohug-btcgreen:latest .
 
 # docker-compose
 - coctohug-btcgreen: 

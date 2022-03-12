@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.2.1 -t coctohug-cactus:latest .
-- sudo docker build --build-arg CODE_BRANCH=v1.2.1 -t coctohug-cactus:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=v1.2.11 -t coctohug-cactus:latest .
+- sudo docker build --build-arg CODE_BRANCH=v1.2.11 -t coctohug-cactus:latest .
 
 # docker-compose
 - coctohug-cactus: 

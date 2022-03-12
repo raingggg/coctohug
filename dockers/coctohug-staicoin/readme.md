@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.0.3 -t coctohug-staicoin:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.0.3 -t coctohug-staicoin:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.1.3 -t coctohug-staicoin:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.1.3 -t coctohug-staicoin:latest .
 
 # docker-compose
 - coctohug-staicoin: 

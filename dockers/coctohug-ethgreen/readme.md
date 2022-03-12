@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=0.1.0 -t coctohug-ethgreen:latest .
-- sudo docker build --build-arg CODE_BRANCH=0.1.0 -t coctohug-ethgreen:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=0.2.0 -t coctohug-ethgreen:latest .
+- sudo docker build --build-arg CODE_BRANCH=0.2.0 -t coctohug-ethgreen:latest .
 
 # docker-compose
 - coctohug-ethgreen: 

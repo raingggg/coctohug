@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.2.12 -t coctohug-shibgreen:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.2.12 -t coctohug-shibgreen:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.3.0 -t coctohug-shibgreen:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.3.0 -t coctohug-shibgreen:latest .
 
 # docker-compose
 - coctohug-shibgreen: 
