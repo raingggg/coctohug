@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.5] - 2022-03-13
+- correct farming detail issue
+
 ## [1.6.4] - 2022-03-13
 - correct farming menu page
 
