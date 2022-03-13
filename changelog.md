@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.6.3] - 2022-03-13
+- Add Farming Page for showing raw farming detail, including the staking amount
+- new fork support: joker
+
 ## [1.6.2] - 2022-03-12
 - chia wallet balance does not include CAT
 - add useful site links to Best Practice menu
