@@ -1,0 +1,13 @@
+{
+  "blockchain": "joker",
+  "binary": "/joker-blockchain/venv/bin/joker",
+  "mainnet": ".joker/mainnet",
+  "config": ".joker/mainnet/config/config.yaml",
+  "coldWalletName": "xjk_target_address",
+  "certificates": ".joker/mainnet/config/ssl/ca",
+  "chainlog": ".joker/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".joker/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".joker/cwd.log"
+}
