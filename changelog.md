@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.4] - 2022-03-13
+- correct farming menu page
+
 ## [1.6.3] - 2022-03-13
 - Add Farming Page for showing raw farming detail, including the staking amount
 - new fork support: joker
