@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.6] - 2022-03-15
+- new fork support: profit
+
 ## [1.6.5] - 2022-03-13
 - correct farming detail issue
 
