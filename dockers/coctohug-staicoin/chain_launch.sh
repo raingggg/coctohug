@@ -2,10 +2,10 @@
 #
 #
 CODE_FOLDER=/staicoin-blockchain
-BINARY_NAME=staicoin
-CONFIG_PATH=.staicoin
-CHIA_FORK_FOLDER=staicoin
-CERT_NAME=staicoin
+BINARY_NAME=stai
+CONFIG_PATH=.stai
+CHIA_FORK_FOLDER=stai
+CERT_NAME=stai
 
 cd ${CODE_FOLDER}
 

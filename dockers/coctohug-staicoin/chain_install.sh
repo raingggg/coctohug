@@ -2,7 +2,7 @@
 CODE_BRANCH=$1
 CODE_URL=https://github.com/STATION-I/staicoin-blockchain.git
 CODE_FOLDER="/staicoin-blockchain"
-BINARY_NAME="staicoin"
+BINARY_NAME="stai"
 
 if [ -z ${CODE_BRANCH} ]; then
 	echo 'Skipping ${BINARY_NAME} install as not requested.'
