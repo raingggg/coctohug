@@ -3,7 +3,7 @@
   "binary": "/profit-blockchain/venv/bin/profit",
   "mainnet": ".profit/mainnet",
   "config": ".profit/mainnet/config/config.yaml",
-  "coldWalletName": "profit_target_address",
+  "coldWalletName": "_target_address",
   "certificates": ".profit/mainnet/config/ssl/ca",
   "chainlog": ".profit/mainnet/log/debug.log",
   "webLogLevel": "error",

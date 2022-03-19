@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.7] - 2022-03-19
+- update chia to latest 1.3.1
+- add icons for joker and profit
+- add filter to all tables
+- restart fork after editing the config.yaml
+- update profit: target address, monthly usd for app, staking formulation
+- add donation address
+- add more useful links to 'Best Practice' menu
+
 ## [1.6.6] - 2022-03-15
 - new fork support: profit
 
