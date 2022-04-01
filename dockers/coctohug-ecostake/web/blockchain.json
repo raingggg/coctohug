@@ -1,0 +1,13 @@
+{
+  "blockchain": "ecostake",
+  "binary": "/ecostake-blockchain/venv/bin/ecostake",
+  "mainnet": ".ecostake/mainnet",
+  "config": ".ecostake/mainnet/config/config.yaml",
+  "coldWalletName": "eco_target_address",
+  "certificates": ".ecostake/mainnet/config/ssl/ca",
+  "chainlog": ".ecostake/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".ecostake/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".ecostake/cwd.log"
+}
