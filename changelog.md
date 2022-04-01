@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.8] - 2022-04-01
+- new fork support: ecostake
+
 ## [1.6.7] - 2022-03-19
 - update chia to latest 1.3.1
 - add icons for joker and profit
