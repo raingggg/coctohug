@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=0.1.6 -t coctohug-flax:latest .
-- sudo docker build --build-arg CODE_BRANCH=0.1.6 -t coctohug-flax:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=0.1.7 -t coctohug-flax:latest .
+- sudo docker build --build-arg CODE_BRANCH=0.1.7 -t coctohug-flax:latest .
 
 # docker-compose
 - coctohug-flax: 
