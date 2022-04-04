@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.6.9] - 2022-04-04
+- new fork support: petroleum
+
 ## [1.6.8] - 2022-04-01
 - new fork support: ecostake
 
