@@ -1,0 +1,13 @@
+{
+  "blockchain": "petroleum",
+  "binary": "/petroleum-blockchain/venv/bin/petroleum",
+  "mainnet": ".petroleum/mainnet",
+  "config": ".petroleum/mainnet/config/config.yaml",
+  "coldWalletName": "xpt_target_address",
+  "certificates": ".petroleum/mainnet/config/ssl/ca",
+  "chainlog": ".petroleum/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".petroleum/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".petroleum/cwd.log"
+}

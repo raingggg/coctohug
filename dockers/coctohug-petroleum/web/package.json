@@ -1,0 +1,14 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start -a index.js"
+  },
+  "author": "raingggg",
+  "license": "MIT",
+  "dependencies": {
+    "coctohug-web": "1.6.9"
+  }
+}
