@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.7.0] - 2022-04-05
+- fix chives mojo unit
+
 ## [1.6.9] - 2022-04-04
 - new fork support: petroleum
 
