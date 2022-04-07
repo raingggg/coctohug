@@ -15,6 +15,8 @@ cd ${CODE_FOLDER}
 mkdir -p /root/.chia/${CHIA_FORK_FOLDER}
 rm -f /root/${CONFIG_PATH}
 ln -s /root/.chia/${CHIA_FORK_FOLDER} /root/${CONFIG_PATH} 
+mkdir -p /root/${CONFIG_PATH}/vanillanet
+ln -s /root/${CONFIG_PATH}/vanillanet /root/${CONFIG_PATH}/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
 ${BINARY_NAME} init >> /root/${CONFIG_PATH}/mainnet/log/init.log 2>&1 
