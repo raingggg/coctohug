@@ -1,0 +1,13 @@
+{
+  "blockchain": "chinilla",
+  "binary": "/chinilla-blockchain/venv/bin/chinilla",
+  "mainnet": ".chinilla/mainnet",
+  "config": ".chinilla/mainnet/config/config.yaml",
+  "coldWalletName": "hcx_target_address",
+  "certificates": ".chinilla/mainnet/config/ssl/ca",
+  "chainlog": ".chinilla/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".chinilla/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".chinilla/cwd.log"
+}
