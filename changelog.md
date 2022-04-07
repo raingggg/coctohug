@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.7.1] - 2022-04-07
+- new fork support: chinilla
+- Estimated effective network space for petroleum
+
 ## [1.7.0] - 2022-04-05
 - fix chives mojo unit
 
