@@ -13,7 +13,7 @@ cd ${CODE_FOLDER}
 
 # Only the /root/.chia folder is volume-mounted so store fork within
 mkdir -p /root/.chinilla
-ln -s /root/.chia/chinilla /root/.chinilla
+ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
 mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
