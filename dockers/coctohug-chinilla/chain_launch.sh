@@ -12,10 +12,9 @@ cd ${CODE_FOLDER}
 . ./activate
 
 # Only the /root/.chia folder is volume-mounted so store fork within
-mkdir -p /root/.chia/${CHIA_FORK_FOLDER}
-rm -f /root/${CONFIG_PATH}
-ln -s /root/.chia/${CHIA_FORK_FOLDER}/vanillanet /root/${CONFIG_PATH} 
-mv /root/${CONFIG_PATH}/vanillanet /root/${CONFIG_PATH}/mainnet
+mkdir -p /root/.chinilla
+ln -s /root/.chia/chinilla /root/.chinilla
+mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
 ${BINARY_NAME} init >> /root/${CONFIG_PATH}/mainnet/log/init.log 2>&1 
