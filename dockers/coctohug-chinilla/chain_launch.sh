@@ -14,8 +14,7 @@ cd ${CODE_FOLDER}
 # Only the /root/.chia folder is volume-mounted so store fork within
 mkdir -p /root/.chia/${CHIA_FORK_FOLDER}
 rm -f /root/${CONFIG_PATH}
-ln -s /root/.chia/${CHIA_FORK_FOLDER} /root/${CONFIG_PATH} 
-mkdir -p /root/${CONFIG_PATH}/vanillanet
+ln -s /root/.chia/${CHIA_FORK_FOLDER}/vanillanet /root/${CONFIG_PATH} 
 mv /root/${CONFIG_PATH}/vanillanet /root/${CONFIG_PATH}/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
