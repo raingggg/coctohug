@@ -17,6 +17,7 @@ ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
 mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
+mkdir -p /root/.chia/chinilla/vanillanet/log
 ${BINARY_NAME} init >> /root/.chia/${CONFIG_PATH}/vanillanet/log/init.log 2>&1 
 
 echo "Configuring ${BINARY_NAME}..."
