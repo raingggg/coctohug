@@ -17,7 +17,7 @@ ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
 mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
 
 mkdir -p /root/${CONFIG_PATH}/mainnet/log
-${BINARY_NAME} init >> /root/${CONFIG_PATH}/mainnet/log/init.log 2>&1 
+${BINARY_NAME} init >> /root/.chia/${CONFIG_PATH}/vanillanet/log/init.log 2>&1 
 
 echo "Configuring ${BINARY_NAME}..."
 while [ ! -f /root/${CONFIG_PATH}/mainnet/config/config.yaml ]; do
