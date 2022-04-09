@@ -24,6 +24,7 @@ while [ ! -f /root/${CONFIG_PATH}/mainnet/config/config.yaml ]; do
   echo "Waiting for creation of /root/${CONFIG_PATH}/mainnet/config/config.yaml..."
   sleep 1
 done
+sed -i 's/self_hostname: localhost/self_hostname: 127.0.0.1/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 sed -i 's/log_stdout: true/log_stdout: false/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 sed -i 's/log_level: WARNING/log_level: INFO/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 
