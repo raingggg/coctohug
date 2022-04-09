@@ -17,17 +17,16 @@ ${BINARY_NAME} init >> /root/.chia/chinilla/vanillanet/log/init.log 2>&1
 
 mkdir -p /root/.chinilla
 ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
-mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
 
 echo "Configuring ${BINARY_NAME}..."
-while [ ! -f /root/${CONFIG_PATH}/mainnet/config/config.yaml ]; do
-  echo "Waiting for creation of /root/${CONFIG_PATH}/mainnet/config/config.yaml..."
+while [ ! -f /root/${CONFIG_PATH}/vanillanet/config/config.yaml ]; do
+  echo "Waiting for creation of /root/${CONFIG_PATH}/vanillanet/config/config.yaml..."
   sleep 1
 done
 
-sed -i 's/localhost/127.0.0.1/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
-sed -i 's/log_stdout: true/log_stdout: false/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
-sed -i 's/log_level: WARNING/log_level: INFO/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
+sed -i 's/localhost/127.0.0.1/g' /root/${CONFIG_PATH}/vanillanet/config/config.yaml
+sed -i 's/log_stdout: true/log_stdout: false/g' /root/${CONFIG_PATH}/vanillanet/config/config.yaml
+sed -i 's/log_level: WARNING/log_level: INFO/g' /root/${CONFIG_PATH}/vanillanet/config/config.yaml
 
 # Loop over provided list of key paths
 for k in ${keys//:/ }; do
@@ -44,22 +43,22 @@ for p in ${plots_dir//:/ }; do
   ${BINARY_NAME} plots add -d ${p}
 done
 
-sed -i 's/localhost/127.0.0.1/g' ~/${CONFIG_PATH}/mainnet/config/config.yaml
-sed -i "s/target_outbound_peer_count: .*/target_outbound_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/mainnet/config/config.yaml
-sed -i "s/target_peer_count: .*/target_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/mainnet/config/config.yaml
+sed -i 's/localhost/127.0.0.1/g' ~/${CONFIG_PATH}/vanillanet/config/config.yaml
+sed -i "s/target_outbound_peer_count: .*/target_outbound_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/vanillanet/config/config.yaml
+sed -i "s/target_peer_count: .*/target_peer_count: ${MAX_PEER_COUNT}/g" ~/${CONFIG_PATH}/vanillanet/config/config.yaml
 
-chmod 755 -R /root/${CONFIG_PATH}/mainnet/config/ssl/ &> /dev/null
+chmod 755 -R /root/${CONFIG_PATH}/vanillanet/config/ssl/ &> /dev/null
 ${BINARY_NAME} init --fix-ssl-permissions > /dev/null 
 
 # Start services based on mode selected. Default is 'fullnode'
 if [[ ${mode} == 'fullnode' ]]; then
-  if [ ! -f ~/${CONFIG_PATH}/mainnet/config/ssl/wallet/public_wallet.key ]; then
+  if [ ! -f ~/${CONFIG_PATH}/vanillanet/config/ssl/wallet/public_wallet.key ]; then
     echo "No wallet key found, so not starting farming services.  Please add your mnemonic.txt to /root/.chia and restart."
   else
     ${BINARY_NAME} start farmer
   fi
 elif [[ ${mode} =~ ^farmer.* ]]; then
-  if [ ! -f ~/${CONFIG_PATH}/mainnet/config/ssl/wallet/public_wallet.key ]; then
+  if [ ! -f ~/${CONFIG_PATH}/vanillanet/config/ssl/wallet/public_wallet.key ]; then
     echo "No wallet key found, so not starting farming services.  Please add your mnemonic.txt to /root/.chia and restart."
   else
     ${BINARY_NAME} start farmer-no-wallet
@@ -80,8 +79,8 @@ elif [[ ${mode} =~ ^harvester.* ]]; then
       rm -f /tmp/certs.zip 
     fi
     if [ -f /root/${CONFIG_PATH}/farmer_ca/${CERT_NAME}_ca.crt ]; then
-      ${BINARY_NAME} init -c /root/${CONFIG_PATH}/farmer_ca 2>&1 > /root/${CONFIG_PATH}/mainnet/log/init.log
-      chmod 755 -R /root/${CONFIG_PATH}/mainnet/config/ssl/ &> /dev/null
+      ${BINARY_NAME} init -c /root/${CONFIG_PATH}/farmer_ca 2>&1 > /root/${CONFIG_PATH}/vanillanet/log/init.log
+      chmod 755 -R /root/${CONFIG_PATH}/vanillanet/config/ssl/ &> /dev/null
       ${BINARY_NAME} init --fix-ssl-permissions > /dev/null 
     else
       echo "Did not find your farmer's certificates within /root/${CONFIG_PATH}/farmer_ca."
