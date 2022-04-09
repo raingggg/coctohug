@@ -15,7 +15,6 @@ cd ${CODE_FOLDER}
 mkdir -p /root/.chia/chinilla/vanillanet/log
 ${BINARY_NAME} init >> /root/.chia/chinilla/vanillanet/log/init.log 2>&1 
 
-rm -fr /root/.chinilla
 mkdir -p /root/.chinilla
 ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
 mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
