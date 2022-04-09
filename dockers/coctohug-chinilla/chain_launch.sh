@@ -15,6 +15,7 @@ cd ${CODE_FOLDER}
 mkdir -p /root/.chia/chinilla/vanillanet/log
 ${BINARY_NAME} init >> /root/.chia/chinilla/vanillanet/log/init.log 2>&1 
 
+rm -fr /root/.chinilla
 mkdir -p /root/.chinilla
 ln -s /root/.chia/chinilla/vanillanet /root/.chinilla
 mv /root/.chinilla/vanillanet /root/.chinilla/mainnet
@@ -24,7 +25,8 @@ while [ ! -f /root/${CONFIG_PATH}/mainnet/config/config.yaml ]; do
   echo "Waiting for creation of /root/${CONFIG_PATH}/mainnet/config/config.yaml..."
   sleep 1
 done
-sed -i 's/self_hostname: localhost/self_hostname: 127.0.0.1/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
+
+sed -i 's/localhost/127.0.0.1/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 sed -i 's/log_stdout: true/log_stdout: false/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 sed -i 's/log_level: WARNING/log_level: INFO/g' /root/${CONFIG_PATH}/mainnet/config/config.yaml
 
