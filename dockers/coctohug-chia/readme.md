@@ -3,8 +3,8 @@
 - log parser
 
 # build
-- sudo docker build --no-cache --build-arg CODE_BRANCH=1.3.2 -t coctohug-chia:latest .
-- sudo docker build --build-arg CODE_BRANCH=1.3.2 -t coctohug-chia:latest .
+- sudo docker build --no-cache --build-arg CODE_BRANCH=1.3.3 -t coctohug-chia:latest .
+- sudo docker build --build-arg CODE_BRANCH=1.3.3 -t coctohug-chia:latest .
 
 # docker-compose
 - coctohug-chia: 
