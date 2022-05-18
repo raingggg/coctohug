@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=1.1.0"
+            "CODE_BRANCH=1.2.0"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-bpx:develop
