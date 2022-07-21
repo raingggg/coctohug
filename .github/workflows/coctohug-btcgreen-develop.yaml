@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=1.3.0"
+            "CODE_BRANCH=1.3.1"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-btcgreen:develop

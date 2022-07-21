@@ -8,7 +8,6 @@ if [ -z ${CODE_BRANCH} ]; then
 	echo 'Skipping ${BINARY_NAME} install as not requested.'
 else
 	rm -rf /root/.cache
-	# git clone --branch ${CODE_BRANCH} --single-branch ${CODE_URL} ${CODE_FOLDER} \
 		git clone ${CODE_URL} ${CODE_FOLDER} \
 		&& cd ${CODE_FOLDER} \
 	  && git checkout ${CODE_BRANCH} \

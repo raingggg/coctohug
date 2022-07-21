@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.7.3.1] - 2022-07-21
+- update apple to latest 1.3.0
+- update btcgreen to latest 1.3.1
+- update cactus to latest 1.4.0
+- update chia to latest 1.4.0
+- update chinilla to latest 1.1.0
+- update chives to latest 1.3.5
+- update covid to latest 1.3.1
+- update cryptodoge to latest 1.3.4
+- update flax to latest 0.1.9
+- update joker to latest 1.0.2
+- update littlelambocoin to latest 1.4.0
+- update petroleum to latest 1.0.15
+- update pipscoin to latest 1.3.1
+- update shibgreen to latest 1.3.1
+- update taco to latest 1.4.0
+- update wheat to latest 1.4.1
+
 
 ## [1.7.3] - 2022-04-27
 - update chia to latest 1.3.4

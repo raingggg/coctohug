@@ -35,6 +35,6 @@ jobs:
           platforms: linux/amd64
           push: true
           build-args: |
-            "CODE_BRANCH=0.1.7"
+            "CODE_BRANCH=0.1.9"
           tags: |
             ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-flax:develop
