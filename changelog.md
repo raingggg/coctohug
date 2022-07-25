@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.7.3.2] - 2022-07-25
+- update cactus to latest 1.4.1
+
 ## [1.7.3.1] - 2022-07-21
 - update apple to latest 1.3.0
 - update btcgreen to latest 1.3.1
