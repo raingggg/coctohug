@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.7.3.3] - 2022-08-01
+- update bpx to latest 2.0.0
+
 ## [1.7.3.2] - 2022-07-25
 - update cactus to latest 1.4.1
 
