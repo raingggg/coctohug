@@ -13,6 +13,8 @@ else
 	  && git checkout ${CODE_BRANCH} \
 		&& git submodule update --init mozilla-ca \
 		&& chmod +x install.sh \
+    && sed -i -e 's/^        self.log.debug($/        self.log.info(/g' chia/wallet/wallet_state_manager.py
+    && sed -i 's/packaging==21.0/packaging==21.3/g' setup.py
 		&& /usr/bin/sh ./install.sh
 
 	if [ ! -d /chia-blockchain/venv ]; then
