@@ -3,7 +3,7 @@ name: develop-body
 on:
   push:
     tags:
-      - 'v*.*.*_chia'
+      - 'v*.*.*_moon'
       - 'v*.*.*_all'
 
 jobs:
@@ -30,11 +30,11 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: ./dockers/coctohug-chia/dockerfile
-          context: ./dockers/coctohug-chia
+          file: ./dockers/coctohug-moon/dockerfile
+          context: ./dockers/coctohug-moon
           platforms: linux/amd64
           push: true
           build-args: |
             "CODE_BRANCH=1.6.0"
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-chia:develop
+            ${{ secrets.DOCKER_HUB_USERNAME }}/coctohug-moon:develop
