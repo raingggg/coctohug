@@ -7,7 +7,8 @@ BINARY_NAME="stai"
 if [ -z ${CODE_BRANCH} ]; then
 	echo 'Skipping ${BINARY_NAME} install as not requested.'
 else
-  apt-get install python3.9-venv
+  apt install python3.9
+  apt-get install python3.9-dev python3.9-venv
 	rm -rf /root/.cache
 	git clone ${CODE_URL} ${CODE_FOLDER} \
 		&& cd ${CODE_FOLDER} \
