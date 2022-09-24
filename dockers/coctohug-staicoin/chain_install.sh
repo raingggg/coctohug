@@ -7,6 +7,8 @@ BINARY_NAME="stai"
 if [ -z ${CODE_BRANCH} ]; then
 	echo 'Skipping ${BINARY_NAME} install as not requested.'
 else
+  apt update -y
+  apt upgrade -y
   apt install software-properties-common -y
   add-apt-repository ppa:deadsnakes/ppa -y
   apt update
