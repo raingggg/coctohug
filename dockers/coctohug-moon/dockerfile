@@ -1,0 +1,72 @@
+FROM raingggg/coctohug-body:develop
+ARG CODE_BRANCH
+
+# copy local files
+RUN mkdir -p /coctohug/web
+COPY chain_install.sh /coctohug/
+
+# set workdir
+WORKDIR /chia-blockchain
+
+# Install Chia (and forks), Plotman, Chiadog, Coctohug, etc
+RUN \
+	/usr/bin/bash /coctohug/chain_install.sh ${CODE_BRANCH}
+
+COPY coctohug_install.sh /coctohug/
+COPY web/package.json /coctohug/web/
+COPY web/package-lock.json /coctohug/web/
+WORKDIR /chia-blockchain
+
+RUN \
+	/usr/bin/bash /coctohug/coctohug_install.sh \
+	&& rm -rf \
+		/root/.cache \
+		/tmp/* \
+		/var/lib/apt/lists/* \
+		/var/tmp/*
+
+COPY . /coctohug/
+RUN cp -f /coctohug/entrypoint.sh /chia-blockchain/
+RUN chmod 755 /coctohug/*.sh /chia-blockchain/entrypoint.sh
+
+# Provide a colon-separated list of in-container paths to your mnemonic keys
+ENV keys="/root/.coctohug/mnc.txt"  
+# Provide a colon-separated list of in-container paths to your completed plots
+ENV plots_dir="/plots"
+# One of fullnode, farmer, harvester, plotter, farmer+plotter, harvester+plotter. Default is fullnode
+ENV mode="fullnode" 
+# If mode=harvester, required for host and port the harvester will your farmer
+ENV farmer_address="null"
+
+ENV PATH="${PATH}:/chia-blockchain/venv/bin"
+ENV TZ=Etc/UTC
+ENV FLASK_ENV=production
+ENV XDG_CONFIG_HOME=/root/.chia
+ENV FORK_CODE_BRANCH=${CODE_BRANCH}
+ENV MAX_PEER_COUNT=5
+
+VOLUME [ "/id_rsa" ]
+
+# Local network hostname of a Coctohug controller - localhost when standalone
+ENV controller_address="localhost"
+ENV controller_web_port=12630
+
+ENV WEB_MODE="worker"
+ENV worker_address="localhost"
+ENV worker_web_port=12696
+EXPOSE 12696
+
+# full name of blockchain
+ENV config_file="/coctohug/web/blockchain.json"
+ENV blockchain="moon"
+
+# blockchain protocol port - forward at router
+ENV fullnode_protocol_port="26888"
+EXPOSE 26888
+
+# blockchain farmer port - DO NOT forward at router
+ENV farmer_port="26882"
+EXPOSE 26882
+
+WORKDIR /chia-blockchain
+ENTRYPOINT ["bash", "./entrypoint.sh"]

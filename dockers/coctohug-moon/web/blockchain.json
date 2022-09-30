@@ -1,0 +1,13 @@
+{
+  "blockchain": "moon",
+  "binary": "/moon-blockchain/venv/bin/moon",
+  "mainnet": ".moon/mainnet",
+  "config": ".moon/mainnet/config/config.yaml",
+  "coldWalletName": "moc_target_address",
+  "certificates": ".moon/mainnet/config/ssl/ca",
+  "chainlog": ".moon/mainnet/log/debug.log",
+  "webLogLevel": "error",
+  "webLogFile": ".moon/web.log",
+  "watchDogLogLevel": "error",
+  "watchDogLogFile": ".moon/cwd.log"
+}
