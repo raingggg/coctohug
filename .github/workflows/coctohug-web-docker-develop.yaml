@@ -28,7 +28,7 @@ jobs:
           logout: true
       -
         name: Build and push
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v4
         with:
           file: ./dockers/coctohug-web-docker/dockerfile
           context: ./dockers/coctohug-web-docker
